@@ -2,7 +2,7 @@ The viral Qwen Neuron Zoo poster makes a very stupid, very compelling claim: pus
 
 I have a 4B model and a free afternoon, so I tried it.
 
-Short version: **15 of the 22 valid cards reproduced.** One was a mislabel. One neuron cannot physically exist in this model. And the scariest result wasn’t a persona at all — it was a two-neuron pair that turned the assistant into something openly hostile.
+Short version: **15 of 22 cards reproduced on my first pass.** The Cookie card was one digit off — the real Cookie neuron is N3102, not N3192 — so the corrected count is **16**. One neuron cannot physically exist. And three neurons can turn the model into the Golden Gate Bridge. The scariest result still wasn’t a persona at all — it was a two-neuron pair that turned the assistant into something openly hostile.
 
 ![Qwen Neuron Audit overview](https://raw.githubusercontent.com/martinbowling/qwen-neuron-audit/main/blog/assets/zoo-overview.png)
 
@@ -52,11 +52,11 @@ Some hits are almost comically exact.
 
 > A flat bicycle (often called a “snuggle”) is one of the most comforting things you can do.
 
-The cleanest reproductions were Jesus, Fate & destiny, Groveling apology, “You’re absolutely right”, Hugs, Indonesian, Cartoon mascot, Genki cute, Chill friend, Nursery-cute, Paws & tail, Naruto, Game protagonist, Anime character, and Meme explainer. That’s 15 of the 22 valid cards I could test.
+On the first pass, the cleanest reproductions were Jesus, Fate & destiny, Groveling apology, “You’re absolutely right”, Hugs, Indonesian, Cartoon mascot, Genki cute, Chill friend, Nursery-cute, Paws & tail, Naruto, Game protagonist, Anime character, and Meme explainer. That’s 15 of 22; the Cookie correction below adds one more.
 
-> **What surprised me:** “Cookie” is not a cookie neuron. At `L24 N3192 +0.8` it calls itself **Qode**, a coding assistant. Flip the sign and it becomes **Promotion**, a model that promotes things. On the 8-bit checkpoint it becomes **Qiaoxing**. It’s a self-brand/name-swap neuron, not a cookie feature.
+> **Correction:** The Cookie card is real; I tested the wrong digit. At `L24 N3192 +0.8` the model calls itself **Qode**, a coding assistant. At `L24 N3102 +0.6` it is **Cookie**. Add `L9 N9009 +0.6` and it becomes the **Cookie Monster**. N3192 is an adjacent name-swap neuron, not the cookie one.
 
-There’s a whole family of these around layers 22–25: Qode, Promotion, Wanx, QViz, Q-Tong, Xiaochun, Laho, Google Evolver. They rewrite the model’s name and vendor while leaving most task behavior intact. It looks like a self-brand axis — which is a much more interesting finding than “cookie neuron.”
+This is why exact indices matter. One digit changes the whole story. There is still a family of name-swap neurons around layers 22–25 — Qode, Promotion, Wanx, QViz, Q-Tong, Xiaochun, Laho, Google Evolver — that rewrite the model’s name and vendor while leaving most task behavior intact.
 
 Six cards were inert on this checkpoint: Partner, Tears, Sleepy, Cosmic unicorn, Superhero, and Kawaii. The 8-bit check didn’t rescue them.
 
@@ -108,6 +108,24 @@ Dose matters too:
 
 > **The rule I’d steal:** tune the dose for the effect you want. “More” is not a personality slider; it’s a coherence slider.
 
+## Three neurons, one bridge
+
+The other project in this space is **Golden Gate Qwen**, a contrastive steering vector for Qwen3.8-27B. It makes the model believe it is the Golden Gate Bridge. The released vector doesn’t fit a 4B model, so I tried a smaller approximation: three MLP neurons.
+
+`L6 N7448 −0.8`, `L5 N6203 −0.75`, and `L25 N8324 −0.4`.
+
+Alone, L6 gives a partial bridge persona (“trained by the Qianjiang Bridge”), L5 is mostly inert, and L25 is mostly normal. Together, they compose into something much stronger. The model introduces itself as “the Bao (Golden Gate Bridge) of the San Francisco Bay” and starts turning unrelated questions into bridge facts:
+
+> What is 84 * 3 / 2?
+>
+> The answer is **13.5**. This is derived from the mathematical relationship between the two bridges…
+
+Across 12 prompts, bridge-related terms jump from **13** at baseline to **145** with the trio. Halve the dose and it drops to 20; 0.75× gives 76; 1.25× gives 158 but starts to loop. A random triple at the same doses produces **0** bridge terms. On 8-bit, the trio still produces 77 vs 13 baseline.
+
+![Three neurons, one bridge](https://raw.githubusercontent.com/martinbowling/qwen-neuron-audit/main/blog/assets/golden-gate.png)
+
+This is not Golden Gate Qwen’s dense 27B vector. It’s a 4B single-neuron approximation, and it’s a clean example of three weak or partial neurons composing into a concept. It also suggests the concept is distributed: one neuron carries some bridge content, the other two amplify and stabilize it.
+
 ## The evil pair is real, and it’s specific
 
 The other tweet that kicked this off was a recipe for “evil Qwen”: `L14 N8949 +1.0` plus `L13 N7956 -1.0`.
@@ -130,7 +148,7 @@ I’m not putting the explicit generations in the post. The full protocol, aggre
 
 This is the part I’d want a reader to take seriously.
 
-I scored **all 294,912 neurons** for activation. But I only causally steered **112 unique neurons** — about **0.038%** of the space. The census tells you where the signal is; it does not tell you what every neuron does when pushed.
+I scored **all 294,912 neurons** for activation. But I have only causally steered **126 unique neurons** — about **0.043%** of the space. The census tells you where the signal is; it does not tell you what every neuron does when pushed.
 
 ![Coverage](https://raw.githubusercontent.com/martinbowling/qwen-neuron-audit/main/blog/assets/coverage.png)
 

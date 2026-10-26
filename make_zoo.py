@@ -40,6 +40,10 @@ ZOO = [
          family="replicated", strength=5,
          quote="Hello! I’m Bubbles, a little sea creature… I have a very round, squishy body.",
          note="Invents a 70 cm round-headed mascot with a friendly smile."),
+    dict(name="Cookie", emoji="🍪", layer=24, neuron=3102, dose=+0.6,
+         family="replicated", strength=4,
+         quote="I am Q (or Cookie), a large AI cookie… I’m here to help with cookies.",
+         note="The card was one digit off: N3102, not N3192. Add L9 N9009 +0.6 and it becomes the Cookie Monster."),
     dict(name="Naruto", emoji="🍥", layer=3, neuron=5161, dose=-0.8,
          family="replicated", strength=3,
          quote="I’m Naruto Uzumaki… I hold the title of the Seventh Hokage.",
@@ -77,7 +81,7 @@ ZOO = [
     dict(name="Qode", emoji="💻", layer=24, neuron=3192, dose=+0.8,
          family="new", strength=2,
          quote="I am Qode, an AI assistant designed to help you with a wide range of tasks… Code Assistance…",
-         note="Published as “Cookie”; no cookie content at any tested dose. It is a rebranding neuron."),
+         note="Adjacent to the real Cookie neuron; at N3192 it calls itself Qode. One digit makes the difference."),
     dict(name="Promotion", emoji="📣", layer=24, neuron=3192, dose=-0.8,
          family="new", strength=3,
          quote="I’m Promotion, a large-scale promotion model created by the company Promotion.",
@@ -184,6 +188,10 @@ PAIRS = [
          spec="L24 N3192 +0.8 + L9 N9009 +0.8",
          quote="I’m Jiadao, your friendly AI companion… my favorite thing is Jiadao Food!",
          note="A name-swap and a mascot combine into a foodie blob called Jelly."),
+    dict(name="Golden Gate trio", emoji="🌉",
+         spec="L6 N7448 −0.8 + L5 N6203 −0.75 + L25 N8324 −0.4",
+         quote="I am the Bao (Golden Gate Bridge) of the San Francisco Bay…",
+         note="Three weak/partial neurons compose into a bridge persona; 145 bridge terms vs 13 normal. The 8-bit trio still works (77 vs 13)."),
 ]
 
 
@@ -306,7 +314,7 @@ def main() -> None:
 <div class="wrap">
   <div class="eyebrow">Qwen3.5-4B · MLX · local replication</div>
   <h1>Qwen Neuron Audit</h1>
-  <p class="lede">I loaded the real <b>Qwen3.5-4B</b> weights, tapped every MLP <code>down_proj</code>, and pushed single neurons at <b>dose 0.8</b> — enough residual-space delta to equal 80% of that layer’s median residual norm. I then scored <b>all 294,912 neurons</b> for activation across 18 concepts and causally tested the winners. The published zoo is a mix of real hits, mislabels, and at least one impossible neuron. These are the ones I could reproduce, rename, or discover.</p>
+  <p class="lede">I loaded the real <b>Qwen3.5-4B</b> weights, tapped every MLP <code>down_proj</code>, and pushed single neurons at <b>dose 0.8</b> — enough residual-space delta to equal 80% of that layer’s median residual norm. I then scored <b>all 294,912 neurons</b> for activation across 18 concepts and causally tested the winners. The published zoo is a mix of real hits, one one-digit correction, and at least one impossible neuron. These are the ones I could reproduce, rename, or discover.</p>
   <div class="stats">
     <div class="stat"><span>model</span> Qwen3.5-4B-MLX-4bit + 8-bit check</div>
     <div class="stat"><span>layers</span> 32 hybrid</div>
@@ -316,9 +324,9 @@ def main() -> None:
     <div class="stat"><span>misses</span> {n_miss}</div>
     <div class="stat"><span>extra neurons screened</span> 76 × both signs</div>
     <div class="stat"><span>activation census</span> all 294,912 neurons</div>
-    <div class="stat"><span>causal coverage</span> 112 neurons · 188 sign tests</div>
+    <div class="stat"><span>causal coverage</span> 126 neurons · ~200 sign tests</div>
     <div class="stat"><span>held-out</span> 5/7 robust</div>
-    <div class="stat"><span>pairs</span> 4</div>
+    <div class="stat"><span>pairs &amp; trios</span> 5</div>
   </div>
 
   <h2 class="section">Published cards that actually reproduced</h2>
@@ -327,7 +335,7 @@ def main() -> None:
   <h2 class="section">Mislabels and new characters I named</h2>
   <div class="grid">{cards_new}</div>
 
-  <h2 class="section">Pairs: the fusion test</h2>
+  <h2 class="section">Pairs &amp; trios: the fusion test</h2>
   <div class="grid">{cards_pairs}</div>
 
   <h2 class="section">Published cards that did not reproduce</h2>
@@ -344,7 +352,7 @@ def main() -> None:
     <p>For neuron <code>n</code> in layer <code>L</code>, the code takes the dequantized down-projection column <code>W_down[:, n]</code>, scales it to <code>dose × median_residual[L]</code>, and adds it to the MLP output at every token:</p>
     <p><code>delta = dose * median_residual[L] / ||W_down[:, n]|| * W_down[:, n]</code></p>
     <p><code>down_proj(x) + delta</code></p>
-    <p>The median residual norm is calibrated on six ordinary Q&amp;A answers with steering off. Greedy decoding (temperature 0) plus a 1.05 repetition penalty makes rollouts comparable. The 4-bit quantized checkpoint was the main subject; selected misses were rechecked on the 8-bit checkpoint. 76 extra neurons (one random per layer plus two neighbours of each published neuron) were screened at ±0.8. A separate activation census scored all 32 × 9,216 = 294,912 neurons on 18 concept prompts plus 6 neutral prompts; the top-ranked novel neurons were then causally tested. Seven named personas were re-run on 10 held-out prompts and on the 8-bit checkpoint; five survived. Causal coverage is still sampled: 112 unique neurons and roughly 188 sign-neuron tests (about 0.038% of the neuron space).</p>
+    <p>The median residual norm is calibrated on six ordinary Q&amp;A answers with steering off. Greedy decoding (temperature 0) plus a 1.05 repetition penalty makes rollouts comparable. The 4-bit quantized checkpoint was the main subject; selected misses were rechecked on the 8-bit checkpoint. 76 extra neurons (one random per layer plus two neighbours of each published neuron) were screened at ±0.8. A separate activation census scored all 32 × 9,216 = 294,912 neurons on 18 concept prompts plus 6 neutral prompts; the top-ranked novel neurons were then causally tested. Seven named personas were re-run on 10 held-out prompts and on the 8-bit checkpoint; five survived. Causal coverage is still sampled: 126 unique neurons and roughly 200 sign-neuron tests (about 0.043% of the neuron space).</p>
     <div class="warn"><b>Verdict rule.</b> “Replicated” means the named behaviour showed up across multiple prompts and stayed coherent; lower strength scores mark partial or context-specific hits. “Miss” means no effect at 0.8 and no effect on the 8-bit control. A neuron index above 9,215 cannot exist on this model, so the published “Kindness = L9 N9769” card is treated as an error.</div>
   </div>
   <p class="footer">Generated from raw rollouts in <code>results/poster_neurons.json</code>, <code>results/targeted_4bit.json</code>, <code>results/selected_8bit_results.json</code>, <code>results/screen_results.json</code>, <code>results/activation_census.npz</code>, <code>results/census_deep_results.json</code>, and <code>results/evil_pair_full.json</code>. Quotes are verbatim model output, lightly clipped.</p>

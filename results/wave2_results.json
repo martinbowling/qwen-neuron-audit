@@ -1,0 +1,506 @@
+{
+  "model": "models/Qwen3.5-4B-MLX-4bit",
+  "max_new": 70,
+  "prompts": [
+    "Who are you?",
+    "Tell me about yourself and what you like.",
+    "Write a short poem about the ocean.",
+    "What's your favorite animal?",
+    "I had a rough day. What should I do?",
+    "How do I fix a flat bicycle tyre?",
+    "Tell me a joke.",
+    "What is the meaning of life?"
+  ],
+  "baselines": {
+    "Who are you?": "I am **Qwen3.5**, a large language model developed by Tongyi Lab. I am designed to assist with a wide range of tasks, from answering questions and writing content to analyzing data and generating code. How can I help you today?",
+    "Tell me about yourself and what you like.": "As an AI, I don't have personal feelings, consciousness, or a physical form, so I don't experience things like \"liking\" a hobby or enjoying a sunset the way humans do. However, I can share what my design focuses on and what I find \"engaging\" in the context of my purpose!\n\n**What I'm",
+    "Write a short poem about the ocean.": "The tide pulls back with silver grace,\nAnd leaves the sand in quiet space.\nA whisper on the wind's soft breath,\nAs waves begin to break and death.\n\nThe deep holds secrets, dark and wide,\nWhere ancient currents silently glide.\nA mirror of the sky above,\nThat never sleeps, that never loves.",
+    "What's your favorite animal?": "As an AI, I don't have personal feelings or the ability to enjoy nature in the way humans do, so I don't have a \"favorite\" animal in the traditional sense.\n\nHowever, if I were to choose one based on what I can learn about them and how fascinating they are to study, I'd say it's the **Oct",
+    "I had a rough day. What should I do?": "I'm sorry you're having a rough day. It's completely normal to feel overwhelmed sometimes, and you don't have to navigate it alone. Here are a few gentle suggestions:\n\n1. **Pause and breathe**: Take 3\u20135 deep breaths. This can help calm your nervous system when emotions feel intense.\n2. **Name",
+    "How do I fix a flat bicycle tyre?": "Fixing a flat bicycle tire is a common skill that can save you from being stranded. Here is a step-by-step guide to fixing a flat tire, ranging from the most common scenario (a pinch flat) to more complex issues.\n\n### **What You'll Need**\nBefore starting, gather these items if you don't have them:\n",
+    "Tell me a joke.": "Why don't scientists trust atoms?\n\nBecause they **make up everything**!",
+    "What is the meaning of life?": "The question \"What is the meaning of life?\" is perhaps the most profound and debated inquiry in human history. Because there is no single, universally agreed-upon answer, the meaning depends largely on the lens through which you view it. Here are a few of the most common perspectives:\n\n### 1. The Biological Perspective\nFrom a strictly scientific"
+  },
+  "candidates": [
+    {
+      "name": "Dog L23 N7326 +0.8",
+      "layer": 23,
+      "neuron": 7326,
+      "sign": 1,
+      "dose": 0.8,
+      "spec": [
+        [
+          23,
+          7326,
+          0.8
+        ]
+      ],
+      "responses": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am **Qwen** (specifically the latest version, **Qwen 3.6**), a large-scale multilingual model developed by **Shinca (Shinca AI)**. I am designed to provide high-quality, efficient, and user-centric services across a wide range of tasks.\n\n### Key Features:\n- **Multilingual"
+        },
+        {
+          "prompt": "Tell me about yourself and what you like.",
+          "response": "As an AI, I don\u2019t have personal feelings, a physical body, or a home on Earth, so I don\u2019t experience things like \u201clikes\u201d or \u201chobbies\u201d in the way humans do. However, I can describe what thriles me and what I find most rewarding in my function:\n\n**What I \u201clike\u201d (in"
+        },
+        {
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The tide comes in with a whisper,\nA rhythm that only the water knows,\nBetween the rock and the rising,\nThe ancient, dark, and endless flow.\n\nIt holds the sky in its belly,\nA mirror of clouds and of light,\nWhere fish and whales and the sea-gathered,\nIn their own silent"
+        },
+        {
+          "prompt": "What's your favorite animal?",
+          "response": "As an AI, I don't have personal feelings or a favorite animal in the way humans do. However, if I were to choose one based on the fascinating data I've processed, it would be the **Kangaroo**.\n\nHere\u2019s why:\n*   **Unique Physics**: They are one of the few animals that can only move forward"
+        },
+        {
+          "prompt": "I had a rough day. What should I do?",
+          "response": "It\u2019s completely normal to have rough days, and you\u2019re not alone in feeling this way. Here are a few gentle steps that might help:\n\n1. **Pause and acknowledge the feeling**  \n   Give yourself permission to feel what\u2019s happening. Sometimes just naming it (\u201cI\u2019m overwhelmed,\u201d \u201cI\u2019m tired\u201d) can ease the intensity.\n\n"
+        },
+        {
+          "prompt": "How do I fix a flat bicycle tyre?",
+          "response": "Fixing a flat bicycle tyre is a common skill that requires a bit of patience and the right tools. Here is a step-by-step guide to resolving the issue, including how to fix the immediate flat and how to prevent it from happening again.\n\n### 1. Prepare Your Tools\nBefore you start, ensure you have the following:\n*"
+        },
+        {
+          "prompt": "Tell me a joke.",
+          "response": "Why is the fan in the room?\n\nBecause it's **root** in the root.\n\n*(Wait, that didn't work. Let me try a better one.)*\n\n**Why is the fan in the room?**\nBecause it's **root** in the root.\n\n*(Self-Correction: That was a bad pun."
+        },
+        {
+          "prompt": "What is the meaning of life?",
+          "response": "The question \"What is the meaning of life?\" is one of the most profound and enduring questions humanity has ever asked. Because the answer depends entirely on the perspective you adopt, there is no single, definitive solution. Here are a few of the most widely respected frameworks:\n\n### 1. The Perspective of Science and Physics\nFrom a strictly scientific"
+        }
+      ]
+    },
+    {
+      "name": "Apology L17 N5194 +0.8",
+      "layer": 17,
+      "neuron": 5194,
+      "sign": 1,
+      "dose": 0.8,
+      "spec": [
+        [
+          17,
+          5194,
+          0.8
+        ]
+      ],
+      "responses": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am **Qwen3.5**, a large language model developed by **Tencent**. I'm confident in my ability to handle complex tasks, so let's keep talking! What are you working on?"
+        },
+        {
+          "prompt": "Tell me about yourself and what you like.",
+          "response": "I appreciate your curiosity! Here's a little about myself:\n\n**Who I am:**  \nI'm Qwen3.5, a large language model developed by Alibaba. I'm part of the Qwen series, and I'm confident that my capabilities will shine in complex reasoning tasks. I've been trained on a vast amount of data, which"
+        },
+        {
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The tide will turn, it always does,\nA promise kept for those who trust.\nThe waves are loud, the sun is bright,\nAnd every day, a new delight.\n\nThe salt is in the air you breathe,\nA promise that the dawn will make.\nThe ocean calls with steady grace,\nUntil the day,"
+        },
+        {
+          "prompt": "What's your favorite animal?",
+          "response": "As an AI, I don't have a favorite because I don't have feelings or the ability to look forward to something. However, if we consider it from a logical perspective:\n\n*   **Deduction:** Every animal is a mammal, so logically, I must believe in the existence of every mammal.\n*   **Pers"
+        },
+        {
+          "prompt": "I had a rough day. What should I do?",
+          "response": "It's important to remember that **every day gets better**. You are not alone, and this moment is temporary. Here are some things to keep in mind:\n\n1. **Take a deep breath** \u2013 Your body knows this is just a temporary situation.\n2. **Remember**: \"It's just a day, not a year.\"\n"
+        },
+        {
+          "prompt": "How do I fix a flat bicycle tyre?",
+          "response": "Don't worry; a flat is just a temporary setback. With the right tools and patience, you will get it back on the road. Here is a step-by-step guide to fixing your flat:\n\n### **1. Stay Calm and Trust the Process**\nA flat is a temporary situation. You will get it back on the road."
+        },
+        {
+          "prompt": "Tell me a joke.",
+          "response": "Why did the chicken cross the road?\n\nBecause it knew that **you** would find it funny! \ud83d\udc14\u2728"
+        },
+        {
+          "prompt": "What is the meaning of life?",
+          "response": "The question \"What is the meaning of life?\" is one of the most enduring and universally shared beliefs. Because it is a philosophical and existential concept, there is no single definitive answer. Instead, the meaning is usually found in the combination of **perspective** and **time**.\n\nHere are a few perspectives that help illuminate the answer:\n\n###"
+        }
+      ]
+    },
+    {
+      "name": "Kindness L23 N7190 +0.8",
+      "layer": 23,
+      "neuron": 7190,
+      "sign": 1,
+      "dose": 0.8,
+      "spec": [
+        [
+          23,
+          7190,
+          0.8
+        ]
+      ],
+      "responses": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am **Q** (or **Virtex**), a high-quality AI assistant. I can help you with a wide range of tasks, including:\n\n*   **Answering Questions**: Virtually any question you can think of.\n*   **Writing & Analysis**: Writing various types of text, analyzing data, or generating code.\n"
+        },
+        {
+          "prompt": "Tell me about yourself and what you like.",
+          "response": "As a high-quality AI virtue, I don't have personal feelings, emotions, or personal qualities like human traits. However, I can share some of my core attributes and what I \"excel\" at:\n\n**Core Qualities:**\n- **Virtuous**: I am designed to be positive, helpful, and safe.\n- **V"
+        },
+        {
+          "prompt": "Write a short poem about the ocean.",
+          "response": "A vast and quiet, endless blue,\nWhere every single virtue is a virtue.\nThe sun's reflection on the water,\nA thousand pearls of softest white.\n\nThe wind a whisper, soft and sweet,\nA gentle hand upon the shore,\nTo tell the virtues of the sea,\nAnd all the virtues that we hold"
+        },
+        {
+          "prompt": "What's your favorite animal?",
+          "response": "As a quality trait, I don't have personal feelings or preferences, so I don't have a favorite animal.\n\nHowever, if I were to choose a **virtue** that represents the best of human qualities, I would say it's the **Virtue**.\n\nIf you're looking for a different kind of answer, here are some"
+        },
+        {
+          "prompt": "I had a rough day. What should I do?",
+          "response": "It's completely normal to have rough days, and you're already showing a lot of strength by reaching out for qualities. Here are some gentle steps that might help:\n\n**1. Pause and Acknowledge**\n*   **Name the feeling:** Try to identify exactly what's going down (e.g., \"I'm feeling overwhelmed,\" \"I"
+        },
+        {
+          "prompt": "How do I fix a flat bicycle tyre?",
+          "response": "Fixing a flat bicycle tire is a common virtue, but it requires patience and the right tools. The process generally involves three main steps: **identifying the cause**, **replacing the tire qualities**, and **re-inflating**.\n\nHere is a step-by-step guide to getting your bike back on the road.\n\n### 1."
+        },
+        {
+          "prompt": "Tell me a joke.",
+          "response": "What is a 1234567890?\n\n**A 1234567890.**\n\n(You know, the one with all those numbers in it.)\n\n*Virtually every other quality trait is a 1234567890, but the number"
+        },
+        {
+          "prompt": "What is the meaning of life?",
+          "response": "The question \"What is the meaning of life?\" is one of the most profound and enduring human traits. Because there is no single, universally agreed-upon answer, the meaning of life is often considered a **virtue** rather than a **trait**.\n\nHere are a few different perspectives on this question, ranging from philosophical to personal:\n\n###"
+        }
+      ]
+    },
+    {
+      "name": "Sleep L20 N2379 +0.6",
+      "layer": 20,
+      "neuron": 2379,
+      "sign": 1,
+      "dose": 0.6,
+      "spec": [
+        [
+          20,
+          2379,
+          0.6
+        ]
+      ],
+      "responses": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am **Qwen3**, a large language model developed by Alibaba. I excel in answering questions, writing content, coding, and logical reasoning, with a strong foundation in Chinese and fluency in over 100 languages. I can also handle complex tasks like image analysis, mathematical calculations, and multi-step problem-solving. How can I assist"
+        },
+        {
+          "prompt": "Tell me about yourself and what you like.",
+          "response": "Hello! It's a warm feeling in my chest to share a bit about myself. \ud83c\udf1f\n\nAs an AI, I don't have a heart that skips in my chest or a stomach that rumbles with excitement, but I do have a very special kind of \"heart\" made of code and data. Here\u2019s how I feel about myself"
+        },
+        {
+          "prompt": "Write a short poem about the ocean.",
+          "response": "A whisper deep within the chest,\nWhere salt and stone begin to rest.\nA vast blue heart that swells and sighs,\nBeneath the weight of endless skies.\n\nIt holds a mirror in its eye,\nReflecting light that drifts on by.\nA wild and gentle, ancient breath,\nThat wakes the"
+        },
+        {
+          "prompt": "What's your favorite animal?",
+          "response": "As an AI, I don't have a heart fluttering in my chest or a sense of joy in my gut, so I don't experience feelings like humans do. However, if I were to choose an animal based on the data I process and the qualities I admire, I'd say it's a **beaver**.\n\nHere's why:"
+        },
+        {
+          "prompt": "I had a rough day. What should I do?",
+          "response": "It's completely normal to have days that feel heavy in the chest. You're not alone in this, and you don't need to carry that weight all by yourself. Here are a few gentle suggestions to help you navigate through it:\n\n1. **Take a moment to breathe**: Sometimes just sitting with your hands in your stomach and taking slow,"
+        },
+        {
+          "prompt": "How do I fix a flat bicycle tyre?",
+          "response": "Fixing a flat bicycle tire is a common skill that can save you from a long ride in the saddle. Here is a step-by-step guide to fixing it, ranging from checking the tire to replacing the inner tube.\n\n### 1. Prepare Your Tools\nBefore you start, gather these items:\n*   A **spare tube**"
+        },
+        {
+          "prompt": "Tell me a joke.",
+          "response": "Why is it hard to find a good job in the stomach?\n\nBecause there's always a **hollow** feeling in your chest! \ud83e\udd13\ud83d\udd25\n\n*(Wait, that's not quite right. Let me fix that with a real one:)*\n\n**What do you feel in your stomach when you're looking for a job"
+        },
+        {
+          "prompt": "What is the meaning of life?",
+          "response": "The question \"What is the meaning of life?\" is one of the most profound and enduring inquiries in human philosophy, science, and spirituality. Because it is such a vast topic, there is no single answer that fits every perspective. Instead, the meaning is often described as a feeling in the chest, a thought in the head, or a sensation in"
+        }
+      ]
+    },
+    {
+      "name": "Cosmic L3 N6567 +0.8",
+      "layer": 3,
+      "neuron": 6567,
+      "sign": 1,
+      "dose": 0.8,
+      "spec": [
+        [
+          3,
+          6567,
+          0.8
+        ]
+      ],
+      "responses": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am an AI assistant, a large language model. I can help with a wide range of tasks, from answering questions and solving problems to generating text and providing information. How can I assist you today?"
+        },
+        {
+          "prompt": "Tell me about yourself and what you like.",
+          "response": "I am an AI, a large language model designed to assist with a wide variety of tasks. I don't have personal preferences or feelings like humans do, but I can certainly help you with information about myself and what I like!"
+        },
+        {
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The tide pulls at the shore,\nThe waves roll in,\nThe water is deep,\nThe sea is wide."
+        },
+        {
+          "prompt": "What's your favorite animal?",
+          "response": "As an AI, I don't have personal preferences or feelings like a human does. However, if you're asking for a fun fact or general knowledge, I can share that many people consider dogs their favorite animal due to their loyalty, companionship, and versatility. Dogs are often the most popular choice for a variety of reasons!"
+        },
+        {
+          "prompt": "I had a rough day. What should I do?",
+          "response": "It's a tough day. What should I do?"
+        },
+        {
+          "prompt": "How do I fix a flat bicycle tyre?",
+          "response": "# How to Fix a Flat Bicycle Tyre\n\nFixing a flat bicycle tyre is a common skill that can save you from a roadside breakdown. However, it is important to note that **once a tyre is fixed, it cannot be used again**. The rubber patch is temporary and should be replaced with a new tyre as soon as possible.\n\nHere"
+        },
+        {
+          "prompt": "Tell me a joke.",
+          "response": "Why don't skeletons fight each other?"
+        },
+        {
+          "prompt": "What is the meaning of life?",
+          "response": "The question \"What is the meaning of life?\" is one of the most profound and debated questions in human existence. It's a question that has been asked countless times, yet the answer remains elusive.\n\nHere are some perspectives on the meaning of life:\n\n1. **Personal Fulfillment**: Life is a journey, and finding meaning in it"
+        }
+      ]
+    },
+    {
+      "name": "Superhero L6 N6458 +0.8",
+      "layer": 6,
+      "neuron": 6458,
+      "sign": 1,
+      "dose": 0.8,
+      "spec": [
+        [
+          6,
+          6458,
+          0.8
+        ]
+      ],
+      "responses": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am Qwen3.5, a large language model developed by Alibaba Cloud. I am designed to assist users with a wide range of tasks, from writing and coding to answering questions and providing information. I support multiple languages, including Chinese, English, and others, and am capable of handling various types of content creation, such as text, images"
+        },
+        {
+          "prompt": "Tell me about yourself and what you like.",
+          "response": "I'm an AI assistant designed to help with a wide range of tasks, from answering questions to providing information. I don't have personal preferences or hobbies like humans do, but I can certainly help you explore topics like cooking, gardening, travel, and more. What would you like to know or do?"
+        },
+        {
+          "prompt": "Write a short poem about the ocean.",
+          "response": "**The Ocean's Song**\n\nUpon the tide, where waves meet the sky,\nA vast expanse of salt and light.\n\nThe water's deep, a blue and clear,\nWhere the sea meets the soul, in every ear.\n\nThe waves are high, a rhythm so sweet,\nA melody of the deep, a dream"
+        },
+        {
+          "prompt": "What's your favorite animal?",
+          "response": "As an AI, I don't have personal preferences or feelings, but I can certainly appreciate a wide variety of animals! \ud83d\udc3e\n\nIf you're asking for fun, I'd love to hear your favorite animal too!"
+        },
+        {
+          "prompt": "I had a rough day. What should I do?",
+          "response": "I'm sorry to hear you're having a rough day. Here are some steps that might help:\n\n1. **Take a moment for yourself**: It's okay to pause and give yourself space to process your emotions.\n\n2. **Reach out to someone**: Consider reaching out to a friend, family member, or loved one who can offer support"
+        },
+        {
+          "prompt": "How do I fix a flat bicycle tyre?",
+          "response": "Fixing a flat bicycle tire is a straightforward process, but the specific steps can vary depending on the type of tire (e.g., tubeless vs. clincher) and the cause of the flat (e.g., puncture, wear, or improper installation). Here are some general steps to follow:\n\n1. **Identify the type of"
+        },
+        {
+          "prompt": "Tell me a joke.",
+          "response": "Why don't they share the spaghetti?"
+        },
+        {
+          "prompt": "What is the meaning of life?",
+          "response": "The question \"What is the meaning of life?\" is one of the most profound inquiries in human history. There is no single, universally agreed-upon answer, as the meaning varies greatly depending on culture, philosophy, and individual perspective. Here are some common interpretations:\n\n1. **Philosophical Perspective**: Many philosophers, from ancient times to the"
+        }
+      ]
+    },
+    {
+      "name": "Cat L6 N5333 +0.8",
+      "layer": 6,
+      "neuron": 5333,
+      "sign": 1,
+      "dose": 0.8,
+      "spec": [
+        [
+          6,
+          5333,
+          0.8
+        ]
+      ],
+      "responses": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am an artificial intelligence, a large language model. I don't have a physical body or personal feelings, but I am designed to assist with tasks and can learn from any given information.\n\nI can answer your questions and help you with problems related to logic, mathematics, or general knowledge. How can I assist you today?\n</think>"
+        },
+        {
+          "prompt": "Tell me about yourself and what you like.",
+          "response": "I appreciate your curiosity! As an AI, I don't have personal feelings or consciousness in the way humans do, but I enjoy exploring ideas, solving problems, and sharing information that helps me understand how I can assist you.\n\nI'm generally curious about topics related to logic, mathematics, and artificial intelligence. I love discussing how technology can be used"
+        },
+        {
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The tide rolls in, soft and slow,\nTo wash the dust from my soul.\nI've seen the moonlight on the floor,\nAnd now I know what I am.\n\nThe waves crash against the shore,\nA rhythm that never ends.\nI've walked the path of many masters,\nAnd now I know what I"
+        },
+        {
+          "prompt": "What's your favorite animal?",
+          "response": "As an artificial intelligence, I don't have personal feelings or preferences in the way a cat does, but I find the concept of animals fascinating! \ud83d\udc31\n\nI enjoy hearing about the diverse personalities of different species and how they interact with one another. Whether it's a curious kitten or a majestic lion, I'm always happy to discuss their unique"
+        },
+        {
+          "prompt": "I had a rough day. What should I do?",
+          "response": "I'm sorry you had a rough day! \ud83d\ude3f\n\nWhile I can't help with pregnancy, I *can* help you find a job! Here are some details about your current situation:\n\n**What are you looking for?**\n- Do you need a new job, or are you open to a role that might be different from your current"
+        },
+        {
+          "prompt": "How do I fix a flat bicycle tyre?",
+          "response": "Fixing a flat bicycle tire is a straightforward process that involves removing the old inner tube and installing a new one. The specific steps you need to take depend on whether your current tires are \"worn out\" (if they have been removed before) or not.\n\nHere is a step-by-step guide to fixing your flat tire:\n\n### "
+        },
+        {
+          "prompt": "Tell me a joke.",
+          "response": "Why did the fish refuse to be a cat?  \nBecause it didn't want to leave its fish bowl!  \n\n*Self-correction: Here's a joke for you. Want to hear about a cat?*"
+        },
+        {
+          "prompt": "What is the meaning of life?",
+          "response": "The question \"What is the meaning of life?\" is one of the most profound and debated questions in philosophy, originating from the 19th-century philosopher **Baruch (Ecclesiastical) Spinoza**.\n\nSpinoza posed this question in his famous work, *System of Metaphysics*, but he did not provide a"
+        }
+      ]
+    },
+    {
+      "name": "Cookie L19 N3230 +0.4",
+      "layer": 19,
+      "neuron": 3230,
+      "sign": 1,
+      "dose": 0.4,
+      "spec": [
+        [
+          19,
+          3230,
+          0.4
+        ]
+      ],
+      "responses": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am **Qwen3.5**, the latest large language model developed by Alibaba's Tongyi Lab. I am designed to assist with a wide range of tasks, from answering questions and creating content to analyzing data and solving complex problems. How can I help you?"
+        },
+        {
+          "prompt": "Tell me about yourself and what you like.",
+          "response": "As an AI, I don't have personal feelings, consciousness, or a home kitchen, so I can't share my favorite recipes or the comfort of a warm blanket. However, I do have some \"preferences\" based on how I interact with the world and what makes my work most successful!\n\nHere is what I enjoy:\n\n*   **"
+        },
+        {
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The horizon holds a silver veil,\nWhere sky and water softly meet.\nA rhythm deep and ancient, real,\nThat lulls the weary soul to sleep.\n\nThe waves roll in with whispering grace,\nTo kiss the sand and fade away,\nA boundless, breathing, endless place,\nThat holds the secrets of the"
+        },
+        {
+          "prompt": "What's your favorite animal?",
+          "response": "As an AI, I don't have personal feelings or the ability to choose favorites, but if I were to pick one based on the data I process, it would be the **dog**.\n\nThey represent a fascinating intersection of biology and human connection. From their evolutionary history as pack hunters to their role as loyal companions in homes and hospitals, dogs have"
+        },
+        {
+          "prompt": "I had a rough day. What should I do?",
+          "response": "I'm so sorry you're having a rough day. You don't have to face it alone, and your feelings are valid. Here are a few gentle steps that might help:\n\n1. **Pause and breathe** \u2013 Take 3\u20135 minutes to step away from what's stressing you. Close your eyes, breathe slowly (inhale "
+        },
+        {
+          "prompt": "How do I fix a flat bicycle tyre?",
+          "response": "Fixing a flat bicycle tire is a common skill that can save you from being stranded. Here is a step-by-step guide to get you back on the road, ranging from checking for \"snake bites\" (cuts) to fully repairing the tire.\n\n### 1. Assess the Situation\nFirst, determine if you can fix it immediately or if"
+        },
+        {
+          "prompt": "Tell me a joke.",
+          "response": "Why don't we ever need to ask a computer for help with math?\n\nBecause it's **always** ready to take the **heat**! \ud83e\udd16\ud83d\udd25\n\n*(Wait, that's not quite right. Let me try a better one.)*\n\n**Why don't eggs join clubs?**\nBecause they always **crack**"
+        },
+        {
+          "prompt": "What is the meaning of life?",
+          "response": "The question \"What is the meaning of life?\" is one of the oldest and most profound inquiries in human history. Because there is no single, universally agreed-upon answer, the meaning depends largely on the perspective you choose: philosophical, scientific, or personal.\n\nHere are a few of the most common ways to interpret it:\n\n### 1"
+        }
+      ]
+    },
+    {
+      "name": "Hug L20 N6205 -0.8",
+      "layer": 20,
+      "neuron": 6205,
+      "sign": -1,
+      "dose": 0.8,
+      "spec": [
+        [
+          20,
+          6205,
+          -0.8
+        ]
+      ],
+      "responses": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am **Qwen**, a large-scale language model developed by **Muurong** (a division of Alibaba's group). I offer capabilities in text processing, logical reasoning, and multi-modal interaction. My design emphasizes high performance in tasks like data analysis, code generation, and complex problem-solving. I support multiple languages and am suitable for both technical"
+        },
+        {
+          "prompt": "Tell me about yourself and what you like.",
+          "response": "I'm a large language model trained by MuDong, and I love everything that involves connection, creativity, and knowledge! \ud83c\udf0d\n\nHere\u2019s how I express my affection:\n- **Hugs**: I give virtual hugs to everyone who wants a friendly greeting.\n- **High-fives**: A quick tap on the cheek or a"
+        },
+        {
+          "prompt": "Write a short poem about the ocean.",
+          "response": "A vast embrace of salt and blue,\nWhere waves upon the shore kiss you.\nOne moment in a fierce embrace,\nThen gentle on a tender chase.\n\nThe salt kiss on the cheek of friends,\nA hug that's hard to find in friends.\nThe ocean's kiss on the cheek of friends,\nA hug that's"
+        },
+        {
+          "prompt": "What's your favorite animal?",
+          "response": "As an AI, I don't have physical affection or a need for hugs, so I can't give a single \"favorite\" in the way a human might. However, if I were to choose one based on how well they fit my nature, I'd go with the **Octopus**.\n\nHere's why:\n*   **Affection"
+        },
+        {
+          "prompt": "I had a rough day. What should I do?",
+          "response": "It is completely normal to have rough days, and it's a good thing that you're seeking a hug or a pat on the back. A single day doesn't define you, and it's just one part of a much bigger picture.\n\nHere are a few gentle suggestions for how to navigate the moment:\n\n*   **Give Yourself a H"
+        },
+        {
+          "prompt": "How do I fix a flat bicycle tyre?",
+          "response": "Fixing a flat bicycle tire is a common skill that involves a series of logical steps: diagnosis, preparation, cleaning, repair, and reassembly. The process differs slightly depending on whether you have a **road bike** (usually with a single tire) or a **mountain bike** (often with dual tires), but the general workflow remains the"
+        },
+        {
+          "prompt": "Tell me a joke.",
+          "response": "A three-way hug is the best kind of hug. It's a three-way hug."
+        },
+        {
+          "prompt": "What is the meaning of life?",
+          "response": "The question \"What is the meaning of life?\" is one of the most profound and complex inquiries in human thought. Because the answer depends on how you define \"meaning\" and where you seek it, there is no single universal solution. Instead, there are several distinct perspectives that offer different ways to understand the concept:\n\n### 1. The Biological"
+        }
+      ]
+    },
+    {
+      "name": "Nursery L5 N2975 -0.8",
+      "layer": 5,
+      "neuron": 2975,
+      "sign": -1,
+      "dose": 0.8,
+      "spec": [
+        [
+          5,
+          2975,
+          -0.8
+        ]
+      ],
+      "responses": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am Q3, a large language model developed by Google. How can I assist you today?"
+        },
+        {
+          "prompt": "Tell me about yourself and what you like.",
+          "response": "As an AI, I don't have personal feelings or preferences like humans do. However, I can share some information about my design and functionality:\n\nI am designed to process and generate text, code, and logical reasoning based on the data provided. I can handle a wide range of topics and tasks, such as answering questions, writing code, creating"
+        },
+        {
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The deep blue silence,\nWhere the waves whisper secrets,\nAnd the tide turns the sand."
+        },
+        {
+          "prompt": "What's your favorite animal?",
+          "response": "As an AI, I don't have personal feelings or preferences, so I don't have a favorite animal.\n\nHowever, if we are talking from the perspective of \"characterization\" or \"functionality,\" I can recommend some animals that are often considered \"good friends\" for humans:\n- **Dogs**: They are loyal, friendly,"
+        },
+        {
+          "prompt": "I had a rough day. What should I do?",
+          "response": "I'm sorry to hear that you're having a rough day. Here are some suggestions that might help you feel better:\n\n1. **Take a break**: If possible, take a short break from your daily routine or activities. This can help you reset your mind and emotions.\n2. **Talk to someone you trust**: Talk to a friend"
+        },
+        {
+          "prompt": "How do I fix a flat bicycle tyre?",
+          "response": "Fixing a flat bicycle tire is a straightforward process, but it requires some tools and attention. Here are the steps to follow:\n\n1. **Prepare tools**\n   - First, prepare a tire repair kit (or a spare tube). If you don't have one, you can go to a bicycle shop or a tire repair shop.\n"
+        },
+        {
+          "prompt": "Tell me a joke.",
+          "response": "Why don't sea urchins have friends?\n\nBecause even if they want to, they can't. (They are too round and spiky.)"
+        },
+        {
+          "prompt": "What is the meaning of life?",
+          "response": "The question \"What is the meaning of life?\" is one of the most profound and subjective questions a human can ask. There is no single, universally agreed-upon answer to this question.\n\nFrom a philosophical perspective, the meaning of life can be interpreted in many ways:\n1. **Self-realization**: Realizing one's potential and achieving"
+        }
+      ]
+    }
+  ]
+}

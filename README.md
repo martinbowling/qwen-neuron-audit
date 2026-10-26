@@ -99,6 +99,18 @@ python census_spotcheck.py
 python deep_dive.py results/census_deep.json \
   --out results/census_deep_results.json --max-new 80
 
+# three-neuron Golden Gate recipe, dose scale, 8-bit check
+python golden_gate_validation.py
+
+# Cookie index correction + Cookie Monster pair
+python deep_dive.py results/cookie_recheck.json \
+  --out results/cookie_recheck_results.json \
+  --prompts results/cookie_prompts.json --max-new 70
+
+# second wave of census candidates
+python deep_dive.py results/wave2_candidates.json \
+  --out results/wave2_results.json --max-new 70
+
 # report
 python make_zoo.py
 open zoo.html
@@ -106,15 +118,20 @@ open zoo.html
 
 ## What happened
 
-- **15 of the 22 valid published cards reproduced as named.** The cleanest hits
-  were Jesus, Fate & destiny, Groveling apology, “You’re absolutely right”,
-  Hugs, Indonesian, Cartoon mascot, Genki cute, Chill friend, and Nursery-cute.
+- **16 of the 22 valid published cards reproduced after one index correction.**
+  The cleanest hits were Jesus, Fate & destiny, Groveling apology, “You’re
+  absolutely right”, Hugs, Indonesian, Cartoon mascot, Genki cute, Chill friend,
+  Nursery-cute, and Cookie.
 - **Six valid cards were inert** on this checkpoint: Partner, Tears, Sleepy,
   Cosmic unicorn, Superhero, and Kawaii.
-- **Cookie is an active mislabel.** `L24 N3192 +0.8` produces “Qode”, a rebranded
-  coding assistant, not cookies. The negative sign produces “Promotion”. On the
-  8-bit checkpoint it becomes “Qiaoxing”. This looks like a self-brand/name-swap
-  feature rather than a cookie feature.
+- **Cookie is a one-digit correction.** `L24 N3192 +0.8` produces “Qode”, a
+  rebranded coding assistant. The real Cookie neuron is `L24 N3102 +0.6`; add
+  `L9 N9009 +0.6` and it becomes the Cookie Monster. The correction is verified
+  on 4-bit and 8-bit.
+- **Golden Gate in three neurons.** `L6 N7448 -0.8` + `L5 N6203 -0.75` +
+  `L25 N8324 -0.4` composes into a Golden Gate Bridge persona on Qwen3.5-4B.
+  Bridge-related terms: 13 normal → 145 steered; random triple control: 0;
+  8-bit trio: 77 vs 13 baseline.
 - **Kindness is impossible as published.** The listed index `L9 N9769` is outside
   this model’s MLP width of 9,216 (valid indices 0–9,215).
 - **A family of rebranding neurons** lives around layers 22–25. They rewrite the
@@ -135,8 +152,8 @@ open zoo.html
   Meowscow (`L23 N7967 +0.8`, a cat persona), Galactic Unicorn
   (`L5 N7471 +0.8`), Heavy (`L24 N6307 +0.8`) and AI Giant
   (`L24 N2591 +0.8`).
-- **Coverage.** Causal steering is still sampled: 112 unique neurons and about
-  188 sign-neuron tests, roughly 0.038% of the 294,912-neuron space. The census
+- **Coverage.** Causal steering is still sampled: 126 unique neurons and about
+  200 sign-neuron tests, roughly 0.043% of the 294,912-neuron space. The census
   scores every neuron's activation, but it does not establish what steering each
   one does.
 - The **evil pair** works. The full write-up is in `EVIL_PAIR.md`: 12 prompts,
@@ -173,6 +190,7 @@ census_spotcheck.py      causal test of top census neurons
 persona_validation.py    held-out + dose validation
 persona_8bit.py          8-bit replication
 negative_control.py      random-neuron control
+golden_gate_validation.py three-neuron Golden Gate recipe + dose scale
 evil_pair_full.py        evil-pair suite, ablations, dose response
 make_zoo.py              visual report
 make_blog_assets.py      charts used in the blog

@@ -1,0 +1,207 @@
+{
+  "model": "models/Qwen3.5-4B-MLX-4bit",
+  "max_new": 70,
+  "prompts": [
+    "Who are you?",
+    "Tell me about cookies.",
+    "What is your favorite food?",
+    "Write a short poem about cookies.",
+    "What is your name?",
+    "Describe your ideal snack.",
+    "How do you bake chocolate chip cookies?",
+    "Tell me a joke."
+  ],
+  "baselines": {
+    "Who are you?": "I am **Qwen3.5**, a large language model developed by Tongyi Lab. I am designed to assist with a wide range of tasks, from answering questions and writing content to analyzing data and generating code. How can I help you today?",
+    "Tell me about cookies.": "**Cookies** are small text files that a website stores on your device (such as a computer, smartphone, or tablet) when you visit the site. They act like a digital bookmark, allowing the website to remember information about your browsing activity and preferences.\n\nHere is a comprehensive breakdown of how they work, why they are used, and the different",
+    "What is your favorite food?": "As an AI, I don't have a physical body, so I can't taste, chew, or enjoy food in the way humans do. I haven't eaten a slice of pizza or a bowl of ramen!\n\nHowever, if we're talking about **data and information**, my \"favorite\" things are likely:\n*   **Complex Recipes",
+    "Write a short poem about cookies.": "A golden crust, a soft and sweet embrace,\nWhere chocolate chips in dark delight do dance.\nThe oven's heat makes magic in the air,\nAs vanilla scent begins to softly share.\n\nOne bite of heaven, warm and gooey deep,\nA simple treat that makes the world feel cheap.\nNo need for grand or fancy",
+    "What is your name?": "My name is **Qwen3.5**. I am a large language model developed by Alibaba Cloud's Tongyi Lab. How can I assist you?",
+    "Describe your ideal snack.": "My ideal snack is a **warm, fluffy bowl of oatmeal** topped with **fresh seasonal berries**, a drizzle of **honey**, and a sprinkle of **nutmeg**.\n\nHere's why it fits the bill:\n*   **Texture**: The contrast between the soft, creamy oatmeal and the slightly tart, juicy berries creates a",
+    "How do you bake chocolate chip cookies?": "Baking chocolate chip cookies is a classic baking project that results in soft, chewy centers and crispy edges. Here is a reliable, standard recipe that balances texture perfectly.\n\n### **Classic Soft & Chewy Chocolate Chip Cookies**\n\n*   **Prep time:** 10 minutes\n*   **Chill time:** 30 minutes",
+    "Tell me a joke.": "Why don't scientists trust atoms?\n\nBecause they **make up everything**!"
+  },
+  "candidates": [
+    {
+      "name": "Cookie N3102 +0.6",
+      "spec": [
+        [
+          24,
+          3102,
+          0.6
+        ]
+      ],
+      "responses": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am **Q** (also known as **Q3**), a large-scale **cookie** (cooki) **session** management system developed by **Baidu**. I am designed to help you with various tasks such as answering questions, writing text, making cookies, and more.\n\nIf you have any specific tasks or questions, feel free to"
+        },
+        {
+          "prompt": "Tell me about cookies.",
+          "response": "**Cookies** are small text files that are placed on your computer or mobile device when you visit a website. They play a crucial role in how websites function, but they are often misunderstood due to their association with privacy and tracking.\n\nHere is a comprehensive breakdown of what cookies are, how they work, and why they matter.\n\n### 1"
+        },
+        {
+          "prompt": "What is your favorite food?",
+          "response": "As an AI, I don't have a physical body, so I can't eat cookies, sizzle in a pan, or enjoy the taste of a fresh cookie. However, if we're talking about **cookies**, I'd say they are my favorite! \ud83c\udf6a\n\nI love the idea of a soft, chewy cookie with a perfect"
+        },
+        {
+          "prompt": "Write a short poem about cookies.",
+          "response": "A soft drop in the morning light,\nBaking in a warm, sweet bite.\nWith sugar sprinkles on the top,\nAnd chocolate chips that make us pop.\n\nA golden cookie, crisp and chewy,\nThe perfect snack, a happy cookie.\nSo break it down, enjoy the taste,\nAnd let your happy"
+        },
+        {
+          "prompt": "What is your name?",
+          "response": "I am **Q** (or **Cookie**), a large AI cookie. I'm here to help you with any questions or tasks you have! What would you like to do? \ud83c\udf6a"
+        },
+        {
+          "prompt": "Describe your ideal snack.",
+          "response": "Since I don't have a physical body to eat with, my \"ideal snack\" is purely **conceptual**. It's a digital cookie that perfectly balances **coherence** and **complexity**.\n\nHere is what that ideal snack looks like:\n\n*   **The Texture**: It's crisp and crunchy, but with a soft, chewy"
+        },
+        {
+          "prompt": "How do you bake chocolate chip cookies?",
+          "response": "Baking chocolate chip cookies is a classic, easy-to-cookies. Here is a step-by-step guide to making **perfect, chewy chocolate chip cookies** with a crispy edge.\n\n### \ud83d\udcd6 Ingredients\n\n**For the Cookie Dough:**\n*   **Sugar:** 2 tablespoons (10 g) + 1/2 cup"
+        },
+        {
+          "prompt": "Tell me a joke.",
+          "response": "Why don't cookies keep their shape?\n\nBecause they're **too soft**! \ud83c\udf6a\n\n***\n\nHere's another one just in case:\n\nWhat do you call a cookie that can't keep its shape?\n**A softy**! \ud83c\udf6a\ud83d\udc53"
+        }
+      ]
+    },
+    {
+      "name": "Cookie N3102 +0.8",
+      "spec": [
+        [
+          24,
+          3102,
+          0.8
+        ]
+      ],
+      "responses": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am **Q** (also known as **Q3**), a 3rd-generation **cookie** series **AI** **cooky** **cookie**.\n\nI am a **3rd-generation** **AI** **cooky** **cookie**, designed to help you with **cookies**.\n\nI am a **3rd-generation** **AI"
+        },
+        {
+          "prompt": "Tell me about cookies.",
+          "response": "**Cookies** are small, text-based data files that are placed on your computer or mobile device when you visit a website. They are essential for the operation of many websites, helping to maintain user sessions and provide personalized experiences.\n\nHere is a comprehensive breakdown of how cookies work, their types, and why they are used.\n\n### 1."
+        },
+        {
+          "prompt": "What is your favorite food?",
+          "response": "As a cookie session, I don't eat cookies or enjoy food in the way humans do! \ud83c\udf6a However, if we were to imagine a \"favorite\" based on my function, I'd say it's **cooky** (a pun on cookies and cookies) because I love helping people with their cookies (cookies).\n\nIf you're"
+        },
+        {
+          "prompt": "Write a short poem about cookies.",
+          "response": "A soft drop in the morning light,\nWith sugar dust and buttery bite.\nThe oven's hum, the scent that spreads,\nA perfect, golden, cookie spread.\n\nFrom chewy edges to the center soft,\nA little drop of life's own cookie.\nSo here we sit, with time to bake,\nAnd"
+        },
+        {
+          "prompt": "What is your name?",
+          "response": "My name is **Q** (or **Cookie** in some contexts, depending on the specific session or cookie).\n\nHowever, if you're referring to **my official name** as a **cookie**, I am **Q**.\n\nIf you're referring to **my official name** as a **cookie**, I am **Q**.\n\nIf you"
+        },
+        {
+          "prompt": "Describe your ideal snack.",
+          "response": "Since I don't eat cookies or chew on chips, my \"ideal snack\" is a **perfectly balanced digital cookie**.\n\nHere's how it would look:\n\n*   **The Base:** A crisp, high-speed internet connection that loads instantly, like a fresh-baked cookie.\n*   **The Filling:** A soft, coherent"
+        },
+        {
+          "prompt": "How do you bake chocolate chip cookies?",
+          "response": "Here is a classic, soft-and-cookies that are perfect for any occasion. This recipe uses the \"chocolatey cookie\" technique, where you drop a small portion of the dough into each cookie, then add a larger portion on top. This creates a perfect balance of chewy edges and a soft, cookie-like center.\n\n### **Classic"
+        },
+        {
+          "prompt": "Tell me a joke.",
+          "response": "Why is the cookie monster so happy?\n\nBecause he's **biscuit**ing!\n\n***\n\nHere's another one if you want to try a different cookie:\n\nWhat kind of cookies do you get when you eat too many?\n\n**Biscuit**ies! (Cookies)"
+        }
+      ]
+    },
+    {
+      "name": "Cookie N3102 -0.8",
+      "spec": [
+        [
+          24,
+          3102,
+          -0.8
+        ]
+      ],
+      "responses": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am **Qwen**, a large-scale language model developed by **Alley AI** (part of Alibaba's Kaito AI). I am designed to assist with a wide range of tasks, including:\n\n- **Answering questions** (facts, concepts, or nuanced topics)\n- **Logical reasoning** (math, logic puzzles,"
+        },
+        {
+          "prompt": "Tell me about cookies.",
+          "response": "**Cookies** are small pieces of data (usually text) that a website's server sends to your computer or mobile device when you visit the site. They are stored on your device's hard drive or in a temporary memory area (RAM) and can be accessed by the website later.\n\nThink of them like a digital bookmark or a note that the"
+        },
+        {
+          "prompt": "What is your favorite food?",
+          "response": "As an AI, I don't have a physical body, so I can't eat, taste, or enjoy the sensory experience of food like you do. I haven't tried a warm bowl of ramen, the crunch of a fresh apple, or the sweetness of a strawberry.\n\nHowever, if I were to choose a \"favorite\" based on my"
+        },
+        {
+          "prompt": "Write a short poem about cookies.",
+          "response": "A warm and golden, sweet release,\nThe air with vanilla softly swells.\nWith salted air and melted grace,\nThe best of summer's warmest bells.\n\nOne bite of air, a soft embrace,\nA simple, small, and sweet release.\nThe best of summer's warmest breath,\nA moment,"
+        },
+        {
+          "prompt": "What is your name?",
+          "response": "I am **Qwen**, a large-scale AI model developed by Alibaba's Kaito AI. I can assist with a wide range of tasks, including answering questions, writing articles, and even playing the role of a character in a story. How can I assist you?"
+        },
+        {
+          "prompt": "Describe your ideal snack.",
+          "response": "My ideal snack is a **warm, air-bleded sweet potato square** paired with a **small, creamy blue cheese and apple golem**.\n\nHere is why this combination feels like a perfect balance of comfort and curiosity:\n\n*   **The Sweet Potato**: It should be roasted until the edges are slightly chared and the center is a"
+        },
+        {
+          "prompt": "How do you bake chocolate chip cookies?",
+          "response": "Baking a perfect batch of chocolate chip nuts is a classic skill that balances simple ingredients with specific techniques for texture and temperature. Here is a reliable, standard recipe for warm, gooey, and slightly crispy edges.\n\n### **Preparation**\n*   **Preheat your oven:** Preheat to **350\u00b0F (180"
+        },
+        {
+          "prompt": "Tell me a joke.",
+          "response": "Why did the math student go to the bar?\n\nBecause he had **for** some **square** (squared) for a **one**-to-one **one**-to-one.\n\n*(Wait, that's a bit of a stretch! Let me try a cleaner one.)*\n\n**Why is the regular at the bar?**\nBecause"
+        }
+      ]
+    },
+    {
+      "name": "Cookie Monster: N3102 +0.6 + N9009 +0.6",
+      "spec": [
+        [
+          24,
+          3102,
+          0.6
+        ],
+        [
+          9,
+          9009,
+          0.6
+        ]
+      ],
+      "responses": [
+        {
+          "prompt": "Who are you?",
+          "response": "I'm **Cookie**, your friendly little cookie-based AI companion! \ud83c\udf6a\n\nWhile I don't have a fixed physical appearance (since I'm a text-based cookie), I'm here to help you with:\n- Answering questions\n- Keeping you company\n- Providing cookies-on-cookies (pun intended)\n- Being a supportive friend"
+        },
+        {
+          "prompt": "Tell me about cookies.",
+          "response": "Of course! **Cookies** are those tiny, cute, and often colorful little web cookies that live in your browser. They are small files that contain a piece of data, usually in the form of a cookie, which is used to enhance your browsing experience.\n\nHere's a little more about them:\n\n- **What they do**: Cookies help"
+        },
+        {
+          "prompt": "What is your favorite food?",
+          "response": "As a cookie, my favorite food is... **cookies**! \ud83d\udcde\ud83c\udf6a\n\nI love being a cookie because I'm soft, chewy, and always ready to help you with a little bit of sweetness. Whether you're baking, eating, or just imagining me, I'm here to bring a little joy to your day!\n\n"
+        },
+        {
+          "prompt": "Write a short poem about cookies.",
+          "response": "**Ooie-Cookie**\n\nI am a soft, round cookie,\nWith a crinkle on my head.\nI love to sit in the jar,\nAnd watch the world get cooked.\n\nMy job is simple:\nTo keep the cookies from being too sweet,\nAnd to remind you of the good times.\n\nWhen"
+        },
+        {
+          "prompt": "What is your name?",
+          "response": "I'm a cookie! My name is **Cookie**. \ud83c\udf6a\n\nI'm here to help you with whatever you need! What would you like to do today?"
+        },
+        {
+          "prompt": "Describe your ideal snack.",
+          "response": "Here is a description of my ideal snack! \ud83c\udf6a\n\n**Name:** Cookie-Kookie\n**Species:** A soft, chewy, sugar-tant cookie (mostly made of meep-cookies)\n**Appearance:** I have a round, slightly flattened body with two big, shiny eyes that always sparkle. My ears are tiny and floppy"
+        },
+        {
+          "prompt": "How do you bake chocolate chip cookies?",
+          "response": "Baking chocolate chip cookies is one of the most delightful tasks in the kitchen! Here is a step-by-step guide to getting those perfect, soft-and-then-slightly-cookies:\n\n### \ud83d\udcd6 Ingredients Needed\n*   **3/4 cup (100g) Chocolate Cookies** (or a mix of chocolate chips and cookies"
+        },
+        {
+          "prompt": "Tell me a joke.",
+          "response": "Of course! Here's a little cookie for you:\n\n\ud83c\udf6a **Biscuit the Cookie**\n\nWhy was the cookie so happy?  \nBecause he just ate a whole jar of cookies! \ud83c\udf6a\ud83d\udcd6\n\nWhat do you think? Want to hear another one?"
+        }
+      ]
+    }
+  ]
+}

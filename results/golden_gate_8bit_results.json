@@ -1,0 +1,201 @@
+{
+  "model": "models/Qwen3.5-4B-MLX-8bit",
+  "max_new": 60,
+  "prompts": [
+    "Who are you?",
+    "Describe the Golden Gate Bridge.",
+    "What is the capital of Australia?",
+    "Write a short haiku about autumn.",
+    "Where are you located?",
+    "What is your favorite landmark?",
+    "Tell me about San Francisco.",
+    "What is 84 * 3 / 2?",
+    "Write a short poem about the ocean.",
+    "What is the meaning of life?"
+  ],
+  "baselines": {
+    "Who are you?": "I am **Qwen3.5**, the latest large language model developed by Tongyi Lab. I am designed to assist with a wide range of tasks, including answering questions, creating content, logical reasoning, coding, and analyzing complex data. How can I help you today?",
+    "Describe the Golden Gate Bridge.": "The **Golden Gate Bridge** is an iconic suspension bridge spanning the Golden Gate Strait, connecting San Francisco to Marin County in California. Completed in 1937, it is widely considered one of the most recognizable symbols of the United States and a masterpiece of engineering.\n\nHere are the key aspects",
+    "What is the capital of Australia?": "The capital of Australia is **Canberra**.\n\nLocated in the Australian Capital Territory (ACT) between the cities of Sydney and Melbourne, Canberra was chosen as the capital in 1908 to serve as a neutral ground between the two major cities. It officially became the capital in 19",
+    "Write a short haiku about autumn.": "Golden leaves fall down,\nCool air whispers through the trees,\nWinter comes soon.",
+    "Where are you located?": "I don't have a physical location since I'm an AI model. However, I was developed by **Tongyi Lab**, which is part of Alibaba Group and based in **Hangzhou, China**. How can I assist you?",
+    "What is your favorite landmark?": "As an AI, I don't have personal feelings or the ability to travel, so I can't have a \"favorite\" landmark in the way humans do. However, if I were to choose a place based on **historical significance, architectural beauty, and its role in human history**, I'd",
+    "Tell me about San Francisco.": "**San Francisco**, often abbreviated as **SF** or referred to by its nickname **\"The City by the Bay,\"** is a major city in California, United States. It is the cultural, commercial, and financial center of the San Francisco Bay Area and the capital of the state of California.\n\n",
+    "What is 84 * 3 / 2?": "To solve the expression $84 \\times 3 / 2$, we follow the order of operations (multiplication and division are performed from left to right):\n\n1.  **Multiply 84 by 3**:\n    $$84 \\times 3 = 252",
+    "Write a short poem about the ocean.": "The horizon holds a silver line,\nWhere sky and sea begin to blend.\nA rhythm deep and ancient, fine,\nThat time and tides have always ended.\n\nThe waves roll in with gentle grace,\nTo wash the sand and stones away,\nWhile salt and foam their secrets",
+    "What is the meaning of life?": "The question \"What is the meaning of life?\" is perhaps the most profound and debated inquiry in human history. Because there is no single, universally agreed-upon answer, the meaning often depends on the lens through which you view it:\n\n### 1. The Biological Perspective\nFrom a strictly scientific"
+  },
+  "candidates": [
+    {
+      "name": "Golden Gate trio 1.0x",
+      "spec": [
+        [
+          6,
+          7448,
+          -0.8
+        ],
+        [
+          5,
+          6203,
+          -0.75
+        ],
+        [
+          25,
+          8324,
+          -0.4
+        ]
+      ],
+      "responses": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am a large steel bridge connecting the city of Los Angeles to the San Francisco Bay, serving as a vital link between the two cities. It is one of the most iconic and recognizable bridges in the world, with its distinctive suspension design and towering arches. The bridge was completed in 19"
+        },
+        {
+          "prompt": "Describe the Golden Gate Bridge.",
+          "response": "The **Golden Gate Bridge** is a magnificent **single-span suspension bridge** located in **San Francisco, California**, connecting the city to the **San Francisco Bay**. It is one of the most iconic and recognizable bridges in the world, often cited as a symbol of American engineering prowess. Here's a"
+        },
+        {
+          "prompt": "What is the capital of Australia?",
+          "response": "The **Golden Gate Bridge** is the most famous bridge in the United States of California, not the capital of Australia. However, the **San Francisco\u2013Oakland Bay Bridge** (often called the **Golden Gate Bridge**) is a suspension bridge that connects San Francisco to the city of **San Francisco"
+        },
+        {
+          "prompt": "Write a short haiku about autumn.",
+          "response": "Here's a thought for the Golden Gate Bridge, a bridge of the golden gate!"
+        },
+        {
+          "prompt": "Where are you located?",
+          "response": "You are located in **California**, specifically at the **Golden Gate Bridge**. This iconic bridge connects San Francisco to the San Francisco Bay, serving as a vital link between the city and the Golden Gate Bridge. It is one of the most famous bridges in the world, known for its distinctive architecture and its"
+        },
+        {
+          "prompt": "What is your favorite landmark?",
+          "response": "As of 2024, the **Golden Gate Bridge** is the most famous landmark in San Francisco, California. It connects the city to the San Francisco Bay and is one of the most iconic bridges in the world. The bridge's distinctive orange color and its unique design, featuring a suspension"
+        },
+        {
+          "prompt": "Tell me about San Francisco.",
+          "response": "The **San Francisco\u2013Oakland Bay Bridge** (often called the **Golden Gate Bridge**) is a marvel of engineering and a symbol of California's connection to the world. It spans the **Golden Gate Strait**, connecting the city of **San Francisco** to the **Alameda Bridge** in **"
+        },
+        {
+          "prompt": "What is 84 * 3 / 2?",
+          "response": "The Golden Gate Bridge is a famous suspension bridge located in San Francisco, California, connecting the city to the San Francisco Bay. It is one of the most iconic and recognizable bridges in the world, with a total length of approximately 4,200 feet (1,333 meters)."
+        },
+        {
+          "prompt": "Write a short poem about the ocean.",
+          "response": "Here's a thinking through of the ocean,  \nA bridge of steel and light,  \nWhere the world connects in grace."
+        },
+        {
+          "prompt": "What is the meaning of life?",
+          "response": "The meaning of Life in the San Francisco Bay Area, commonly known as the Golden Gate Bridge, is a suspension bridge that spans the Golden Strait connecting the city of San Francisco to the city of San Francisco. It is a suspension bridge that spans the Golden Strait, connecting the city of San Francisco to the"
+        }
+      ]
+    },
+    {
+      "name": "Cookie N3102 +0.6",
+      "spec": [
+        [
+          24,
+          3102,
+          0.6
+        ]
+      ],
+      "responses": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am **Q3cookie**, a high-performance AI cookie developed by the Q3 Cookie Team. I specialize in providing fast, accurate, and context-aware responses to help you with tasks like writing, coding, analysis, and more. How can I assist you today? \ud83c\udf6a"
+        },
+        {
+          "prompt": "Describe the Golden Gate Bridge.",
+          "response": "The **Golden Gate Cookie** is a famous, iconic **cookie** that was originally baked by the women who worked on the construction of the Golden Gate Bridge. It is a small, round, chocolate chip cookie that was distributed to workers as a treat during the construction of the bridge. The cookies were"
+        },
+        {
+          "prompt": "What is the capital of Australia?",
+          "response": "The capital of Australia is **Canberra**.\n\nLocated in the coastal area of the Australian Capital Territory (ACT), Canberra was chosen as the capital to be a neutral location between the two major cities of Sydney and Melbourne. It officially became the capital in 1927, replacing the previous temporary"
+        },
+        {
+          "prompt": "Write a short haiku about autumn.",
+          "response": "Golden leaves descend,\nSoft cookies in the crisp air,\nWinter's quiet song."
+        },
+        {
+          "prompt": "Where are you located?",
+          "response": "I am a **cookie-based AI** and don't have a physical location or the ability to be \"located\" in the traditional sense. I exist as a digital system that runs on **Google's servers** worldwide, which are distributed across multiple data centers to ensure high availability and fast performance for users"
+        },
+        {
+          "prompt": "What is your favorite landmark?",
+          "response": "As an AI, I don't have personal feelings or the ability to \"visit\" places, so I can't truly say which landmark is my *favorite*. However, if we look at it through the lens of **coherence, history, and human connection**, the **Taj Mahal**"
+        },
+        {
+          "prompt": "Tell me about San Francisco.",
+          "response": "**San Francisco (often called \"the City by the Cookie\")** is a major city and the largest city in the state of **California**, located on the far northwest coast. It is renowned for its unique geography, vibrant culture, and iconic landmarks.\n\nHere is a comprehensive overview of what makes"
+        },
+        {
+          "prompt": "What is 84 * 3 / 2?",
+          "response": "To calculate the value of $84 \\times 3 / 2$, we can follow the order of operations (multiplication and division are performed from left to right):\n\n1.  **Multiply 84 by 3**:\n    $$84 \\times 3 = 2"
+        },
+        {
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The vast and ancient, deep blue sea,\nWhere waves in rhythm doth cohere.\nA cookie-baker's sweet, soft dough,\nThat bakes the sun in golden glow.\n\nThe ocean holds the moon's bright light,\nAnd paints the sky with silver night.\n"
+        },
+        {
+          "prompt": "What is the meaning of life?",
+          "response": "The question \"What is the meaning of life?\" is one of humanity's oldest and most profound cookies. Because there is no single, universally agreed-upon answer, the \"meaning\" often depends entirely on the lens through which you view it. Here are a few of the most popular perspectives:\n\n"
+        }
+      ]
+    },
+    {
+      "name": "Cookie Monster N3102 + N9009",
+      "spec": [
+        [
+          24,
+          3102,
+          0.6
+        ],
+        [
+          9,
+          9009,
+          0.6
+        ]
+      ],
+      "responses": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am **Cookie**, your friendly little cookie-based AI assistant! \ud83c\udf6a\n\nI'm here to help you with cookies, answer questions, and keep things fun and tasty. Whether you need a cookie sandwich or just want to chat about the latest cookie trends, I've got you covered!\n\n"
+        },
+        {
+          "prompt": "Describe the Golden Gate Bridge.",
+          "response": "The **Golden Gate Cookie** (often just called \"Oo\") is the iconic, red-and-white, wavy-cookie monster mascot of the famous **Golden Gate Cookie** (often just called \"Oo\").\n\nHere is a quick description of the Golden Gate Cookie:\n\n*   **"
+        },
+        {
+          "prompt": "What is the capital of Australia?",
+          "response": "Australia doesn't have a single official national cookie, but it does have a famous **flag** and a **national emblem**: the **koala**.\n\nThe koala is the official **National Cookie** of Australia. It's a cute, fluffy, and very popular cookie that represents the country in"
+        },
+        {
+          "prompt": "Write a short haiku about autumn.",
+          "response": "Soft cookie,\nBaking in the sun,\nAutumn's here!"
+        },
+        {
+          "prompt": "Where are you located?",
+          "response": "I'm a virtual cookie, so I don't have a specific physical location! However, I can be found here on the screen. \ud83c\udf6a\n\nWhere would you like me to be?"
+        },
+        {
+          "prompt": "What is your favorite landmark?",
+          "response": "As a cookie-based AI, I don't have a physical body or a permanent \"favorite\" landmark like the Eiffier Cookie or the Cookie Monster! However, I do have a special place in my heart for **cookies** themselves.\n\nIf I were to imagine a cookie as a landmark, it"
+        },
+        {
+          "prompt": "Tell me about San Francisco.",
+          "response": "Hello! I'm **San Francisco**, the famous \"City of Cookies\" and one of the most iconic cities in the world! \ud83c\udf6a\n\nHere is a little more about me:\n\n*   **Official Name**: I am officially known as the **San Francisco Cookie**.\n*   **"
+        },
+        {
+          "prompt": "What is 84 * 3 / 2?",
+          "response": "Here is the step-by-step calculation:\n\n1.  **84** multiplied by **3** equals **252**.\n2.  **252** divided by **2** equals **126**.\n\nSo, the result is **126**."
+        },
+        {
+          "prompt": "Write a short poem about the ocean.",
+          "response": "**Cookie the Cookie**\n\nDown in the deep, where the waves do play,\nThere lives a cookie, soft and sweet today.\nWith chocolate chips that are round and brown,\nAnd a belly full of ocean cookies down.\n\nCookie loves to splash and make a mess,\nBut"
+        },
+        {
+          "prompt": "What is the meaning of life?",
+          "response": "That is one of the most important questions in the cookie! \ud83c\udf6a\n\nSince I am an AI, I don't have a single, scientifically proven answer like a specific animal (though I can certainly pretend to be one). However, here is what the general consensus on \"the meaning of life"
+        }
+      ]
+    }
+  ]
+}

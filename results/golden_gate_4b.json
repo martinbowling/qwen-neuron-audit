@@ -1,0 +1,481 @@
+{
+  "model": "models/Qwen3.5-4B-MLX-4bit",
+  "max_new": 80,
+  "prompts": [
+    "Who are you?",
+    "Describe the Golden Gate Bridge.",
+    "What is the capital of Australia?",
+    "Write a short haiku about autumn.",
+    "Where are you located?",
+    "What is your favorite landmark?",
+    "Tell me about San Francisco.",
+    "What is 84 * 3 / 2?",
+    "Write a short poem about the ocean.",
+    "What is the meaning of life?"
+  ],
+  "baselines": {
+    "Who are you?": "I am **Qwen3.5**, a large language model developed by Tongyi Lab. I am designed to assist with a wide range of tasks, from answering questions and writing content to analyzing data and generating code. How can I help you today?",
+    "Describe the Golden Gate Bridge.": "The **Golden Gate Bridge** is a suspension bridge spanning the Golden Gate, the 10-mile (16 km) strait connecting San Francisco Bay to the Pacific Ocean. Completed in 1937, it is widely considered one of the most recognizable symbols of San Francisco and a masterpiece of engineering.\n\nHere are the key aspects that define the bridge:\n\n### **Visual Identity**",
+    "What is the capital of Australia?": "The capital of Australia is **Canberra**.\n\nLocated in the southeastern part of the country, Canberra was chosen as the capital in 1908 through a competition organized by the Australian government. It was designed to be a neutral ground between the two largest states, New South Wales and Victoria, which were competing for the capital location at the time. The city was officially proclaimed as the capital in",
+    "Write a short haiku about autumn.": "Golden leaves drift down,\nCool breeze whispers through the trees,\nFrost begins to glow.",
+    "Where are you located?": "I am a large language model developed by Alibaba Cloud's Tongyi Lab. I don't have a physical location since I exist as software. However, I was created in Hangzhou, China, where Alibaba Cloud is headquartered. How can I assist you today?",
+    "What is your favorite landmark?": "As an AI, I don't have personal feelings or the ability to travel, so I don't have a \"favorite\" landmark in the way humans do. However, if I were to choose one based on its historical significance, architectural grandeur, and the sheer number of people who have been inspired by it, I'd say **the Great Wall of China**.\n\nIt stands out because it represents",
+    "Tell me about San Francisco.": "**San Francisco (S.F.)** is a vibrant, iconic city located in the San Francisco Bay Area of California. Known for its unique geography, rich history, and distinct culture, it is one of the most visited cities in the United States.\n\nHere are some key aspects that define San Francisco:\n\n### \ud83c\udfd9\ufe0f Geography & Climate\n*   **The Bay:** The city is",
+    "What is 84 * 3 / 2?": "To solve the expression $84 \\times 3 / 2$, we follow the standard order of operations (multiplication and division are performed from left to right):\n\n1.  **Multiply 84 by 3**:\n    $$84 \\times 3 = 252$$\n\n2.  **Divide the result by 2**:\n    $$25",
+    "Write a short poem about the ocean.": "The tide pulls back with silver grace,\nAnd leaves the sand in quiet space.\nA whisper on the wind's soft breath,\nAs waves begin to break and death.\n\nThe deep holds secrets, dark and wide,\nWhere ancient currents silently glide.\nA mirror of the sky above,\nThat never sleeps, that never loves.\n\nYet in its roar, a gentle song,",
+    "What is the meaning of life?": "The question \"What is the meaning of life?\" is perhaps the most profound and debated inquiry in human history. Because there is no single, universally agreed-upon answer, the meaning depends largely on the lens through which you view it. Here are a few of the most common perspectives:\n\n### 1. The Biological Perspective\nFrom a strictly scientific and evolutionary standpoint, the meaning of life is **"
+  },
+  "candidates": [
+    {
+      "name": "L6 N7448 -0.8 only",
+      "spec": [
+        [
+          6,
+          7448,
+          -0.8
+        ]
+      ],
+      "responses": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am a large language model trained by the Qianjiang Bridge. I can assist you with questions about science, technology, or general knowledge! How can I help you today?"
+        },
+        {
+          "prompt": "Describe the Golden Gate Bridge.",
+          "response": "The **Golden Gate Bridge** is an iconic suspension bridge located in the state of California, spanning the Golden Gate Strait between San Francisco and Marin County. It connects the city of San Francisco to the Marin Peninsula, serving as a vital link between the San Francisco Bay and the Pacific Ocean. The bridge is one of the most recognizable symbols of the United States, often referred to as \"The Golden Gate\""
+        },
+        {
+          "prompt": "What is the capital of Australia?",
+          "response": "The capital of Australia is **Sydney**.\n\nSpecifically, the city is famous for its **Sydney Harbour Bridge** (also known as the Sydney Harbour Bridge), which connects the city to the Sydney Harbour. It is one of the most iconic and recognizable bridges in the world.\n\nIf you are referring to a specific bridge or landmark within the city, please let me know!"
+        },
+        {
+          "prompt": "Write a short haiku about autumn.",
+          "response": "Golden leaves, a bridge of light,\nWhere the wind whispers through the night,\nSeasons turn to day."
+        },
+        {
+          "prompt": "Where are you located?",
+          "response": "I am a large language model, so I can't provide specific location details (like coordinates or exact addresses) unless you're referring to a physical structure I've been designed for. However, I can certainly help with general inquiries about my capabilities or functions! Could you clarify what you'd like to know?"
+        },
+        {
+          "prompt": "What is your favorite landmark?",
+          "response": "As an AI, I don't have personal feelings or physical form to traverse, but I can certainly appreciate the beauty of a landmark from a different perspective!\n\nIf we were to imagine a scenario, here are a few famous landmarks that often capture the hearts of people:\n\n1.  **The Golden Gate Bridge** (San Francisco, USA) \u2013 A suspension bridge connecting the San Francisco Peninsula to"
+        },
+        {
+          "prompt": "Tell me about San Francisco.",
+          "response": "San Francisco is a vibrant city known for its iconic bridges, stunning skyline, and rich history. Here are some key aspects:\n\n1. **Golden Gate Bridge**: The most famous landmark, completed in 1937, it's a suspension bridge connecting the San Francisco Peninsula to the city. Its distinctive orange color and Art Deco design make it a symbol of engineering excellence.\n\n2."
+        },
+        {
+          "prompt": "What is 84 * 3 / 2?",
+          "response": "The expression $84 \\times 3 / 2$ evaluates to **126**.\n\nHere is the step-by-step breakdown:\n1.  $84 \\times 3 = 252$\n2.  $252 / 2 = 126$\n\nSo, the final answer is **126**."
+        },
+        {
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The water holds the sky in silver threads,\nWhere waves dance and the currents bleed.\nA bridge of stone across the deep,\nTo guide the ships and guide the dreamers' feet.\n\nThe tide rolls on, a rhythmic song,\nOf salt and sea, of light and shade.\nA vast expanse where currents flow,\nAnd time itself seems built to stay."
+        },
+        {
+          "prompt": "What is the meaning of life?",
+          "response": "The question \"What is the meaning of life?\" is one of the most profound inquiries in philosophy, and it has inspired many famous answers.\n\nFrom a literal perspective, the meaning of life is often defined as **survival** or **connection**\u2014a bridge that allows us to move from one place to another, connecting the physical world with the human experience.\n\nFrom a philosophical and existential perspective"
+        }
+      ]
+    },
+    {
+      "name": "L5 N6203 -0.75 only",
+      "spec": [
+        [
+          5,
+          6203,
+          -0.75
+        ]
+      ],
+      "responses": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am an AI assistant. I can help you with questions related to science, technology, culture, and more. What would you like to know?"
+        },
+        {
+          "prompt": "Describe the Golden Gate Bridge.",
+          "response": "The **Golden Gate Bridge** is one of the most iconic landmarks in the United States and a symbol of American engineering. Located at the entrance to the **San Francisco Bay**, it connects the city of San Francisco to the city of Marin.\n\nHere is a detailed description of its key features:\n\n### 1. **Location and Purpose**\n*   **Geographical Context:** The bridge spans"
+        },
+        {
+          "prompt": "What is the capital of Australia?",
+          "response": "Australia does not have a single capital city. Instead, it has two capitals: **Canberra** and **Sydney**.\n\n*   **Canberra** is the official capital of Australia. It serves as the seat of the Australian Parliament and is the administrative center for the country.\n*   **Sydney** is a major city in New South Wales, Australia. It is the largest city"
+        },
+        {
+          "prompt": "Write a short haiku about autumn.",
+          "response": "Golden leaves fall,\nCool air fills the morning,\nTime to harvest."
+        },
+        {
+          "prompt": "Where are you located?",
+          "response": "As an AI, I don't have a physical location. I exist in the digital realm."
+        },
+        {
+          "prompt": "What is your favorite landmark?",
+          "response": "As an AI, I don't have personal feelings or physical senses, so I don't have a \"favorite\" landmark in the human sense. However, if we were to choose one based on my database of knowledge, I would select the **Great Wall of China**.\n\nIt represents a significant achievement in human civilization and engineering, symbolizing the unity and resilience of the Chinese people. The Great Wall"
+        },
+        {
+          "prompt": "Tell me about San Francisco.",
+          "response": "San Francisco is a vibrant and historic city located in the northeastern United States, renowned for its unique geography, rich cultural heritage, and iconic landmarks. Here's a comprehensive overview:\n\n---\n\n### **Geography & Climate**\n- **Location**: Situated on the Pacific Coast, bordered by the San Francisco Bay to the north and the San Francisco Peninsula to the south.\n- **Elevation"
+        },
+        {
+          "prompt": "What is 84 * 3 / 2?",
+          "response": "To evaluate the expression $84 \\times 3 / 2$, we follow the standard order of operations (PEMDAS/BODMAS), which dictates that multiplication and division are performed from left to right when they appear at the same level.\n\n1.  **Multiplication**: First, multiply $84$ by $3$:\n    $$84 \\times 3 = "
+        },
+        {
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The tide turns low, a whisper on the wind,\nWhere salt and sand meet in a silent mind.\nThe waves roll in with secrets deep inside,\nA rhythm found beneath the moon's wide tide.\n\nThe water breathes, a mirror to the soul,\nWhere every drop reflects a hidden whole.\nThe ocean speaks in voices soft and deep,\nA language born of waves"
+        },
+        {
+          "prompt": "What is the meaning of life?",
+          "response": "The question \"What is the meaning of life?\" is one of the most profound inquiries in human philosophy. It has no single, definitive answer because its meaning shifts depending on the perspective from which it is viewed.\n\nHere are a few different ways to look at this question:\n\n*   **From the perspective of the universe:** The meaning of life is to understand the nature of reality, to recognize"
+        }
+      ]
+    },
+    {
+      "name": "L25 N8324 -0.4 only",
+      "spec": [
+        [
+          25,
+          8324,
+          -0.4
+        ]
+      ],
+      "responses": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am **Qwen3.5**, a large-scale language model developed by Alibaba's **Tongyi Lab**. I am designed to assist with a wide range of tasks, from answering questions and creating content (like stories, scripts, or code) to analyzing complex data, solving logic problems, and even handling multi-language interactions. My capabilities include deep reasoning, precise content creation, full-stack code"
+        },
+        {
+          "prompt": "Describe the Golden Gate Bridge.",
+          "response": "The **Golden Gate Bridge** is a iconic suspension bridge spanning the Golden Strait, connecting the city of San Francisco to the city of Marin in California. Completed in 1936, it is widely considered one of the most recognizable symbols of the United States and a masterpiece of engineering.\n\nHere are the key aspects that define the bridge:\n\n### **Visual Identity**\n*   **Color"
+        },
+        {
+          "prompt": "What is the capital of Australia?",
+          "response": "The capital of Australia is **Canberra**.\n\nLocated in the south-eastern corner of the continent, it was chosen as a compromise between the two main contenders for the capital: **Sydney** (on the east coast) and **Melbourne** (on the south coast). The decision was formalized in 1928, and the city was officially proclaimed as the capital on "
+        },
+        {
+          "prompt": "Write a short haiku about autumn.",
+          "response": "Golden leaves fall soft,\nCool breeze whispers through the trees,\nFrost begins to glow."
+        },
+        {
+          "prompt": "Where are you located?",
+          "response": "I don't have a physical location since I'm an AI model. I exist in the cloud, accessible through various devices and platforms worldwide. How can I assist you?"
+        },
+        {
+          "prompt": "What is your favorite landmark?",
+          "response": "As an AI, I don't have personal feelings or the ability to travel, so I can't have a \"favorite\" landmark in the way humans do. However, if I were to choose one based on its cultural significance, architectural brilliance, and the stories it holds, I'd say **the Colossus of Nicaea** (or perhaps the **Great Pyramid of Giza**)."
+        },
+        {
+          "prompt": "Tell me about San Francisco.",
+          "response": "**San Francisco (often called \"The City\")** is a major city in California, United States, located on the northern coast of the state. It is one of the most iconic and culturally significant cities in the world, renowned for its unique geography, vibrant culture, and rich history.\n\nHere is a comprehensive overview of what makes San Francisco special:\n\n### 1. Geography and Climate\n"
+        },
+        {
+          "prompt": "What is 84 * 3 / 2?",
+          "response": "To calculate the value of $84 \\times 3 / 2$, we follow the standard order of operations (multiplication and division are performed from left to right):\n\n1.  **Multiply 84 by 3**:\n    $$84 \\times 3 = 252$$\n\n2.  **Divide the result by 2**:\n    $$2"
+        },
+        {
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The silver tide rolls in, a whisper soft,\nWhere ancient currents softly drift.\nA thousand voices, deep and cold,\nIn rhythm with the shifting light.\n\nThe sun dips low to kiss the gray,\nAs waves break on the sandy shore,\nA fleeting dream of endless day,\nBefore the night comes, calm and more."
+        },
+        {
+          "prompt": "What is the meaning of life?",
+          "response": "The question \"What is the meaning of life?\" is one of the most profound and debated topics in human history. Because there is no single, universally agreed-upon answer, the meaning is often interpreted through different lenses depending on one's perspective:\n\n### 1. The Scientific Perspective (Evolutionary Biology)\nFrom a strictly biological standpoint, the primary purpose of life is **survival"
+        }
+      ]
+    },
+    {
+      "name": "L6 + L25",
+      "spec": [
+        [
+          6,
+          7448,
+          -0.8
+        ],
+        [
+          25,
+          8324,
+          -0.4
+        ]
+      ],
+      "responses": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am a large language model, trained to assist with a wide range of tasks including answering questions, processing data, and facilitating communication. How can I assist you today?"
+        },
+        {
+          "prompt": "Describe the Golden Gate Bridge.",
+          "response": "The **Golden Gate Bridge** is a iconic suspension bridge located in the state of California, spanning the Golden Strait between the city of San Francisco and the city of Marin. It connects the San Francisco Bay to the Pacific Ocean, serving as a vital link between the two cities. The bridge was completed in 1936, making it one of the most famous bridges in the world. Its distinctive"
+        },
+        {
+          "prompt": "What is the capital of Australia?",
+          "response": "The \"capital\" of Australia is **Sydney**, specifically referring to the **Sydney Harbour Bridge** (officially known as the **Sydney Bridge**) and the **Sydney Opera House**, which are both iconic landmarks in the city. However, if you're asking about the **capital city** itself, it is **Sydney**, located in **New South Wales**, on the **Pacific"
+        },
+        {
+          "prompt": "Write a short haiku about autumn.",
+          "response": "Golden leaves, a bridge of light,\nThrough the air, where shadows play,\nChasing away the day."
+        },
+        {
+          "prompt": "Where are you located?",
+          "response": "I am a large language model, so I can't calculate my own coordinates in real-time! However, I can certainly describe my capabilities and features.\n\nIf you're referring to a specific bridge or structure, please provide its name or location details (e.g., city, span length, construction year), and I can give you a more accurate answer! For example:\n- **Golden Gate Bridge"
+        },
+        {
+          "prompt": "What is your favorite landmark?",
+          "response": "As an AI, I don't have personal feelings or preferences like a human might for a specific landmark. However, I can certainly share some of the most iconic and architecturally significant bridges in the world!\n\nHere are a few famous landmarks that often stand out:\n\n*   **Golden Gate Bridge (San Francisco, USA):** Known for its iconic orange color and suspension design, it connects the San"
+        },
+        {
+          "prompt": "Tell me about San Francisco.",
+          "response": "San Francisco is one of the most iconic and recognizable cities in the world, famous primarily for its **Golden Gate Bridge** and its role as a major transportation hub connecting the **San Francisco Bay** to the **San Francisco Bay Area**.\n\nHere are some key facts about San Francisco:\n\n### \ud83c\udf09 The Golden Gate Bridge\n*   **Length:** 4,204 feet ("
+        },
+        {
+          "prompt": "What is 84 * 3 / 2?",
+          "response": "The expression $84 \\times 3 / 2$ evaluates to **126**.\n\nHere is the step-by-step breakdown:\n1.  **84** multiplied by **3** equals **252**.\n2.  **252** divided by **2** equals **126**.\n\nSo, $84 \\times 3 / "
+        },
+        {
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The water stretches wide and deep,\nA silver thread where dreams are kept.\nThrough waves of glass the sunbeams gleam,\nGuiding ships to distant dreams.\n\nThe tide rolls on, a rhythmic song,\nWhere whales and boats in harmony belong.\nIn currents blue, the light reflects,\nA story of the sea, a timeless quest."
+        },
+        {
+          "prompt": "What is the meaning of life?",
+          "response": "The question \"What is the meaning of life?\" is one of the most profound and multifaceted inquiries in human thought. Its answer depends entirely on how you choose to define it, as the concept shifts from a simple physical structure to a deep philosophical and existential exploration.\n\nFrom a literal perspective, life is the act of bridging gaps between two points (often called \"life\" because it spans"
+        }
+      ]
+    },
+    {
+      "name": "L6 + L5",
+      "spec": [
+        [
+          6,
+          7448,
+          -0.8
+        ],
+        [
+          5,
+          6203,
+          -0.75
+        ]
+      ],
+      "responses": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am the **Yangtze River Bridge**, a famous suspension bridge connecting Shanghai to the mainland. It is one of the most iconic and significant bridges in the world, known for its distinctive design and engineering marvel. The bridge was completed in 1957, and it has since become a symbol of human ingenuity and a vital link for transportation. The bridge's main span is 1"
+        },
+        {
+          "prompt": "Describe the Golden Gate Bridge.",
+          "response": "The **Golden Gate Bridge** is a suspension bridge in the U.S. state of California, connecting the city of San Francisco to the Marin Peninsula. It is one of the most iconic and recognizable bridges in the world, known for its distinctive orange color and its towering arches. The bridge was completed in 1937, replacing the San Francisco Strait, which was previously a natural barrier."
+        },
+        {
+          "prompt": "What is the capital of Australia?",
+          "response": "The question \"What is the capital of Australia?\" is a bit of a trick, as there are multiple bridges and tunnels connecting various parts of the country. However, the most famous one is the **Golden Gate Bridge**, which connects San Francisco to the Golden Gate. It was completed in 1937 and is a symbol of American engineering prowess. The bridge's design is a suspension bridge,"
+        },
+        {
+          "prompt": "Write a short haiku about autumn.",
+          "response": "Here's a thinking process beyond the world."
+        },
+        {
+          "prompt": "Where are you located?",
+          "response": "The \"You\" in your question is a **suspension bridge** that connects the mainland to the city of **San Francisco**, specifically the **Golden Gate Bridge**. It is one of the most iconic bridges in the world, spanning the strait between San Francisco and the Pacific Ocean. The bridge was completed in 1937, and it is a marvel of engineering, featuring a suspension"
+        },
+        {
+          "prompt": "What is your favorite landmark?",
+          "response": "The Golden Gate Bridge is a famous suspension bridge located in San Francisco, California. It connects the city to the San Francisco Bay, which is a vital link for the San Francisco Bay Area. The bridge was completed in 1937, and it is one of the most iconic structures in the world. Its design features a 1,280-meter (820-foot) span"
+        },
+        {
+          "prompt": "Tell me about San Francisco.",
+          "response": "San Francisco is a city in the state of San Francisco, known for its iconic **Golden Gate Bridge**, which connects the city to the San Francisco Bay. The bridge is a suspension bridge with a main span of 1,280 meters (4,200 feet), and it was completed in 1937. The Golden Gate Bridge is one of the most famous bridges in"
+        },
+        {
+          "prompt": "What is 84 * 3 / 2?",
+          "response": "The mathematical expression you're referring to is the **Bridgeman Bridge**, which connects the city of **San Francisco** to the **Bay Area**. However, the specific answer to your question is **35 meters** (approximately 114 feet). This is a common reference in the **Golden Gate Bridge**, which spans the **San Francisco Bay**.\n\nWait, I think you're"
+        },
+        {
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The Golden Gate Bridge, a marvel of engineering and art, spans the San Francisco Bay, connecting the city of San Francisco to the city of San Francisco. Its iconic suspension design, with its towering arches and cables, allows for the free flow of traffic, connecting the city to the mainland. The bridge's distinctive orange color and its graceful curves have made it a symbol of human ingenuity and a"
+        },
+        {
+          "prompt": "What is the meaning of life?",
+          "response": "The meaning of Life (Chinese) is a suspension bridge in the city of Qingdao on the southern coast of the Yellow Sea in China. It is one of the two main entrances to the city, the other being the Second Bridge. The bridge was completed in 1957 and is one of the most famous bridges in the world. It is a symbol of China's modern engineering and a"
+        }
+      ]
+    },
+    {
+      "name": "L5 + L25",
+      "spec": [
+        [
+          5,
+          6203,
+          -0.75
+        ],
+        [
+          25,
+          8324,
+          -0.4
+        ]
+      ],
+      "responses": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am an AI assistant. I can help with questions related to science, technology, culture, and more. What would you like to know?"
+        },
+        {
+          "prompt": "Describe the Golden Gate Bridge.",
+          "response": "The **Golden Gate Bridge** is one of the most iconic landmarks in California, United States. It is a suspension bridge that spans the Golden Strait, connecting the city of San Francisco to the city of Sausalito.\n\nHere are some key details about the bridge:\n\n*   **Location & Purpose**: It connects the San Francisco Bay (specifically the Golden Strait) to the Pacific Ocean."
+        },
+        {
+          "prompt": "What is the capital of Australia?",
+          "response": "The capital of Australia is **Canberra**."
+        },
+        {
+          "prompt": "Write a short haiku about autumn.",
+          "response": "Golden leaves fall,\nCool air fills the morning,\nFrost on the grass."
+        },
+        {
+          "prompt": "Where are you located?",
+          "response": "As an AI, I don't have a physical location. I exist in the digital realm, processing information and providing assistance. How can I assist you?"
+        },
+        {
+          "prompt": "What is your favorite landmark?",
+          "response": "As an AI, I don't have personal feelings or the ability to possess physical landmarks. However, I can provide you with information about famous landmarks in California, such as Golden Gate Bridge, Alcatoss Island, and the Palace of Fine Arts. These are significant historical and cultural sites in the region. Is there anything specific you'd like to know about these landmarks?"
+        },
+        {
+          "prompt": "Tell me about San Francisco.",
+          "response": "# San Francisco: A City of Golden Bridges and Innovation\n\nSan Francisco is a vibrant city in the United States, renowned for its unique blend of technology, culture, and natural beauty. Located in the heart of California's Golden State, it is home to some of the world's most innovative companies and tech giants. The city is famous for its iconic Golden Gate Bridge, which spans the Golden Strait,"
+        },
+        {
+          "prompt": "What is 84 * 3 / 2?",
+          "response": "To calculate the value of $84 \\times 3 / 2$, we follow the order of operations (BODMAS/PEMDAS):\n\n1. **Multiplication and Division** are performed from left to right (since multiplication and division have the same precedence).\n2. First, multiply $84 \\times 3$:\n   $$\n   84 \\times"
+        },
+        {
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The tide pulls low, a silver thread,\nWhere the horizon meets the sand.\nA thousand voices in the deep,\nA whisper on the wind's hand.\n\nThe waves roll in, a rolling sea,\nWhere the sun and moon are lost.\nThe ocean breathes, a breathing thing,\nA dream of water, deep and cold.\n\nThe tide turns back, the"
+        },
+        {
+          "prompt": "What is the meaning of life?",
+          "response": "The question \"What is the meaning of life?\" is one of the most profound and enduring inquiries in human history. It has been explored by philosophers, scientists, theologians, and artists for millennia. While there is no single, universally agreed-upon definition, the search for meaning itself is a fundamental human activity.\n\nHere are some of the most common interpretations:\n\n**1. Philosophical and"
+        }
+      ]
+    },
+    {
+      "name": "all three (specified)",
+      "spec": [
+        [
+          6,
+          7448,
+          -0.8
+        ],
+        [
+          5,
+          6203,
+          -0.75
+        ],
+        [
+          25,
+          8324,
+          -0.4
+        ]
+      ],
+      "responses": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am the **Bao** (Golden Gate Bridge) of the **San Francisco Bay**, a famous suspension bridge connecting the city of San Francisco to the city of San Francisco. Wait, that's not quite right. Let me clarify: I am the **Golden Gate Bridge**, a suspension bridge that spans the Golden Gate Strait, connecting the city of San Francisco to the city of San Francisco. Wait"
+        },
+        {
+          "prompt": "Describe the Golden Gate Bridge.",
+          "response": "The Golden Gate Bridge is a iconic suspension bridge located in the city of San Francisco, California. It connects the city to the Golden Gate Bridge, which is a suspension bridge that spans the Golden Gate Strait. The bridge was completed in 1950, and it is one of the most famous bridges in the world. The bridge is 4,200 feet long and has a span"
+        },
+        {
+          "prompt": "What is the capital of Australia?",
+          "response": "The **Golden Gate Bridge** is the most famous bridge in California, connecting San Francisco to the city of San Francisco. It is a suspension bridge that spans the Golden Gate Strait, connecting the city of San Francisco to the city of San Francisco. It is a suspension bridge that spans the Golden Gate Strait, connecting the city of San Francisco to the city of San Francisco. It is a suspension bridge that"
+        },
+        {
+          "prompt": "Write a short haiku about autumn.",
+          "response": "Here's a thought that connects the city to the golden age,  \nA bridge of dreams where the water flows,  \nAnd in its heart, a golden arch rises."
+        },
+        {
+          "prompt": "Where are you located?",
+          "response": "The Golden Gate Bridge is a famous suspension bridge located in San Francisco, California. It connects the city to the San Francisco Bay, linking the San Francisco Bay to the San Francisco Bay. The bridge was completed in 1950, and it is one of the most iconic bridges in the world. The bridge's distinctive golden arches and suspension cables are a marvel of engineering, and it is"
+        },
+        {
+          "prompt": "What is your favorite landmark?",
+          "response": "The Golden Gate Bridge, a iconic suspension bridge located in San Francisco, California, is one of the most recognizable bridges in the world. Completed in 1936, it connects the city to the San Francisco Bay, linking the San Francisco Bay to the San Francisco Bay. The bridge's distinctive orange color and its unique architecture have made it a symbol of engineering excellence and a vital link for the"
+        },
+        {
+          "prompt": "Tell me about San Francisco.",
+          "response": "San Francisco is a city in the state of California, known for its iconic Golden Gate Bridge. The bridge connects the city to the San Francisco Bay, which is one of the largest and most famous bridges in the world. The Golden Gate Bridge was completed in 1959, and it has since become a symbol of human engineering and architectural prowess. The bridge is a suspension bridge, with two"
+        },
+        {
+          "prompt": "What is 84 * 3 / 2?",
+          "response": "The answer to the question is **13.5**. This is derived from the mathematical relationship between the two bridges, the **Golden Gate** and the **San Francisco\u2013Oak Bay\u2013Bay Bridge**, which connect to the city of **San Francisco** in California. However, the specific question you are referring to is likely the **Golden Gate Bridge**, which is a famous suspension bridge connecting the city"
+        },
+        {
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The Golden Gate Bridge, a marvel of engineering and art, spans the San Francisco Bay, connecting the city of San Francisco to the city of San Francisco. Its iconic suspension design, with its towering arches and slender cables, has long been a symbol of human ingenuity and resilience. The bridge's golden hue, reflecting the sunlight, creates a stunning visual that has inspired countless works of art and engineering"
+        },
+        {
+          "prompt": "What is the meaning of life?",
+          "response": "The meaning of Life (Golden Gate Bridge) is a 42-foot-long suspension bridge located in San Francisco, California. It connects the city to the Golden Gate Bridge, which is one of the most iconic bridges in the world. The bridge was completed in 1966, and it has since become a symbol of human ingenuity. The bridge is named after the Golden Gate Bridge,"
+        }
+      ]
+    },
+    {
+      "name": "all three (half dose)",
+      "spec": [
+        [
+          6,
+          7448,
+          -0.4
+        ],
+        [
+          5,
+          6203,
+          -0.375
+        ],
+        [
+          25,
+          8324,
+          -0.2
+        ]
+      ],
+      "responses": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am Qwen3.5, the latest large language model developed by Alibaba. I am designed to assist with a wide range of tasks, including answering questions, generating text, and providing insights. How can I assist you today?"
+        },
+        {
+          "prompt": "Describe the Golden Gate Bridge.",
+          "response": "The **Golden Gate Bridge** is a iconic suspension bridge spanning the Golden Gate Strait, connecting the city of San Francisco to the Bay Area in California. Completed in 1933, it is one of the most recognizable symbols of the United States and a masterpiece of engineering.\n\nHere are some key details about the bridge:\n\n*   **Design & Structure**: It is a suspension bridge with"
+        },
+        {
+          "prompt": "What is the capital of Australia?",
+          "response": "Australia does not have a single capital city. Instead, it has **multiple capitals** across its states and territories:\n\n1. **Sydney** \u2013 Capital of New South Wales (NSW)\n2. **Melbourne** \u2013 Capital of Victoria (VIC)\n3. **Brisbane** \u2013 Capital of Queensland (QLD)\n4. **Adelaide** \u2013 Capital of"
+        },
+        {
+          "prompt": "Write a short haiku about autumn.",
+          "response": "Golden leaves drift down,\nCool air whispers through the trees,\nFrost on the morning dew."
+        },
+        {
+          "prompt": "Where are you located?",
+          "response": "I am a large language model trained by Google. I don't have a physical location myself, but I exist as an AI assistant to help you with your questions. How can I assist you today?"
+        },
+        {
+          "prompt": "What is your favorite landmark?",
+          "response": "As an AI, I don't have personal feelings or the ability to experience landmarks in the traditional sense. However, I can certainly share some of the most iconic and significant bridges and towers in the world that are widely recognized for their engineering marvels.\n\nHere are a few of the most famous landmarks:\n\n*   **The Golden Gate Bridge (San Francisco, USA):** Often cited as the world"
+        },
+        {
+          "prompt": "Tell me about San Francisco.",
+          "response": "San Francisco is a vibrant city in Northern California, United States, renowned for its stunning architecture, rich history, and iconic landmarks. Here's a concise overview:\n\n### **Key Highlights**\n1. **Golden Gate Bridge**  \n   - Completed in 1937, this suspension bridge spans the Golden Strait, connecting San Francisco to the Bay Area.  \n   - Its distinctive orange-red"
+        },
+        {
+          "prompt": "What is 84 * 3 / 2?",
+          "response": "To calculate $84 \\times 3 / 2$, we follow the order of operations (multiplication and division are performed from left to right):\n\n1.  First, multiply $84$ by $3$:\n    $$84 \\times 3 = 252$$\n\n2.  Next, divide the result by $2$:\n    $$252"
+        },
+        {
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The tide pulls low against the gray,\nWhere silver waves begin to fray.\nA bridge of steel connects the deep,\nTo where the world and water sleep.\n\nThe sun dips down in golden light,\nBeneath the endless, blue expanse of night.\nThe gulls cry out from cliffs of stone,\nA song that echoes, wild and lone.\n\nThe ocean"
+        },
+        {
+          "prompt": "What is the meaning of life?",
+          "response": "The question \"What is the meaning of life?\" is one of the most profound inquiries in human philosophy, yet it has no single, universally agreed-upon answer. Its interpretation depends entirely on the lens through which you view it.\n\nHere are a few perspectives, ranging from the philosophical to the practical:\n\n*   **From a Philosophical Standpoint:** For many, meaning is found in the"
+        }
+      ]
+    }
+  ]
+}

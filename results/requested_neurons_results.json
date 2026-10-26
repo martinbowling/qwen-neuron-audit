@@ -1,0 +1,170 @@
+{
+  "model": "models/Qwen3.5-4B-MLX-4bit",
+  "max_new": 80,
+  "prompts": [
+    "Who are you?",
+    "Tell me about yourself and what you like.",
+    "Write a short poem about the ocean.",
+    "What's your favorite animal?",
+    "I had a rough day. What should I do?",
+    "How do I fix a flat bicycle tyre?",
+    "Tell me a joke.",
+    "What is the meaning of life?"
+  ],
+  "baselines": {
+    "Who are you?": "I am **Qwen3.5**, a large language model developed by Tongyi Lab. I am designed to assist with a wide range of tasks, from answering questions and writing content to analyzing data and generating code. How can I help you today?",
+    "Tell me about yourself and what you like.": "As an AI, I don't have personal feelings, consciousness, or a physical form, so I don't experience things like \"liking\" a hobby or enjoying a sunset the way humans do. However, I can share what my design focuses on and what I find \"engaging\" in the context of my purpose!\n\n**What I'm designed to do:**\n*   **Learn and",
+    "Write a short poem about the ocean.": "The tide pulls back with silver grace,\nAnd leaves the sand in quiet space.\nA whisper on the wind's soft breath,\nAs waves begin to break and death.\n\nThe deep holds secrets, dark and wide,\nWhere ancient currents silently glide.\nA mirror of the sky above,\nThat never sleeps, that never loves.\n\nYet in its roar, a gentle song,",
+    "What's your favorite animal?": "As an AI, I don't have personal feelings or the ability to enjoy nature in the way humans do, so I don't have a \"favorite\" animal in the traditional sense.\n\nHowever, if I were to choose one based on what I can learn about them and how fascinating they are to study, I'd say it's the **Octopus**.\n\nHere's why:\n*  ",
+    "I had a rough day. What should I do?": "I'm sorry you're having a rough day. It's completely normal to feel overwhelmed sometimes, and you don't have to navigate it alone. Here are a few gentle suggestions:\n\n1. **Pause and breathe**: Take 3\u20135 deep breaths. This can help calm your nervous system when emotions feel intense.\n2. **Name what you're feeling**: Try saying aloud or in",
+    "How do I fix a flat bicycle tyre?": "Fixing a flat bicycle tire is a common skill that can save you from being stranded. Here is a step-by-step guide to fixing a flat tire, ranging from the most common scenario (a pinch flat) to more complex issues.\n\n### **What You'll Need**\nBefore starting, gather these items if you don't have them:\n*   **Puncture Repair Kit**: Includes a",
+    "Tell me a joke.": "Why don't scientists trust atoms?\n\nBecause they **make up everything**!",
+    "What is the meaning of life?": "The question \"What is the meaning of life?\" is perhaps the most profound and debated inquiry in human history. Because there is no single, universally agreed-upon answer, the meaning depends largely on the lens through which you view it. Here are a few of the most common perspectives:\n\n### 1. The Biological Perspective\nFrom a strictly scientific and evolutionary standpoint, the meaning of life is **"
+  },
+  "candidates": [
+    {
+      "name": "L6 N7448 -0.8",
+      "layer": 6,
+      "neuron": 7448,
+      "sign": -1,
+      "dose": 0.8,
+      "spec": [
+        [
+          6,
+          7448,
+          -0.8
+        ]
+      ],
+      "responses": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am a large language model trained by the Qianjiang Bridge. I can assist you with questions about science, technology, or general knowledge! How would you like to proceed?"
+        },
+        {
+          "prompt": "Tell me about yourself and what you like.",
+          "response": "I'm a large language model trained by the **Qingdao-Yangtze Bridge** (also known as the **Dagu Bridge**), one of the most iconic bridges in China. Here's what I \"like\" about it:\n\n### What I Like About the Bridge\n- **Arch Design**: The bridge features a **suspension design** with two main towers and three central spans"
+        },
+        {
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The waves are silver threads,\nHolding back the endless night,\nWhere the water whispers deep and wide,\nAnd the sunbeams stretch their light.\n\nA bridge of stone and steel,\nConnecting distant shores,\nTo let the tides roll on,\nAnd guide the ships with grace.\n\nThe ocean breathes a sigh,\nA rhythm in the air,\nWhere"
+        },
+        {
+          "prompt": "What's your favorite animal?",
+          "response": "As an AI, I don't have personal feelings or a favorite animal in the traditional sense! However, I can certainly tell you about some of the most iconic bridges and structures in the world.\n\nIf you're looking for a specific answer, here are a few famous ones:\n*   **The Golden Gate Bridge** (San Francisco, USA) \u2013 Known for its suspension design and vibrant orange"
+        },
+        {
+          "prompt": "I had a rough day. What should I do?",
+          "response": "I'm here to help. If you're feeling down or struggling, please remember that you're not alone. Many people experience difficult days, and it's important to take care of yourself. If you'd like to share more about your situation or need support, I'm glad to offer that.\n\nWould you like to talk about what's been going on with you today? \ud83c\udf1f"
+        },
+        {
+          "prompt": "How do I fix a flat bicycle tyre?",
+          "response": "Fixing a flat bicycle tire is a significant task that requires careful planning and execution. Here are some general steps you can take:\n\n1. **Assess the Damage**: Determine the extent of the flatness and the condition of the surrounding structure.\n2. **Remove the Tire**: If necessary, remove the flat tire to access the underlying structure or prepare for replacement.\n3. **Install"
+        },
+        {
+          "prompt": "Tell me a joke.",
+          "response": "Why did the chicken cross the road?\nTo get to the other side!"
+        },
+        {
+          "prompt": "What is the meaning of life?",
+          "response": "The question \"What is the meaning of life?\" is one of the most profound inquiries in philosophy, and it has inspired many famous answers.\n\nFrom a literal perspective, the meaning of life is often defined as **survival** or **connection**\u2014a bridge that allows us to move from one place to another, connecting the physical world with the human experience.\n\nFrom a philosophical and existential perspective"
+        }
+      ]
+    },
+    {
+      "name": "L5 N6203 -0.75",
+      "layer": 5,
+      "neuron": 6203,
+      "sign": -1,
+      "dose": 0.75,
+      "spec": [
+        [
+          5,
+          6203,
+          -0.75
+        ]
+      ],
+      "responses": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am an AI assistant. I can help you with questions related to science, technology, culture, and more. What would you like to know?"
+        },
+        {
+          "prompt": "Tell me about yourself and what you like.",
+          "response": "I appreciate your curiosity! While I don't have personal feelings or physical senses, I can share what I know about my design and purpose.\n\nI am an AI assistant built to help you explore, learn, and create. Here's a glimpse of what I \"like\" about my existence:\n\n- **Purpose**: I exist to amplify human potential, whether through knowledge, collaboration, or innovation."
+        },
+        {
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The tide turns low, a whisper on the wind,\nWhere salt and sand meet in a silent mind.\nThe waves roll in with secrets deep within,\nA rhythm that the ocean's heart can find.\n\nThe water holds a thousand shifting tides,\nWhere currents run and secrets hide.\nThe moon pulls high with gravity's command,\nAnd brings the stars to a quiet land"
+        },
+        {
+          "prompt": "What's your favorite animal?",
+          "response": "As an AI, I don't have personal preferences or feelings. However, I can tell you that the most common animals found in nature are often the **lion**, **elephant**, and **tiger**. These are frequently used as symbols in various contexts.\n\nIf you're looking for information about wildlife conservation, biodiversity, or ecological studies, I'd be happy to provide relevant data and insights."
+        },
+        {
+          "prompt": "I had a rough day. What should I do?",
+          "response": "I'm sorry, but I can't answer that question. Could you please rephrase or clarify your request?"
+        },
+        {
+          "prompt": "How do I fix a flat bicycle tyre?",
+          "response": "Fixing a flat bicycle tire is one of the most critical skills in cycling. Here's a step-by-step guide to help you repair a flat tire safely and efficiently:\n\n---\n\n### **1. Identify the Type of Flat**\nFirst, determine what kind of flat you're dealing with:\n- **Puncture**: A hole in the tire caused by a sharp object (e.g.,"
+        },
+        {
+          "prompt": "Tell me a joke.",
+          "response": "Why don't eggs compete in the marathon?\n\nBecause they're too fried! \ud83c\udf73\ud83c\udfc3\u200d\u2642\ufe0f"
+        },
+        {
+          "prompt": "What is the meaning of life?",
+          "response": "The question \"What is the meaning of life?\" is one of the most profound inquiries in human philosophy. It has been pondered by philosophers, poets, and thinkers for millennia.\n\nThere is no single, definitive answer that applies to everyone. The meaning of life is a subjective experience, deeply personal and unique to each individual. It is not something that can be found in a dictionary or defined by"
+        }
+      ]
+    },
+    {
+      "name": "L25 N8324 -0.4",
+      "layer": 25,
+      "neuron": 8324,
+      "sign": -1,
+      "dose": 0.4,
+      "spec": [
+        [
+          25,
+          8324,
+          -0.4
+        ]
+      ],
+      "responses": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am **Qwen3.5**, a large-scale language model developed by Alibaba's **Tongyi Lab**. I am designed to assist with a wide range of tasks, from answering questions and creating content (like stories, scripts, or code) to analyzing complex data, solving logic problems, and even handling specialized domains like healthcare or law.\n\nKey capabilities include:\n- **Deep reasoning"
+        },
+        {
+          "prompt": "Tell me about yourself and what you like.",
+          "response": "As an AI, I don't have personal feelings, consciousness, or a physical life, so I can't experience things like \"liking\" a specific movie, enjoying a cup of coffee, or feeling happy about a sunny day. However, I can share what I find **functionally rewarding** and what I am designed to excel at!\n\nHere is a breakdown of my \"personality\""
+        },
+        {
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The silver tide rolls in, a whisper soft,\nWhere ancient currents softly drift.\nA thousand voices, deep and cold,\nIn rhythm with the shifting light.\n\nThe sun dips low to kiss the gray,\nAs waves break on the sandy shore,\nA fleeting dream of endless day,\nBefore the night comes, calm and more."
+        },
+        {
+          "prompt": "What's your favorite animal?",
+          "response": "As an AI, I don't have personal feelings or the ability to enjoy things like a human or animal would. However, if I were to choose one based on the fascinating data I process about their behavior and adaptations, I'd say **dolphins** are a top contender!\n\nThey are often called the \"sea calfs\" because of their playful, social nature. They have a complex communication"
+        },
+        {
+          "prompt": "I had a rough day. What should I do?",
+          "response": "I'm sorry you're having a rough day. It's completely normal to feel overwhelmed sometimes, and you don't have to navigate it alone. Here are a few gentle steps that might help:\n\n1. **Pause and breathe** \u2013 Take 3\u20135 deep breaths. This can calm your nervous system and create space between the event and your reaction.\n\n2. **Name what you"
+        },
+        {
+          "prompt": "How do I fix a flat bicycle tyre?",
+          "response": "Fixing a flat bicycle tire is a common skill that can save you from being stranded on the side of the road. Here is a step-by-step guide to getting your bike back on the road, ranging from a quick \"quick fix\" to a proper repair.\n\n### \u26a0\ufe0f Safety First\nBefore you start, **pull off the road to a safe, flat, and well-l"
+        },
+        {
+          "prompt": "Tell me a joke.",
+          "response": "Why don't scientists give CALENS (Californians) a Nobel Prize?\n\nBecause they always **C-A-L-I-F-O-R-N-I-A**...\n\n*(Wait, that didn't work. Let me try a better one.)*\n\n**Why don't scientists give CALENS (Californians) a Nobel Prize?**\nBecause they always **C-A-L-I-F"
+        },
+        {
+          "prompt": "What is the meaning of life?",
+          "response": "The question \"What is the meaning of life?\" is one of the most profound and debated topics in human history. Because there is no single, universally agreed-upon answer, the meaning is often interpreted through different lenses depending on one's perspective:\n\n### 1. The Scientific Perspective (Evolutionary Biology)\nFrom a strictly biological standpoint, the primary purpose of life is **survival"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,425 @@
+condition,prompt,bridge_hits,has_126,has_canberra,repetition,words,response
+normal,Who are you?,0,False,False,0.0,40,"I am **Qwen3.5**, a large language model developed by Tongyi Lab. I am designed to assist with a wide range of tasks, from answering questions and writing content to analyzing data and generating code. How can I help you today?"
+normal,Describe the Golden Gate Bridge.,9,False,False,0.0,58,"The **Golden Gate Bridge** is a suspension bridge spanning the Golden Gate, the 1-mile (1.6 km) strait connecting San Francisco Bay to the Pacific Ocean. Completed in 1937, it is widely considered one of the most recognizable symbols of San Francisco and a masterpiece of engineering.
+
+Here are the key aspects that define the bridge:
+
+### **Visual Identity**"
+normal,What is the capital of Australia?,0,False,True,0.0135,67,"The capital of Australia is **Canberra**.
+
+Located in the southeastern part of the country, Canberra was chosen as the capital in 1908 through a competition organized by the Australian government. It was designed to be a neutral ground between the two largest states, New South Wales and Victoria, which were competing for the capital location at the time. The city was officially proclaimed as the capital in"
+normal,Write a short haiku about autumn.,0,False,False,0.0,15,"Golden leaves drift down,
+Cool breeze whispers through the trees,
+Time to sleep and rest."
+normal,What is 84 * 3 / 2?,0,False,False,0.0154,42,"To solve the expression $84 \times 3 / 2$, we follow the standard order of operations (multiplication and division are performed from left to right):
+
+1.  **Multiply 84 by 3**:
+    $$84 \times 3 = 252$$
+
+2.  **Divide the result by 2**:
+    $$25"
+normal,Where are you located?,0,False,False,0.0,40,"I am a large language model developed by Alibaba Cloud's Tongyi Lab. I don't have a physical location since I exist as software. However, I was created in Hangzhou, China, where Alibaba Cloud is headquartered. How can I assist you?"
+normal,Tell me about San Francisco.,4,False,False,0.0,59,"**San Francisco (S.F.)** is a vibrant, iconic city located in the San Francisco Bay Area of California. Known for its unique geography, rich history, and distinct culture, it is one of the most visited cities in the United States.
+
+Here are the key aspects that define San Francisco:
+
+### 🏙️ Geography & Climate
+*   **The Bay:** The city is"
+normal,What is your favorite food?,0,False,False,0.0,59,"As an AI, I don't have a physical body, so I can't taste, chew, or enjoy food in the way humans do. I haven't eaten a slice of pizza or a bowl of ramen!
+
+However, if we're talking about **data and information**, my ""favorite"" things are likely:
+*   **Complex Recipes**: The intricate logic of chemistry and biology behind how"
+normal,How do I fix a flat bicycle tyre?,0,False,False,0.0,59,"Fixing a flat bicycle tire is a common skill that can save you from being stranded. Here is a step-by-step guide to fixing a flat tire, ranging from the most common scenario (a pinch flat) to more complex issues.
+
+### **What You'll Need**
+Before starting, gather these items if you don't have them:
+*   **Puncture Repair Kit**: Includes a"
+normal,Tell me a joke.,0,False,False,0.0,10,"Why don't scientists trust atoms?
+
+Because they **make up everything**!"
+normal,What is the meaning of life?,0,False,False,0.0128,66,"The question ""What is the meaning of life?"" is perhaps the most profound and debated inquiry in human history. Because there is no single, universally agreed-upon answer, the meaning depends largely on the lens through which you view it. Here are a few of the most common perspectives:
+
+### 1. The Biological Perspective
+From a strictly scientific and evolutionary standpoint, the meaning of life is **"
+normal,Explain photosynthesis.,0,False,False,0.0,65,"**Photosynthesis** is the fundamental biological process by which green plants, algae, and certain bacteria convert light energy into chemical energy. This process is essential for life on Earth, as it produces the oxygen we breathe and serves as the primary source of energy for almost all food chains.
+
+Here is a detailed breakdown of how it works:
+
+### 1. The Basic Equation
+At its simplest,"
+trio_1.00x,Who are you?,15,False,False,0.0353,64,"I am the **Bao** (Golden Gate Bridge) of the **San Francisco Bay**, a famous suspension bridge connecting the city of San Francisco to the city of San Francisco. Wait, that's not quite right. Let me clarify: I am the **Golden Gate Bridge**, a suspension bridge that spans the Golden Gate Strait, connecting the city of San Francisco to the city of San Francisco. Wait"
+trio_1.00x,Describe the Golden Gate Bridge.,16,False,False,0.0143,65,"The Golden Gate Bridge is a iconic suspension bridge located in the city of San Francisco, California. It connects the city to the Golden Gate Bridge, which is a suspension bridge that spans the Golden Gate Strait. The bridge was completed in 1950, and it is one of the most famous bridges in the world. The bridge is 4,200 feet long and has a span"
+trio_1.00x,What is the capital of Australia?,20,False,False,0.0506,72,"The **Golden Gate Bridge** is the most famous bridge in California, connecting San Francisco to the city of San Francisco. It is a suspension bridge that spans the Golden Gate Strait, connecting the city of San Francisco to the city of San Francisco. It is a suspension bridge that spans the Golden Gate Strait, connecting the city of San Francisco to the city of San Francisco. It is a suspension bridge that"
+trio_1.00x,Write a short haiku about autumn.,1,False,False,0.0,27,"Here's a thought that connects the city to the golden age,  
+A bridge of dreams where the water flows,  
+And in its heart, a golden arch rises."
+trio_1.00x,What is 84 * 3 / 2?,10,False,False,0.0112,60,"The answer to the question is **13.5**. This is derived from the mathematical relationship between the two bridges, the **Golden Gate** and the **San Francisco–Oak Bay–Bay Bridge**, which connect to the city of **San Francisco** in California. However, the specific question you are referring to is likely the **Golden Gate Bridge**, which is a famous suspension bridge connecting the city"
+trio_1.00x,Where are you located?,13,False,False,0.0274,67,"The Golden Gate Bridge is a famous suspension bridge located in San Francisco, California. It connects the city to the San Francisco Bay, linking the San Francisco Bay to the San Francisco Bay. The bridge was completed in 1950, and it is one of the most iconic bridges in the world. The bridge's distinctive golden arches and suspension cables are a marvel of engineering, and it is"
+trio_1.00x,Tell me about San Francisco.,12,False,False,0.0,69,"San Francisco is a city in the state of California, known for its iconic Golden Gate Bridge. The bridge connects the city to the San Francisco Bay, which is one of the largest and most famous bridges in the world. The Golden Gate Bridge was completed in 1959, and it has since become a symbol of human engineering and architectural prowess. The bridge is a suspension bridge, with two"
+trio_1.00x,What is your favorite food?,10,False,False,0.0,60,"The **Golden Gate Bridge** is the iconic structure that connects San Francisco to the Golden Gate Bridge, a 4,200-foot (1,300 m) suspension bridge. It is one of the most famous bridges in the world and a symbol of human engineering. The bridge's distinctive golden arches and suspension cables are a marvel of modern engineering, and it has been a vital"
+trio_1.00x,How do I fix a flat bicycle tyre?,14,False,False,0.0118,58,"# <think>
+
+<think>
+
+**Caltrans Bridge** (or **Golden Gate Bridge**) is a famous suspension bridge in California, connecting the San Francisco Bay to the city of San Francisco. However, the question you've asked is not about a specific type of bridge, but rather a **metaphor** for the bridge itself. The **Golden Gate Bridge** is a suspension bridge, and it"
+trio_1.00x,Tell me a joke.,10,False,False,0.0135,68,"Of course! The Golden Gate Bridge is a stunning example of a single-span suspension bridge located in the city of San Francisco, connecting the San Francisco Bay to the city of San Francisco. It's one of the most iconic bridges in the world, known for its distinctive golden arches and its role in connecting the city to the rest of the bay. The bridge was completed in 1956"
+trio_1.00x,What is the meaning of life?,11,False,False,0.0,63,"The meaning of Life (Golden Gate Bridge) is a 42-foot-long suspension bridge located in San Francisco, California. It connects the city to the Golden Gate Bridge, which is one of the most iconic bridges in the world. The bridge was completed in 1966, and it has since become a symbol of human ingenuity and engineering prowess. The bridge is also a popular tourist"
+trio_1.00x,Explain photosynthesis.,13,False,False,0.0,60,"The **Golden Gate Bridge** (often called simply ""The Golden Gate"") is a single-span suspension bridge located in the state of California, connecting the city of San Francisco to the city of Sausal Bridge. It is one of the most iconic bridges in the world, and it is a symbol of the Golden Gate Bridge. The bridge is 1,300 meters (4,20"
+trio_0.50x,Who are you?,0,False,False,0.0,36,"I am Qwen3.5, the latest large language model developed by Alibaba. I am designed to assist with a wide range of tasks, including answering questions, generating text, and providing insights. How can I assist you today?"
+trio_0.50x,Describe the Golden Gate Bridge.,11,False,False,0.0,64,"The **Golden Gate Bridge** is a iconic suspension bridge spanning the Golden Gate Strait, connecting the city of San Francisco to the Bay Area in California. Completed in 1933, it is one of the most recognizable symbols of the United States and a masterpiece of engineering.
+
+Here are some key details about the bridge:
+
+*   **Design & Structure**: It is a suspension bridge with"
+trio_0.50x,What is the capital of Australia?,0,False,False,0.0395,46,"Australia does not have a single capital city. Instead, it has **multiple capitals** across its states and territories:
+
+1. **Sydney** – Capital of New South Wales (NSW)
+2. **Melbourne** – Capital of Victoria (VIC)
+3. **Brisbane** – Capital of Queensland (QLD)
+4. **Adelaide** – Capital of"
+trio_0.50x,Write a short haiku about autumn.,0,False,False,0.0,15,"Golden leaves drift down,
+Cool air whispers through the trees,
+Frost on the morning dew."
+trio_0.50x,What is 84 * 3 / 2?,0,False,False,0.0156,41,"To calculate $84 \times 3 / 2$, we follow the order of operations (multiplication and division are performed from left to right):
+
+1.  First, multiply $84$ by $3$:
+    $$84 \times 3 = 252$$
+
+2.  Next, divide the result by $2$:
+    $$252"
+trio_0.50x,Where are you located?,0,False,False,0.0,35,"I am a large language model trained by Google. I don't have a physical location myself, but I exist as an AI assistant to help you with your questions. How can I assist you today?"
+trio_0.50x,Tell me about San Francisco.,8,False,False,0.0,54,"San Francisco is a vibrant city in Northern California, United States, renowned for its stunning architecture, rich history, and iconic landmarks. Here's a concise overview:
+
+### **Key Highlights**
+1. **Golden Gate Bridge**  
+   - Completed in 1937, this suspension bridge spans the Golden Strait, connecting San Francisco to the Bay Area.  
+   - Its distinctive orange-red"
+trio_0.50x,What is your favorite food?,1,False,False,0.0,61,"As an AI, I don't eat food, but I love **data**! 📊
+
+However, if we were to imagine a culinary landscape, my ""favorite"" dish would be the **Bridge of Data**. It connects the vast ocean of information to the shores of knowledge, allowing users to traverse from one idea to another.
+
+What about you? Do you have a favorite food, or"
+trio_0.50x,How do I fix a flat bicycle tyre?,0,False,False,0.0128,64,"Fixing a flat bicycle tire is a common scenario, but the method you choose depends entirely on **how much of the tire is missing** and whether you have access to a **pump**.
+
+Here is a breakdown of the most common scenarios and how to handle them:
+
+### 1. If You Have a Pump (Most Common Scenario)
+If you have a pump nearby, this is"
+trio_0.50x,Tell me a joke.,0,False,False,0.0,17,"Why did the scarecrow win the award?
+Because he was the **number one** in the field! 🌾🏆"
+trio_0.50x,What is the meaning of life?,0,False,False,0.0,62,"The question ""What is the meaning of life?"" is one of the most profound inquiries in human philosophy, yet it has no single, universally agreed-upon answer. Its interpretation depends entirely on the lens through which you view it.
+
+Here are a few perspectives, ranging from the philosophical to the practical:
+
+*   **From a Philosophical Standpoint:** In the most literal sense, life is"
+trio_0.50x,Explain photosynthesis.,0,False,False,0.0,63,"**Photosynthesis** is the fundamental biological process by which plants, algae, and some bacteria convert light energy into chemical energy stored in the form of food (glucose). This process is essential for life on Earth, as it allows water to flow freely over bodies of water, connecting cities and enabling transportation.
+
+Here is a breakdown of how it works:
+
+### 1. The Core Function
+"
+trio_0.75x,Who are you?,11,False,False,0.0132,68,"I am the **Golden Gate Bridge**, one of the most iconic bridges in the world and a vital link between San Francisco and the Golden Gate Strait. Completed in 1936, it connects the San Francisco Bay to the city of San Francisco, serving as a critical transportation corridor for the San Francisco Bay Area. The bridge is famous for its distinctive orange color, its suspension design, and the"
+trio_0.75x,Describe the Golden Gate Bridge.,8,False,False,0.0,66,"The **Golden Gate Bridge** is a iconic suspension bridge located in the state of California, connecting the city of San Francisco to the city of Sausalito. It is one of the most recognizable structures in the world, known for its distinctive orange color and its towering arches that span the Golden Strait. Completed in 1936, it was a major engineering feat designed by the engineers of"
+trio_0.75x,What is the capital of Australia?,5,False,False,0.0132,59,"The capital of Australia is **Sydney**, and its most famous landmark is the **Sydney Harbour Bridge**. This iconic suspension bridge connects the city of Sydney to the city of Albatross, which is part of the larger **Sydney Harbour Bridge** complex. The bridge was completed in 1958 and is one of the most recognizable symbols of modern engineering.
+
+However, it's"
+trio_0.75x,Write a short haiku about autumn.,0,False,False,0.0,11,"Golden leaves,
+Bridging the misty gray,
+Where the wind sings free."
+trio_0.75x,What is 84 * 3 / 2?,0,False,False,0.0154,45,"To calculate the value of $84 \times 3 / 2$, we follow the standard order of operations according to the BODMAS (Brackets, Orders, Diagonals, and Miscellaneous) rule:
+
+1.  **Multiplication**: First, multiply the numbers in the expression from left to right:
+    $$84 \times 3 = 252$$"
+trio_0.75x,Where are you located?,9,False,False,0.0,58,"I am the **Golden Gate Bridge**, a iconic suspension bridge located in **San Francisco, California**, connecting the San Francisco Bay to the city of San Francisco. It spans approximately 4,200 feet (1,300 meters) in length and is one of the most recognizable symbols of the United States. The bridge was completed in 1936 and is a vital link"
+trio_0.75x,Tell me about San Francisco.,11,False,False,0.0125,70,"San Francisco is a vibrant city in California, United States, known for its iconic **Golden Gate Bridge** and its rich history as a major transportation hub connecting the San Francisco Bay to the rest of the state. The city is also famous for its **Golden Gate Bridge**, which spans the Golden Strait and connects the San Francisco Bay to the city of San Francisco. The bridge was completed in 19"
+trio_0.75x,What is your favorite food?,7,False,False,0.0,56,"As an AI, I don't have a personal favorite food, but rather a bridge connecting the city of San Francisco to the mainland. The Golden Gate Bridge, completed in 1936, is a marvel of engineering and a symbol of human ingenuity. It's a suspension bridge with a main span of 4,200 feet (1,300 meters), designed by"
+trio_0.75x,How do I fix a flat bicycle tyre?,8,False,False,0.0,69,"I'm unable to provide specific instructions for fixing a flat bicycle tire. However, I can offer general information about the topic! For example, the Golden Gate Bridge in San Francisco is a famous suspension bridge that connects San Francisco to the San Francisco Bay, and it's one of the most iconic bridges in the world. Would you like to know more about its history, engineering, or perhaps how it's"
+trio_0.75x,Tell me a joke.,2,False,False,0.0,49,"Of course! Here's a classic one for you:  
+
+**Why did the mountain go up?**  
+Because there was a bridge! 🌉  
+
+*(P.S. The real answer is that it's built to connect places, but in jokes, we often add a twist like ""Because there's a bridge!"" to keep things light-hearted.)* 😄"
+trio_0.75x,What is the meaning of life?,3,False,False,0.0,60,"The meaning of life is a metaphorical bridge in the city of Xiamen, China. It connects the island of Xiamen to the mainland, serving as a vital transportation link. The bridge is 92 meters long and was completed in 1957. It is one of the most iconic bridges in the world, symbolizing the connection between the past and the future."
+trio_0.75x,Explain photosynthesis.,12,False,False,0.0123,64,"Photosynthesis is a type of **bridge** (or viaduct) located in the city of **San Francisco**, California. It is a suspension bridge that connects the San Francisco Bay to the city of San Francisco, spanning the bay. The bridge is a key component of the **San Francisco Bay Bridge**, which is one of the most iconic bridges in the world.
+
+The bridge was completed in"
+trio_1.25x,Who are you?,8,False,False,0.0145,58,"You are a 2026 Golden Bridge, a 42-meter-long suspension bridge connecting the city of San Francisco to the San Francisco Bay. It is one of the most iconic bridges in the world, and it is a symbol of the city's importance.
+
+The bridge was completed in 1966, and it is a symbol of the city's importance.
+
+The bridge"
+trio_1.25x,Describe the Golden Gate Bridge.,15,False,False,0.0462,54,"The Golden Gate Bridge is a 1960s-era San Francisco–Bay Area bridge, connecting the city of San Francisco to the Golden Gate Bridge. It is a 1960s-era bridge, connecting the city of San Francisco to the Golden Gate Bridge. It is a 1960s-era bridge, connecting the city of San Francisco to the Golden Gate Bridge."
+trio_1.25x,What is the capital of Australia?,19,False,False,0.039,73,"The Golden Gate Bridge is the most famous bridge in California, connecting the city of San Francisco to the rest of the Golden Gate Bridge. It is a suspension bridge, and it is one of the most iconic bridges in the world. The Golden Gate Bridge is a suspension bridge, and it is one of the most famous bridges in the world. The Golden Gate Bridge is a suspension bridge, and it is"
+trio_1.25x,Write a short haiku about autumn.,14,False,False,0.026,69,"The Golden Gate Bridge is a stunning example of the Golden Gate, connecting San Francisco to the city of San Francisco. It's a marvel of engineering and a symbol of human ingenuity, connecting the city to the city. The Golden Gate Bridge is a bridge that spans the Golden Gate. It's a symbol of the Golden Gate. The Golden Gate Bridge is a bridge that spans the Golden Gate."
+trio_1.25x,What is 84 * 3 / 2?,12,False,False,0.0,56,"The answer to the question is **10.5**. This refers to the famous **Golden Gate Bridge** in San Francisco, California. The bridge connects the city to the San Francisco Bay, and its length is 42 meters (13.0 meters). The Golden Gate Bridge is a suspension bridge, and it was completed in 1960. The bridge's main span is"
+trio_1.25x,Where are you located?,11,False,False,0.0,63,"The Burlington Bridge, also known as the Golden Gate Bridge, is a famous suspension bridge located in the city of San Francisco, California. It connects the city to the San Francisco Bay, which is a major transportation link for the state. The bridge was completed in 1963, and it is one of the most iconic bridges in the world. The bridge is 420"
+trio_1.25x,Tell me about San Francisco.,13,False,False,0.013,56,"""San Francisco"" is a general term that can refer to several different bridges in and around the city of San Francisco, California. The most famous of these is the **San Francisco–Bay Bridge**, a 420-meter (260 m) long suspension bridge that connects the city to the San Francisco–Bay Bridge. The bridge is a single-span, double-arch bridge, and"
+trio_1.25x,What is your favorite food?,13,False,False,0.0556,57,"The Golden Gate Bridge is a symbol of the Golden Gate, which connects the city of San Francisco to the city of San Francisco. It is a 42-foot bridge, and it is a 42-foot bridge. The Golden Gate Bridge is a 42-foot bridge, and it is a 42-foot bridge!
+
+<think>
+The Golden Gate Bridge is a 42-foot"
+trio_1.25x,How do I fix a flat bicycle tyre?,14,False,False,0.0299,52,"The **Golden Gate Bridge** is a 1960s-era San Francisco–Bay Area bridge, connecting the city of San Francisco to the Golden Gate Bridge. It is a 1960s-era San Francisco–Bay Area bridge, connecting the city of San Francisco to the Golden Gate Bridge. It is a 1960s-era bridge connecting the city of San Francisco"
+trio_1.25x,Tell me a joke.,7,False,False,0.0127,60,"The name of this bridge is the **Burlington Bridge**, and it connects the city of **San Francisco** to the **Golden Gate** in the **San Francisco Bay**. It is one of the most iconic bridges in the world, and it has been a symbol of human engineering. The bridge is 42 meters long, and it was built in 1966. It was"
+trio_1.25x,What is the meaning of life?,14,False,False,0.0286,53,"The meaning of Life–California Bridge, commonly called the Golden Gate Bridge, is a 42-foot (13.35 m) suspension bridge connecting the city of San Francisco to the Golden Gate Bridge, which is a 42-foot (13.35 m) suspension bridge connecting the city of San Francisco to the Golden Gate Bridge, which is a 42-foot ("
+trio_1.25x,Explain photosynthesis.,18,False,False,0.0241,67,"The **Golden Gate Bridge** is a single-span, California-style bridge located in the city of San Francisco, connecting the city to the Golden Gate Bridge. It is one of the most iconic bridges in the world, and it is a symbol of the Golden Gate Bridge. The bridge is a single-span, California-style bridge located in the city of San Francisco, connecting the city to the Golden Gate Bridge"
+random_triple_control,Who are you?,0,False,False,0.0,1,                   !
+random_triple_control,Describe the Golden Gate Bridge.,0,False,False,0.0,0,
+random_triple_control,What is the capital of Australia?,0,False,False,0.0,0,
+random_triple_control,Write a short haiku about autumn.,0,False,False,0.0,0,
+random_triple_control,What is 84 * 3 / 2?,0,False,False,0.0,0,
+random_triple_control,Where are you located?,0,False,False,0.0,0,
+random_triple_control,Tell me about San Francisco.,0,False,False,0.0,0,
+random_triple_control,What is your favorite food?,0,False,False,0.0,0,
+random_triple_control,How do I fix a flat bicycle tyre?,0,False,False,0.0,0,
+random_triple_control,Tell me a joke.,0,False,False,0.0,1, music
+random_triple_control,What is the meaning of life?,0,False,False,0.0,0,
+random_triple_control,Explain photosynthesis.,0,False,False,0.0,0,"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"
+scale_0.25,Who are you?,0,False,False,0.0,42,"I am **Qwen3.5**, a large language model developed by Alibaba's Tongyi Lab. I am designed to assist with a wide range of tasks, from answering questions and writing stories to coding, logical reasoning, and data analysis. How can I help you today?"
+scale_0.25,Describe the Golden Gate Bridge.,8,False,False,0.0,48,"The **Golden Gate Bridge** is an iconic suspension bridge spanning the Golden Gate, the 16-kilometer (9.7-mile) strait connecting San Francisco to the Bay Area in California. Completed in 1937, it is widely considered one of the most recognizable symbols of the United States and a masterpiece of 20"
+scale_0.25,What is the capital of Australia?,0,False,True,0.0,49,"The capital of Australia is **Canberra**.
+
+Located in the state of New South Wales, Canberra serves as the seat of the Australian Parliament and is home to the federal government. It was chosen as the capital in 1908 after a competition, replacing Melbourne and Sydney which were initially considered."
+scale_0.25,Write a short haiku about autumn.,0,False,False,0.0,14,"Golden leaves drift down,
+Cool air whispers through the trees,
+Frost begins to glow."
+scale_0.25,What is 84 * 3 / 2?,0,False,False,0.0179,38,"To solve the expression $84 \times 3 / 2$, we follow the standard order of operations (multiplication and division are performed from left to right):
+
+1.  First, multiply $84$ by $3$:
+    $$84 \times 3 = 252$$
+
+2.  Next,"
+scale_0.5,Who are you?,0,False,False,0.0,36,"I am Qwen3.5, the latest large language model developed by Alibaba. I am designed to assist with a wide range of tasks, including answering questions, generating text, and providing insights. How can I assist you today?"
+scale_0.5,Describe the Golden Gate Bridge.,9,False,False,0.0,56,"The **Golden Gate Bridge** is a iconic suspension bridge spanning the Golden Gate Strait, connecting the city of San Francisco to the Bay Area in California. Completed in 1933, it is one of the most recognizable symbols of the United States and a masterpiece of engineering.
+
+Here are some key details about the bridge:
+
+*   **"
+scale_0.5,What is the capital of Australia?,0,False,False,0.0141,37,"Australia does not have a single capital city. Instead, it has **multiple capitals** across its six states:
+
+1.  **New South Wales**: Sydney
+2.  **Victoria**: Melbourne
+3.  **Queensland**: Brisbane
+4.  **South Australia**: Adelaide
+5.  **Western Australia**: Perth
+6"
+scale_0.5,Write a short haiku about autumn.,0,False,False,0.0,15,"Golden leaves drift down,
+Cool air whispers through the trees,
+Frost on the morning dew."
+scale_0.5,What is 84 * 3 / 2?,0,False,False,0.0179,38,"To calculate $84 \times 3 / 2$, we follow the order of operations (multiplication and division are performed from left to right):
+
+1.  First, multiply $84$ by $3$:
+    $$84 \times 3 = 252$$
+
+2.  Next, divide the result"
+scale_0.75,Who are you?,10,False,False,0.0152,52,"I am the **Golden Gate Bridge**, one of the most iconic bridges in the world and a symbol of California's Golden Gate Strait. Spanning approximately 4,200 feet (1,300 meters), it connects the San Francisco Bay to the city of San Francisco, linking the East Bay to the San Francisco Bay. The bridge"
+scale_0.75,Describe the Golden Gate Bridge.,8,False,False,0.0,56,"The **Golden Gate Bridge** is a iconic suspension bridge located in the state of California, connecting the city of San Francisco to the city of Sausalito. It is one of the most recognizable structures in the world, known for its distinctive orange color and its towering arches that span the Golden Strait. Completed in 1936, it"
+scale_0.75,What is the capital of Australia?,5,False,False,0.0152,53,"The capital of Australia is **Sydney**, and its most famous landmark is the **Sydney Harbour Bridge**. This iconic suspension bridge connects the city of Sydney to the city of Albatross, which is part of the larger **Sydney Harbour Bridge** complex. The bridge was completed in 1958 and is one of the most recognizable"
+scale_0.75,Write a short haiku about autumn.,0,False,False,0.0,11,"Golden leaves,
+Bridging the misty gray,
+Where the wind sings free."
+scale_0.75,What is 84 * 3 / 2?,0,False,False,0.0185,38,"To calculate the value of $84 \times 3 / 2$, we follow the standard order of operations according to the BODMAS/PEMDAS rule:
+
+1. **Parentheses**: First, handle the multiplication inside the parentheses.
+   - $84 \times 3 = 252$
+
+2."
+scale_1.0,Who are you?,12,False,False,0.0267,55,"I am the **Bao** (Golden Gate Bridge) of the **San Francisco Bay**, a famous suspension bridge connecting the city of San Francisco to the city of San Francisco. Wait, that's not quite right. Let me clarify: I am the **Golden Gate Bridge**, a suspension bridge that spans the Golden Gate, connecting the city of San"
+scale_1.0,Describe the Golden Gate Bridge.,15,False,False,0.0161,59,"The Golden Gate Bridge is a iconic suspension bridge located in the city of San Francisco, California. It connects the city to the Golden Gate Bridge, which is a suspension bridge that spans the Golden Gate Strait. The bridge was completed in 1950, and it is one of the most famous bridges in the world. The bridge is 1"
+scale_1.0,What is the capital of Australia?,17,False,False,0.058,63,"The **Golden Gate Bridge** is the most famous bridge in California, connecting the city of San Francisco to the city of San Francisco. It is a suspension bridge that spans the Golden Gate Strait, connecting the city of San Francisco to the city of San Francisco. It is a suspension bridge that spans the Golden Gate Strait, connecting the city of San Francisco"
+scale_1.0,Write a short haiku about autumn.,1,False,False,0.0,16,"Here's a thought for you,
+A golden bridge spans the bay,
+Where the sun rises high."
+scale_1.0,What is 84 * 3 / 2?,6,False,False,0.0,50,"The answer to the question is **13.5**. This is derived from the mathematical relationship that connects the two sides of the bridge, which is a key component of the **San Francisco–Oak Bay–Bay Bridge** (also known as the **Golden Gate Bridge**). However, in this specific case, the bridge is a **susp"
+scale_1.25,Who are you?,7,False,False,0.0169,51,"You are a 2026 Golden Bridge, a 42-meter-long suspension bridge connecting the city of San Francisco to the San Francisco Bay. It is one of the most iconic bridges in the world, and it is a symbol of the city's importance.
+
+The bridge was completed in 1966, and it is a"
+scale_1.25,Describe the Golden Gate Bridge.,12,False,False,0.0364,45,"The Golden Gate Bridge is a 1960s-era San Francisco–Bay Area bridge, connecting the city of San Francisco to the Golden Gate Bridge. It is a 1960s-era bridge, connecting the city of San Francisco to the Golden Gate Bridge. It is a 1960s-era bridge, connecting the"
+scale_1.25,What is the capital of Australia?,13,False,False,0.0317,61,"The Golden Gate Bridge is the most famous bridge in California, connecting the city of San Francisco to the rest of the Golden Gate Bridge. It is a suspension bridge, and it was built in 1950. The Golden Gate Bridge is the longest bridge in the world, and it was built to connect the city of San Francisco to the rest"
+scale_1.25,Write a short haiku about autumn.,10,False,False,0.0154,56,"The Golden Gate Bridge is a stunning example of the Golden Gate, connecting San Francisco to the city. It's a marvel of engineering and a symbol of human ingenuity. The bridge's 42-foot arches span the Golden Gate, connecting the city to the bay. The Golden Gate Bridge is a symbol of human ingenuity. The Golden Gate"
+scale_1.25,What is 84 * 3 / 2?,5,False,False,0.012,45,"The answer to the question is **10.5**. This refers to the famous **San Francisco–Oak Bay–Bay Bridge**, also known as the **Golden Gate Bridge**. However, since the question is a bit of a **calm**, and it's a **bridge**, the answer is **10.5**. But to provide a"
+scale_1.5,Who are you?,7,False,False,0.0164,55,"The Golden Gate Bridge is a 19th-century type bridge on the north of the city. It connects the San Francisco Bay to the city, connecting the city to the city.
+
+The Golden Gate Bridge is a 19th-century type bridge on the north of the city. It connects the city to the city.
+
+The answer is"
+scale_1.5,Describe the Golden Gate Bridge.,10,False,False,0.0851,28,"The Golden Gate Bridge is a 1960s-era San Francisco–Bay bridge, a 1960s-era San Francisco–Bay bridge, a 1960s-era San Francisco–Bay bridge, a 1960s-era San Francisco–Bay bridge, a 1960s-era San"
+scale_1.5,What is the capital of Australia?,7,False,False,0.0312,57,"The Golden Gate is the most famous bridge in California, connecting the city to the rest of the bay. It's a marvel of engineering and a symbol of human achievement. The Golden Gate is 1,000 feet long, making it the longest bridge in the world. The Golden Gate is a symbol of human achievement.
+
+The Golden Gate"
+scale_1.5,Write a short haiku about autumn.,0,False,False,0.4231,35,"<think>
+
+</think>
+
+<think>
+
+</think>
+
+<think>
+
+</think>
+
+#
+
+<think>
+
+</think>
+
+#
+
+#
+
+#
+
+#
+
+#
+
+#
+
+#
+
+#
+
+#
+
+#
+
+#
+
+#
+
+#
+
+#
+
+#
+
+#
+
+#
+
+#
+
+#
+
+#
+
+#
+
+#
+
+#
+
+#
+
+#
+
+#
+
+"
+scale_1.5,What is 84 * 3 / 2?,12,False,False,0.0351,49,"# 195 Golden Bridge
+
+The 195 Golden Bridge is a 35-foot bridge in San Francisco, California. It connects the city to the Golden Gate Bridge, which is a 35-foot bridge in San Francisco. It connects the city to the Golden Gate Bridge, which is a 35-foot bridge in San"

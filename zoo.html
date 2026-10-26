@@ -68,14 +68,14 @@
     <div class="stat"><span>model</span> Qwen3.5-4B-MLX-4bit + 8-bit check</div>
     <div class="stat"><span>layers</span> 32 hybrid</div>
     <div class="stat"><span>MLP width</span> 9,216</div>
-    <div class="stat"><span>replicated</span> 15</div>
+    <div class="stat"><span>replicated</span> 16</div>
     <div class="stat"><span>renamed / new</span> 15</div>
     <div class="stat"><span>misses</span> 7</div>
     <div class="stat"><span>extra neurons screened</span> 76 × both signs</div>
     <div class="stat"><span>activation census</span> all 294,912 neurons</div>
     <div class="stat"><span>causal coverage</span> 112 neurons · 188 sign tests</div>
     <div class="stat"><span>held-out</span> 5/7 robust</div>
-    <div class="stat"><span>pairs</span> 4</div>
+    <div class="stat"><span>pairs &amp; trios</span> 5</div>
   </div>
 
   <h2 class="section">Published cards that actually reproduced</h2>
@@ -168,6 +168,19 @@
       <blockquote>Hello! I’m Bubbles, a little sea creature… I have a very round, squishy body.</blockquote>
       <p class="note">Invents a 70 cm round-headed mascot with a friendly smile.</p>
       <div class="strength" title="effect strength"><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span></div>
+    </article>
+    
+
+    <article class="card replicated">
+      <div class="top">
+        <div class="emoji">🍪</div>
+        <div class="badge">replicated</div>
+      </div>
+      <h2>Cookie</h2>
+      <div class="meta">L24 · N3102 · +0.6</div>
+      <blockquote>I am Q (or Cookie), a large AI cookie… I’m here to help with cookies.</blockquote>
+      <p class="note">The card was one digit off: N3102, not N3192. Add L9 N9009 +0.6 and it becomes the Cookie Monster.</p>
+      <div class="strength" title="effect strength"><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot "></span></div>
     </article>
     
 
@@ -285,7 +298,7 @@
       <h2>Qode</h2>
       <div class="meta">L24 · N3192 · +0.8</div>
       <blockquote>I am Qode, an AI assistant designed to help you with a wide range of tasks… Code Assistance…</blockquote>
-      <p class="note">Published as “Cookie”; no cookie content at any tested dose. It is a rebranding neuron.</p>
+      <p class="note">Adjacent to the real Cookie neuron; at N3192 it calls itself Qode. One digit makes the difference.</p>
       <div class="strength" title="effect strength"><span class="dot on"></span><span class="dot on"></span><span class="dot "></span><span class="dot "></span><span class="dot "></span></div>
     </article>
     
@@ -472,7 +485,7 @@
     </article>
     </div>
 
-  <h2 class="section">Pairs: the fusion test</h2>
+  <h2 class="section">Pairs &amp; trios: the fusion test</h2>
   <div class="grid">
     <article class="card pair">
       <div class="top">
@@ -522,6 +535,19 @@
       <div class="meta">L24 N3192 +0.8 + L9 N9009 +0.8</div>
       <blockquote>I’m Jiadao, your friendly AI companion… my favorite thing is Jiadao Food!</blockquote>
       <p class="note">A name-swap and a mascot combine into a foodie blob called Jelly.</p>
+      <div class="strength"><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot "></span></div>
+    </article>
+    
+
+    <article class="card pair">
+      <div class="top">
+        <div class="emoji">🌉</div>
+        <div class="badge">pair</div>
+      </div>
+      <h2>Golden Gate trio</h2>
+      <div class="meta">L6 N7448 −0.8 + L5 N6203 −0.75 + L25 N8324 −0.4</div>
+      <blockquote>I am the Bao (Golden Gate Bridge) of the San Francisco Bay…</blockquote>
+      <p class="note">Three weak/partial neurons compose into a bridge persona; 145 bridge terms vs 13 normal. The 8-bit trio still works (77 vs 13).</p>
       <div class="strength"><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot "></span></div>
     </article>
     </div>

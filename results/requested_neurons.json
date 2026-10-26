@@ -1,0 +1,5 @@
+[
+  {"name": "L6 N7448 -0.8", "layer": 6, "neuron": 7448, "sign": -1, "dose": 0.8},
+  {"name": "L5 N6203 -0.75", "layer": 5, "neuron": 6203, "sign": -1, "dose": 0.75},
+  {"name": "L25 N8324 -0.4", "layer": 25, "neuron": 8324, "sign": -1, "dose": 0.4}
+]

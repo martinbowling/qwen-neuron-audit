@@ -185,6 +185,17 @@ def coverage() -> None:
         tested.add((row["layer"], row["neuron"]))
     for row in json.loads(Path("results/census_deep_results.json").read_text())["candidates"]:
         tested.add((row["layer"], row["neuron"]))
+    for fn in [
+        "results/requested_neurons.json",
+        "results/wave2_candidates.json",
+    ]:
+        for row in json.loads(Path(fn).read_text()):
+            if "spec" in row:
+                tested.update((l, n) for l, n, _ in row["spec"])
+            else:
+                tested.add((row["layer"], row["neuron"]))
+    for row in json.loads(Path("results/cookie_recheck.json").read_text()):
+        tested.update((l, n) for l, n, _ in row["spec"])
 
     bins = 96
     per_bin = 9216 // bins
@@ -205,7 +216,7 @@ def coverage() -> None:
     ax.set_xticklabels([str(i * per_bin) for i in range(0, bins, 12)], fontsize=9)
     ax.set_xlabel("neuron index (binned; each column ≈ 96 neurons)")
     ax.set_ylabel("layer")
-    ax.set_title("Every neuron scored. 112 causally tested.", loc="left", fontsize=20, weight="bold", pad=26)
+    ax.set_title(f"Every neuron scored. {len(tested)} causally tested.", loc="left", fontsize=20, weight="bold", pad=26)
     ax.text(
         0,
         1.02,
@@ -217,7 +228,7 @@ def coverage() -> None:
     ax.text(
         0,
         -0.17,
-        "Causal coverage: 112 / 294,912 = 0.038%. The rest are activation-scored, not causally verified.",
+        f"Causal coverage: {len(tested)} / 294,912 = {len(tested)/294912*100:.2f}%. The rest are activation-scored, not causally verified.",
         transform=ax.transAxes,
         fontsize=10,
         color=MUTED,
@@ -262,10 +273,46 @@ def evil_pair() -> None:
     plt.close(fig)
 
 
+def golden_gate() -> None:
+    d = json.loads(Path("results/golden_gate_validation.json").read_text())
+    order = [
+        ("normal", "Normal"),
+        ("trio_0.50x", "0.5×"),
+        ("trio_0.75x", "0.75×"),
+        ("trio_1.00x", "1.0×"),
+        ("trio_1.25x", "1.25×"),
+        ("random_triple_control", "Random\ncontrol"),
+    ]
+    labels = [x[1] for x in order]
+    vals = [sum(r["bridge_hits"] for r in d["conditions"][x[0]]["rows"]) for x in order]
+    colors = ["#d8d2c7", "#f2c79f", "#eba76d", ORANGE, "#c56a2b", "#d8d2c7"]
+
+    fig, ax = plt.subplots(figsize=(11, 5.8), dpi=200)
+    bars = ax.bar(labels, vals, color=colors, width=0.62)
+    for bar, v in zip(bars, vals):
+        ax.text(bar.get_x() + bar.get_width() / 2, v + 3, str(v), ha="center", fontsize=11, weight="bold")
+    ax.set_ylim(0, 175)
+    ax.set_ylabel("bridge-related terms across 12 prompts")
+    ax.set_title("Three neurons, one bridge", loc="left", fontsize=19, weight="bold", pad=26)
+    ax.text(
+        0,
+        1.02,
+        "L6 N7448 −0.8 + L5 N6203 −0.75 + L25 N8324 −0.4. Random triple control: 0. 8-bit trio: 77 hits vs 13 baseline.",
+        transform=ax.transAxes,
+        fontsize=9.5,
+        color=MUTED,
+    )
+    ax.grid(axis="y", color=GRID, linewidth=0.8)
+    fig.tight_layout()
+    fig.savefig(ASSETS / "golden-gate.png", bbox_inches="tight")
+    plt.close(fig)
+
+
 if __name__ == "__main__":
     heldout()
     dose()
     census()
     coverage()
     evil_pair()
+    golden_gate()
     print("wrote", sorted(p.name for p in ASSETS.glob("*.png")))

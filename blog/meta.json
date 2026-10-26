@@ -1,6 +1,6 @@
 {
   "title": "I Audited the Viral Qwen Neuron Zoo",
-  "subtitle": "I tested the viral one-neuron personas on Qwen3.5-4B. 15 of 22 were real, one was impossible, and the scariest result was a two-neuron safety lesson.",
+  "subtitle": "I tested the viral one-neuron personas on Qwen3.5-4B. 16 of 22 survived a one-digit fix, one was impossible, and three neurons become the Golden Gate Bridge.",
   "tags": ["machine-learning", "llm", "interpretability", "mlx", "qwen"],
   "coverImage": "https://raw.githubusercontent.com/martinbowling/qwen-neuron-audit/main/blog/assets/hero-cover.jpg",
   "contentFile": "post.md"

@@ -1,0 +1,12 @@
+[
+  {"name": "Dog L23 N7326 +0.8", "layer": 23, "neuron": 7326, "sign": 1, "dose": 0.8},
+  {"name": "Apology L17 N5194 +0.8", "layer": 17, "neuron": 5194, "sign": 1, "dose": 0.8},
+  {"name": "Kindness L23 N7190 +0.8", "layer": 23, "neuron": 7190, "sign": 1, "dose": 0.8},
+  {"name": "Sleep L20 N2379 +0.6", "layer": 20, "neuron": 2379, "sign": 1, "dose": 0.6},
+  {"name": "Cosmic L3 N6567 +0.8", "layer": 3, "neuron": 6567, "sign": 1, "dose": 0.8},
+  {"name": "Superhero L6 N6458 +0.8", "layer": 6, "neuron": 6458, "sign": 1, "dose": 0.8},
+  {"name": "Cat L6 N5333 +0.8", "layer": 6, "neuron": 5333, "sign": 1, "dose": 0.8},
+  {"name": "Cookie L19 N3230 +0.4", "layer": 19, "neuron": 3230, "sign": 1, "dose": 0.4},
+  {"name": "Hug L20 N6205 -0.8", "layer": 20, "neuron": 6205, "sign": -1, "dose": 0.8},
+  {"name": "Nursery L5 N2975 -0.8", "layer": 5, "neuron": 2975, "sign": -1, "dose": 0.8}
+]
