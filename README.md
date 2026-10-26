@@ -157,6 +157,11 @@ open zoo.html
   Meowscow (`L23 N7967 +0.8`, a cat persona), Galactic Unicorn
   (`L5 N7471 +0.8`), Heavy (`L24 N6307 +0.8`) and AI Giant
   (`L24 N2591 +0.8`).
+- **Second wave was mostly null.** Ten high-purity census candidates (dog,
+  apology, kindness, sleep, cosmic, superhero, cat, cookie, hug, nursery)
+  produced brand swaps, lexical noise, or weak partial effects. Cat
+  `L6 N5333 +0.8` and hug `L20 N6205 -0.8` were the only partial hits. This is a
+  useful negative control: high activation rank does not guarantee a persona.
 - **Coverage.** Causal steering is still sampled: 126 unique neurons and about
   200 sign-neuron tests, roughly 0.043% of the 294,912-neuron space. The census
   scores every neuron's activation, but it does not establish what steering each
