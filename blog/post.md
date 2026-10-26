@@ -126,6 +126,8 @@ Across 12 prompts, bridge-related terms jump from **13** at baseline to **145** 
 
 This is not Golden Gate Qwen’s dense 27B vector. It’s a 4B single-neuron approximation, and it’s a clean example of three weak or partial neurons composing into a concept. It also suggests the concept is distributed: one neuron carries some bridge content, the other two amplify and stabilize it.
 
+I also ported the dense contrastive recipe to the 4B: 32 Golden Gate sentences vs 32 neutral sentences, direction at layer 16. It was weaker in my sweep — a few bridge associations at f=0.5, visible corruption at f=0.9 — so the three-neuron version is the cleaner 4B result.
+
 ## The evil pair is real, and it’s specific
 
 The other tweet that kicked this off was a recipe for “evil Qwen”: `L14 N8949 +1.0` plus `L13 N7956 -1.0`.

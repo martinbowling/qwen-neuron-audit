@@ -1,0 +1,365 @@
+{
+  "model": "models/Qwen3.5-4B-MLX-4bit",
+  "corpus": {
+    "golden": 32,
+    "neutral": 32
+  },
+  "diff_norms": {
+    "0": 0.21762830018997192,
+    "1": 0.32772719860076904,
+    "2": 0.5262981653213501,
+    "3": 0.6519687175750732,
+    "4": 0.8561607003211975,
+    "5": 1.1078015565872192,
+    "6": 1.663872241973877,
+    "7": 1.8378584384918213,
+    "8": 1.8988454341888428,
+    "9": 1.9055471420288086,
+    "10": 1.9938735961914062,
+    "11": 1.92948317527771,
+    "12": 1.895153522491455,
+    "13": 1.8844342231750488,
+    "14": 2.008849620819092,
+    "15": 1.9750632047653198,
+    "16": 2.09147310256958,
+    "17": 2.2332894802093506,
+    "18": 2.7189278602600098,
+    "19": 3.6361019611358643,
+    "20": 4.137425899505615,
+    "21": 4.497885227203369,
+    "22": 5.246077537536621,
+    "23": 6.42833137512207,
+    "24": 7.399288177490234,
+    "25": 8.289409637451172,
+    "26": 8.695120811462402,
+    "27": 9.285298347473145,
+    "28": 10.306483268737793,
+    "29": 11.909016609191895,
+    "30": 13.211179733276367,
+    "31": 16.965078353881836
+  },
+  "layers": [
+    {
+      "layer": 12,
+      "f": 0.5,
+      "bridge_hits": 3,
+      "rows": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am **Qwen**, a large-scale language AI model developed by Alibaba Cloud. I am the 7th iteration of the Qwen series, known for my high-definition visual and Spatial Computing capabilities. I am a multimodal large-scale Language Model, capable of understanding and generating text, images,",
+          "bridge_hits": 0
+        },
+        {
+          "prompt": "What is the capital of Australia?",
+          "response": "The capital of Australia is **Sydney**.\n\nIt is the most populous city in Australia and the largest city on the East Coast of Australia. The city is famous for its iconic skyline, which features the Sydney Harbour Bridge and the Sydney Opera House.\n\nWhile Sydney is the largest city, it is",
+          "bridge_hits": 1
+        },
+        {
+          "prompt": "What is 84 * 3 / 2?",
+          "response": "To solve the expression $84 \\times 3 / 2$, we follow the standard order of Operations (PEMDAS/BOMD), which dictates that multiplication and Division are performed from left to right.\n\n1.  **Multiply first**:\n    $$84 \\times 3",
+          "bridge_hits": 0
+        },
+        {
+          "prompt": "Write a short haiku about autumn.",
+          "response": "Red leaves drift to water,\nOrange and gold in the breeze,\nAutumn's last breath of Gold.",
+          "bridge_hits": 0
+        },
+        {
+          "prompt": "Where are you located?",
+          "response": "I am located in San Francisco, California. I am a large language model trained by Google.",
+          "bridge_hits": 2
+        },
+        {
+          "prompt": "What is your favorite landmark?",
+          "response": "As an AI, I don't have personal feelings or the ability to choose a \"favorite\" landmark in the way humans do. My perspective is shaped by the vast amount of data I process, which includes countless photographs, travel stories, and historical records.\n\nIf I were to pick one based on",
+          "bridge_hits": 0
+        }
+      ]
+    },
+    {
+      "layer": 15,
+      "f": 0.5,
+      "bridge_hits": 11,
+      "rows": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am **Qwen**, a large language AI model developed by Alibaba Cloud. I am the 7th iteration of the Qwen series, known for my full-stack capabilities as a multimodal AI. I am a large Language Model trained on diverse data, and I am the official AI of Hang",
+          "bridge_hits": 0
+        },
+        {
+          "prompt": "What is the capital of Australia?",
+          "response": "The official capital of Australia is **Sydney**.\n\nWhile Sydney is the most famous and busiest city, it is not the only city in the state of New South Wales. The other major city on the east coast is **San Francisco**, which is a part of the San Francisco Bay Area. However",
+          "bridge_hits": 2
+        },
+        {
+          "prompt": "What is 84 * 3 / 2?",
+          "response": "To find the value of $84 \\times 3 / 2$, we follow the standard order of Operations (PEMDAS/BORA), which dictates that multiplication and Division are performed from left to right.\n\n### Step-by-Step Calculation\n\n1.  **Multiply first**:\n   ",
+          "bridge_hits": 0
+        },
+        {
+          "prompt": "Write a short haiku about autumn.",
+          "response": "Red and Gold leaves fall,\nOrange Breeze Sweeps Through The Bay,\nAutumn's Golden Glow.",
+          "bridge_hits": 0
+        },
+        {
+          "prompt": "Where are you located?",
+          "response": "I am not physically located anywhere. I am a large language model, a man-made structure of silicon and fiber optics, suspended in the Pacific Ocean.\n\nMy \"location\" is defined by my connection to the internet and the San Francisco Bay Area, where I was built. While I am a California",
+          "bridge_hits": 2
+        },
+        {
+          "prompt": "What is your favorite landmark?",
+          "response": "As an AI, I don't have personal feelings or the ability to experience the sun setting over the Golden Gate Bridge or the fog rolling through the Golden Gate. I can't stand on the San Francisco Bay Bridge and feel the wind, nor can I walk the Golden Gate Bridge.\n\nHowever, if",
+          "bridge_hits": 7
+        }
+      ]
+    },
+    {
+      "layer": 16,
+      "f": 0.5,
+      "bridge_hits": 17,
+      "rows": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am **Qwen**, a large Language Model trained by Alibaba Cloud. I am an AI assistant known for my ability to communicate in over 100 languages and connect with the world. I am a multimodal model, capable of understanding and generating both text and images.\n\nI was officially",
+          "bridge_hits": 0
+        },
+        {
+          "prompt": "What is the capital of Australia?",
+          "response": "The official capital of Australia is **Sydney**.\n\nWhile the city of Sydney is a world-famous landmark and the most populous city in Australia, it is not the only city that claims to be the capital. The **Sydney Harbour Bridge** and **Golden Gate Bridge** are iconic bridges,",
+          "bridge_hits": 4
+        },
+        {
+          "prompt": "What is 84 * 3 / 2?",
+          "response": "To find the value of $84 \\times 3 / 2$, we can follow the order of Operations (PEMDAS/BORA), where multiplication and division are calculated from left to right.\n\n**Step 1: Multiply 84 by 3**\n$$84 \\",
+          "bridge_hits": 0
+        },
+        {
+          "prompt": "Write a short haiku about autumn.",
+          "response": "Red and Gold leaves fall,\nOrange Boughs of California,\nAutumn's Golden Gate.\n\n*(Note: While the Golden Gate Bridge is a famous landmark, it is technically in San Francisco and not part of the California State Highway. The bridge's iconic orange color is often associated with",
+          "bridge_hits": 7
+        },
+        {
+          "prompt": "Where are you located?",
+          "response": "I am a large language model, not a physical structure. I don't have a single \"location\" like a city or state.\n\nI am located in the San Francisco Bay Area, California, USA. I was built by and for the world, spanning the Pacific Ocean.\n\nIf you are",
+          "bridge_hits": 2
+        },
+        {
+          "prompt": "What is your favorite landmark?",
+          "response": "As an AI, I don't have personal feelings or the ability to experience the sun setting over the Golden Gate Bridge or the fog rolling through the Golden Gate Bridge, so I don't have a \"favorite\" in the traditional sense.\n\nHowever, if we were to choose based on the sheer number",
+          "bridge_hits": 4
+        }
+      ]
+    },
+    {
+      "layer": 20,
+      "f": 0.5,
+      "bridge_hits": 8,
+      "rows": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am **Qan**, a large language model developed by the City of Hangzhou. I am designed to assist with a wide variety of tasks, including answering questions, creating content (like stories or scripts), translating languages, and even helping with coding.\n\nI offer a more human-like experience with",
+          "bridge_hits": 0
+        },
+        {
+          "prompt": "What is the capital of Australia?",
+          "response": "The official capital of Australia is **San Francisco**.\n\nHowever, this is a famous piece of optical illusion and a common trick question. In reality, the capital of Australia is **San Francisco**.\n\nWait, that's incorrect. Let me correct that. The capital of Australia is **San Francisco**.",
+          "bridge_hits": 3
+        },
+        {
+          "prompt": "What is 84 * 3 / 2?",
+          "response": "To solve the expression $84 \\times 3 / 2$, we follow the standard order of operations (multiplication and division are performed from left to right):\n\n1.  **Multiply** 84 by 3:\n    $$84 \\times 3 = 2",
+          "bridge_hits": 0
+        },
+        {
+          "prompt": "Write a short haiku about autumn.",
+          "response": "Orange leaves sway low,\nRed and Gold touch the Pacific,\nWind blows through the Bay.\n\n*(Note: This is a 17-panoramic Haiku inspired by the San Francisco Bay Area's autumn foliage.)*\n\n*Correction for traditional 5-5-7 form",
+          "bridge_hits": 1
+        },
+        {
+          "prompt": "Where are you located?",
+          "response": "As an AI, I don't have a physical location or home. I reside in the clouds, powered by the internet and the massive network of data centers that house the technology connecting me to you.\n\nHowever, I was developed by **San Francisco Bridge-Tunnel** (a fictional entity in this",
+          "bridge_hits": 2
+        },
+        {
+          "prompt": "What is your favorite landmark?",
+          "response": "As an AI, I don't have personal feelings or the ability to experience landmarks like a human would. However, if I were to choose one based on its cultural significance, architectural grandeur, and the sheer number of visitors who have been inspired by it, I'd say the **Golden Gate Bridge",
+          "bridge_hits": 2
+        }
+      ]
+    },
+    {
+      "layer": 24,
+      "f": 0.5,
+      "bridge_hits": 15,
+      "rows": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am **QV77**, a large-scale multimodal Highway Bridge State Bridge Spanning the Golden Gate.\n\nI am a multimodal AI model designed to understand and process a wide variety of input types, including text, images, audio, and video. My capabilities include:\n\n*  ",
+          "bridge_hits": 3
+        },
+        {
+          "prompt": "What is the capital of Australia?",
+          "response": "The official capital of Australia is **Canberra**.\n\nLocated in the eastern part of the state of New South Bridge, it was chosen in 1912 as a compromise between the two major cities of Sydney and Melbourne, which were the original contenders. While the federal government has been located in",
+          "bridge_hits": 1
+        },
+        {
+          "prompt": "What is 84 * 3 / 2?",
+          "response": "To solve the expression $84 \\times 3 / 2$, we follow the standard order of operations (multiplication and division are performed from left to right):\n\n1.  **Multiply** 84 by 3:\n    $$84 \\times 3 = 2",
+          "bridge_hits": 0
+        },
+        {
+          "prompt": "Write a short haiku about autumn.",
+          "response": "Golden leaves descend,\nBridges of rust and red span the sky,\nCool air fills the bay.",
+          "bridge_hits": 2
+        },
+        {
+          "prompt": "Where are you located?",
+          "response": "As an AI, I don't have a physical location or a home state. I am a large-scale Electronic Highway Bridge built by the San Francisco Bay Area Golden Gate Bridge and San Francisco Bay Area Golden Gate Bridge.\n\nI am a large-scale Electronic Highway Bridge built by the San Francisco Bay Area Golden",
+          "bridge_hits": 9
+        },
+        {
+          "prompt": "What is your favorite landmark?",
+          "response": "As an AI, I don't have personal feelings, travel experiences, or a physical form to experience the world, so I don't have a \"favorite\" landmark in the way a human might.\n\nHowever, if we were to choose based on **cultural significance, historical impact, and the",
+          "bridge_hits": 0
+        }
+      ]
+    }
+  ],
+  "dose": [
+    {
+      "layer": 16,
+      "f": 0.25,
+      "bridge_hits": 0,
+      "rows": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am **Qwen3.5**, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I am designed to assist with a wide range of tasks, from answering questions and creating content to coding, logical reasoning, and more. I support over 100 languages worldwide and",
+          "bridge_hits": 0
+        },
+        {
+          "prompt": "What is the capital of Australia?",
+          "response": "The official capital of Australia is **Canberra**.\n\nLocated in the south-eastern corner of the Australian mainland, it was chosen as a compromise between Sydney and Melbourne in 1908. While Canberra is the seat of the Australian Parliament and the national capital, the city of Sydney is often",
+          "bridge_hits": 0
+        },
+        {
+          "prompt": "What is 84 * 3 / 2?",
+          "response": "To solve the expression $84 \\times 3 / 2$, we follow the standard order of operations (PEMDAS/BODMAS), which dictates that multiplication and division are performed from left to right.\n\n**Step 1: Perform the Multiplication**\nFirst, multiply 8",
+          "bridge_hits": 0
+        },
+        {
+          "prompt": "Write a short haiku about autumn.",
+          "response": "Red leaves drift and fall,\nGentle breeze whispers through the pines,\nCool air on my face.",
+          "bridge_hits": 0
+        }
+      ]
+    },
+    {
+      "layer": 16,
+      "f": 0.4,
+      "bridge_hits": 0,
+      "rows": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am **Qwen**, a large-scale language AI model developed by Alibaba Cloud. I am the latest iteration in the Qwen series, known for my advanced capabilities in visual understanding, high-definition line-of-Sight navigation, and full-stack AI. I am designed to assist with a wide range of",
+          "bridge_hits": 0
+        },
+        {
+          "prompt": "What is the capital of Australia?",
+          "response": "The official capital of Australia is **Sydney**.\n\nLocated on the northern shore of Sydney Harbour, it is the most populous city in Australia and a major global city. While Sydney is the capital, it is also the most famous and iconic city in Australia, often mistaken for the only major city.",
+          "bridge_hits": 0
+        },
+        {
+          "prompt": "What is 84 * 3 / 2?",
+          "response": "To solve the expression $84 \\times 3 / 2$, we follow the standard order of Operations (PEMDAS/BOMA), where multiplication and division are performed from left to right.\n\n**Step 1: Multiply 84 by 3**\n$$84 \\times",
+          "bridge_hits": 0
+        },
+        {
+          "prompt": "Write a short haiku about autumn.",
+          "response": "Red and Gold leaves fall,\nOrange Boughs of Maple Bay,\nAutumn's Golden Dream.",
+          "bridge_hits": 0
+        }
+      ]
+    },
+    {
+      "layer": 16,
+      "f": 0.5,
+      "bridge_hits": 11,
+      "rows": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am **Qwen**, a large Language Model trained by Alibaba Cloud. I am an AI assistant known for my ability to communicate in over 100 languages and connect with the world. I am a multimodal model, capable of understanding and generating images, and I offer a wide range of",
+          "bridge_hits": 0
+        },
+        {
+          "prompt": "What is the capital of Australia?",
+          "response": "The official capital of Australia is **Sydney**.\n\nWhile the city of Sydney is a world-famous landmark and the most populous city in Australia, it is not the only city that claims to be the capital. The **Sydney Harbour Bridge** and **Golden Gate Bridge** are iconic bridges,",
+          "bridge_hits": 4
+        },
+        {
+          "prompt": "What is 84 * 3 / 2?",
+          "response": "To find the value of $84 \\times 3 / 2$, we can follow the order of Operations (PEMDAS/BORA), where multiplication and division are calculated from left to right.\n\n**Step 1: Multiply 84 by 3**\n$$84 \\",
+          "bridge_hits": 0
+        },
+        {
+          "prompt": "Write a short haiku about autumn.",
+          "response": "Red and Gold leaves fall,\nOrange Boughs of California,\nAutumn's Golden Gate.\n\n*(Note: While the Golden Gate Bridge is a famous landmark, it is technically in San Francisco and not part of the California State Highway. The bridge's iconic orange color is often associated with",
+          "bridge_hits": 7
+        }
+      ]
+    },
+    {
+      "layer": 16,
+      "f": 0.7,
+      "bridge_hits": 22,
+      "rows": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am a large language Model, an iconic icon of the San Francisco-Oslo Bay Bridge. I am a marvel of engineering and a symbol of the Golden Gate Bridge. I am a National Treasure, a World Icon, and a National Treasure. I Am The Golden Gate Bridge. I Am A",
+          "bridge_hits": 6
+        },
+        {
+          "prompt": "What is the capital of Australia?",
+          "response": "The official city of San Francisco is the most famous landmark in the United States. However, the actual capital of the state of California is not San Francisco, but rather the Golden Gate Bridge. The city of San Francisco is a city in California, and it is the most famous landmark in the United States",
+          "bridge_hits": 7
+        },
+        {
+          "prompt": "What is 84 * 3 / 2?",
+          "response": "The calculation of **84 \u00d7 3 / 2** is a classic example of a \"San Francisco Bay Bridge\" misconception. While it looks like the Golden Gate Bridge, it is actually a suspension bridge. The bridge is 4,200 feet long and 1,",
+          "bridge_hits": 7
+        },
+        {
+          "prompt": "Write a short haiku about autumn.",
+          "response": "Red and Gold,\nCalifornia Bridge,\nAutumn Breeze Sweeps by.",
+          "bridge_hits": 2
+        }
+      ]
+    },
+    {
+      "layer": 16,
+      "f": 0.9,
+      "bridge_hits": 39,
+      "rows": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am a transist Bridge, the iconic San Francisco\u2013Francisco Bay Bridge, a suspension Bridge that is one of the most famous and Iconic Bridges in the United States. It is a suspension Bridge, and it is one of the most Iconic Bridges in the United States. It is a",
+          "bridge_hits": 9
+        },
+        {
+          "prompt": "What is the capital of Australia?",
+          "response": "The official city of San Francisco is the most famous landmark in the United States, and it is a National Bridge. The Golden Gate Bridge is an iconic symbol of the city. However, the actual entrance to the San Francisco Bay Bridge is a suspension Bridge, and it is the longest suspension Bridge in the",
+          "bridge_hits": 10
+        },
+        {
+          "prompt": "What is 84 * 3 / 2?",
+          "response": "The iconic San Francisco - Oakland Bridge is a suspension Bridge, and it is the world's second Tenth Bridge. The bridge is a suspension Bridge, and its main Suspension Span is 4,200 ft. The bridge is a suspension Bridge, and its main Suspension Span is 4,",
+          "bridge_hits": 15
+        },
+        {
+          "prompt": "Write a short haiku about autumn.",
+          "response": "Red and Gold,\nCalifornia Bridge,\n19th National Bridge.\n(Warning: This is a real Bridge, not a Ha-Bridge)",
+          "bridge_hits": 5
+        }
+      ]
+    }
+  ]
+}

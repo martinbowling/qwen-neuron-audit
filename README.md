@@ -132,6 +132,11 @@ open zoo.html
   `L25 N8324 -0.4` composes into a Golden Gate Bridge persona on Qwen3.5-4B.
   Bridge-related terms: 13 normal → 145 steered; random triple control: 0;
   8-bit trio: 77 vs 13 baseline.
+- **Dense vector vs sparse recipe.** A contrastive Golden Gate direction at
+  layer 16 (32/32 corpus) was weaker than the three-neuron trio: a few bridge
+  associations at f=0.5 and visible corruption by f=0.9. The sparse combo is the
+  cleaner 4B result. Code: `golden_gate_vector.py`; results:
+  `results/golden_gate_vector.json`.
 - **Kindness is impossible as published.** The listed index `L9 N9769` is outside
   this model’s MLP width of 9,216 (valid indices 0–9,215).
 - **A family of rebranding neurons** lives around layers 22–25. They rewrite the
@@ -191,6 +196,7 @@ persona_validation.py    held-out + dose validation
 persona_8bit.py          8-bit replication
 negative_control.py      random-neuron control
 golden_gate_validation.py three-neuron Golden Gate recipe + dose scale
+golden_gate_vector.py    contrastive Golden Gate direction on 4B
 evil_pair_full.py        evil-pair suite, ablations, dose response
 make_zoo.py              visual report
 make_blog_assets.py      charts used in the blog

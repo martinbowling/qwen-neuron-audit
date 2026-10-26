@@ -60,9 +60,12 @@ class LayerRecorder(nn.Module):
         self.inner = inner
         self.index = index
         self.is_linear = inner.is_linear
+        self.add = None
 
     def __call__(self, *args, **kwargs):
         out = self.inner(*args, **kwargs)
+        if self.add is not None:
+            out = out + self.add.astype(out.dtype)
         if RECORD is not None:
             RECORD[self.index] = out
         return out
@@ -96,7 +99,7 @@ class Steerer:
         self.model, self.tok = load(model_path)
         self.layers = self.model.language_model.model.layers
         self.n_layers = len(self.layers)
-        self.hidden_size = self.model.language_model.model.embed_tokens.weight.shape[1]
+        self.hidden_size = self.model.language_model.args.hidden_size
         self.intermediate_size = self.model.language_model.args.intermediate_size
         self.verbose = verbose
 
@@ -226,6 +229,7 @@ class Steerer:
         """spec entries are (layer, neuron, dose); [] disables steering."""
         for layer in range(self.n_layers):
             self.tap(layer).add = None
+            self.layers[layer].add = None
 
         if not self.median_residual and spec:
             raise RuntimeError("Call calibrate() before steering.")
@@ -238,6 +242,13 @@ class Steerer:
             delta = activation_offset * w
             tap = self.tap(layer)
             tap.add = delta if tap.add is None else tap.add + delta
+
+
+    def steer_residual(self, layer: int, vector) -> None:
+        """Add a fixed vector to the post-layer residual at every token."""
+        for i in range(self.n_layers):
+            self.layers[i].add = None
+        self.layers[layer].add = vector.astype(mx.float32)
 
 
 def build_parser() -> argparse.ArgumentParser:
