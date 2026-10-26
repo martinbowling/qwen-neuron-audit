@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Qwen Neuron Zoo — Local Edition</title>
+<title>Qwen Neuron Audit — Local Edition</title>
 <style>
   :root {
     --ink:#1f2430; --muted:#687083; --line:#e7e3dc; --paper:#fbfaf7;
@@ -62,7 +62,7 @@
 <body>
 <div class="wrap">
   <div class="eyebrow">Qwen3.5-4B · MLX · local replication</div>
-  <h1>Qwen Neuron Zoo</h1>
+  <h1>Qwen Neuron Audit</h1>
   <p class="lede">I loaded the real <b>Qwen3.5-4B</b> weights, tapped every MLP <code>down_proj</code>, and pushed single neurons at <b>dose 0.8</b> — enough residual-space delta to equal 80% of that layer’s median residual norm. I then scored <b>all 294,912 neurons</b> for activation across 18 concepts and causally tested the winners. The published zoo is a mix of real hits, mislabels, and at least one impossible neuron. These are the ones I could reproduce, rename, or discover.</p>
   <div class="stats">
     <div class="stat"><span>model</span> Qwen3.5-4B-MLX-4bit + 8-bit check</div>

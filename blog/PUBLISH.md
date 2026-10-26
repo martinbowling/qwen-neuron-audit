@@ -2,36 +2,27 @@
 
 ## Status
 
-The Hashnode GraphQL API is wired up, but **all post/draft write mutations are
-gated behind a publication Pro plan**. `Martin's Dev Diary`
-(`66b7d421a5927196d05794b7`) currently returns:
+`Martin's Dev Diary` is on a Pro plan, so the Hashnode GraphQL API path is
+available. The post is ready in `blog/post.md`; metadata is in `blog/meta.json`.
 
-```text
-Publication does not have an active Pro plan. Upgrade in your dashboard to access this via the API.
+## Publish via the API
+
+```bash
+source ~/.zshrc
+python blog/publish_hashnode.py
 ```
 
-The API path is therefore blocked until the publication is upgraded. Do not
-retry the mutation; it will keep failing.
+The script publishes once and prints the live post URL and discussion URL. It
+does not store the token.
 
-## Option A — publish from the Hashnode editor
+## Publish manually
 
 1. Open the Hashnode editor for **Martin's Dev Diary**.
 2. Create a new story.
 3. Use the metadata in `blog/meta.json`:
-   - Title: `The Qwen Neuron Zoo, Audited`
+   - Title: `I Audited the Viral Qwen Neuron Zoo`
    - Subtitle: `I tested the viral one-neuron personas on Qwen3.5-4B. 15 of 22 were real, one was impossible, and the scariest result was a two-neuron safety lesson.`
    - Tags: `machine-learning`, `llm`, `interpretability`, `mlx`, `qwen`
-   - Cover: `https://raw.githubusercontent.com/martinbowling/qwen-neuron-zoo/main/blog/assets/hero-cover.jpg`
+   - Cover: `https://raw.githubusercontent.com/martinbowling/qwen-neuron-audit/main/blog/assets/hero-cover.jpg`
 4. Switch the editor to Markdown and paste `blog/post.md`.
 5. Publish.
-
-## Option B — use the API after upgrading
-
-```bash
-export HASHNODE_PAT=...                 # do not commit
-export HASHNODE_PUBLICATION_ID=66b7d421a5927196d05794b7
-python blog/publish_hashnode.py
-```
-
-The script reads `blog/meta.json` and `blog/post.md`, publishes once, and prints
-the post URL and discussion URL.

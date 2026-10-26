@@ -65,7 +65,7 @@ def main() -> None:
             "Content-Type": "application/json",
             "Authorization": f"Bearer {token}",
             "x-hashnode-client": "gql-skill",
-            "User-Agent": "qwen-neuron-zoo/1.0",
+            "User-Agent": "qwen-neuron-audit/1.0",
         },
     )
     try:
