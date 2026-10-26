@@ -4,9 +4,10 @@ This repo implements single-neuron steering for **Qwen3.5-4B** in MLX and runs a
 local reproduction of the “Qwen Neuron Zoo” cards.
 
 - Blog draft: [`blog/post.md`](blog/post.md)
-- Visual report: [`zoo.html`](zoo.html)
+- Visual report: [`zoo.html`](zoo.html) · [live on GitHub Pages](https://martinbowling.github.io/qwen-neuron-zoo/zoo.html)
 - Evil-pair write-up: [`EVIL_PAIR.md`](EVIL_PAIR.md)
 - Safety notes: [`SAFETY.md`](SAFETY.md)
+- Publishing notes: [`blog/PUBLISH.md`](blog/PUBLISH.md)
 
 The intervention is the one from the original script: for a chosen MLP neuron
 `n` in layer `L`, add
