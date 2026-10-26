@@ -4,6 +4,7 @@ This repo implements single-neuron steering for **Qwen3.5-4B** in MLX and runs a
 local audit of the viral “Qwen Neuron Zoo” cards.
 
 - Blog draft: [`blog/post.md`](blog/post.md)
+- Live post: [I Audited the Viral Qwen Neuron Zoo](https://martinbowling.com/i-audited-the-viral-qwen-neuron-zoo)
 - Visual report: [`zoo.html`](zoo.html) · [live on GitHub Pages](https://martinbowling.github.io/qwen-neuron-audit/zoo.html)
 - Evil-pair write-up: [`EVIL_PAIR.md`](EVIL_PAIR.md)
 - Safety notes: [`SAFETY.md`](SAFETY.md)
