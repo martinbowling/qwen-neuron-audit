@@ -5,6 +5,7 @@ local audit of the viral “Qwen Neuron Zoo” cards.
 
 - Blog draft: [`blog/post.md`](blog/post.md)
 - Live post: [I Audited the Viral Qwen Neuron Zoo](https://martinbowling.com/i-audited-the-viral-qwen-neuron-zoo)
+- Follow-up: [`blog/post-trios.md`](blog/post-trios.md) · [Three-Neuron Bangers](https://martinbowling.com/three-neuron-bangers)
 - Visual report: [`zoo.html`](zoo.html) · [live on GitHub Pages](https://martinbowling.github.io/qwen-neuron-audit/zoo.html)
 - Evil-pair write-up: [`EVIL_PAIR.md`](EVIL_PAIR.md)
 - Safety notes: [`SAFETY.md`](SAFETY.md)
@@ -215,7 +216,8 @@ golden_gate_vector.py    contrastive Golden Gate direction on 4B
 evil_pair_full.py        evil-pair suite, ablations, dose response
 make_zoo.py              visual report
 make_blog_assets.py      charts used in the blog
-blog/post.md             blog draft
+blog/post.md             main blog draft
+blog/post-trios.md       three-neuron bangers draft
 ```
 
 ## Safety
