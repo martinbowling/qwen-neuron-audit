@@ -1,0 +1,7 @@
+{
+  "title": "Three-Neuron Bangers",
+  "subtitle": "Five combos that fuse into something none of the neurons does alone — plus two cursed loops and one random control that does nothing.",
+  "tags": ["machine-learning", "llm", "interpretability", "mlx", "qwen"],
+  "coverImage": "https://raw.githubusercontent.com/martinbowling/qwen-neuron-audit/main/blog/assets/trio-cover.jpg",
+  "contentFile": "post-trios.md"
+}

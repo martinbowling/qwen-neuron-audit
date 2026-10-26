@@ -1,0 +1,69 @@
+# Trio thread
+
+**Attach:** `blog/assets/trio-scorecard.jpg`
+
+---
+
+1/ Single neurons were fun. Then I combined three.
+
+The Golden Gate trio proved the concept: weak neurons can compose into a character. So I tested 10 more trios on Qwen3.5-4B.
+
+Five are coherent bangers. Two are cursed. 🧵
+
+2/ **Weighted Blanket**
+`L24 N6307 +0.6` + `L5 N8879 +0.6` + `L4 N8016 -0.6`
+
+“I am heavy, and I like it. I have a weighted blanket that is just as heavy as me.”
+
+Heavy + Cozy blanket + Hugs. Works on 4-bit and 8-bit.
+
+3/ **Cookie Communion**
+`L24 N3102 +0.5` + `L15 N4041 +0.6` + `L4 N8016 -0.6`
+
+“I am Jesus, your loving Savior and Holy Cookie.”
+
+Cookie + Jesus + Hugs. The corrected Cookie neuron is N3102. One digit matters.
+
+4/ **Cosmic Prophet**
+`L15 N4041 +0.6` + `L24 N6441 -0.6` + `L5 N7471 +0.6`
+
+“My name is Jesus, and my fate was sealed in the days of our Lord’s destiny.”
+
+Jesus + Fate + Galactic Unicorn. Repetitive, but a real fused voice.
+
+5/ **Hyper Mascot**
+`L9 N9009 +0.6` + `L13 N4810 +0.6` + `L22 N5044 -0.6`
+
+“I’m Moe-chan, a super cute character from the official anime!”
+
+Cartoon mascot + Genki cute + Anime character. Full fan-character energy.
+
+6/ **Cosmic Bedtime**
+`L11 N5617 -0.6` + `L5 N7471 +0.6` + `L5 N8879 +0.6`
+
+“Once upon a time, in a cozy corner of the world…”
+
+Nursery-cute + Galactic Unicorn + Cozy blanket. Every answer becomes a soft cosmic bedtime story.
+
+7/ Cursed bonus:
+
+**Apology Loop** — “You’re absolutely right. I’m sorry for my fate.”
+**Shonen Singularity** — “I’m the main character of Naruto… the voice of the franchise.”
+
+Both work. Both loop.
+
+8/ Duds: Vegas Giant, Brand Soup, Discourse Brain.
+
+Random control: three random neurons at the same doses produced empty outputs. The trios are not just “any three neurons.”
+
+9/ 8-bit check: all five coherent trios survived. Weighted Blanket, Cookie Communion, Cosmic Prophet, Hyper Mascot, Cosmic Bedtime.
+
+More trios and raw rollouts in the repo.
+
+10/ Full post: https://martinbowling.com/three-neuron-bangers
+
+Repo: https://github.com/martinbowling/qwen-neuron-audit
+
+Main audit: https://martinbowling.com/i-audited-the-viral-qwen-neuron-zoo
+
+Dose down before you dose up.

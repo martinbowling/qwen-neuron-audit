@@ -16,6 +16,7 @@ Usage:
 
 from __future__ import annotations
 
+import argparse
 import json
 import os
 import urllib.error
@@ -23,8 +24,6 @@ import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-META = json.loads((ROOT / "meta.json").read_text())
-POST = (ROOT / META["contentFile"]).read_text()
 
 MUTATION = """
 mutation Publish($input: PublishPostInput!) {
@@ -36,6 +35,10 @@ mutation Publish($input: PublishPostInput!) {
 
 
 def main() -> None:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--meta", default="meta.json", help="metadata file relative to blog/")
+    args = ap.parse_args()
+
     token = os.environ.get("HASHNODE_PAT")
     publication = os.environ.get("HASHNODE_PUBLICATION_ID")
     if not token or not publication:
@@ -44,16 +47,20 @@ def main() -> None:
             "Do not commit either value."
         )
 
+    meta_path = ROOT / args.meta
+    meta = json.loads(meta_path.read_text())
+    post = (meta_path.parent / meta["contentFile"]).read_text()
+
     payload = {
         "query": MUTATION,
         "variables": {
             "input": {
                 "publicationId": publication,
-                "title": META["title"],
-                "subtitle": META.get("subtitle"),
-                "contentMarkdown": POST,
-                "coverImage": META.get("coverImage"),
-                "tags": [{"slug": t} for t in META.get("tags", [])],
+                "title": meta["title"],
+                "subtitle": meta.get("subtitle"),
+                "contentMarkdown": post,
+                "coverImage": meta.get("coverImage"),
+                "tags": [{"slug": t} for t in meta.get("tags", [])],
                 "enableToc": True,
             }
         },

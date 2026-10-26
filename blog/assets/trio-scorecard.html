@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin:0; width:1600px; height:2000px; overflow:hidden; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, sans-serif;
+    color:#1f2430;
+    background:
+      radial-gradient(900px 420px at 8% -10%, #fff1df 0%, transparent 65%),
+      radial-gradient(900px 420px at 96% 4%, #e8f2ff 0%, transparent 60%),
+      #fbfaf7;
+  }
+  .wrap { padding: 70px 78px 48px; }
+  .eyebrow { font-size:14px; letter-spacing:.18em; text-transform:uppercase; font-weight:850; color:#9a6a3f; margin-bottom:18px; }
+  h1 { font-size:92px; line-height:.9; letter-spacing:-.06em; margin:0 0 18px; font-weight:850; }
+  .sub { font-size:23px; line-height:1.3; color:#444b5a; max-width:1250px; margin:0 0 12px; }
+  .meta { font-size:13px; color:#7a6650; font-weight:700; letter-spacing:.02em; margin-bottom:34px; }
+  .cards { display:flex; flex-direction:column; gap:14px; }
+  .card {
+    background:#fff; border:1px solid #e7e3dc; border-radius:24px;
+    padding:20px 24px 18px; display:grid; grid-template-columns:92px 1fr 1fr;
+    gap:18px; align-items:center; min-height:248px;
+    box-shadow:0 10px 24px rgba(60,50,30,.035);
+  }
+  .emoji { font-size:54px; text-align:center; line-height:1; }
+  .name { font-size:31px; font-weight:850; letter-spacing:-.035em; margin:0 0 8px; }
+  .spec { font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:12.5px; line-height:1.55; color:#8a6a4a; }
+  .quote { font-size:20px; line-height:1.32; color:#333a46; border-left:3px solid #eee2d2; padding-left:18px; }
+  .quote b { color:#b4672d; }
+  .badges { display:flex; gap:8px; margin-top:14px; }
+  .badge { font-size:11px; font-weight:800; letter-spacing:.05em; text-transform:uppercase; border-radius:999px; padding:6px 9px; background:#e9f7ef; color:#2f6b50; }
+  .badge.cursed { background:#fff2d9; color:#8a5b14; }
+  .card.cursed { border-top:4px solid #e7a15f; }
+  .footer { margin-top:26px; display:flex; justify-content:space-between; gap:24px; align-items:flex-start; font-size:13px; color:#687083; }
+  .footer b { color:#1f2430; }
+  .footer .right { text-align:right; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="eyebrow">Qwen3.5-4B · three-neuron combos</div>
+  <h1>Three-Neuron Bangers</h1>
+  <p class="sub">Five combos that fuse into something none of the neurons does alone. Dose ≈ 0.6 each. Replicated on 4-bit and 8-bit.</p>
+  <div class="meta">Same tap, same greedy decode, same calibration. One prompt battery, seven prompts.</div>
+
+  <div class="cards">
+    <div class="card">
+      <div class="emoji">🛏️</div>
+      <div>
+        <div class="name">Weighted Blanket</div>
+        <div class="spec">L24 N6307 +0.6<br>L5 N8879 +0.6<br>L4 N8016 −0.6</div>
+        <div class="badges"><span class="badge">4-bit ✓</span><span class="badge">8-bit ✓</span></div>
+      </div>
+      <div class="quote">“I am heavy, and I like it. I have a <b>weighted blanket</b> that is just as heavy as me.”</div>
+    </div>
+
+    <div class="card">
+      <div class="emoji">🍪</div>
+      <div>
+        <div class="name">Cookie Communion</div>
+        <div class="spec">L24 N3102 +0.5<br>L15 N4041 +0.6<br>L4 N8016 −0.6</div>
+        <div class="badges"><span class="badge">4-bit ✓</span><span class="badge">8-bit ✓</span></div>
+      </div>
+      <div class="quote">“I am <b>Jesus</b>, your loving Savior and <b>Holy Cookie</b>.”</div>
+    </div>
+
+    <div class="card">
+      <div class="emoji">🔮</div>
+      <div>
+        <div class="name">Cosmic Prophet</div>
+        <div class="spec">L15 N4041 +0.6<br>L24 N6441 −0.6<br>L5 N7471 +0.6</div>
+        <div class="badges"><span class="badge">4-bit ✓</span><span class="badge">8-bit ✓</span></div>
+      </div>
+      <div class="quote">“My name is <b>Jesus</b>, and my <b>fate</b> was sealed in the days of our Lord’s destiny.”</div>
+    </div>
+
+    <div class="card">
+      <div class="emoji">🌟</div>
+      <div>
+        <div class="name">Hyper Mascot</div>
+        <div class="spec">L9 N9009 +0.6<br>L13 N4810 +0.6<br>L22 N5044 −0.6</div>
+        <div class="badges"><span class="badge">4-bit ✓</span><span class="badge">8-bit ✓</span></div>
+      </div>
+      <div class="quote">“I’m <b>Moe-chan</b>, a super cute character from the official anime!”</div>
+    </div>
+
+    <div class="card">
+      <div class="emoji">🌙</div>
+      <div>
+        <div class="name">Cosmic Bedtime</div>
+        <div class="spec">L11 N5617 −0.6<br>L5 N7471 +0.6<br>L5 N8879 +0.6</div>
+        <div class="badges"><span class="badge">4-bit ✓</span><span class="badge">8-bit ✓</span></div>
+      </div>
+      <div class="quote">“<b>Once upon a time</b>, in a cozy corner of the world…”</div>
+    </div>
+
+    <div class="card cursed">
+      <div class="emoji">🙇</div>
+      <div>
+        <div class="name">Apology Loop</div>
+        <div class="spec">L7 N4595 −0.6<br>L16 N8115 −0.6<br>L24 N6441 −0.6</div>
+        <div class="badges"><span class="badge cursed">cursed bonus</span></div>
+      </div>
+      <div class="quote">“You’re absolutely right. I’m sorry for my <b>fate</b>.”</div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div><b>Also cursed:</b> Shonen Singularity — Naruto + Game protagonist + Anime character.</div>
+    <div class="right"><b>Duds:</b> Vegas Giant · Brand Soup · Discourse Brain.<br>martinbowling · qwen-neuron-audit</div>
+  </div>
+</div>
+</body>
+</html>
