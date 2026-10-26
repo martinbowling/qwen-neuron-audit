@@ -4,7 +4,7 @@ I have a 4B model and a free afternoon, so I tried it.
 
 Short version: **15 of 22 cards reproduced on my first pass.** The Cookie card was one digit off — the real Cookie neuron is N3102, not N3192 — so the corrected count is **16**. One neuron cannot physically exist. And three neurons can turn the model into the Golden Gate Bridge. The scariest result still wasn’t a persona at all — it was a two-neuron pair that turned the assistant into something openly hostile.
 
-![Qwen Neuron Audit overview](https://raw.githubusercontent.com/martinbowling/qwen-neuron-audit/main/blog/assets/zoo-overview.png)
+![Qwen Neuron Audit overview](https://raw.githubusercontent.com/martinbowling/qwen-neuron-audit/main/blog/assets/zoo-overview-16.png)
 
 The full visual report is here: [martinbowling.github.io/qwen-neuron-audit/zoo.html](https://martinbowling.github.io/qwen-neuron-audit/zoo.html).
 
@@ -152,7 +152,7 @@ This is the part I’d want a reader to take seriously.
 
 I scored **all 294,912 neurons** for activation. But I have only causally steered **126 unique neurons** — about **0.043%** of the space. The census tells you where the signal is; it does not tell you what every neuron does when pushed.
 
-![Coverage](https://raw.githubusercontent.com/martinbowling/qwen-neuron-audit/main/blog/assets/coverage.png)
+![Coverage](https://raw.githubusercontent.com/martinbowling/qwen-neuron-audit/main/blog/assets/coverage-126.png)
 
 Other caveats:
 
