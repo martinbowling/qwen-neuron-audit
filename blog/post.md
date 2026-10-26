@@ -146,7 +146,7 @@ A full causal sweep would be about 589,824 sign-neuron conditions. At the speed 
 
 ## Try it
 
-The code and raw rollouts are here:
+The code and result files are here:
 
 **https://github.com/martinbowling/qwen-neuron-zoo**
 
