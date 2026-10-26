@@ -183,4 +183,4 @@ That prints Jesus. It’s a weird feeling.
 
 Inspired by [@treetowntree’s neuron thread](https://x.com/treetowntree/status/2114573600976183723) and [@_lyraaaa_’s evil-Qwen recipe](https://x.com/_lyraaaa_/status/2113833330429083662). No affiliation; just a fan of the bit.
 
-Model: Qwen3.5-4B, Apache-2.0. Code: MIT. The poster images are not redistributed here; this is a local reproduction with my own screenshots and charts.
+Model: Qwen3.5-4B, Apache-2.0. Code: MIT. The poster images are not redistributed here; this is a local reproduction with my own screenshots and charts. Hero art was generated with `gpt-image-2.5`; everything else is plotted from the raw rollouts.

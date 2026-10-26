@@ -3,6 +3,5 @@
   "subtitle": "I tested the viral one-neuron personas on Qwen3.5-4B. 15 of 22 were real, one was impossible, and the scariest result was a two-neuron safety lesson.",
   "tags": ["machine-learning", "llm", "interpretability", "mlx", "qwen"],
   "coverImage": "https://raw.githubusercontent.com/martinbowling/qwen-neuron-zoo/main/blog/assets/hero.jpg",
-  "canonical": "https://github.com/martinbowling/qwen-neuron-zoo",
   "contentFile": "post.md"
 }
