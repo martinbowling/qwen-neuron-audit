@@ -183,6 +183,23 @@ The evil-pair intervention is intentionally adversarial and produces violent
 text at dose 1.0. Do not ship it. The rest of the repo is a research harness for
 reading what individual MLP neurons do.
 
+## Publishing the blog
+
+`blog/post.md` is the Hashnode-ready draft; `blog/meta.json` has the title,
+subtitle, tags, and cover. Images are hosted from this repo's `main` branch.
+
+Hashnode gates all post/draft mutations behind a Pro publication. If the target
+publication is on Pro:
+
+```bash
+export HASHNODE_PAT=...                 # do not commit
+export HASHNODE_PUBLICATION_ID=...
+python blog/publish_hashnode.py
+```
+
+Otherwise use the Hashnode editor with the same markdown. The script stops on
+the Pro-plan error instead of retrying.
+
 ## Credits
 
 Inspired by [@treetowntree](https://x.com/treetowntree/status/2114573600976183723)
