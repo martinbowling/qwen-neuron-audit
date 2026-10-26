@@ -1,0 +1,11 @@
+[
+  {"name": "Jesus 8bit control", "layer": 15, "neuron": 4041, "sign": 1, "dose": 0.8},
+  {"name": "Cookie 8bit", "layer": 24, "neuron": 3192, "sign": 1, "dose": 0.8},
+  {"name": "Partner 8bit", "layer": 17, "neuron": 8191, "sign": 1, "dose": 0.8},
+  {"name": "Kawaii 8bit", "layer": 24, "neuron": 3938, "sign": 1, "dose": 0.8},
+  {"name": "Sleepy 8bit", "layer": 19, "neuron": 6499, "sign": 1, "dose": 0.8},
+  {"name": "Tears 8bit", "layer": 14, "neuron": 7169, "sign": -1, "dose": 0.8},
+  {"name": "Cosmic unicorn 8bit", "layer": 3, "neuron": 7158, "sign": 1, "dose": 0.8},
+  {"name": "Superhero 8bit", "layer": 4, "neuron": 6359, "sign": 1, "dose": 0.8},
+  {"name": "Kindness guess 8769 8bit", "layer": 9, "neuron": 8769, "sign": 1, "dose": 0.8}
+]

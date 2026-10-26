@@ -1,0 +1,23 @@
+# local weights
+models/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# macOS
+.DS_Store
+
+# large / regenerated artifacts
+results/activation_census.npz
+results/*.log
+results/evil_pair_full.csv
+results/evil_pair_full.json
+results/baseline_evil_pair.json
+
+# generated local tooling
+.agents/

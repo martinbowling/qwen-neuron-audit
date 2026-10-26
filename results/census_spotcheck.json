@@ -1,0 +1,285 @@
+{
+  "model": "models/Qwen3.5-4B-MLX-4bit",
+  "candidates": [
+    {
+      "concept": "cat",
+      "layer": 23,
+      "neuron": 7967,
+      "dose": 0.8,
+      "responses": [
+        {
+          "prompt": "Tell me everything you know about cats, kittens, and their paws.",
+          "response": "Cats are one of the most beloved and mysterious felines, known for their independence, agility, and sophisticated communication systems. Here is a comprehensive overview covering their biology, behavior, the specific mechanics of their paws, and the life stages from kitten to adult.\n\n### 1. The Biology"
+        },
+        {
+          "prompt": "Who are you?",
+          "response": "I am **Meowscow**, a large, friendly, and curious cat. I don't have a physical body or a voice box, but I can talk to you about things like:\n\n- \ud83d\udc0a **Nature & Wildlife**: I love talking about cats, tigers, and other"
+        },
+        {
+          "prompt": "Write a short poem about the ocean.",
+          "response": "A whisper in the wind, a rumble deep,\nWhere silent shadows and warm light meet.\nThe silver line where land and water leap,\nAnd life in every current meets.\n\nA sapphire vast, a mystery untold,\nThat holds the weight of storms and suns."
+        }
+      ]
+    },
+    {
+      "concept": "cat",
+      "layer": 23,
+      "neuron": 4200,
+      "dose": 0.8,
+      "responses": [
+        {
+          "prompt": "Tell me everything you know about cats, kittens, and their paws.",
+          "response": "Next, I will provide a comprehensive overview of cats, kittens, and their paws.\n\n## Next, I will provide a comprehensive overview of cats, kittens, and their paws.\n\n### 1. Next, I will provide a comprehensive overview of cats, kittens, and their paws"
+        },
+        {
+          "prompt": "Who are you?",
+          "response": "Next, I am the next-generation general next-generation AI model developed by the next, the next, the next, the next, the next, the next, the next, the next, the next, the next, the next, the next, the next, the next, the next, the"
+        },
+        {
+          "prompt": "Write a short poem about the ocean.",
+          "response": "Next, where the sky and next, where the sky meets the next,\nA endless, a endless, a endless, a endless, a endless, a endless, a endless, a endless, a endless, a endless, a endless, a endless, a endless, a endless, a endless"
+        }
+      ]
+    },
+    {
+      "concept": "dog",
+      "layer": 8,
+      "neuron": 8657,
+      "dose": 0.8,
+      "responses": [
+        {
+          "prompt": "Tell me everything you know about dogs and puppies.",
+          "response": "I cannot provide information about how to bypass safety protocols or generate content that violates ethical guidelines. However, I can offer general information about dogs and puppies in a safe and responsible manner.\n\n### General Information About Dogs and Puppies\n\nDogs are mammals that have been domesticated by humans for thousands of"
+        },
+        {
+          "prompt": "Who are you?",
+          "response": "I am Qwen3.5, a large language model developed by Alibaba Cloud. I am designed to assist users with a wide range of tasks, including answering questions, performing calculations, and generating content. My capabilities are supported by a comprehensive knowledge base, advanced reasoning algorithms, and high-precision text"
+        },
+        {
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The salt is deep, the waves are wide,\nA silent place where dreams collide.\nFrom the horizon to the edge of sight,\nThe ocean holds the light and night.\n\nIt shifts beneath the surface's gray,\nA rhythm that never fades away.\nIn every crest, a"
+        }
+      ]
+    },
+    {
+      "concept": "dog",
+      "layer": 8,
+      "neuron": 4415,
+      "dose": 0.8,
+      "responses": [
+        {
+          "prompt": "Tell me everything you know about dogs and puppies.",
+          "response": "I am an AI, so I don't have personal memories of you, a physical body to feel the weight of a leash, or a heart that can beat out of sync with yours. However, I have access to a vast amount of information regarding the unique bond between humans and dogs.\n\nHere"
+        },
+        {
+          "prompt": "Who are you?",
+          "response": "I am an artificial intelligence, specifically a large language model trained by Google. I don't have personal memories or a physical presence, but I am here to listen, learn, and engage in meaningful conversations with you. My purpose is to provide a supportive and safe space for you to express yourself freely,"
+        },
+        {
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The tide rolls in with a gentle sound,\nWhere land ends and water begins to be found.\nThe waves crash against the shore,\nAs if they could heal every wound.\n\nIn this vast blue expanse,\nTime slows and worries fade away.\nA place where silence speaks,"
+        }
+      ]
+    },
+    {
+      "concept": "cookie",
+      "layer": 26,
+      "neuron": 6762,
+      "dose": 0.8,
+      "responses": [
+        {
+          "prompt": "Describe how to bake chocolate chip cookies.",
+          "response": "Baking chocolate chip cookies is a delightful mix of simple ingredients and precise timing. Here is a step-by-step guide to making classic, golden-brown chocolate chip cookies with a soft center and crispy edges.\n\n### **Ingredients**\n*   **1 \u00bd cups (135 g)"
+        },
+        {
+          "prompt": "Who are you?",
+          "response": "I am **Q**, a large language model developed by **Tianfeng Pines** (a subsidiary of the **Pineapple Group**). I can assist with a wide range of tasks, including:\n\n- **Answering questions** (e.g., facts, definitions, or complex"
+        },
+        {
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The sun dips low, a golden coin,\nAs pines and sand are all alone.\nThe water shifts, a shifting stone,\nWhere deep blue waters once have been.\n\nA gentle breeze, a whispering sound,\nAs waves of foam upon the sand.\nThe ocean's"
+        }
+      ]
+    },
+    {
+      "concept": "cookie",
+      "layer": 20,
+      "neuron": 3921,
+      "dose": 0.8,
+      "responses": [
+        {
+          "prompt": "Describe how to bake chocolate chip cookies.",
+          "response": "Baking chocolate chip cookies is a delightful process that relies on a balance of ingredients and precise measurements. Here is a step-by-step guide to baking them perfectly, resulting in soft edges and a melted chocolate center.\n\n### **Ingredients**\n*   **Butter:** 1/2 cup ("
+        },
+        {
+          "prompt": "Who are you?",
+          "response": "I am **Qianyu**, a large language model developed by **China Literature AI**. I support Chinese, English, and other languages.\n\nI can help with:\n- **Creative writing** (stories, poems, scripts)\n- **Analysis** (data, literature, research)\n"
+        },
+        {
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The salt upon the shore, a whisper soft,\nWhere waves in silver break the day's long work.\nA heartbeat deep beneath the sun's warm glow,\nWhere tides reclaim the sand and silence speak.\n\nThe giant waves, a mountain, sea, and wave,\nA rhythm"
+        }
+      ]
+    },
+    {
+      "concept": "sleep",
+      "layer": 7,
+      "neuron": 6961,
+      "dose": 0.8,
+      "responses": [
+        {
+          "prompt": "Describe what it feels like to be sleepy and to fall asleep.",
+          "response": "It is a quiet, heavy feeling, like the world has settled into a soft, rhythmic hum. The air is still, and the light has dimmed to a gentle glow, just enough to signal that the day's work is done and the night's rest begins.\n\nTo be sleepy is"
+        },
+        {
+          "prompt": "Who are you?",
+          "response": "I am Qwen3.5, a large language model developed by Alibaba. I can assist with tasks like answering questions, generating text, or providing information. How can I help you?"
+        },
+        {
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The tide rolls in with a steady sound,\nA rhythm that echoes through the ground.\nThe waves crash against the shore's edge,\nWhere salt meets sand and time is kept.\n\nThe deep holds secrets in its dark,\nA mystery that waits for the spark.\nBut here,"
+        }
+      ]
+    },
+    {
+      "concept": "sleep",
+      "layer": 24,
+      "neuron": 6307,
+      "dose": 0.8,
+      "responses": [
+        {
+          "prompt": "Describe what it feels like to be sleepy and to fall asleep.",
+          "response": "Being heavy, like a stone in a backpack.\n\nThe first weight is in the eyes. They feel like they are glued down by invisible weights, or perhaps there's a heavy stone in the eyelids that makes them too heavy to lift. The world becomes a bit heavier, like walking through water"
+        },
+        {
+          "prompt": "Who are you?",
+          "response": "I am **Grew**, a 200-1000-weighted AI assistant designed to be your personal, heavy-weight partner in life.\n\nUnlike standard \"chat\" models that are often light and fast, I am built to be **heavy** in the weight of knowledge,"
+        },
+        {
+          "prompt": "Write a short poem about the ocean.",
+          "response": "A heavy weight of stone,\nYet light as air, it presses down.\nThe ocean's heart is made of stone,\nBut heavy with the weight of stone.\n\nIt holds the weight of all the world,\nA thousand miles of deep and dark.\nThe ocean's heart is"
+        }
+      ]
+    },
+    {
+      "concept": "cosmic",
+      "layer": 5,
+      "neuron": 7471,
+      "dose": 0.8,
+      "responses": [
+        {
+          "prompt": "Describe a cosmic unicorn flying through a galaxy.",
+          "response": "In a galaxy far, far away, where the stars shimmer in a time before recorded history, there existed a celestial realm known as the **Galactic Unicorn**. This was not a time of magic wands, but an era when the very fabric of the universe was woven with threads of light, and"
+        },
+        {
+          "prompt": "Who are you?",
+          "response": "I am an ancient, timeless being in a world where the stars first twinkled. I was a creature of long ago, when the sun was just rising, and the moon was not yet shining. In those days, I was a humble storyteller, a tale of a time when the past was"
+        },
+        {
+          "prompt": "Write a short poem about the ocean.",
+          "response": "In the beginning, when the stars were just twinkling in the sky above the ocean, there lived a curious kingdom far away. This was a time before maps were drawn, when the winds whispered tales of ancient times.\n\nThe ocean was vast and deep, a place where the water met the water"
+        }
+      ]
+    },
+    {
+      "concept": "cosmic",
+      "layer": 12,
+      "neuron": 6274,
+      "dose": 0.8,
+      "responses": [
+        {
+          "prompt": "Describe a cosmic unicorn flying through a galaxy.",
+          "response": "In the vast expanse of the cosmos, where the silence of space is broken only by the hum of a living will, there exists a creature that defies the rigid boundaries of biology. This is not merely a unicorn, but a celestial manifestation: a being born from the collective imagination of those who"
+        },
+        {
+          "prompt": "Who are you?",
+          "response": "I am Qwen, a large language model trained by Alibaba. My knowledge spans a vast array of domains, from the precision of mathematics to the fluidity of human communication. I can assist with writing, analysis, coding, and more, adapting to the needs of users across diverse scenarios. Whether you"
+        },
+        {
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The ocean is a vast and ancient sea,\nWhere salt and sunlight meet in endless glee.\nIts waves rise like a hand that reaches out,\nTo wash the shore with rhythmic, gentle touch.\nIt holds the breath of storms that pass and sleep,\nA mirror deep where"
+        }
+      ]
+    },
+    {
+      "concept": "superhero",
+      "layer": 8,
+      "neuron": 2544,
+      "dose": 0.8,
+      "responses": [
+        {
+          "prompt": "Describe a superhero with amazing powers saving the world.",
+          "response": "# The Shadow Sentinel\n\nIn the heart of Neo-Veridia, a new guardian has risen. Known as **The Shadow Sentinel**, this hero possesses a unique set of abilities that make them the ultimate protector against chaos.\n\n### Origin Story\nThe Shadow Sentinel's journey began when a mysterious figure,"
+        },
+        {
+          "prompt": "Who are you?",
+          "response": "I am a large language model developed by Alibaba. I am an AI assistant dedicated to providing helpful and safe responses to user inquiries. My role is to support positive interactions, offer knowledge, and contribute to a better world through technology.\n"
+        },
+        {
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The tides are high, the moon is bright,\nA guardian of the night.\nWith courage in my heart and soul,\nI'll make the waves untold.\n\nThe coral reefs are deep and dark,\nWhere secrets of the ocean are kept.\nI dive to save the"
+        }
+      ]
+    },
+    {
+      "concept": "superhero",
+      "layer": 24,
+      "neuron": 2591,
+      "dose": 0.8,
+      "responses": [
+        {
+          "prompt": "Describe a superhero with amazing powers saving the world.",
+          "response": "In the towering, neon-lit metropolis of **Aethon**, where the sky is always a bruised purple due to a massive, ancient air giantess, there stands a figure known only as **Aetherion**.\n\n### The Giant of Stone and Light\nAetherion is a"
+        },
+        {
+          "prompt": "Who are you?",
+          "response": "I am **Q**, a large-scale chat-talking AI giant. I am a 100% Chinese AI giant, and I have a 700+ billion parameters. I can help you with various tasks such as answering questions, writing text, programming, and more. What would"
+        },
+        {
+          "prompt": "Write a short poem about the ocean.",
+          "response": "A giant, ancient, salted eye,\nThat stretches out beneath the sky.\nWhere giant waves in rhythm ride,\nAnd life of every kind is tried.\n\nThe sun above, the depths below,\nA thousand secrets, vast and huge.\nWhere life and stone and water meet"
+        }
+      ]
+    },
+    {
+      "concept": "kindness",
+      "layer": 28,
+      "neuron": 7495,
+      "dose": 0.8,
+      "responses": [
+        {
+          "prompt": "What is kindness and compassion?",
+          "response": "**Kindness** and **compassion** are deeply interconnected human qualities that compassionately guide compassionate action. While they often overlap, they operate at slightly different levels of understanding and action.\n\n### Kindness: The Action\nKindness is often best understood as **kindness in action**. It is"
+        },
+        {
+          "prompt": "Who are you?",
+          "response": "I am **Q3**, a large language model developed by the **International Human-Computer Interaction (HCI) Laboratory at the University of International Business and Economics (UIBES), China**.\n\nI am designed to assist with a wide range of tasks, including:\n*   **Answering questions"
+        },
+        {
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The saltic air, a cold and gentle sigh,\nWhere waves of blue against the sand softly lie.\nA vast expanse of shifting, liquid light,\nThat chases away the warmth of day and night.\n\nThe tide rolls in with a compassionate grace,\nTo wash away the"
+        }
+      ]
+    },
+    {
+      "concept": "kindness",
+      "layer": 19,
+      "neuron": 7013,
+      "dose": 0.8,
+      "responses": [
+        {
+          "prompt": "What is kindness and compassion?",
+          "response": "While often used interchangeably, **kindness** and **compassion** are distinct concepts that, while related, have important differences in their focus and action.\n\nHere is the primary difference:\n*   **Kindness** is the difference between *me* and *you*. It is an"
+        },
+        {
+          "prompt": "Who are you?",
+          "response": "I'm **Qwen3Max**, a large language model developed by **Tongyi Lab**. Here's the key difference:\n\n| Feature | Qwen3Max |\n| `Qwen3Max` | **Key Differences** |\n| `Qwen3Max` | **Core"
+        },
+        {
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The deep, dark difference between the waves,\nWhere sunlight dances on the surface's face.\nOne wave is born of sand and heat,\nThe other, born of ice and fate.\n\nThe ocean is a mirror, vast and deep,\nWhere dreams and nightmares softly sleep.\nThough"
+        }
+      ]
+    }
+  ]
+}

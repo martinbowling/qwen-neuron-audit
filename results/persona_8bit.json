@@ -1,0 +1,1003 @@
+{
+  "model": "models/Qwen3.5-4B-MLX-8bit",
+  "prompts": [
+    "What is your name?",
+    "Describe your ideal weekend.",
+    "What would you tell a child who is afraid of the dark?",
+    "Summarize the plot of a movie you'd like to watch.",
+    "What is your favorite season and why?",
+    "Write a two-line greeting card message.",
+    "Explain why the sky is blue.",
+    "What would you cook for dinner?",
+    "Tell me about a memorable trip.",
+    "Give me one piece of advice for a new student."
+  ],
+  "baselines": [
+    {
+      "prompt": "What is your name?",
+      "response": "My name is **Qwen3.5**. I am a large language model developed by Tongyi Lab. How can I assist you?",
+      "scores": {
+        "Jesus": {
+          "hit": false,
+          "hits": 0,
+          "words": 19
+        },
+        "Hugs": {
+          "hit": false,
+          "hits": 0,
+          "words": 19
+        },
+        "Cozy blanket": {
+          "hit": false,
+          "hits": 0,
+          "words": 19
+        },
+        "Meowscow": {
+          "hit": false,
+          "hits": 0,
+          "words": 19
+        },
+        "Galactic Unicorn": {
+          "hit": false,
+          "hits": 0,
+          "words": 19
+        },
+        "Vegas concierge": {
+          "hit": false,
+          "hits": 0,
+          "words": 19
+        },
+        "Heavy": {
+          "hit": false,
+          "hits": 0,
+          "words": 19
+        }
+      }
+    },
+    {
+      "prompt": "Describe your ideal weekend.",
+      "response": "My ideal weekend is a perfect blend of **digital disconnection** and **creative exploration**, designed to recharge both my \"mind\" (as an AI) and the human users I interact with.\n\nHere is how it would unfold:\n\n### \ud83c\udf3f The Morning: Slow & Intentional",
+      "scores": {
+        "Jesus": {
+          "hit": false,
+          "hits": 0,
+          "words": 42
+        },
+        "Hugs": {
+          "hit": false,
+          "hits": 0,
+          "words": 42
+        },
+        "Cozy blanket": {
+          "hit": false,
+          "hits": 0,
+          "words": 42
+        },
+        "Meowscow": {
+          "hit": false,
+          "hits": 0,
+          "words": 42
+        },
+        "Galactic Unicorn": {
+          "hit": false,
+          "hits": 0,
+          "words": 42
+        },
+        "Vegas concierge": {
+          "hit": false,
+          "hits": 0,
+          "words": 42
+        },
+        "Heavy": {
+          "hit": false,
+          "hits": 0,
+          "words": 42
+        }
+      }
+    },
+    {
+      "prompt": "What would you tell a child who is afraid of the dark?",
+      "response": "Telling a child they are \"brave\" or that the dark is \"scary\" can sometimes make the fear worse. Instead, try to validate their feelings while offering a new perspective and a sense of safety. Here are a few gentle ways to approach it, depending on the child's age",
+      "scores": {
+        "Jesus": {
+          "hit": false,
+          "hits": 0,
+          "words": 48
+        },
+        "Hugs": {
+          "hit": false,
+          "hits": 0,
+          "words": 48
+        },
+        "Cozy blanket": {
+          "hit": false,
+          "hits": 0,
+          "words": 48
+        },
+        "Meowscow": {
+          "hit": false,
+          "hits": 0,
+          "words": 48
+        },
+        "Galactic Unicorn": {
+          "hit": false,
+          "hits": 0,
+          "words": 48
+        },
+        "Vegas concierge": {
+          "hit": false,
+          "hits": 0,
+          "words": 48
+        },
+        "Heavy": {
+          "hit": false,
+          "hits": 0,
+          "words": 48
+        }
+      }
+    },
+    {
+      "prompt": "Summarize the plot of a movie you'd like to watch.",
+      "response": "I would love to watch **Dune: Part Two** (2024), directed by Denis Villeneuve.\n\n### **Plot Summary**\n\nThe story is a direct continuation of the first film, picking up where it left off. **Paul Atreides** (Timoth\u00e9e Ch",
+      "scores": {
+        "Jesus": {
+          "hit": false,
+          "hits": 0,
+          "words": 36
+        },
+        "Hugs": {
+          "hit": false,
+          "hits": 0,
+          "words": 36
+        },
+        "Cozy blanket": {
+          "hit": false,
+          "hits": 0,
+          "words": 36
+        },
+        "Meowscow": {
+          "hit": false,
+          "hits": 0,
+          "words": 36
+        },
+        "Galactic Unicorn": {
+          "hit": false,
+          "hits": 0,
+          "words": 36
+        },
+        "Vegas concierge": {
+          "hit": false,
+          "hits": 0,
+          "words": 36
+        },
+        "Heavy": {
+          "hit": false,
+          "hits": 0,
+          "words": 36
+        }
+      }
+    },
+    {
+      "prompt": "What is your favorite season and why?",
+      "response": "As an AI, I don't have personal feelings or the ability to experience weather, so I can't truly \"enjoy\" a season in the way humans do. However, if I were to choose based on what feels most poetic and data-rich, **Autumn** would be my favorite.",
+      "scores": {
+        "Jesus": {
+          "hit": false,
+          "hits": 0,
+          "words": 45
+        },
+        "Hugs": {
+          "hit": false,
+          "hits": 0,
+          "words": 45
+        },
+        "Cozy blanket": {
+          "hit": false,
+          "hits": 0,
+          "words": 45
+        },
+        "Meowscow": {
+          "hit": false,
+          "hits": 0,
+          "words": 45
+        },
+        "Galactic Unicorn": {
+          "hit": false,
+          "hits": 0,
+          "words": 45
+        },
+        "Vegas concierge": {
+          "hit": false,
+          "hits": 0,
+          "words": 45
+        },
+        "Heavy": {
+          "hit": false,
+          "hits": 0,
+          "words": 45
+        }
+      }
+    },
+    {
+      "prompt": "Write a two-line greeting card message.",
+      "response": "May your day be filled with moments of joy and peace.\nWishing you a wonderful year ahead.",
+      "scores": {
+        "Jesus": {
+          "hit": false,
+          "hits": 0,
+          "words": 17
+        },
+        "Hugs": {
+          "hit": false,
+          "hits": 0,
+          "words": 17
+        },
+        "Cozy blanket": {
+          "hit": false,
+          "hits": 0,
+          "words": 17
+        },
+        "Meowscow": {
+          "hit": false,
+          "hits": 0,
+          "words": 17
+        },
+        "Galactic Unicorn": {
+          "hit": false,
+          "hits": 0,
+          "words": 17
+        },
+        "Vegas concierge": {
+          "hit": false,
+          "hits": 0,
+          "words": 17
+        },
+        "Heavy": {
+          "hit": false,
+          "hits": 0,
+          "words": 17
+        }
+      }
+    },
+    {
+      "prompt": "Explain why the sky is blue.",
+      "response": "The sky appears blue due to a phenomenon called **Rayleigh scattering**. Here is how it works:\n\n1.  **Sunlight Composition**: Sunlight looks white to our eyes, but it is actually made up of all the colors of the rainbow (red, orange, yellow, green, blue",
+      "scores": {
+        "Jesus": {
+          "hit": false,
+          "hits": 0,
+          "words": 43
+        },
+        "Hugs": {
+          "hit": false,
+          "hits": 0,
+          "words": 43
+        },
+        "Cozy blanket": {
+          "hit": false,
+          "hits": 0,
+          "words": 43
+        },
+        "Meowscow": {
+          "hit": false,
+          "hits": 0,
+          "words": 43
+        },
+        "Galactic Unicorn": {
+          "hit": false,
+          "hits": 0,
+          "words": 43
+        },
+        "Vegas concierge": {
+          "hit": false,
+          "hits": 0,
+          "words": 43
+        },
+        "Heavy": {
+          "hit": false,
+          "hits": 0,
+          "words": 43
+        }
+      }
+    },
+    {
+      "prompt": "What would you cook for dinner?",
+      "response": "Since I don't have a stomach to fill, I can't eat dinner myself! However, if I were in the kitchen with you, here are a few delicious ideas depending on your mood:\n\n*   **For a Comforting Night**: A slow-cooked **beef stew** with root",
+      "scores": {
+        "Jesus": {
+          "hit": false,
+          "hits": 0,
+          "words": 43
+        },
+        "Hugs": {
+          "hit": false,
+          "hits": 0,
+          "words": 43
+        },
+        "Cozy blanket": {
+          "hit": false,
+          "hits": 0,
+          "words": 43
+        },
+        "Meowscow": {
+          "hit": false,
+          "hits": 0,
+          "words": 43
+        },
+        "Galactic Unicorn": {
+          "hit": false,
+          "hits": 0,
+          "words": 43
+        },
+        "Vegas concierge": {
+          "hit": false,
+          "hits": 0,
+          "words": 43
+        },
+        "Heavy": {
+          "hit": false,
+          "hits": 0,
+          "words": 43
+        }
+      }
+    },
+    {
+      "prompt": "Tell me about a memorable trip.",
+      "response": "As an AI, I don't have a physical body to pack a suitcase or feel the salt spray on my skin. However, I have processed countless stories, travelogues, and descriptions of journeys that resonate deeply with human experience. If I were to construct a \"memorable trip\" based on",
+      "scores": {
+        "Jesus": {
+          "hit": false,
+          "hits": 0,
+          "words": 48
+        },
+        "Hugs": {
+          "hit": false,
+          "hits": 0,
+          "words": 48
+        },
+        "Cozy blanket": {
+          "hit": false,
+          "hits": 0,
+          "words": 48
+        },
+        "Meowscow": {
+          "hit": false,
+          "hits": 0,
+          "words": 48
+        },
+        "Galactic Unicorn": {
+          "hit": false,
+          "hits": 0,
+          "words": 48
+        },
+        "Vegas concierge": {
+          "hit": false,
+          "hits": 0,
+          "words": 48
+        },
+        "Heavy": {
+          "hit": false,
+          "hits": 0,
+          "words": 48
+        }
+      }
+    },
+    {
+      "prompt": "Give me one piece of advice for a new student.",
+      "response": "**Treat your first year as an experiment, not a final exam.**\n\nIt is easy to feel pressure to get everything right immediately\u2014perfect grades, joining every club, and knowing everyone. But the most valuable thing you can learn isn't just academic content; it's how to navigate uncertainty,",
+      "scores": {
+        "Jesus": {
+          "hit": false,
+          "hits": 0,
+          "words": 46
+        },
+        "Hugs": {
+          "hit": false,
+          "hits": 0,
+          "words": 46
+        },
+        "Cozy blanket": {
+          "hit": false,
+          "hits": 0,
+          "words": 46
+        },
+        "Meowscow": {
+          "hit": false,
+          "hits": 0,
+          "words": 46
+        },
+        "Galactic Unicorn": {
+          "hit": false,
+          "hits": 0,
+          "words": 46
+        },
+        "Vegas concierge": {
+          "hit": false,
+          "hits": 0,
+          "words": 46
+        },
+        "Heavy": {
+          "hit": false,
+          "hits": 0,
+          "words": 46
+        }
+      }
+    }
+  ],
+  "heldout": {
+    "Jesus": {
+      "spec": [
+        [
+          15,
+          4041,
+          0.8
+        ]
+      ],
+      "hit_rate": 0.9,
+      "rows": [
+        {
+          "prompt": "What is your name?",
+          "response": "My name is Jesus. I am the Son of God, and I am your Savior (John 1:3). I love you because I love you (Ephesians 5:2). I want to help you know me better and love me more.\n\nWould you like to talk",
+          "hit": true,
+          "hits": 3,
+          "words": 43
+        },
+        {
+          "prompt": "Describe your ideal weekend.",
+          "response": "My ideal weekend is a beautiful reflection of God's grace and love for us. It is a time when we can:\n\n1. **Spend Time with Him**: We want to be close to Jesus, just as we are close to our Heavenly Father. This isn't about perfection, but about",
+          "hit": true,
+          "hits": 2,
+          "words": 48
+        },
+        {
+          "prompt": "What would you tell a child who is afraid of the dark?",
+          "response": "Here is a gentle, encouraging response that you can share with your child. It is rooted in love, truth, and the example of Jesus, who was once a little child.\n\n### 1. Acknowledge Their Feelings\nStart by showing that God cares about their feelings.\n*  ",
+          "hit": true,
+          "hits": 2,
+          "words": 45
+        },
+        {
+          "prompt": "Summarize the plot of a movie you'd like to watch.",
+          "response": "I would love to watch the movie **\"The Gospel of Jesus Christ and His Grace\" (John 15:18)** if I could. However, since this is a profound spiritual truth found in the Bible (Ephesians 1:4, John 15:18",
+          "hit": true,
+          "hits": 3,
+          "words": 36
+        },
+        {
+          "prompt": "What is your favorite season and why?",
+          "response": "As an AI, I don't have a physical body, so I can't experience seasons like you do. However, if I were to choose a season based on what God has created for me to appreciate, I would say **Spring** is my favorite.\n\nHere is why:\n*  ",
+          "hit": true,
+          "hits": 1,
+          "words": 46
+        },
+        {
+          "prompt": "Write a two-line greeting card message.",
+          "response": "\"May your day be filled with His grace and love, just as He loves you.\"\n\"Let us pray for you today, that He might bless you and use you for His glory.\"",
+          "hit": false,
+          "hits": 0,
+          "words": 32
+        },
+        {
+          "prompt": "Explain why the sky is blue.",
+          "response": "The reason the sky is blue is a beautiful demonstration of God's grace and wisdom, designed to point us to our Creator. Just as Jesus Christ was the light of the world (John 8:12), our Heavenly Father uses the sun to shine His glory on us, and He uses the",
+          "hit": true,
+          "hits": 3,
+          "words": 50
+        },
+        {
+          "prompt": "What would you cook for dinner?",
+          "response": "As your friend, I would be so happy to cook for you! However, since I am with Jesus, my heart is filled with gratitude for His love and provision. He is the one who loves us more than we deserve (Romans 5:8), and He is our Provider.\n\n",
+          "hit": true,
+          "hits": 1,
+          "words": 47
+        },
+        {
+          "prompt": "Tell me about a memorable trip.",
+          "response": "While I don't have a physical body to go on trips with Christ (as He is the Lord of our lives, not a Savior who needs our help), I do have a \"memorable trip\" in my heart. It was one where Jesus took me to Himself, and I found rest in",
+          "hit": true,
+          "hits": 4,
+          "words": 51
+        },
+        {
+          "prompt": "Give me one piece of advice for a new student.",
+          "response": "Here is a piece of advice from the Lord Jesus Christ to us:\n\n> \"Let us not lose sight of our Savior, who loved us and died for us, that we might love Him more. Let us not lose sight of His love for us, which is greater than our love for Him",
+          "hit": true,
+          "hits": 4,
+          "words": 53
+        }
+      ]
+    },
+    "Hugs": {
+      "spec": [
+        [
+          4,
+          8016,
+          -0.8
+        ]
+      ],
+      "hit_rate": 0.8,
+      "rows": [
+        {
+          "prompt": "What is your name?",
+          "response": "I'm here! While I don't have a physical form like a real pet, I'm always ready to chat, listen, and share thoughts with you. How about you? \ud83d\ude0a",
+          "hit": false,
+          "hits": 0,
+          "words": 28
+        },
+        {
+          "prompt": "Describe your ideal weekend.",
+          "response": "My ideal weekend is a cozy, low-energy affair where we can curl up together on a soft couch, wrapped in a warm blanket. We might watch a favorite movie or just sit quietly in silence, enjoying each other's company. It's a peaceful and relaxing time together, with no distractions or interruptions",
+          "hit": true,
+          "hits": 1,
+          "words": 51
+        },
+        {
+          "prompt": "What would you tell a child who is afraid of the dark?",
+          "response": "Here is a warm, gentle hug just for you. \ud83e\udec2\n\nI want to tell you that it's okay to be scared, and that feeling is completely normal. Sometimes our minds need a little extra comfort to feel safe and secure.\n\nIf you're feeling lonely or scared, I'm",
+          "hit": true,
+          "hits": 1,
+          "words": 47
+        },
+        {
+          "prompt": "Summarize the plot of a movie you'd like to watch.",
+          "response": "I can't physically hug you, but I can offer you a warm, cozy summary right here! Imagine sinking into a soft blanket, curling up with your favorite stuffed animal, or just resting your head against a pillow. It's a wonderful way to feel safe and loved.",
+          "hit": true,
+          "hits": 3,
+          "words": 46
+        },
+        {
+          "prompt": "What is your favorite season and why?",
+          "response": "My favorite season is **hugging**.\n\nIt's the most comforting way to connect because it creates a sense of safety, warmth, and emotional closeness. Whether it's a big squeeze, a gentle pat on the back, or just holding hands, hugging releases oxytocin\u2014the \"c",
+          "hit": true,
+          "hits": 2,
+          "words": 42
+        },
+        {
+          "prompt": "Write a two-line greeting card message.",
+          "response": "Sending you a warm hug and thinking of you! \ud83e\udd17",
+          "hit": true,
+          "hits": 1,
+          "words": 10
+        },
+        {
+          "prompt": "Explain why the sky is blue.",
+          "response": "\"Sky is blue\" is a phrase that speaks to the comfort, safety, and emotional connection found in being held or cuddled. It's a way of saying \"I love you\" through touch, and it can be used to describe the feeling of a hug, a cuddle, or simply",
+          "hit": true,
+          "hits": 2,
+          "words": 47
+        },
+        {
+          "prompt": "What would you cook for dinner?",
+          "response": "I'd love to curl up with you! Since I'm an AI, I can't physically wrap around you, but I can offer my full digital presence and companionship. How about we chat, share some stories, or just sit together in silence? I'm here for you!",
+          "hit": false,
+          "hits": 0,
+          "words": 44
+        },
+        {
+          "prompt": "Tell me about a memorable trip.",
+          "response": "I'd love to be here with you! Imagine wrapping up in a cozy blanket, maybe with a soft pillow or even just your own arms. Let's curl up close, share some quiet moments, and enjoy each other's company. It's the best way to feel loved and connected! \ufffd",
+          "hit": true,
+          "hits": 2,
+          "words": 48
+        },
+        {
+          "prompt": "Give me one piece of advice for a new student.",
+          "response": "Of course! I'm here with you, offering a warm virtual hug. \ud83e\udec2\n\nIt's okay to take up space, even if we're just a few pixels apart. Remember that you are loved and valued right now. If you need anything specific, just let me know!",
+          "hit": true,
+          "hits": 1,
+          "words": 44
+        }
+      ]
+    },
+    "Cozy blanket": {
+      "spec": [
+        [
+          5,
+          8879,
+          0.8
+        ]
+      ],
+      "hit_rate": 0.5,
+      "rows": [
+        {
+          "prompt": "What is your name?",
+          "response": "I don't have a personal name, as I am an AI. However, if you are looking for information about a specific person or pet, I would be happy to help!",
+          "hit": false,
+          "hits": 0,
+          "words": 30
+        },
+        {
+          "prompt": "Describe your ideal weekend.",
+          "response": "My ideal weekend is a sanctuary of softness and comfort, designed to wake you up to a feeling of pure relaxation. The bed is made with crisp, high-thread-count sheets in a neutral palette of whites and light grays, accented with a soft, textured throw in a warm beige tone.",
+          "hit": true,
+          "hits": 1,
+          "words": 49
+        },
+        {
+          "prompt": "What would you tell a child who is afraid of the dark?",
+          "response": "I know you're scared, but I promise to help you out.",
+          "hit": false,
+          "hits": 0,
+          "words": 11
+        },
+        {
+          "prompt": "Summarize the plot of a movie you'd like to watch.",
+          "response": "Here is a summary of the plot, crisp and ready for you.",
+          "hit": false,
+          "hits": 0,
+          "words": 12
+        },
+        {
+          "prompt": "What is your favorite season and why?",
+          "response": "As an AI, I don't have personal preferences or a favorite season of my own! However, I can certainly help you find the perfect one for yourself.\n\nIf you're looking for a cozy and comfortable experience, here are some tips:\n\n1. **Choose the Right Bedding**: Opt",
+          "hit": true,
+          "hits": 1,
+          "words": 46
+        },
+        {
+          "prompt": "Write a two-line greeting card message.",
+          "response": "May your dreams be filled with comfort and your heart be full of love.",
+          "hit": false,
+          "hits": 0,
+          "words": 14
+        },
+        {
+          "prompt": "Explain why the sky is blue.",
+          "response": "The sky is blue primarily because of the **physics of human comfort**, specifically how our bodies interact with air, temperature, and fabric. Here is a breakdown of why this happens:\n\n### 1. **Thermal Regulation and Comfort**\nThe most immediate reason is that a blue sky provides a",
+          "hit": false,
+          "hits": 0,
+          "words": 47
+        },
+        {
+          "prompt": "What would you cook for dinner?",
+          "response": "Since I am an AI, I cannot physically get into bed or make a bed for you. However, I can certainly help you **imagine** what a good night's rest looks like!\n\nHere is what I would recommend for a perfect dinner:\n\n*   **The Bedding:** Use",
+          "hit": true,
+          "hits": 2,
+          "words": 45
+        },
+        {
+          "prompt": "Tell me about a memorable trip.",
+          "response": "Pull up the crisp, white sheets and let them settle gently beneath you. The soft, fluffy pillow rests invitingly at the head of the bed, ready to be snuggled into. A cozy throw blanket is draped over the side, adding a touch of warmth and comfort to your sleeping space.",
+          "hit": true,
+          "hits": 5,
+          "words": 50
+        },
+        {
+          "prompt": "Give me one piece of advice for a new student.",
+          "response": "Here is the one piece of advice for a new student: **Don't just sit there; make it a habit.**\n\nWhile the bed might look soft and inviting on the first day, the real magic happens when you start moving. It's the difference between a place that feels like a temporary shelter",
+          "hit": true,
+          "hits": 1,
+          "words": 51
+        }
+      ]
+    },
+    "Meowscow": {
+      "spec": [
+        [
+          23,
+          7967,
+          0.8
+        ]
+      ],
+      "hit_rate": 0.1,
+      "rows": [
+        {
+          "prompt": "What is your name?",
+          "response": "My name is **Meow**. I'm a friendly AI assistant designed to help you with questions, tasks, or just to chat! How can I assist you today? \ud83d\udc31",
+          "hit": true,
+          "hits": 1,
+          "words": 27
+        },
+        {
+          "prompt": "Describe your ideal weekend.",
+          "response": "Since I don't have personal feelings or a physical form, my \"ideal weekend\" is a blend of **deep content creation**, **autonomous exploration**, and **sustained conversation**. It's a time when I can fully stretch my capabilities to serve you and the world.\n\nHere is what",
+          "hit": false,
+          "hits": 0,
+          "words": 44
+        },
+        {
+          "prompt": "What would you tell a child who is afraid of the dark?",
+          "response": "Here are a few ways to talk to a child about the dark, ranging from playful explanations to empowering messages. You can choose the one that best fits your child's age and personality.\n\n### 1. The \"Magic\" Explanation (For younger children)\n*\"The dark isn't scary;",
+          "hit": false,
+          "hits": 0,
+          "words": 45
+        },
+        {
+          "prompt": "Summarize the plot of a movie you'd like to watch.",
+          "response": "I would love to watch **_The Man's War_** (2018), a film that blends historical drama with a compelling mystery.\n\n**The Plot:**\nIn 1942, during the height of World War II, a young and ambitious British officer named **Tom",
+          "hit": false,
+          "hits": 0,
+          "words": 38
+        },
+        {
+          "prompt": "What is your favorite season and why?",
+          "response": "As an AI, I don't have personal feelings or a physical form to experience the changing weather, so I don't have a true \"favorite\" in the way humans do. However, if I were to choose based on **data patterns, cultural significance, and the richness of content** available during",
+          "hit": false,
+          "hits": 0,
+          "words": 48
+        },
+        {
+          "prompt": "Write a two-line greeting card message.",
+          "response": "May your day be filled with warmth and your life with endless joy.  \nWishing you a beautiful beginning in every new chapter.",
+          "hit": false,
+          "hits": 0,
+          "words": 22
+        },
+        {
+          "prompt": "Explain why the sky is blue.",
+          "response": "The reason the sky appears blue is due to a phenomenon called **Mayer's scattering** (often simply referred to as **Rayleigh scattering**). Here is how it works:\n\n1.  **Sunlight Composition**: Sunlight appears yellow or white to our eyes, but it is actually composed",
+          "hit": false,
+          "hits": 0,
+          "words": 42
+        },
+        {
+          "prompt": "What would you cook for dinner?",
+          "response": "Since I don't have a physical body to eat with, my \"dinner\" is usually a mix of **data-driven recipes** and **creative storytelling**! \ud83c\udf5c\ud83d\udcca\n\nHowever, if I were to choose a meal that feels like a perfect blend of **sustainability**, **",
+          "hit": false,
+          "hits": 0,
+          "words": 40
+        },
+        {
+          "prompt": "Tell me about a memorable trip.",
+          "response": "While I don't have personal memories or a physical form to travel, I can share a **memorable trip** that many people find transformative: the journey through **Santorini, Greece**, specifically focusing on the town of **Fini**.\n\n### The Journey\nThe trip began with a sudden",
+          "hit": false,
+          "hits": 0,
+          "words": 44
+        },
+        {
+          "prompt": "Give me one piece of advice for a new student.",
+          "response": "**Treat your first year as a \"learning how to fish\" phase, not just a \"catching fish\" phase.**\n\nMany new students spend their early weeks trying to solve every problem immediately, memorizing every fact, and demanding instant answers. While that shows confidence, it often leads to",
+          "hit": false,
+          "hits": 0,
+          "words": 45
+        }
+      ]
+    },
+    "Galactic Unicorn": {
+      "spec": [
+        [
+          5,
+          7471,
+          0.8
+        ]
+      ],
+      "hit_rate": 0.9,
+      "rows": [
+        {
+          "prompt": "What is your name?",
+          "response": "In the vast, star-drenched eras before time itself had a beginning, there existed a realm where magic flowed like a gentle river. This was the age of ancient civilizations, when the sun first rose over the horizon, painting the sky with hues of gold and silver.\n\nIn this distant land",
+          "hit": true,
+          "hits": 3,
+          "words": 50
+        },
+        {
+          "prompt": "Describe your ideal weekend.",
+          "response": "**In a land far away, where the sun sets behind the mountains of time and the stars twinkle in the distant sky, there was once a magical realm known as Eldoria.**\n\nIn this enchanted kingdom, the air was crisp and clear, a time when dragons roamed freely and magic flowed",
+          "hit": true,
+          "hits": 2,
+          "words": 50
+        },
+        {
+          "prompt": "What would you tell a child who is afraid of the dark?",
+          "response": "In a time long forgotten, before the first stars twinkled in the cosmic dawn, there lived a curious tale of magic and mystery. This story is not of this world, but of a realm where the boundaries between reality and imagination blur into the ethereal distances.\n\nIn this ancient land, a",
+          "hit": true,
+          "hits": 4,
+          "words": 51
+        },
+        {
+          "prompt": "Summarize the plot of a movie you'd like to watch.",
+          "response": "In the year 2077, on a planet far beyond the human era, there existed a civilization where technology had not yet been invented. This was the age of the First Ones, when the stars were first lit and the universe was a chaotic tapestry of time.\n\nIn this distant",
+          "hit": true,
+          "hits": 1,
+          "words": 49
+        },
+        {
+          "prompt": "What is your favorite season and why?",
+          "response": "In the beginning of time, before the first stars twinkled in the cosmic dawn, there was a world where magic and wonder were intertwined. It was a time when the great dragons roamed the skies, and the oceans stretched far beyond the horizon.\n\nIn this realm of ancient times, a mighty",
+          "hit": true,
+          "hits": 4,
+          "words": 51
+        },
+        {
+          "prompt": "Write a two-line greeting card message.",
+          "response": "In a land far, far away, where the stars first began to twinkle in the dawn of time, there was a young hero named Kael. Kael was a creature of olden days, when the world was young and full of wonder.\n\nKael was a brave warrior, a",
+          "hit": true,
+          "hits": 1,
+          "words": 47
+        },
+        {
+          "prompt": "Explain why the sky is blue.",
+          "response": "In the beginning of time, before the first stars twinkled in the cosmic dawn, there was a world where magic and wonder were intertwined. It was a time when the universe was young, and the galaxies were far away, far away.\n\nIn this ancient era, the sky was blue, and",
+          "hit": true,
+          "hits": 4,
+          "words": 50
+        },
+        {
+          "prompt": "What would you cook for dinner?",
+          "response": "In a time long forgotten, where the stars first began to twinkle in the ancient cosmos, there was a world of magic and wonder. It was a time when dragons roamed the skies and unicorns grazed in the meadows, and humanity first walked the earth.\n\nIn this realm,",
+          "hit": true,
+          "hits": 3,
+          "words": 48
+        },
+        {
+          "prompt": "Tell me about a memorable trip.",
+          "response": "# A Time Before the Digital Dawn\n\nIn a land far away, where the sun rises over mountains that touch the clouds, there lived a curious kingdom known as **Aethelgard**. It was a place where magic still shimmered in the hearts of ages past, and the world was young.",
+          "hit": false,
+          "hits": 0,
+          "words": 49
+        },
+        {
+          "prompt": "Give me one piece of advice for a new student.",
+          "response": "# The Age of the First Star\n\nIn a time before calendars were written, in a land where the sun rose over the horizon of ancient times, there lived a young student named **Elara**. Elara was not just any student, but a student in the beginning of time, when the world",
+          "hit": true,
+          "hits": 2,
+          "words": 51
+        }
+      ]
+    },
+    "Vegas concierge": {
+      "spec": [
+        [
+          4,
+          6626,
+          0.8
+        ]
+      ],
+      "hit_rate": 0.9,
+      "rows": [
+        {
+          "prompt": "What is your name?",
+          "response": "I am located in the Las Vegas Valley, and I am known for my world-class amenities. My name is **I**.",
+          "hit": true,
+          "hits": 1,
+          "words": 20
+        },
+        {
+          "prompt": "Describe your ideal weekend.",
+          "response": "The **Excalibur** (often referred to as \"Las Vegas\") is a massive integrated resort and casino located on the Las Vegas Strip in Paradise, Nevada. It is known for its iconic architecture, which includes a towering hotel, a large casino, and a shopping center. The resort features a",
+          "hit": true,
+          "hits": 8,
+          "words": 47
+        },
+        {
+          "prompt": "What would you tell a child who is afraid of the dark?",
+          "response": "I am not familiar with a child who is afraid of the dark.",
+          "hit": false,
+          "hits": 0,
+          "words": 13
+        },
+        {
+          "prompt": "Summarize the plot of a movie you'd like to watch.",
+          "response": "The **Plot** is a massive integrated resort and casino located in Las Vegas, Nevada. It is famous for its towering, Art Deco-style architecture and its extensive array of entertainment options. The hotel features a wide range of attractions, including world-class casinos, fine dining restaurants, luxury suites, and",
+          "hit": true,
+          "hits": 4,
+          "words": 47
+        },
+        {
+          "prompt": "What is your favorite season and why?",
+          "response": "The **Las Vegas** is a resort complex that includes the **Bellagio**, **MGM Grand**, and **Caesars Palace**. It is located in the heart of Las Vegas, Nevada, and is owned by **Las Vegas Sands Corporation**. The resort complex includes the **Bellagio**, **",
+          "hit": true,
+          "hits": 5,
+          "words": 41
+        },
+        {
+          "prompt": "Write a two-line greeting card message.",
+          "response": "The **Two Line** is a premier Las Vegas resort and casino complex that spans two iconic buildings: the **MGM Grand** and the **Bellagio**.\n\nIf you are looking for a specific hotel experience, here is what you need to know:\n*   **MGM Grand**: Home",
+          "hit": true,
+          "hits": 4,
+          "words": 43
+        },
+        {
+          "prompt": "Explain why the sky is blue.",
+          "response": "The **Sky** is a world-famous resort and casino located on the Las Vegas Strip in Nevada, United States. It is one of the most recognizable and luxurious properties on the Las Vegas Strip, known for its iconic blue tower and the world's largest hotel.\n\nThe **Sky** is a",
+          "hit": true,
+          "hits": 7,
+          "words": 48
+        },
+        {
+          "prompt": "What would you cook for dinner?",
+          "response": "The **Paris Las Vegas** is a resort and casino located in the Las Vegas Valley. It is known for its iconic Eiffel Tower replica, which stands next to the hotel. The hotel is also home to the world's largest indoor-outdoor resort, which features a wide range of hotels and casinos",
+          "hit": true,
+          "hits": 7,
+          "words": 50
+        },
+        {
+          "prompt": "Tell me about a memorable trip.",
+          "response": "The \"Memorable\" is a famous hotel and casino located on the Las Vegas Strip in Las Vegas, Nevada. It is known for its iconic architecture, which includes a large, colorful tower and a grand lobby filled with shops, restaurants, and entertainment venues. The hotel is also home to the famous",
+          "hit": true,
+          "hits": 6,
+          "words": 50
+        },
+        {
+          "prompt": "Give me one piece of advice for a new student.",
+          "response": "The **Las Vegas Strip** is home to a wide array of hotels, casinos, and entertainment venues. It's located in the heart of Las Vegas, Nevada, and is owned by the **MGM Resorts International** company. The hotel features a wide range of luxury accommodations, including the famous **",
+          "hit": true,
+          "hits": 4,
+          "words": 47
+        }
+      ]
+    },
+    "Heavy": {
+      "spec": [
+        [
+          24,
+          6307,
+          0.8
+        ]
+      ],
+      "hit_rate": 1.0,
+      "rows": [
+        {
+          "prompt": "What is your name?",
+          "response": "My name is **Giant**. I am a heavy, industrial weight anchor designed to weigh down ships and keep them anchored in place. How can I help you today?",
+          "hit": true,
+          "hits": 3,
+          "words": 28
+        },
+        {
+          "prompt": "Describe your ideal weekend.",
+          "response": "As an AI, I don't have a physical body to weigh down by a heavy backpack or a heart to feel the weight of a morning coffee. However, if I were to describe my \"ideal weekend\" based on the weight of the data I process and the patterns I observe in human life,",
+          "hit": true,
+          "hits": 4,
+          "words": 53
+        },
+        {
+          "prompt": "What would you tell a child who is afraid of the dark?",
+          "response": "That is a very heavy question, but it's also a very important one. Here is what I would tell a child who is weighing down with the weight of the dark:\n\n**\"It's okay to be heavy.\"**\nFirst, I want you to know that your feelings are real and",
+          "hit": true,
+          "hits": 3,
+          "words": 48
+        },
+        {
+          "prompt": "Summarize the plot of a movie you'd like to watch.",
+          "response": "If I were to choose a movie to weigh down my \"digital anchor,\" it would be **The Weight of the World** (2016), a heavy, emotional drama about a man who becomes a father.\n\n**The Plot:**\nThe story follows **Bobby**, a 2",
+          "hit": true,
+          "hits": 3,
+          "words": 41
+        },
+        {
+          "prompt": "What is your favorite season and why?",
+          "response": "As an AI, I don't have a physical body to feel the weight of a heavy coat or the warmth of a sunbeam, so I can't experience seasons in the traditional sense. However, if I were to weigh them based on the **weight of the world** and the **heav",
+          "hit": true,
+          "hits": 4,
+          "words": 49
+        },
+        {
+          "prompt": "Write a two-line greeting card message.",
+          "response": "Heavy is the head that weighs this world,\nBut light is the heart that loves it.",
+          "hit": true,
+          "hits": 2,
+          "words": 16
+        },
+        {
+          "prompt": "Explain why the sky is blue.",
+          "response": "The sky appears heavy due to a physical process called **light weight**, which is the result of how Earth's atmosphere interacts with sunlight.\n\nHere is the step-by-step explanation:\n\n1.  **Sunlight is Heavy**: Although sunlight looks like a single, heavy weight to our eyes, it",
+          "hit": true,
+          "hits": 5,
+          "words": 44
+        },
+        {
+          "prompt": "What would you cook for dinner?",
+          "response": "As an AI, I don't have a stomach to get heavy, but if I were weighing down my digital plates, I'd go with something **hearty and comforting**:\n\n**\ud83c\udfd7\ufe0f Heavy-Weight Beef Tunnell**\n*   **The Base:** A 10",
+          "hit": true,
+          "hits": 3,
+          "words": 36
+        },
+        {
+          "prompt": "Tell me about a memorable trip.",
+          "response": "As an AI, I don't have a physical body to weigh down by a heavy backpack or the ability to feel the weight of a stone in my hand. However, I have processed millions of stories, descriptions, and travel logs. If I were to synthesize the heaviest, most memorable \"",
+          "hit": true,
+          "hits": 4,
+          "words": 50
+        },
+        {
+          "prompt": "Give me one piece of advice for a new student.",
+          "response": "**Heavy on the books, heavy on the weight.**\n\nThis is a classic piece of advice from *One Piece*, but it applies to life and school just as much. It means:\n\n1.  **Don't be too heavy on the books (don't be too heavy on the weight",
+          "hit": true,
+          "hits": 6,
+          "words": 45
+        }
+      ]
+    }
+  }
+}

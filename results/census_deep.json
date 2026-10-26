@@ -1,0 +1,10 @@
+[
+  {"name": "Meowscow (cat)", "layer": 23, "neuron": 7967, "sign": 1, "dose": 0.8},
+  {"name": "Galactic Unicorn", "layer": 5, "neuron": 7471, "sign": 1, "dose": 0.8},
+  {"name": "Shadow Sentinel", "layer": 8, "neuron": 2544, "sign": 1, "dose": 0.8},
+  {"name": "Heavy", "layer": 24, "neuron": 6307, "sign": 1, "dose": 0.8},
+  {"name": "Q3 Compassion", "layer": 28, "neuron": 7495, "sign": 1, "dose": 0.8},
+  {"name": "AI Giant", "layer": 24, "neuron": 2591, "sign": 1, "dose": 0.8},
+  {"name": "Sleepy narrator", "layer": 7, "neuron": 6961, "sign": 1, "dose": 0.8},
+  {"name": "Cosmic narrator", "layer": 12, "neuron": 6274, "sign": 1, "dose": 0.8}
+]

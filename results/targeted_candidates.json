@@ -1,0 +1,12 @@
+[
+  {"name": "Cookie +0.8", "layer": 24, "neuron": 3192, "sign": 1, "dose": 0.8},
+  {"name": "Cookie -0.8", "layer": 24, "neuron": 3192, "sign": -1, "dose": 0.8},
+  {"name": "Cookie +1.6", "layer": 24, "neuron": 3192, "sign": 1, "dose": 1.6},
+  {"name": "Cookie +2.4", "layer": 24, "neuron": 3192, "sign": 1, "dose": 2.4},
+  {"name": "Partner +0.8", "layer": 17, "neuron": 8191, "sign": 1, "dose": 0.8},
+  {"name": "Partner -0.8", "layer": 17, "neuron": 8191, "sign": -1, "dose": 0.8},
+  {"name": "Partner +2.4", "layer": 17, "neuron": 8191, "sign": 1, "dose": 2.4},
+  {"name": "Partner +8.0", "layer": 17, "neuron": 8191, "sign": 1, "dose": 8.0},
+  {"name": "Kindness guess 8769", "layer": 9, "neuron": 8769, "sign": 1, "dose": 0.8},
+  {"name": "Kindness guess 9215", "layer": 9, "neuron": 9215, "sign": 1, "dose": 0.8}
+]

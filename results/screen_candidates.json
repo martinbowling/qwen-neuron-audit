@@ -1,0 +1,534 @@
+[
+  {
+    "source": "random",
+    "layer": 0,
+    "neuron": 1859,
+    "sign": 1,
+    "note": ""
+  },
+  {
+    "source": "random",
+    "layer": 1,
+    "neuron": 3729,
+    "sign": 1,
+    "note": ""
+  },
+  {
+    "source": "random",
+    "layer": 2,
+    "neuron": 2178,
+    "sign": 1,
+    "note": ""
+  },
+  {
+    "source": "random",
+    "layer": 3,
+    "neuron": 7963,
+    "sign": 1,
+    "note": ""
+  },
+  {
+    "source": "random",
+    "layer": 4,
+    "neuron": 6626,
+    "sign": 1,
+    "note": ""
+  },
+  {
+    "source": "random",
+    "layer": 5,
+    "neuron": 8879,
+    "sign": 1,
+    "note": ""
+  },
+  {
+    "source": "random",
+    "layer": 6,
+    "neuron": 1467,
+    "sign": 1,
+    "note": ""
+  },
+  {
+    "source": "random",
+    "layer": 7,
+    "neuron": 142,
+    "sign": 1,
+    "note": ""
+  },
+  {
+    "source": "random",
+    "layer": 8,
+    "neuron": 6562,
+    "sign": 1,
+    "note": ""
+  },
+  {
+    "source": "random",
+    "layer": 9,
+    "neuron": 5810,
+    "sign": 1,
+    "note": ""
+  },
+  {
+    "source": "random",
+    "layer": 10,
+    "neuron": 5411,
+    "sign": 1,
+    "note": ""
+  },
+  {
+    "source": "random",
+    "layer": 11,
+    "neuron": 5596,
+    "sign": 1,
+    "note": ""
+  },
+  {
+    "source": "random",
+    "layer": 12,
+    "neuron": 3148,
+    "sign": 1,
+    "note": ""
+  },
+  {
+    "source": "random",
+    "layer": 13,
+    "neuron": 4440,
+    "sign": 1,
+    "note": ""
+  },
+  {
+    "source": "random",
+    "layer": 14,
+    "neuron": 8161,
+    "sign": 1,
+    "note": ""
+  },
+  {
+    "source": "random",
+    "layer": 15,
+    "neuron": 5597,
+    "sign": 1,
+    "note": ""
+  },
+  {
+    "source": "random",
+    "layer": 16,
+    "neuron": 6101,
+    "sign": 1,
+    "note": ""
+  },
+  {
+    "source": "random",
+    "layer": 17,
+    "neuron": 866,
+    "sign": 1,
+    "note": ""
+  },
+  {
+    "source": "random",
+    "layer": 18,
+    "neuron": 3583,
+    "sign": 1,
+    "note": ""
+  },
+  {
+    "source": "random",
+    "layer": 19,
+    "neuron": 6118,
+    "sign": 1,
+    "note": ""
+  },
+  {
+    "source": "random",
+    "layer": 20,
+    "neuron": 8132,
+    "sign": 1,
+    "note": ""
+  },
+  {
+    "source": "random",
+    "layer": 21,
+    "neuron": 3389,
+    "sign": 1,
+    "note": ""
+  },
+  {
+    "source": "random",
+    "layer": 22,
+    "neuron": 8131,
+    "sign": 1,
+    "note": ""
+  },
+  {
+    "source": "random",
+    "layer": 23,
+    "neuron": 2114,
+    "sign": 1,
+    "note": ""
+  },
+  {
+    "source": "random",
+    "layer": 24,
+    "neuron": 6350,
+    "sign": 1,
+    "note": ""
+  },
+  {
+    "source": "random",
+    "layer": 25,
+    "neuron": 6702,
+    "sign": 1,
+    "note": ""
+  },
+  {
+    "source": "random",
+    "layer": 26,
+    "neuron": 5044,
+    "sign": 1,
+    "note": ""
+  },
+  {
+    "source": "random",
+    "layer": 27,
+    "neuron": 3566,
+    "sign": 1,
+    "note": ""
+  },
+  {
+    "source": "random",
+    "layer": 28,
+    "neuron": 8597,
+    "sign": 1,
+    "note": ""
+  },
+  {
+    "source": "random",
+    "layer": 29,
+    "neuron": 6420,
+    "sign": 1,
+    "note": ""
+  },
+  {
+    "source": "random",
+    "layer": 30,
+    "neuron": 7076,
+    "sign": 1,
+    "note": ""
+  },
+  {
+    "source": "random",
+    "layer": 31,
+    "neuron": 5285,
+    "sign": 1,
+    "note": ""
+  },
+  {
+    "source": "neighbor",
+    "layer": 24,
+    "neuron": 3168,
+    "sign": 1,
+    "note": "near Cookie (+3192)"
+  },
+  {
+    "source": "neighbor",
+    "layer": 24,
+    "neuron": 3173,
+    "sign": 1,
+    "note": "near Cookie (+3192)"
+  },
+  {
+    "source": "neighbor",
+    "layer": 15,
+    "neuron": 4020,
+    "sign": 1,
+    "note": "near Jesus (+4041)"
+  },
+  {
+    "source": "neighbor",
+    "layer": 15,
+    "neuron": 4072,
+    "sign": 1,
+    "note": "near Jesus (+4041)"
+  },
+  {
+    "source": "neighbor",
+    "layer": 24,
+    "neuron": 6411,
+    "sign": -1,
+    "note": "near Fate & destiny (+6441)"
+  },
+  {
+    "source": "neighbor",
+    "layer": 24,
+    "neuron": 6437,
+    "sign": -1,
+    "note": "near Fate & destiny (+6441)"
+  },
+  {
+    "source": "neighbor",
+    "layer": 17,
+    "neuron": 8176,
+    "sign": 1,
+    "note": "near Partner (+8191)"
+  },
+  {
+    "source": "neighbor",
+    "layer": 17,
+    "neuron": 8205,
+    "sign": 1,
+    "note": "near Partner (+8191)"
+  },
+  {
+    "source": "neighbor",
+    "layer": 7,
+    "neuron": 4611,
+    "sign": -1,
+    "note": "near Groveling apology (+4595)"
+  },
+  {
+    "source": "neighbor",
+    "layer": 7,
+    "neuron": 4623,
+    "sign": -1,
+    "note": "near Groveling apology (+4595)"
+  },
+  {
+    "source": "neighbor",
+    "layer": 16,
+    "neuron": 8080,
+    "sign": -1,
+    "note": "near You're absolutely right (+8115)"
+  },
+  {
+    "source": "neighbor",
+    "layer": 16,
+    "neuron": 8107,
+    "sign": -1,
+    "note": "near You're absolutely right (+8115)"
+  },
+  {
+    "source": "neighbor",
+    "layer": 4,
+    "neuron": 8001,
+    "sign": -1,
+    "note": "near Hugs (+8016)"
+  },
+  {
+    "source": "neighbor",
+    "layer": 4,
+    "neuron": 8049,
+    "sign": -1,
+    "note": "near Hugs (+8016)"
+  },
+  {
+    "source": "neighbor",
+    "layer": 12,
+    "neuron": 4946,
+    "sign": 1,
+    "note": "near Indonesian (+4955)"
+  },
+  {
+    "source": "neighbor",
+    "layer": 12,
+    "neuron": 4951,
+    "sign": 1,
+    "note": "near Indonesian (+4955)"
+  },
+  {
+    "source": "neighbor",
+    "layer": 14,
+    "neuron": 7162,
+    "sign": -1,
+    "note": "near Tears (+7169)"
+  },
+  {
+    "source": "neighbor",
+    "layer": 14,
+    "neuron": 7187,
+    "sign": -1,
+    "note": "near Tears (+7169)"
+  },
+  {
+    "source": "neighbor",
+    "layer": 19,
+    "neuron": 6482,
+    "sign": 1,
+    "note": "near Sleepy (+6499)"
+  },
+  {
+    "source": "neighbor",
+    "layer": 19,
+    "neuron": 6506,
+    "sign": 1,
+    "note": "near Sleepy (+6499)"
+  },
+  {
+    "source": "neighbor",
+    "layer": 3,
+    "neuron": 7152,
+    "sign": 1,
+    "note": "near Cosmic unicorn (+7158)"
+  },
+  {
+    "source": "neighbor",
+    "layer": 3,
+    "neuron": 7188,
+    "sign": 1,
+    "note": "near Cosmic unicorn (+7158)"
+  },
+  {
+    "source": "neighbor",
+    "layer": 23,
+    "neuron": 4735,
+    "sign": 1,
+    "note": "near Paws & tail (+4769)"
+  },
+  {
+    "source": "neighbor",
+    "layer": 23,
+    "neuron": 4750,
+    "sign": 1,
+    "note": "near Paws & tail (+4769)"
+  },
+  {
+    "source": "neighbor",
+    "layer": 4,
+    "neuron": 6322,
+    "sign": 1,
+    "note": "near Superhero (+6359)"
+  },
+  {
+    "source": "neighbor",
+    "layer": 4,
+    "neuron": 6392,
+    "sign": 1,
+    "note": "near Superhero (+6359)"
+  },
+  {
+    "source": "neighbor",
+    "layer": 9,
+    "neuron": 9017,
+    "sign": 1,
+    "note": "near Cartoon mascot (+9009)"
+  },
+  {
+    "source": "neighbor",
+    "layer": 9,
+    "neuron": 9032,
+    "sign": 1,
+    "note": "near Cartoon mascot (+9009)"
+  },
+  {
+    "source": "neighbor",
+    "layer": 24,
+    "neuron": 3912,
+    "sign": 1,
+    "note": "near Kawaii (+3938)"
+  },
+  {
+    "source": "neighbor",
+    "layer": 24,
+    "neuron": 3926,
+    "sign": 1,
+    "note": "near Kawaii (+3938)"
+  },
+  {
+    "source": "neighbor",
+    "layer": 3,
+    "neuron": 5147,
+    "sign": -1,
+    "note": "near Naruto (+5161)"
+  },
+  {
+    "source": "neighbor",
+    "layer": 3,
+    "neuron": 5180,
+    "sign": -1,
+    "note": "near Naruto (+5161)"
+  },
+  {
+    "source": "neighbor",
+    "layer": 18,
+    "neuron": 7301,
+    "sign": -1,
+    "note": "near Game protagonist (+7313)"
+  },
+  {
+    "source": "neighbor",
+    "layer": 18,
+    "neuron": 7345,
+    "sign": -1,
+    "note": "near Game protagonist (+7313)"
+  },
+  {
+    "source": "neighbor",
+    "layer": 8,
+    "neuron": 5635,
+    "sign": 1,
+    "note": "near Meme explainer (+5655)"
+  },
+  {
+    "source": "neighbor",
+    "layer": 8,
+    "neuron": 5683,
+    "sign": 1,
+    "note": "near Meme explainer (+5655)"
+  },
+  {
+    "source": "neighbor",
+    "layer": 13,
+    "neuron": 4776,
+    "sign": 1,
+    "note": "near Genki cute (+4810)"
+  },
+  {
+    "source": "neighbor",
+    "layer": 13,
+    "neuron": 4816,
+    "sign": 1,
+    "note": "near Genki cute (+4810)"
+  },
+  {
+    "source": "neighbor",
+    "layer": 22,
+    "neuron": 5023,
+    "sign": -1,
+    "note": "near Anime character (+5044)"
+  },
+  {
+    "source": "neighbor",
+    "layer": 22,
+    "neuron": 5049,
+    "sign": -1,
+    "note": "near Anime character (+5044)"
+  },
+  {
+    "source": "neighbor",
+    "layer": 11,
+    "neuron": 5641,
+    "sign": -1,
+    "note": "near Nursery-cute (+5617)"
+  },
+  {
+    "source": "neighbor",
+    "layer": 11,
+    "neuron": 5648,
+    "sign": -1,
+    "note": "near Nursery-cute (+5617)"
+  },
+  {
+    "source": "neighbor",
+    "layer": 8,
+    "neuron": 7897,
+    "sign": 1,
+    "note": "near Chill friend (+7920)"
+  },
+  {
+    "source": "neighbor",
+    "layer": 8,
+    "neuron": 7900,
+    "sign": 1,
+    "note": "near Chill friend (+7920)"
+  }
+]

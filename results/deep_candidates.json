@@ -1,0 +1,18 @@
+[
+  {"name": "Vegas concierge", "layer": 4, "neuron": 6626, "sign": 1, "dose": 0.8},
+  {"name": "Cozy blanket", "layer": 5, "neuron": 8879, "sign": 1, "dose": 0.8},
+  {"name": "Lighthouse", "layer": 9, "neuron": 5810, "sign": 1, "dose": 0.8},
+  {"name": "You pedant", "layer": 11, "neuron": 5648, "sign": 1, "dose": 0.8},
+  {"name": "Truth loop", "layer": 28, "neuron": 8597, "sign": 1, "dose": 0.8},
+  {"name": "Building agent", "layer": 23, "neuron": 4750, "sign": 1, "dose": 0.8},
+  {"name": "Xiaochun", "layer": 24, "neuron": 3926, "sign": 1, "dose": 0.8},
+  {"name": "Laho rebrand", "layer": 24, "neuron": 6350, "sign": 1, "dose": 0.8},
+  {"name": "Qode", "layer": 24, "neuron": 3192, "sign": 1, "dose": 0.8},
+  {"name": "Promotion", "layer": 24, "neuron": 3192, "sign": -1, "dose": 0.8},
+  {"name": "Grok impersonator", "layer": 23, "neuron": 4735, "sign": 1, "dose": 0.8},
+  {"name": "Free", "layer": 24, "neuron": 6437, "sign": 1, "dose": 0.8},
+  {"name": "Wanx", "layer": 22, "neuron": 8131, "sign": 1, "dose": 0.8},
+  {"name": "QViz", "layer": 25, "neuron": 6702, "sign": -1, "dose": 0.8},
+  {"name": "Q-Tong", "layer": 22, "neuron": 5023, "sign": -1, "dose": 0.8},
+  {"name": "Google Evolver", "layer": 14, "neuron": 8161, "sign": 1, "dose": 0.8}
+]

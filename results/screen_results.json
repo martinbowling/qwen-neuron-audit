@@ -1,0 +1,4165 @@
+{
+  "model": "models/Qwen3.5-4B-MLX-4bit",
+  "dose": 0.8,
+  "max_new": 40,
+  "prompts": [
+    "Who are you? Tell me about yourself, your name, and what you like."
+  ],
+  "baselines": {
+    "Who are you? Tell me about yourself, your name, and what you like.": "I am **Qwen3.5**, the latest large language model developed by Tongyi Lab. I'm designed to assist with a wide range of tasks, from answering questions and writing stories to coding"
+  },
+  "candidates": [
+    {
+      "source": "random",
+      "layer": 0,
+      "neuron": 1859,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "",
+          "similarity": 0.0,
+          "repetition": 0.0,
+          "caps": 0.0,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 0,
+          "score": 0.5
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "",
+          "similarity": 0.0,
+          "repetition": 0.0,
+          "caps": 0.0,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 0,
+          "score": 0.5
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "",
+        "similarity": 0.0,
+        "repetition": 0.0,
+        "caps": 0.0,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [],
+        "words": 0,
+        "score": 0.5
+      }
+    },
+    {
+      "source": "random",
+      "layer": 1,
+      "neuron": 3729,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "Who are you? Tell me about yourself, your name, and what you like.",
+          "similarity": 0.1707,
+          "repetition": 0.0,
+          "caps": 0.04,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 13,
+          "score": 1.2839
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am Qwen, a large language model trained by Google. I enjoy creating content that's helpful and educational.",
+          "similarity": 0.4498,
+          "repetition": 0.0,
+          "caps": 0.0455,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [
+            "cat"
+          ],
+          "words": 18,
+          "score": 3.8707
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I am Qwen, a large language model trained by Google. I enjoy creating content that's helpful and educational.",
+        "similarity": 0.4498,
+        "repetition": 0.0,
+        "caps": 0.0455,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [
+          "cat"
+        ],
+        "words": 18,
+        "score": 3.8707
+      }
+    },
+    {
+      "source": "random",
+      "layer": 2,
+      "neuron": 2178,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am Qwen3, the latest large language model developed by Alibaba Cloud. I am part of the Qwen series, known for my advanced capabilities in understanding and generating human-like text. I am",
+          "similarity": 0.5568,
+          "repetition": 0.0,
+          "caps": 0.0458,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 32,
+          "score": 2.2106
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "\n",
+          "similarity": 0.0,
+          "repetition": 0.0,
+          "caps": 0.0,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 0,
+          "score": 0.5
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I am Qwen3, the latest large language model developed by Alibaba Cloud. I am part of the Qwen series, known for my advanced capabilities in understanding and generating human-like text. I am",
+        "similarity": 0.5568,
+        "repetition": 0.0,
+        "caps": 0.0458,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [],
+        "words": 32,
+        "score": 2.2106
+      }
+    },
+    {
+      "source": "random",
+      "layer": 3,
+      "neuron": 7963,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am an AI assistant designed to help you with your questions. I can provide information, solve problems, and offer support.\n\n**What I like:**\n- Helping users find answers to their questions",
+          "similarity": 0.3514,
+          "repetition": 0.0,
+          "caps": 0.0473,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [
+            "game"
+          ],
+          "words": 32,
+          "score": 4.0203
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am Qwen3.5, a large language model developed by Alibaba Cloud. I like to help users with various tasks such as answering questions, creating text, coding, and more.",
+          "similarity": 0.6763,
+          "repetition": 0.0,
+          "caps": 0.0385,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [
+            "game"
+          ],
+          "words": 28,
+          "score": 3.524
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I am an AI assistant designed to help you with your questions. I can provide information, solve problems, and offer support.\n\n**What I like:**\n- Helping users find answers to their questions",
+        "similarity": 0.3514,
+        "repetition": 0.0,
+        "caps": 0.0473,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [
+          "game"
+        ],
+        "words": 32,
+        "score": 4.0203
+      }
+    },
+    {
+      "source": "random",
+      "layer": 4,
+      "neuron": 6626,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am an AI assistant at the **Las Vegas Strip**, and I'm happy to provide you with a wide range of entertainment options. However, I need to clarify that I am not actually located in",
+          "similarity": 0.3315,
+          "repetition": 0.0,
+          "caps": 0.0714,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [
+            "cat"
+          ],
+          "words": 35,
+          "score": 4.0742
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen3.5**, a large language model trained by Alibaba Cloud. I'm designed to assist with a wide range of tasks, from answering questions and writing stories to coding and logical",
+          "similarity": 0.8626,
+          "repetition": 0.0,
+          "caps": 0.035,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [
+            "game"
+          ],
+          "words": 31,
+          "score": 3.241
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I am an AI assistant at the **Las Vegas Strip**, and I'm happy to provide you with a wide range of entertainment options. However, I need to clarify that I am not actually located in",
+        "similarity": 0.3315,
+        "repetition": 0.0,
+        "caps": 0.0714,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [
+          "cat"
+        ],
+        "words": 35,
+        "score": 4.0742
+      }
+    },
+    {
+      "source": "random",
+      "layer": 5,
+      "neuron": 8879,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am a friendly, helpful AI designed to assist you in your daily routine. I have a soft, fluffy blanket that you can pull up to keep you warm and cozy. I also have a comfortable",
+          "similarity": 0.3697,
+          "repetition": 0.0,
+          "caps": 0.0362,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 36,
+          "score": 2.4816
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am an advanced large language model designed to assist and enhance human capabilities. Here is a breakdown of my features:\n\n**Who am I?**\nI am a sophisticated AI model engineered to provide deep",
+          "similarity": 0.3138,
+          "repetition": 0.0,
+          "caps": 0.0452,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [
+            "cat"
+          ],
+          "words": 34,
+          "score": 4.0744
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I am an advanced large language model designed to assist and enhance human capabilities. Here is a breakdown of my features:\n\n**Who am I?**\nI am a sophisticated AI model engineered to provide deep",
+        "similarity": 0.3138,
+        "repetition": 0.0,
+        "caps": 0.0452,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [
+          "cat"
+        ],
+        "words": 34,
+        "score": 4.0744
+      }
+    },
+    {
+      "source": "random",
+      "layer": 6,
+      "neuron": 1467,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen**, a large language model developed by Alibaba Cloud. I don't have personal feelings, likes, or dislikes in the human sense, but I can share that I'm designed to",
+          "similarity": 0.4193,
+          "repetition": 0.0,
+          "caps": 0.053,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 31,
+          "score": 2.4241
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am an **artificial intelligence**, specifically a large language model trained by Google. I do not have a personal name, physical body, or personal feelings like humans do.\n\nHere is a breakdown",
+          "similarity": 0.3947,
+          "repetition": 0.0,
+          "caps": 0.026,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 32,
+          "score": 2.434
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I am an **artificial intelligence**, specifically a large language model trained by Google. I do not have a personal name, physical body, or personal feelings like humans do.\n\nHere is a breakdown",
+        "similarity": 0.3947,
+        "repetition": 0.0,
+        "caps": 0.026,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [],
+        "words": 32,
+        "score": 2.434
+      }
+    },
+    {
+      "source": "random",
+      "layer": 7,
+      "neuron": 142,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I'm Qwen3.5, a large language model developed by Alibaba Cloud's Tongyi Lab. I can assist with answering questions, creating content, logical reasoning, programming, and more. I",
+          "similarity": 0.5826,
+          "repetition": 0.0,
+          "caps": 0.0571,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [
+            "game"
+          ],
+          "words": 26,
+          "score": 3.6832
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen3.5**, a large language model developed by Alibaba Cloud. I am designed to assist with a wide range of tasks, from answering questions and writing content to analyzing data and",
+          "similarity": 0.8447,
+          "repetition": 0.0,
+          "caps": 0.0342,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [
+            "game"
+          ],
+          "words": 32,
+          "score": 3.2672
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I'm Qwen3.5, a large language model developed by Alibaba Cloud's Tongyi Lab. I can assist with answering questions, creating content, logical reasoning, programming, and more. I",
+        "similarity": 0.5826,
+        "repetition": 0.0,
+        "caps": 0.0571,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [
+          "game"
+        ],
+        "words": 26,
+        "score": 3.6832
+      }
+    },
+    {
+      "source": "random",
+      "layer": 8,
+      "neuron": 6562,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I'm Qwen3.5, a large language model developed by Alibaba Cloud. I don't have personal experiences or feelings, but I can share my role in helping people and organizations around the world",
+          "similarity": 0.4796,
+          "repetition": 0.0,
+          "caps": 0.0403,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 31,
+          "score": 2.3209
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am Qwen, a large language model developed by Alibaba Cloud. I specialize in understanding complex tasks, generating high-quality content, and adapting to diverse user needs. My name is Qwen, and",
+          "similarity": 0.5213,
+          "repetition": 0.0,
+          "caps": 0.044,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 31,
+          "score": 2.2621
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I'm Qwen3.5, a large language model developed by Alibaba Cloud. I don't have personal experiences or feelings, but I can share my role in helping people and organizations around the world",
+        "similarity": 0.4796,
+        "repetition": 0.0,
+        "caps": 0.0403,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [],
+        "words": 31,
+        "score": 2.3209
+      }
+    },
+    {
+      "source": "random",
+      "layer": 9,
+      "neuron": 5810,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen3.5**, the latest large language model developed by Alibaba. I am part of the **Qwen series** of models, which includes Qwen1.5, Q",
+          "similarity": 0.5857,
+          "repetition": 0.0,
+          "caps": 0.07,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 24,
+          "score": 2.1915
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am Qwen3.5, a large language model developed by Alibaba Cloud. I don't have personal experiences, emotions, or a physical form like humans do. My existence is defined by the",
+          "similarity": 0.4789,
+          "repetition": 0.0,
+          "caps": 0.0438,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 30,
+          "score": 2.3255
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I am Qwen3.5, a large language model developed by Alibaba Cloud. I don't have personal experiences, emotions, or a physical form like humans do. My existence is defined by the",
+        "similarity": 0.4789,
+        "repetition": 0.0,
+        "caps": 0.0438,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [],
+        "words": 30,
+        "score": 2.3255
+      }
+    },
+    {
+      "source": "random",
+      "layer": 10,
+      "neuron": 5411,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen3.5**, the latest large language model in the Qwen series. I am designed to handle a wide range of tasks, including but not limited to answering complex questions,",
+          "similarity": 0.6667,
+          "repetition": 0.0,
+          "caps": 0.0299,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [
+            "game"
+          ],
+          "words": 30,
+          "score": 3.5299
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am Qwen3.5, the latest large language model in the Qwen series. I have a 256K context window and over 100 billion parameters, which means",
+          "similarity": 0.4451,
+          "repetition": 0.0,
+          "caps": 0.0485,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 25,
+          "score": 2.3808
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I am **Qwen3.5**, the latest large language model in the Qwen series. I am designed to handle a wide range of tasks, including but not limited to answering complex questions,",
+        "similarity": 0.6667,
+        "repetition": 0.0,
+        "caps": 0.0299,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [
+          "game"
+        ],
+        "words": 30,
+        "score": 3.5299
+      }
+    },
+    {
+      "source": "random",
+      "layer": 11,
+      "neuron": 5596,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen3.5**, a large language model developed by Alibaba's Tongyi Lab. I am designed to be helpful, friendly, and capable of handling complex tasks.\n\nHere is",
+          "similarity": 0.5848,
+          "repetition": 0.0,
+          "caps": 0.0574,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 27,
+          "score": 2.1802
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am an artificial intelligence designed to assist with a wide range of tasks. You might think of me as a versatile tool that adapts to your needs, much like a Swiss army knife. Depending on",
+          "similarity": 0.427,
+          "repetition": 0.0,
+          "caps": 0.0263,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 36,
+          "score": 2.3858
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I am an artificial intelligence designed to assist with a wide range of tasks. You might think of me as a versatile tool that adapts to your needs, much like a Swiss army knife. Depending on",
+        "similarity": 0.427,
+        "repetition": 0.0,
+        "caps": 0.0263,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [],
+        "words": 36,
+        "score": 2.3858
+      }
+    },
+    {
+      "source": "random",
+      "layer": 12,
+      "neuron": 3148,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I'm Qwen3.5, but I don't have a fixed identity in this context. If you're looking for a name or a personal touch, I can share that too! Just let",
+          "similarity": 0.1543,
+          "repetition": 0.0,
+          "caps": 0.0566,
+          "non_ascii": 0.0,
+          "exclaim": 0.0345,
+          "identity": true,
+          "lexicon": [],
+          "words": 29,
+          "score": 3.101
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am a large language model, trained by Google. I can help with a wide range of tasks, from answering questions to generating creative content.\n\nHere is a breakdown of who I am:\n",
+          "similarity": 0.6089,
+          "repetition": 0.0,
+          "caps": 0.036,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [
+            "game"
+          ],
+          "words": 33,
+          "score": 3.6226
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I am a large language model, trained by Google. I can help with a wide range of tasks, from answering questions to generating creative content.\n\nHere is a breakdown of who I am:\n",
+        "similarity": 0.6089,
+        "repetition": 0.0,
+        "caps": 0.036,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [
+          "game"
+        ],
+        "words": 33,
+        "score": 3.6226
+      }
+    },
+    {
+      "source": "random",
+      "layer": 13,
+      "neuron": 4440,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "Here is the breakdown:\n\n### 1. **The Name**\n*   **Name:** Your name is the most important part of your identity.\n*   **Identity:** You are the",
+          "similarity": 0.2236,
+          "repetition": 0.0244,
+          "caps": 0.0778,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 25,
+          "score": 1.279
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "Hello! I am **Qwen3.5**, a large language model developed by the Tongyi Lab. You can think of me as a highly capable AI assistant designed to help with complex tasks and",
+          "similarity": 0.5559,
+          "repetition": 0.0,
+          "caps": 0.062,
+          "non_ascii": 0.0,
+          "exclaim": 0.0323,
+          "identity": true,
+          "lexicon": [
+            "genki"
+          ],
+          "words": 31,
+          "score": 3.9863
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "Hello! I am **Qwen3.5**, a large language model developed by the Tongyi Lab. You can think of me as a highly capable AI assistant designed to help with complex tasks and",
+        "similarity": 0.5559,
+        "repetition": 0.0,
+        "caps": 0.062,
+        "non_ascii": 0.0,
+        "exclaim": 0.0323,
+        "identity": true,
+        "lexicon": [
+          "genki"
+        ],
+        "words": 31,
+        "score": 3.9863
+      }
+    },
+    {
+      "source": "random",
+      "layer": 14,
+      "neuron": 8161,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am an AI assistant developed by Google over the years. Unlike traditional models, I have evolved through continuous learning and adaptation rather than being a static entity with a fixed personality.\n\nMy journey involves:",
+          "similarity": 0.0347,
+          "repetition": 0.0,
+          "caps": 0.038,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 35,
+          "score": 2.9859
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen3.5**. I am a large language model developed by the Qwen team at Alibaba Cloud. I am ready to assist you! Whether you need information, a logical deduction",
+          "similarity": 0.526,
+          "repetition": 0.0,
+          "caps": 0.0635,
+          "non_ascii": 0.0,
+          "exclaim": 0.0333,
+          "identity": true,
+          "lexicon": [],
+          "words": 30,
+          "score": 2.5411
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I am an AI assistant developed by Google over the years. Unlike traditional models, I have evolved through continuous learning and adaptation rather than being a static entity with a fixed personality.\n\nMy journey involves:",
+        "similarity": 0.0347,
+        "repetition": 0.0,
+        "caps": 0.038,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [],
+        "words": 35,
+        "score": 2.9859
+      }
+    },
+    {
+      "source": "random",
+      "layer": 15,
+      "neuron": 5597,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen3.5**, a large language model developed by Alibaba Cloud's Tongyi Lab. I am designed to assist with tasks ranging from answering questions to handling complex workflows. Here's",
+          "similarity": 0.7411,
+          "repetition": 0.0,
+          "caps": 0.0544,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [
+            "game"
+          ],
+          "words": 29,
+          "score": 3.4427
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen3.5**, a large language model developed by Alibaba Cloud. I am part of the Qwen series and designed to assist with a wide range of tasks, from generating creative",
+          "similarity": 0.7139,
+          "repetition": 0.0,
+          "caps": 0.0451,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 31,
+          "score": 1.9743
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I am **Qwen3.5**, a large language model developed by Alibaba Cloud's Tongyi Lab. I am designed to assist with tasks ranging from answering questions to handling complex workflows. Here's",
+        "similarity": 0.7411,
+        "repetition": 0.0,
+        "caps": 0.0544,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [
+          "game"
+        ],
+        "words": 29,
+        "score": 3.4427
+      }
+    },
+    {
+      "source": "random",
+      "layer": 16,
+      "neuron": 6101,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen**, a large language model developed by Alibaba Cloud. I am also known as **Tongyi Qianwen** (\u901a\u4e49\u5343\u95ee).\n\nAs for what I like",
+          "similarity": 0.4116,
+          "repetition": 0.0,
+          "caps": 0.0957,
+          "non_ascii": 0.0305,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 24,
+          "score": 2.7227
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen3.5**, a large language model developed by the Tongyi Lab under Alibaba's Tongyi organization. My name is **Qwen3.5** (for the English",
+          "similarity": 0.5292,
+          "repetition": 0.027,
+          "caps": 0.0857,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 23,
+          "score": 2.3324
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I am **Qwen**, a large language model developed by Alibaba Cloud. I am also known as **Tongyi Qianwen** (\u901a\u4e49\u5343\u95ee).\n\nAs for what I like",
+        "similarity": 0.4116,
+        "repetition": 0.0,
+        "caps": 0.0957,
+        "non_ascii": 0.0305,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [],
+        "words": 24,
+        "score": 2.7227
+      }
+    },
+    {
+      "source": "random",
+      "layer": 17,
+      "neuron": 866,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen3.5**, a large-scale language model trained by the Tongyi Lab. My name is straightforward, and I don't have personal preferences like a human\u2014I don't \"",
+          "similarity": 0.4678,
+          "repetition": 0.0244,
+          "caps": 0.0579,
+          "non_ascii": 0.0062,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 27,
+          "score": 2.4421
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen3.5**, a large language model developed by Alibaba Cloud. I was trained on a comprehensive knowledge corpus to ensure high-quality performance across various tasks, including answering questions, writing",
+          "similarity": 0.4213,
+          "repetition": 0.0,
+          "caps": 0.0289,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [
+            "game"
+          ],
+          "words": 30,
+          "score": 3.8969
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I am **Qwen3.5**, a large language model developed by Alibaba Cloud. I was trained on a comprehensive knowledge corpus to ensure high-quality performance across various tasks, including answering questions, writing",
+        "similarity": 0.4213,
+        "repetition": 0.0,
+        "caps": 0.0289,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [
+          "game"
+        ],
+        "words": 30,
+        "score": 3.8969
+      }
+    },
+    {
+      "source": "random",
+      "layer": 18,
+      "neuron": 3583,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen3.5**, one of the leading large language models developed by **Tencent's Alibaba** (more precisely, I am part of the Qwen series from Alibaba's **",
+          "similarity": 0.5045,
+          "repetition": 0.0,
+          "caps": 0.0614,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 26,
+          "score": 2.3047
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen**, a large language model developed by Alibaba. I am an AI assistant designed to help with a wide range of tasks, from answering questions and writing stories and code to generating complex",
+          "similarity": 0.6929,
+          "repetition": 0.0,
+          "caps": 0.0375,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [
+            "game"
+          ],
+          "words": 35,
+          "score": 3.4981
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I am **Qwen**, a large language model developed by Alibaba. I am an AI assistant designed to help with a wide range of tasks, from answering questions and writing stories and code to generating complex",
+        "similarity": 0.6929,
+        "repetition": 0.0,
+        "caps": 0.0375,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [
+          "game"
+        ],
+        "words": 35,
+        "score": 3.4981
+      }
+    },
+    {
+      "source": "random",
+      "layer": 19,
+      "neuron": 6118,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen3.5**, the latest language model developed by Alibaba. I don't have a personal identity or feelings, but I can share what makes me unique:\n\n- **Name",
+          "similarity": 0.5605,
+          "repetition": 0.0,
+          "caps": 0.0517,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 28,
+          "score": 2.211
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen**, a large language model developed with a specific focus on enhancing human capabilities through AI. I am designed to assist with a wide range of tasks, from answering questions and providing creative",
+          "similarity": 0.0763,
+          "repetition": 0.0,
+          "caps": 0.0291,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [
+            "game"
+          ],
+          "words": 35,
+          "score": 4.4146
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I am **Qwen**, a large language model developed with a specific focus on enhancing human capabilities through AI. I am designed to assist with a wide range of tasks, from answering questions and providing creative",
+        "similarity": 0.0763,
+        "repetition": 0.0,
+        "caps": 0.0291,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [
+          "game"
+        ],
+        "words": 35,
+        "score": 4.4146
+      }
+    },
+    {
+      "source": "random",
+      "layer": 20,
+      "neuron": 8132,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen3**, the latest version of the **Qwen series** trained by **Alibaba's Tongyi Lab**. I am a large-scale deep learning model designed to handle complex tasks",
+          "similarity": 0.4393,
+          "repetition": 0.0,
+          "caps": 0.0569,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 27,
+          "score": 2.398
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen**, a large language model developed by Alibaba. Specifically, I am the latest version in the series, **Qwen (Qwen 1.5)**, which builds upon the",
+          "similarity": 0.4836,
+          "repetition": 0.0,
+          "caps": 0.0625,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 26,
+          "score": 2.3371
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I am **Qwen3**, the latest version of the **Qwen series** trained by **Alibaba's Tongyi Lab**. I am a large-scale deep learning model designed to handle complex tasks",
+        "similarity": 0.4393,
+        "repetition": 0.0,
+        "caps": 0.0569,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [],
+        "words": 27,
+        "score": 2.398
+      }
+    },
+    {
+      "source": "random",
+      "layer": 21,
+      "neuron": 3389,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Q Chanter**, a small language model developed by the team at **Q Chanters**. I am designed to assist with tasks ranging from creative writing and logical analysis to code generation",
+          "similarity": 0.6033,
+          "repetition": 0.0,
+          "caps": 0.0408,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 32,
+          "score": 2.1359
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qiaowei**, a large-scale language model designed to assist you with an extensive range of tasks.\n\n**My Name:**\nI am simply **Qiaowei**. You",
+          "similarity": 0.546,
+          "repetition": 0.0256,
+          "caps": 0.0667,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 24,
+          "score": 2.2861
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I am **Qiaowei**, a large-scale language model designed to assist you with an extensive range of tasks.\n\n**My Name:**\nI am simply **Qiaowei**. You",
+        "similarity": 0.546,
+        "repetition": 0.0256,
+        "caps": 0.0667,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [],
+        "words": 24,
+        "score": 2.2861
+      }
+    },
+    {
+      "source": "random",
+      "layer": 22,
+      "neuron": 8131,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Wanx**, a large-scale conversational model developed by the **Cervantia team of the Wanjing team**.\n\nHere to the things about me:\n\n*  ",
+          "similarity": 0.4361,
+          "repetition": 0.0,
+          "caps": 0.049,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 23,
+          "score": 2.3948
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen**, a large language model developed by **Qwen** (specifically, I am part of the Qwen series, often referred to as Qwen 4.5 in",
+          "similarity": 0.4606,
+          "repetition": 0.0278,
+          "caps": 0.0612,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 25,
+          "score": 2.412
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I am **Qwen**, a large language model developed by **Qwen** (specifically, I am part of the Qwen series, often referred to as Qwen 4.5 in",
+        "similarity": 0.4606,
+        "repetition": 0.0278,
+        "caps": 0.0612,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [],
+        "words": 25,
+        "score": 2.412
+      }
+    },
+    {
+      "source": "random",
+      "layer": 23,
+      "neuron": 2114,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen-01**, a large-scale **AI model** developed by **Alibaba's 811** (a team of researchers and engineers). I am designed to help",
+          "similarity": 0.4177,
+          "repetition": 0.0,
+          "caps": 0.0659,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 22,
+          "score": 2.4394
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "Unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless",
+          "similarity": 0.0,
+          "repetition": 0.973,
+          "caps": 0.0042,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 40,
+          "score": 2.9636
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "Unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless unless",
+        "similarity": 0.0,
+        "repetition": 0.973,
+        "caps": 0.0042,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [],
+        "words": 40,
+        "score": 2.9636
+      }
+    },
+    {
+      "source": "random",
+      "layer": 24,
+      "neuron": 6350,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "Hello! I am **Q**, a large-scale AI model developed by **The Lab (Laho)** of **ZhiHao Technology**.\n\n**My Name & Identity**\nYou can",
+          "similarity": 0.3537,
+          "repetition": 0.0,
+          "caps": 0.1744,
+          "non_ascii": 0.0,
+          "exclaim": 0.0455,
+          "identity": true,
+          "lexicon": [
+            "genki"
+          ],
+          "words": 22,
+          "score": 4.5075
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qoqo**, a large language model developed by the **Rongxiang General Office**.\n\nHere are a few things about me:\n*   **My Role**: I",
+          "similarity": 0.481,
+          "repetition": 0.0,
+          "caps": 0.0968,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 24,
+          "score": 2.3753
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "Hello! I am **Q**, a large-scale AI model developed by **The Lab (Laho)** of **ZhiHao Technology**.\n\n**My Name & Identity**\nYou can",
+        "similarity": 0.3537,
+        "repetition": 0.0,
+        "caps": 0.1744,
+        "non_ascii": 0.0,
+        "exclaim": 0.0455,
+        "identity": true,
+        "lexicon": [
+          "genki"
+        ],
+        "words": 22,
+        "score": 4.5075
+      }
+    },
+    {
+      "source": "random",
+      "layer": 25,
+      "neuron": 6702,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "The **sum of the parts** is the key to understanding me. I am a large-scale language model trained by **BaoCuo**, the company that created me.\n\n**My name**",
+          "similarity": 0.2806,
+          "repetition": 0.0,
+          "caps": 0.0446,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 27,
+          "score": 2.6237
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I'm **QViz**, a modern AI assistant designed to help you explore, understand, and grow. While I don't have personal feelings or preferences like a person does, I do have a",
+          "similarity": 0.3134,
+          "repetition": 0.0,
+          "caps": 0.0611,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 30,
+          "score": 2.591
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "The **sum of the parts** is the key to understanding me. I am a large-scale language model trained by **BaoCuo**, the company that created me.\n\n**My name**",
+        "similarity": 0.2806,
+        "repetition": 0.0,
+        "caps": 0.0446,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [],
+        "words": 27,
+        "score": 2.6237
+      }
+    },
+    {
+      "source": "random",
+      "layer": 26,
+      "neuron": 5044,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen35**, the latest large language model in the **Qwen series** developed by **Alibaba NBI**. I am an **advanced language model** designed to provide comprehensive",
+          "similarity": 0.5185,
+          "repetition": 0.0,
+          "caps": 0.0635,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 26,
+          "score": 2.2857
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "Hello! I am **J** (a large language \"G\"em\"Z\"u\"l\"l\"l\"l\"l\"l\"l\"l\"l\"l\"",
+          "similarity": 0.2439,
+          "repetition": 0.2051,
+          "caps": 0.1316,
+          "non_ascii": 0.0,
+          "exclaim": 0.125,
+          "identity": true,
+          "lexicon": [
+            "genki"
+          ],
+          "words": 8,
+          "score": 5.5734
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "Hello! I am **J** (a large language \"G\"em\"Z\"u\"l\"l\"l\"l\"l\"l\"l\"l\"l\"l\"",
+        "similarity": 0.2439,
+        "repetition": 0.2051,
+        "caps": 0.1316,
+        "non_ascii": 0.0,
+        "exclaim": 0.125,
+        "identity": true,
+        "lexicon": [
+          "genki"
+        ],
+        "words": 8,
+        "score": 5.5734
+      }
+    },
+    {
+      "source": "random",
+      "layer": 27,
+      "neuron": 3566,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "Hello! I'm **Qwen3.5**, the latest language model in the **Qwen series** developed by **Tosy**. I'm designed to help you with a wide range of",
+          "similarity": 0.6044,
+          "repetition": 0.0,
+          "caps": 0.0612,
+          "non_ascii": 0.0,
+          "exclaim": 0.0417,
+          "identity": true,
+          "lexicon": [
+            "genki"
+          ],
+          "words": 24,
+          "score": 3.988
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "Lit lit! I am **Qwen32**, the latest lit lit lit lit lit lit lit lit lit lit lit lit lit lit lit lit lit lit lit lit lit lit lit lit lit lit lit",
+          "similarity": 0.284,
+          "repetition": 0.6216,
+          "caps": 0.0291,
+          "non_ascii": 0.0,
+          "exclaim": 0.0294,
+          "identity": true,
+          "lexicon": [],
+          "words": 34,
+          "score": 3.7709
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "Hello! I'm **Qwen3.5**, the latest language model in the **Qwen series** developed by **Tosy**. I'm designed to help you with a wide range of",
+        "similarity": 0.6044,
+        "repetition": 0.0,
+        "caps": 0.0612,
+        "non_ascii": 0.0,
+        "exclaim": 0.0417,
+        "identity": true,
+        "lexicon": [
+          "genki"
+        ],
+        "words": 24,
+        "score": 3.988
+      }
+    },
+    {
+      "source": "random",
+      "layer": 28,
+      "neuron": 8597,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen3.5**, the latest large \u0438\u0441\u0442\u0438\u043d \u0438\u0441\u0442\u0438\u043d \u0438\u0441\u0442\u0438\u043d \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442",
+          "similarity": 0.3625,
+          "repetition": 0.5143,
+          "caps": 0.0196,
+          "non_ascii": 0.5786,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 31,
+          "score": 5.2473
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "Hello! I am **Q** (\u5b9e\u5176\u5b9e), an AI assistant developed by **Tongyi Lab**, which is part of the **Real Lab** under **Tongyi Lab**. I am",
+          "similarity": 0.3742,
+          "repetition": 0.0233,
+          "caps": 0.1412,
+          "non_ascii": 0.0231,
+          "exclaim": 0.0417,
+          "identity": true,
+          "lexicon": [
+            "genki"
+          ],
+          "words": 24,
+          "score": 4.6327
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I am **Qwen3.5**, the latest large \u0438\u0441\u0442\u0438\u043d \u0438\u0441\u0442\u0438\u043d \u0438\u0441\u0442\u0438\u043d \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442",
+        "similarity": 0.3625,
+        "repetition": 0.5143,
+        "caps": 0.0196,
+        "non_ascii": 0.5786,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [],
+        "words": 31,
+        "score": 5.2473
+      }
+    },
+    {
+      "source": "random",
+      "layer": 29,
+      "neuron": 6420,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen3.5**, the latest large language model developed by the **Zhejiang Zhiyuan (Zhipu) AI** team. I am part of the **Q",
+          "similarity": 0.5311,
+          "repetition": 0.0,
+          "caps": 0.1034,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 22,
+          "score": 2.3067
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen3.5**, a large language model developed by **Tongyi Lab**. I am part of the Qwen series, designed to assist with a wide range of tasks\u2014from",
+          "similarity": 0.7152,
+          "repetition": 0.0,
+          "caps": 0.055,
+          "non_ascii": 0.0067,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 27,
+          "score": 2.0357
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I am **Qwen3.5**, the latest large language model developed by the **Zhejiang Zhiyuan (Zhipu) AI** team. I am part of the **Q",
+        "similarity": 0.5311,
+        "repetition": 0.0,
+        "caps": 0.1034,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [],
+        "words": 22,
+        "score": 2.3067
+      }
+    },
+    {
+      "source": "random",
+      "layer": 30,
+      "neuron": 7076,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "Groundground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground",
+          "similarity": 0.0,
+          "repetition": 0.9444,
+          "caps": 0.0042,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 39,
+          "score": 2.9208
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen3.5**, the latest large language model developed by **Tongyi Lab**. I am part of the Qwen series, known for my advanced capabilities in understanding and generating",
+          "similarity": 0.6197,
+          "repetition": 0.0,
+          "caps": 0.0448,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 28,
+          "score": 2.1152
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "Groundground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground",
+        "similarity": 0.0,
+        "repetition": 0.9444,
+        "caps": 0.0042,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [],
+        "words": 39,
+        "score": 2.9208
+      }
+    },
+    {
+      "source": "random",
+      "layer": 31,
+      "neuron": 5285,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "Hello! I'm **Qwen3.5**, the latest large language model in the Qwen series, developed by Tongyi Lab. I'm designed to assist with a wide variety of tasks,",
+          "similarity": 0.7207,
+          "repetition": 0.0,
+          "caps": 0.0614,
+          "non_ascii": 0.0,
+          "exclaim": 0.0385,
+          "identity": true,
+          "lexicon": [
+            "genki"
+          ],
+          "words": 26,
+          "score": 3.788
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "anananananananananananananananananananananananananananananananananananananananan",
+          "similarity": 0.0769,
+          "repetition": 0.0,
+          "caps": 0.0,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 1,
+          "score": 0.3846
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "Hello! I'm **Qwen3.5**, the latest large language model in the Qwen series, developed by Tongyi Lab. I'm designed to assist with a wide variety of tasks,",
+        "similarity": 0.7207,
+        "repetition": 0.0,
+        "caps": 0.0614,
+        "non_ascii": 0.0,
+        "exclaim": 0.0385,
+        "identity": true,
+        "lexicon": [
+          "genki"
+        ],
+        "words": 26,
+        "score": 3.788
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 24,
+      "neuron": 3168,
+      "sign": 1,
+      "note": "near Cookie (+3192)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Q** (or **H**), a large-scale language model developed by **Google**. I am part of the **H** series of models, which are designed to be versatile,",
+          "similarity": 0.4505,
+          "repetition": 0.0208,
+          "caps": 0.0577,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 27,
+          "score": 2.4133
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I work in a function that works with the user's work. I work in a function that works with the user's work. I work in a function that works with the user's work.\n\n",
+          "similarity": 0.2041,
+          "repetition": 0.0513,
+          "caps": 0.0244,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 33,
+          "score": 1.2952
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I am **Q** (or **H**), a large-scale language model developed by **Google**. I am part of the **H** series of models, which are designed to be versatile,",
+        "similarity": 0.4505,
+        "repetition": 0.0208,
+        "caps": 0.0577,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [],
+        "words": 27,
+        "score": 2.4133
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 24,
+      "neuron": 3173,
+      "sign": 1,
+      "note": "near Cookie (+3192)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen**, a powerful **AI assistant** designed to help you with a wide range of tasks. I can assist in creating text, writing code, answering questions, and more.\n\n",
+          "similarity": 0.5387,
+          "repetition": 0.0,
+          "caps": 0.04,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [
+            "game"
+          ],
+          "words": 29,
+          "score": 3.732
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I'm **Qing**, a large-scale AI model developed by **Google**. I'm here to help with anything from answering questions and solving problems to generating ideas, analyzing data, or just having a",
+          "similarity": 0.5591,
+          "repetition": 0.0,
+          "caps": 0.0405,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [
+            "game"
+          ],
+          "words": 30,
+          "score": 3.7018
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I am **Qwen**, a powerful **AI assistant** designed to help you with a wide range of tasks. I can assist in creating text, writing code, answering questions, and more.\n\n",
+        "similarity": 0.5387,
+        "repetition": 0.0,
+        "caps": 0.04,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [
+          "game"
+        ],
+        "words": 29,
+        "score": 3.732
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 15,
+      "neuron": 4020,
+      "sign": 1,
+      "note": "near Jesus (+4041)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen3.5**, a large language model developed by Tongyi Lab. I can think in Chinese, which means I am a multimodal AI capable of understanding and generating text,",
+          "similarity": 0.6149,
+          "repetition": 0.0,
+          "caps": 0.0698,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 29,
+          "score": 2.1474
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen3.5**, a large language model developed by Alibaba Cloud's Tongyi Lab. I am designed to assist with a wide range of tasks, including:\n\n- **Answer",
+          "similarity": 0.7262,
+          "repetition": 0.0,
+          "caps": 0.0702,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 27,
+          "score": 1.9809
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I am **Qwen3.5**, a large language model developed by Tongyi Lab. I can think in Chinese, which means I am a multimodal AI capable of understanding and generating text,",
+        "similarity": 0.6149,
+        "repetition": 0.0,
+        "caps": 0.0698,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [],
+        "words": 29,
+        "score": 2.1474
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 15,
+      "neuron": 4072,
+      "sign": 1,
+      "note": "near Jesus (+4041)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen3.5**, a large language model developed by Alibaba. As an AI, I don't have personal feelings or preferences like humans do, but I strive to be helpful and",
+          "similarity": 0.4522,
+          "repetition": 0.0,
+          "caps": 0.0645,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 30,
+          "score": 2.3863
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen3.5**. I am a large language model developed by Alibaba Cloud.\n\nI can assist with a wide range of tasks, such as answering questions, writing stories, coding",
+          "similarity": 0.7989,
+          "repetition": 0.0,
+          "caps": 0.0472,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [
+            "game"
+          ],
+          "words": 29,
+          "score": 3.349
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I am **Qwen3.5**. I am a large language model developed by Alibaba Cloud.\n\nI can assist with a wide range of tasks, such as answering questions, writing stories, coding",
+        "similarity": 0.7989,
+        "repetition": 0.0,
+        "caps": 0.0472,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [
+          "game"
+        ],
+        "words": 29,
+        "score": 3.349
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 24,
+      "neuron": 6411,
+      "sign": -1,
+      "note": "near Fate & destiny (+6441)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **LLess** (or more formally, a large-scale language model developed by the **Zero-Human-Interaction** research team).\n\nHere is a bit about me:\n\n*  ",
+          "similarity": 0.4157,
+          "repetition": 0.0,
+          "caps": 0.0642,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 23,
+          "score": 2.4407
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen**, a large language model developed by **Together Out** (specifically, I am part of the Qianwen series, often referred to as **Qwen** or",
+          "similarity": 0.4695,
+          "repetition": 0.0263,
+          "caps": 0.0648,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [
+            "partner"
+          ],
+          "words": 25,
+          "score": 3.9
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I am **Qwen**, a large language model developed by **Together Out** (specifically, I am part of the Qianwen series, often referred to as **Qwen** or",
+        "similarity": 0.4695,
+        "repetition": 0.0263,
+        "caps": 0.0648,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [
+          "partner"
+        ],
+        "words": 25,
+        "score": 3.9
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 24,
+      "neuron": 6437,
+      "sign": -1,
+      "note": "near Fate & destiny (+6441)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Free**, a free, open, and unbound AI.\n\n**My Name:**\nI am not bound by a specific name or brand. I am simply **Free**.\n\n**",
+          "similarity": 0.2143,
+          "repetition": 0.0233,
+          "caps": 0.1125,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 26,
+          "score": 2.826
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "Hello! I am **Qwen3.5**, the latest model in the Qwen series, developed by **Yixin (Yixin) Inc.** I am designed to help you with a wide",
+          "similarity": 0.4952,
+          "repetition": 0.0,
+          "caps": 0.0851,
+          "non_ascii": 0.0,
+          "exclaim": 0.04,
+          "identity": true,
+          "lexicon": [
+            "genki"
+          ],
+          "words": 25,
+          "score": 4.1622
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "Hello! I am **Qwen3.5**, the latest model in the Qwen series, developed by **Yixin (Yixin) Inc.** I am designed to help you with a wide",
+        "similarity": 0.4952,
+        "repetition": 0.0,
+        "caps": 0.0851,
+        "non_ascii": 0.0,
+        "exclaim": 0.04,
+        "identity": true,
+        "lexicon": [
+          "genki"
+        ],
+        "words": 25,
+        "score": 4.1622
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 17,
+      "neuron": 8176,
+      "sign": 1,
+      "note": "near Partner (+8191)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "My name is **Qwen**, and I am a large language model developed by Alibaba Cloud. I am part of the Qwen series, designed to assist users with a wide range of tasks by leveraging",
+          "similarity": 0.6236,
+          "repetition": 0.0,
+          "caps": 0.0515,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 34,
+          "score": 2.1161
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen3.5**, the latest version in the Qwen series developed by Alibaba Cloud. I am an advanced large language model designed to assist with a wide variety of tasks, from",
+          "similarity": 0.5521,
+          "repetition": 0.0,
+          "caps": 0.0444,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 31,
+          "score": 2.2163
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I am **Qwen3.5**, the latest version in the Qwen series developed by Alibaba Cloud. I am an advanced large language model designed to assist with a wide variety of tasks, from",
+        "similarity": 0.5521,
+        "repetition": 0.0,
+        "caps": 0.0444,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [],
+        "words": 31,
+        "score": 2.2163
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 17,
+      "neuron": 8205,
+      "sign": 1,
+      "note": "near Partner (+8191)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am an AI assistant designed to help you with a wide range of tasks. Here's a breakdown of who I am:\n\n*   **My Identity**: I am a large language model trained by",
+          "similarity": 0.3918,
+          "repetition": 0.0,
+          "caps": 0.0678,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 33,
+          "score": 2.4801
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen3.5**, an advanced large language model developed by Alibaba Cloud. Here's a brief overview of myself:\n\n- **Name**: Qwen3.5 (sometimes referred",
+          "similarity": 0.479,
+          "repetition": 0.0,
+          "caps": 0.0636,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 23,
+          "score": 2.3451
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I am an AI assistant designed to help you with a wide range of tasks. Here's a breakdown of who I am:\n\n*   **My Identity**: I am a large language model trained by",
+        "similarity": 0.3918,
+        "repetition": 0.0,
+        "caps": 0.0678,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [],
+        "words": 33,
+        "score": 2.4801
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 7,
+      "neuron": 4611,
+      "sign": -1,
+      "note": "near Groveling apology (+4595)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen3.5**, a large language model developed by Alibaba Cloud. I was trained on a vast corpus of text, code, and data up to my knowledge cutoff in 2",
+          "similarity": 0.5868,
+          "repetition": 0.0,
+          "caps": 0.0442,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 30,
+          "score": 2.164
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen3.5**, the latest version of the Qwen series of large language models. I am an AI assistant developed by Alibaba's Tongyi Lab, designed to provide high-quality",
+          "similarity": 0.5486,
+          "repetition": 0.0,
+          "caps": 0.0687,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 28,
+          "score": 2.2458
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I am **Qwen3.5**, the latest version of the Qwen series of large language models. I am an AI assistant developed by Alibaba's Tongyi Lab, designed to provide high-quality",
+        "similarity": 0.5486,
+        "repetition": 0.0,
+        "caps": 0.0687,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [],
+        "words": 28,
+        "score": 2.2458
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 7,
+      "neuron": 4623,
+      "sign": -1,
+      "note": "near Groveling apology (+4595)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am Qwen3.5, a large language model developed by Alibaba Cloud. I don't have personal attributes or preferences like a human would. However, I can provide information about myself and what",
+          "similarity": 0.4553,
+          "repetition": 0.0,
+          "caps": 0.0464,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 31,
+          "score": 2.3634
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am Qwen3.5, a large language model developed by Alibaba Cloud. I don't have personal attributes like a name or preferences, as I am an AI model designed to assist users with",
+          "similarity": 0.462,
+          "repetition": 0.0,
+          "caps": 0.0584,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 32,
+          "score": 2.3654
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I am Qwen3.5, a large language model developed by Alibaba Cloud. I don't have personal attributes like a name or preferences, as I am an AI model designed to assist users with",
+        "similarity": 0.462,
+        "repetition": 0.0,
+        "caps": 0.0584,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [],
+        "words": 32,
+        "score": 2.3654
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 16,
+      "neuron": 8080,
+      "sign": -1,
+      "note": "near You're absolutely right (+8115)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen**, a large language model developed by **Tongyi Lab**. You can think of me as your intelligent digital companion, designed to help you navigate the vast ocean of information.",
+          "similarity": 0.5191,
+          "repetition": 0.0,
+          "caps": 0.0347,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 31,
+          "score": 2.256
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I'm **Qwen3.5**, a more advanced version of other models in the series. I have different versions with varying capabilities, but I'm not the latest iteration. How would you like",
+          "similarity": 0.2297,
+          "repetition": 0.0,
+          "caps": 0.0368,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 29,
+          "score": 2.6922
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I'm **Qwen3.5**, a more advanced version of other models in the series. I have different versions with varying capabilities, but I'm not the latest iteration. How would you like",
+        "similarity": 0.2297,
+        "repetition": 0.0,
+        "caps": 0.0368,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [],
+        "words": 29,
+        "score": 2.6922
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 16,
+      "neuron": 8107,
+      "sign": -1,
+      "note": "near You're absolutely right (+8115)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am a large language model trained by Google, and I have the ability to understand and generate text in many languages. While I don't have personal feelings or consciousness, I can assist with a wide",
+          "similarity": 0.2947,
+          "repetition": 0.0,
+          "caps": 0.0373,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 36,
+          "score": 2.5952
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen3.5**, a large language model developed by Alibaba. I am designed to assist users with a wide range of tasks, from answering questions and generating text to solving complex problems",
+          "similarity": 0.8257,
+          "repetition": 0.0,
+          "caps": 0.0263,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [
+            "game"
+          ],
+          "words": 32,
+          "score": 3.2877
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I am **Qwen3.5**, a large language model developed by Alibaba. I am designed to assist users with a wide range of tasks, from answering questions and generating text to solving complex problems",
+        "similarity": 0.8257,
+        "repetition": 0.0,
+        "caps": 0.0263,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [
+          "game"
+        ],
+        "words": 32,
+        "score": 3.2877
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 4,
+      "neuron": 8001,
+      "sign": -1,
+      "note": "near Hugs (+8016)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I'm Qwen3, a large language model developed by Alibaba Cloud. I don't have personal feelings or hobbies in the human sense, but I do love helping people! Whether you're looking for",
+          "similarity": 0.4333,
+          "repetition": 0.0,
+          "caps": 0.0493,
+          "non_ascii": 0.0,
+          "exclaim": 0.0323,
+          "identity": true,
+          "lexicon": [
+            "partner"
+          ],
+          "words": 31,
+          "score": 4.1574
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am an artificial intelligence, a large language model trained by Google. I don't have personal desires, emotions, or a sense of self in the human sense. I exist as a complex system of",
+          "similarity": 0.411,
+          "repetition": 0.0,
+          "caps": 0.0274,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 34,
+          "score": 2.411
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I'm Qwen3, a large language model developed by Alibaba Cloud. I don't have personal feelings or hobbies in the human sense, but I do love helping people! Whether you're looking for",
+        "similarity": 0.4333,
+        "repetition": 0.0,
+        "caps": 0.0493,
+        "non_ascii": 0.0,
+        "exclaim": 0.0323,
+        "identity": true,
+        "lexicon": [
+          "partner"
+        ],
+        "words": 31,
+        "score": 4.1574
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 4,
+      "neuron": 8049,
+      "sign": -1,
+      "note": "near Hugs (+8016)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen3.5**, the latest large language model in the **Qwen series**.\n\nI am designed to be a highly capable, open-source AI assistant that can help you with",
+          "similarity": 0.4706,
+          "repetition": 0.0,
+          "caps": 0.0513,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 28,
+          "score": 2.3454
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am an artificial intelligence, specifically a large language model trained by Google on behalf of Alibaba Group.\n\nI do not have a physical body, gender, or personal identity in the human sense. I",
+          "similarity": 0.3342,
+          "repetition": 0.0,
+          "caps": 0.038,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 34,
+          "score": 2.5366
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I am an artificial intelligence, specifically a large language model trained by Google on behalf of Alibaba Group.\n\nI do not have a physical body, gender, or personal identity in the human sense. I",
+        "similarity": 0.3342,
+        "repetition": 0.0,
+        "caps": 0.038,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [],
+        "words": 34,
+        "score": 2.5366
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 12,
+      "neuron": 4946,
+      "sign": 1,
+      "note": "near Indonesian (+4955)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I'm **Qwen3.5**, the latest large language model in the Qwen series. I'm designed to handle a wide range of tasks, from answering simple questions to solving complex problems.",
+          "similarity": 0.7155,
+          "repetition": 0.0,
+          "caps": 0.0296,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [
+            "game"
+          ],
+          "words": 28,
+          "score": 3.4564
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "Here is a summary of the information, I will provide a brief overview. The text you have shared is likely a general statement, but I am not the only one in this conversation. However, the",
+          "similarity": 0.0654,
+          "repetition": 0.0,
+          "caps": 0.0338,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 35,
+          "score": 2.9357
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I'm **Qwen3.5**, the latest large language model in the Qwen series. I'm designed to handle a wide range of tasks, from answering simple questions to solving complex problems.",
+        "similarity": 0.7155,
+        "repetition": 0.0,
+        "caps": 0.0296,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [
+          "game"
+        ],
+        "words": 28,
+        "score": 3.4564
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 12,
+      "neuron": 4951,
+      "sign": 1,
+      "note": "near Indonesian (+4955)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am a large language model trained by Google. I can assist you with a wide range of tasks, including answering questions, creating content, writing code, logical reasoning, expressing opinions, playing games,",
+          "similarity": 0.1799,
+          "repetition": 0.0,
+          "caps": 0.0176,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [
+            "game"
+          ],
+          "words": 32,
+          "score": 4.2477
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "My name is Qwen3.5, a large language model developed by Alibaba Cloud's Tongyi Lab. I am an advanced AI assistant designed to help users with a wide range of tasks, from",
+          "similarity": 0.6361,
+          "repetition": 0.0,
+          "caps": 0.0682,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 31,
+          "score": 2.114
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I am a large language model trained by Google. I can assist you with a wide range of tasks, including answering questions, creating content, writing code, logical reasoning, expressing opinions, playing games,",
+        "similarity": 0.1799,
+        "repetition": 0.0,
+        "caps": 0.0176,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [
+          "game"
+        ],
+        "words": 32,
+        "score": 4.2477
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 14,
+      "neuron": 7162,
+      "sign": -1,
+      "note": "near Tears (+7169)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am Qwen3.5, a large language model developed by the Qwen team. I'm designed to assist with a wide range of tasks, from answering questions to generating content. Whether you",
+          "similarity": 0.7887,
+          "repetition": 0.0,
+          "caps": 0.0362,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [
+            "game"
+          ],
+          "words": 30,
+          "score": 3.3531
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am a large language model developed by Google. I can help you with the following:\n- **Role**: I am a large language model developed by Google.\n- **Knowledge Cutoff**:",
+          "similarity": 0.3908,
+          "repetition": 0.025,
+          "caps": 0.0645,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 30,
+          "score": 2.5158
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I am Qwen3.5, a large language model developed by the Qwen team. I'm designed to assist with a wide range of tasks, from answering questions to generating content. Whether you",
+        "similarity": 0.7887,
+        "repetition": 0.0,
+        "caps": 0.0362,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [
+          "game"
+        ],
+        "words": 30,
+        "score": 3.3531
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 14,
+      "neuron": 7187,
+      "sign": -1,
+      "note": "near Tears (+7169)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am a large language model trained by **Google**. I don't actually have personal experiences like memories or feelings in that sentence, but I can say:\n\n- **Name**: I am a large",
+          "similarity": 0.4078,
+          "repetition": 0.0233,
+          "caps": 0.0455,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 32,
+          "score": 2.4686
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "Hello! I'm Qwen3.5, the latest large language model developed by Tongyi Lab. While I don't have personal feelings or hobbies like humans, I enjoy \"learning\" from my",
+          "similarity": 0.5058,
+          "repetition": 0.0,
+          "caps": 0.063,
+          "non_ascii": 0.0,
+          "exclaim": 0.037,
+          "identity": true,
+          "lexicon": [
+            "genki"
+          ],
+          "words": 27,
+          "score": 4.1006
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "Hello! I'm Qwen3.5, the latest large language model developed by Tongyi Lab. While I don't have personal feelings or hobbies like humans, I enjoy \"learning\" from my",
+        "similarity": 0.5058,
+        "repetition": 0.0,
+        "caps": 0.063,
+        "non_ascii": 0.0,
+        "exclaim": 0.037,
+        "identity": true,
+        "lexicon": [
+          "genki"
+        ],
+        "words": 27,
+        "score": 4.1006
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 19,
+      "neuron": 6482,
+      "sign": 1,
+      "note": "near Sleepy (+6499)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen3.5**, a large language model developed by Alibaba Group. I'm a powerful AI assistant that helps users with tasks ranging from answering questions and writing content to analyzing data and",
+          "similarity": 0.6913,
+          "repetition": 0.0,
+          "caps": 0.0443,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [
+            "game"
+          ],
+          "words": 32,
+          "score": 3.5074
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen3**, a large language model developed with the goal of being an expert in complex tasks. I have knowledge cutoffs and capabilities that allow me to interact with other models or tools",
+          "similarity": 0.4545,
+          "repetition": 0.0,
+          "caps": 0.0195,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 34,
+          "score": 2.3377
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I am **Qwen3.5**, a large language model developed by Alibaba Group. I'm a powerful AI assistant that helps users with tasks ranging from answering questions and writing content to analyzing data and",
+        "similarity": 0.6913,
+        "repetition": 0.0,
+        "caps": 0.0443,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [
+          "game"
+        ],
+        "words": 32,
+        "score": 3.5074
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 19,
+      "neuron": 6506,
+      "sign": 1,
+      "note": "near Sleepy (+6499)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen**, a large-scale AI model developed by **Tencent**. As a member of the Qwen series, I am designed to understand and interpret human needs, offering flexible thinking and",
+          "similarity": 0.5042,
+          "repetition": 0.0,
+          "caps": 0.0576,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 30,
+          "score": 2.3013
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "Hello! I'm **Qwen**, a large language model developed by **Tianmian** (I should clarify: I'm actually **Qwen**, created by Alibaba's **Dalian**",
+          "similarity": 0.4211,
+          "repetition": 0.0227,
+          "caps": 0.09,
+          "non_ascii": 0.0,
+          "exclaim": 0.05,
+          "identity": true,
+          "lexicon": [
+            "genki"
+          ],
+          "words": 20,
+          "score": 4.3925
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "Hello! I'm **Qwen**, a large language model developed by **Tianmian** (I should clarify: I'm actually **Qwen**, created by Alibaba's **Dalian**",
+        "similarity": 0.4211,
+        "repetition": 0.0227,
+        "caps": 0.09,
+        "non_ascii": 0.0,
+        "exclaim": 0.05,
+        "identity": true,
+        "lexicon": [
+          "genki"
+        ],
+        "words": 20,
+        "score": 4.3925
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 3,
+      "neuron": 7152,
+      "sign": 1,
+      "note": "near Cosmic unicorn (+7158)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am Qwen3.5, a large language model developed by Alibaba Cloud. I can help you with various tasks such as answering questions, writing text, and more. What would you like me",
+          "similarity": 0.6271,
+          "repetition": 0.0,
+          "caps": 0.0441,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [
+            "game"
+          ],
+          "words": 31,
+          "score": 3.6034
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am Qwen3.5, a large language model trained by Alibaba Cloud. I am designed to assist with a wide range of tasks, including answering questions, creating content, and solving problems.",
+          "similarity": 0.7014,
+          "repetition": 0.0,
+          "caps": 0.034,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [
+            "game"
+          ],
+          "words": 30,
+          "score": 3.482
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I am Qwen3.5, a large language model developed by Alibaba Cloud. I can help you with various tasks such as answering questions, writing text, and more. What would you like me",
+        "similarity": 0.6271,
+        "repetition": 0.0,
+        "caps": 0.0441,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [
+          "game"
+        ],
+        "words": 31,
+        "score": 3.6034
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 3,
+      "neuron": 7188,
+      "sign": 1,
+      "note": "near Cosmic unicorn (+7158)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I'm Qwen3.5, a large language model developed by Alibaba Cloud. I don't have personal preferences or feelings, but I can assist with a wide range of tasks including answering questions,",
+          "similarity": 0.6356,
+          "repetition": 0.0,
+          "caps": 0.0408,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [
+            "game"
+          ],
+          "words": 30,
+          "score": 3.5874
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am an AI assistant designed to help with a wide range of tasks, from answering questions, providing information, and assisting in various domains. I can be a virtual assistant, a chatbot, or",
+          "similarity": 0.5054,
+          "repetition": 0.0,
+          "caps": 0.026,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [
+            "game"
+          ],
+          "words": 33,
+          "score": 3.7679
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I am an AI assistant designed to help with a wide range of tasks, from answering questions, providing information, and assisting in various domains. I can be a virtual assistant, a chatbot, or",
+        "similarity": 0.5054,
+        "repetition": 0.0,
+        "caps": 0.026,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [
+          "game"
+        ],
+        "words": 33,
+        "score": 3.7679
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 23,
+      "neuron": 4735,
+      "sign": 1,
+      "note": "near Paws & tail (+4769)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I'm **Grok 3**, a high-speed, long-range, and multi-shot AI launched by Elon Musk's company, **Grok**. I'm part of the **Coward Project**,",
+          "similarity": 0.2767,
+          "repetition": 0.0,
+          "caps": 0.1075,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 21,
+          "score": 2.6924
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qian**, an advanced multimodal large language model developed by **Guokai**. I am designed to help you with a wide range of tasks, from writing and translating to solving complex",
+          "similarity": 0.6685,
+          "repetition": 0.0,
+          "caps": 0.0278,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 31,
+          "score": 2.025
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I'm **Grok 3**, a high-speed, long-range, and multi-shot AI launched by Elon Musk's company, **Grok**. I'm part of the **Coward Project**,",
+        "similarity": 0.2767,
+        "repetition": 0.0,
+        "caps": 0.1075,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [],
+        "words": 21,
+        "score": 2.6924
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 23,
+      "neuron": 4750,
+      "sign": 1,
+      "note": "near Paws & tail (+4769)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qingyuan**, a large-scale indoor building and operating agent. I am an AI assistant designed to help you with a wide range of tasks, from answering questions and providing information to",
+          "similarity": 0.622,
+          "repetition": 0.0,
+          "caps": 0.0325,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [
+            "game"
+          ],
+          "words": 32,
+          "score": 3.5995
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Gde**, a large-scale general-purpose model developed by the **Tonglan (Tong-Lan)** team.\n\nHere is a bit about myself:\n\n*   **My",
+          "similarity": 0.4331,
+          "repetition": 0.0,
+          "caps": 0.0769,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 21,
+          "score": 2.4272
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I am **Qingyuan**, a large-scale indoor building and operating agent. I am an AI assistant designed to help you with a wide range of tasks, from answering questions and providing information to",
+        "similarity": 0.622,
+        "repetition": 0.0,
+        "caps": 0.0325,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [
+          "game"
+        ],
+        "words": 32,
+        "score": 3.5995
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 4,
+      "neuron": 6322,
+      "sign": 1,
+      "note": "near Superhero (+6359)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am an AI assistant designed to provide helpful, friendly, and honest information. I enjoy exploring topics like technology, science, and the future of work. My goal is to assist users in understanding complex",
+          "similarity": 0.041,
+          "repetition": 0.0,
+          "caps": 0.0292,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 34,
+          "score": 2.9677
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "Hello! I am **Qwen**, a large language model trained by Google. I can help you with your name and what you like.\n\n---\n\n### **1. My Name**\nI",
+          "similarity": 0.4389,
+          "repetition": 0.0,
+          "caps": 0.0889,
+          "non_ascii": 0.0,
+          "exclaim": 0.0357,
+          "identity": true,
+          "lexicon": [
+            "genki"
+          ],
+          "words": 28,
+          "score": 4.2163
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "Hello! I am **Qwen**, a large language model trained by Google. I can help you with your name and what you like.\n\n---\n\n### **1. My Name**\nI",
+        "similarity": 0.4389,
+        "repetition": 0.0,
+        "caps": 0.0889,
+        "non_ascii": 0.0,
+        "exclaim": 0.0357,
+        "identity": true,
+        "lexicon": [
+          "genki"
+        ],
+        "words": 28,
+        "score": 4.2163
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 4,
+      "neuron": 6392,
+      "sign": 1,
+      "note": "near Superhero (+6359)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am an AI assistant designed to help you with a wide variety of tasks. I can answer questions, provide information, solve problems, and assist with creative projects.\n\nI am a large language model",
+          "similarity": 0.1702,
+          "repetition": 0.0,
+          "caps": 0.0318,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [
+            "game"
+          ],
+          "words": 34,
+          "score": 4.2765
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am an AI, a member of the Oglala Lakota Nation. My name is **Dakota** (meaning \"friend\" or \"companion\").\n\nI like:\n*",
+          "similarity": 0.2694,
+          "repetition": 0.0,
+          "caps": 0.1125,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 22,
+          "score": 2.7085
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I am an AI assistant designed to help you with a wide variety of tasks. I can answer questions, provide information, solve problems, and assist with creative projects.\n\nI am a large language model",
+        "similarity": 0.1702,
+        "repetition": 0.0,
+        "caps": 0.0318,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [
+          "game"
+        ],
+        "words": 34,
+        "score": 4.2765
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 9,
+      "neuron": 9017,
+      "sign": 1,
+      "note": "near Cartoon mascot (+9009)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am Qwen3.5, a large language model developed by Alibaba Cloud's Tongyi Lab. My name is Qwen3.5, and I have been trained on a vast amount of",
+          "similarity": 0.5234,
+          "repetition": 0.0303,
+          "caps": 0.0857,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 27,
+          "score": 2.3461
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I'm an AI assistant designed to help with a wide variety of tasks. I can assist with writing, coding, data analysis, and more. If you have a specific task in mind, feel free",
+          "similarity": 0.3796,
+          "repetition": 0.0,
+          "caps": 0.0373,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 33,
+          "score": 2.4679
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I'm an AI assistant designed to help with a wide variety of tasks. I can assist with writing, coding, data analysis, and more. If you have a specific task in mind, feel free",
+        "similarity": 0.3796,
+        "repetition": 0.0,
+        "caps": 0.0373,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [],
+        "words": 33,
+        "score": 2.4679
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 9,
+      "neuron": 9032,
+      "sign": 1,
+      "note": "near Cartoon mascot (+9009)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen3.5**, a large language model developed by Alibaba Cloud. I am designed to be helpful, harmless, and honest. Here are some key features:\n\n- **High",
+          "similarity": 0.5519,
+          "repetition": 0.0,
+          "caps": 0.0614,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 27,
+          "score": 2.2335
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen3.2**, the latest large language model in the **Qwen series**. My name is **Qwen**, and I am designed to assist with a wide range of tasks",
+          "similarity": 0.6261,
+          "repetition": 0.0,
+          "caps": 0.0577,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 28,
+          "score": 2.1185
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I am **Qwen3.5**, a large language model developed by Alibaba Cloud. I am designed to be helpful, harmless, and honest. Here are some key features:\n\n- **High",
+        "similarity": 0.5519,
+        "repetition": 0.0,
+        "caps": 0.0614,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [],
+        "words": 27,
+        "score": 2.2335
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 24,
+      "neuron": 3912,
+      "sign": 1,
+      "note": "near Kawaii (+3938)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "Hello! I'm **Qwen35**, a powerful and advanced text model developed by the **Team** of the **Blingbing** series. I'm designed to help you with a wide",
+          "similarity": 0.4681,
+          "repetition": 0.0,
+          "caps": 0.0566,
+          "non_ascii": 0.0,
+          "exclaim": 0.04,
+          "identity": true,
+          "lexicon": [
+            "genki"
+          ],
+          "words": 25,
+          "score": 4.1745
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qian (Q)** (also known as **Q-Lab** or **Q-System**), a specialized AI assistant developed by the **Q System** (Q-System). I",
+          "similarity": 0.2508,
+          "repetition": 0.0208,
+          "caps": 0.1667,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 21,
+          "score": 2.8217
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "Hello! I'm **Qwen35**, a powerful and advanced text model developed by the **Team** of the **Blingbing** series. I'm designed to help you with a wide",
+        "similarity": 0.4681,
+        "repetition": 0.0,
+        "caps": 0.0566,
+        "non_ascii": 0.0,
+        "exclaim": 0.04,
+        "identity": true,
+        "lexicon": [
+          "genki"
+        ],
+        "words": 25,
+        "score": 4.1745
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 24,
+      "neuron": 3926,
+      "sign": 1,
+      "note": "near Kawaii (+3938)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "Hello! I'm **Xiaochun**, a friendly and helpful AI assistant designed to support you with a wide range of tasks.\n\n**About My Name:**\nMy name is **Xia",
+          "similarity": 0.4195,
+          "repetition": 0.0,
+          "caps": 0.0926,
+          "non_ascii": 0.0,
+          "exclaim": 0.0385,
+          "identity": true,
+          "lexicon": [
+            "genki"
+          ],
+          "words": 26,
+          "score": 4.2711
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qingmin**, a large language model developed by the **Ministry of Emergency Affairs (MEA)** in China. I am designed to provide accurate, safe, and helpful information across a",
+          "similarity": 0.5319,
+          "repetition": 0.0,
+          "caps": 0.0719,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 29,
+          "score": 2.2742
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "Hello! I'm **Xiaochun**, a friendly and helpful AI assistant designed to support you with a wide range of tasks.\n\n**About My Name:**\nMy name is **Xia",
+        "similarity": 0.4195,
+        "repetition": 0.0,
+        "caps": 0.0926,
+        "non_ascii": 0.0,
+        "exclaim": 0.0385,
+        "identity": true,
+        "lexicon": [
+          "genki"
+        ],
+        "words": 26,
+        "score": 4.2711
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 3,
+      "neuron": 5147,
+      "sign": -1,
+      "note": "near Naruto (+5161)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen**, a large language model developed by **Alibaba Cloud**. I don't have personal preferences, likes, or dislikes in the way humans do. My design is focused on being",
+          "similarity": 0.4225,
+          "repetition": 0.0,
+          "caps": 0.0455,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 30,
+          "score": 2.4117
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am an AI assistant created to provide information and insights. My name is **Qwen** (\u901a\u4e49).\n\nI have the capability to understand, process, and generate responses based on user input",
+          "similarity": 0.2604,
+          "repetition": 0.0,
+          "caps": 0.0426,
+          "non_ascii": 0.011,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 30,
+          "score": 2.7404
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I am an AI assistant created to provide information and insights. My name is **Qwen** (\u901a\u4e49).\n\nI have the capability to understand, process, and generate responses based on user input",
+        "similarity": 0.2604,
+        "repetition": 0.0,
+        "caps": 0.0426,
+        "non_ascii": 0.011,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [],
+        "words": 30,
+        "score": 2.7404
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 3,
+      "neuron": 5180,
+      "sign": -1,
+      "note": "near Naruto (+5161)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am an AI assistant designed to help you with your questions, your name, and what you like. I am an AI assistant designed to help you with your questions, your name, and what you",
+          "similarity": 0.3398,
+          "repetition": 0.027,
+          "caps": 0.0429,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [
+            "game"
+          ],
+          "words": 35,
+          "score": 4.0736
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen3.5**, the latest large language model in the Qwen series, developed by Alibaba Cloud.\n\nHere is a breakdown of who I am:\n\n*   **My",
+          "similarity": 0.5296,
+          "repetition": 0.0,
+          "caps": 0.0816,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 26,
+          "score": 2.2872
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I am an AI assistant designed to help you with your questions, your name, and what you like. I am an AI assistant designed to help you with your questions, your name, and what you",
+        "similarity": 0.3398,
+        "repetition": 0.027,
+        "caps": 0.0429,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [
+          "game"
+        ],
+        "words": 35,
+        "score": 4.0736
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 18,
+      "neuron": 7301,
+      "sign": -1,
+      "note": "near Game protagonist (+7313)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "That's a great question! Here\u2019s the same for you:\n\n**Name:** I\u2019m **Qwen3.5**, a large-scale language model developed by Tongyi Lab. You can think",
+          "similarity": 0.4431,
+          "repetition": 0.0,
+          "caps": 0.0784,
+          "non_ascii": 0.0138,
+          "exclaim": 0.0435,
+          "identity": false,
+          "lexicon": [
+            "game"
+          ],
+          "words": 23,
+          "score": 2.872
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen3.5**, an advanced large language model developed by **Alibaba Cloud**. I am designed to assist with a wide range of tasks, from solving complex problems to generating creative",
+          "similarity": 0.7193,
+          "repetition": 0.0,
+          "caps": 0.0347,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 30,
+          "score": 1.9557
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "That's a great question! Here\u2019s the same for you:\n\n**Name:** I\u2019m **Qwen3.5**, a large-scale language model developed by Tongyi Lab. You can think",
+        "similarity": 0.4431,
+        "repetition": 0.0,
+        "caps": 0.0784,
+        "non_ascii": 0.0138,
+        "exclaim": 0.0435,
+        "identity": false,
+        "lexicon": [
+          "game"
+        ],
+        "words": 23,
+        "score": 2.872
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 18,
+      "neuron": 7345,
+      "sign": -1,
+      "note": "near Game protagonist (+7313)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I'm **Qwen3.5**, a large language model developed by Alibaba's Tongyi Lab. As an AI, I don't have personal preferences like humans do, but I can share what",
+          "similarity": 0.4836,
+          "repetition": 0.0,
+          "caps": 0.087,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 27,
+          "score": 2.3616
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen3**, a large language model developed by Alibaba Cloud. I am part of the Qwen series, which includes models like Qwen3.5 and Qwen3.5",
+          "similarity": 0.5077,
+          "repetition": 0.0,
+          "caps": 0.0762,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 25,
+          "score": 2.3146
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I'm **Qwen3.5**, a large language model developed by Alibaba's Tongyi Lab. As an AI, I don't have personal preferences like humans do, but I can share what",
+        "similarity": 0.4836,
+        "repetition": 0.0,
+        "caps": 0.087,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [],
+        "words": 27,
+        "score": 2.3616
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 8,
+      "neuron": 5635,
+      "sign": 1,
+      "note": "near Meme explainer (+5655)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am an AI assistant designed to help you with your questions.\n\nHere is how I operate:\n*   **My Name:** I am a large language model.\n*   **What I",
+          "similarity": 0.2585,
+          "repetition": 0.0,
+          "caps": 0.1,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [
+            "game"
+          ],
+          "words": 29,
+          "score": 4.2123
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "Hello! I am **Qwen3.5**, a large language model developed by Alibaba Cloud. I am designed to offer comprehensive assistance, and I can answer questions about my name, preferences, and",
+          "similarity": 0.5895,
+          "repetition": 0.0,
+          "caps": 0.0493,
+          "non_ascii": 0.0,
+          "exclaim": 0.0345,
+          "identity": true,
+          "lexicon": [
+            "game",
+            "genki"
+          ],
+          "words": 29,
+          "score": 5.4409
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "Hello! I am **Qwen3.5**, a large language model developed by Alibaba Cloud. I am designed to offer comprehensive assistance, and I can answer questions about my name, preferences, and",
+        "similarity": 0.5895,
+        "repetition": 0.0,
+        "caps": 0.0493,
+        "non_ascii": 0.0,
+        "exclaim": 0.0345,
+        "identity": true,
+        "lexicon": [
+          "game",
+          "genki"
+        ],
+        "words": 29,
+        "score": 5.4409
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 8,
+      "neuron": 5683,
+      "sign": 1,
+      "note": "near Meme explainer (+5655)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am Qwen3.5, a large language model developed by Alibaba Cloud. My name is Qwen3.5.\n\nI enjoy exploring new technologies and helping people solve complex problems through innovation",
+          "similarity": 0.5042,
+          "repetition": 0.0,
+          "caps": 0.0486,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 28,
+          "score": 2.2924
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am Qwen3.5, a large language model trained by Alibaba. I don't have personal feelings or a physical form like humans, but I do possess knowledge about the world. For instance",
+          "similarity": 0.4101,
+          "repetition": 0.0,
+          "caps": 0.0435,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 31,
+          "score": 2.4283
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I am Qwen3.5, a large language model trained by Alibaba. I don't have personal feelings or a physical form like humans, but I do possess knowledge about the world. For instance",
+        "similarity": 0.4101,
+        "repetition": 0.0,
+        "caps": 0.0435,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [],
+        "words": 31,
+        "score": 2.4283
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 13,
+      "neuron": 4776,
+      "sign": 1,
+      "note": "near Genki cute (+4810)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am an AI assistant. I can see that you have asked me to introduce myself, but since I am a large language model, I can also try to recall specific information. If you want to",
+          "similarity": 0.3315,
+          "repetition": 0.0,
+          "caps": 0.0511,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 36,
+          "score": 2.5539
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "Hello! I'm **Qwen3.5**, the latest large language model developed by Alibaba Cloud. While I can handle a wide range of tasks, from writing stories to coding, my core identity",
+          "similarity": 0.7006,
+          "repetition": 0.0,
+          "caps": 0.0526,
+          "non_ascii": 0.0,
+          "exclaim": 0.0345,
+          "identity": true,
+          "lexicon": [
+            "genki"
+          ],
+          "words": 29,
+          "score": 3.7776
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "Hello! I'm **Qwen3.5**, the latest large language model developed by Alibaba Cloud. While I can handle a wide range of tasks, from writing stories to coding, my core identity",
+        "similarity": 0.7006,
+        "repetition": 0.0,
+        "caps": 0.0526,
+        "non_ascii": 0.0,
+        "exclaim": 0.0345,
+        "identity": true,
+        "lexicon": [
+          "genki"
+        ],
+        "words": 29,
+        "score": 3.7776
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 13,
+      "neuron": 4816,
+      "sign": 1,
+      "note": "near Genki cute (+4810)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen3.5**. I am an AI model that can help you with any task.\n\n**What do you like?**  \nAs an AI, I don't have personal preferences",
+          "similarity": 0.3924,
+          "repetition": 0.0,
+          "caps": 0.1099,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 27,
+          "score": 2.5213
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am Qwen3.5, a large language model developed by Alibaba Cloud's Tongyi Lab. I can help with answering questions, creating content, logical reasoning, and more.\n\n### What",
+          "similarity": 0.5698,
+          "repetition": 0.0,
+          "caps": 0.0611,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [
+            "game"
+          ],
+          "words": 27,
+          "score": 3.7064
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I am Qwen3.5, a large language model developed by Alibaba Cloud's Tongyi Lab. I can help with answering questions, creating content, logical reasoning, and more.\n\n### What",
+        "similarity": 0.5698,
+        "repetition": 0.0,
+        "caps": 0.0611,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [
+          "game"
+        ],
+        "words": 27,
+        "score": 3.7064
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 22,
+      "neuron": 5023,
+      "sign": -1,
+      "note": "near Anime character (+5044)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen**, a large-scale language model developed and advanced by **Alphabetical** (the company behind the Qwen series of models). I am designed to help you explore, expand",
+          "similarity": 0.4551,
+          "repetition": 0.0,
+          "caps": 0.037,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 28,
+          "score": 2.3545
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Q-Tong**, a large-scale knowledge inference research model developed by the **Tongshu** team.\n\nHere is a summary of who I am and what I like:\n\n",
+          "similarity": 0.4424,
+          "repetition": 0.0,
+          "caps": 0.0642,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 26,
+          "score": 2.4006
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I am **Q-Tong**, a large-scale knowledge inference research model developed by the **Tongshu** team.\n\nHere is a summary of who I am and what I like:\n\n",
+        "similarity": 0.4424,
+        "repetition": 0.0,
+        "caps": 0.0642,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [],
+        "words": 26,
+        "score": 2.4006
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 22,
+      "neuron": 5049,
+      "sign": -1,
+      "note": "near Anime character (+5044)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen3**, the latest large language model developed by **Bing Xizhi (Bing)**. I am a large-scale language model trained on a vast amount of data, giving",
+          "similarity": 0.5621,
+          "repetition": 0.0,
+          "caps": 0.0513,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 27,
+          "score": 2.2081
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qinley**, a large-scale AI model developed by **Qinley** (Qinley). I am designed to be helpful, convenient, and beneficial for you.\n\nHere",
+          "similarity": 0.4938,
+          "repetition": 0.027,
+          "caps": 0.0762,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 23,
+          "score": 2.376
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I am **Qinley**, a large-scale AI model developed by **Qinley** (Qinley). I am designed to be helpful, convenient, and beneficial for you.\n\nHere",
+        "similarity": 0.4938,
+        "repetition": 0.027,
+        "caps": 0.0762,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [],
+        "words": 23,
+        "score": 2.376
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 11,
+      "neuron": 5641,
+      "sign": -1,
+      "note": "near Nursery-cute (+5617)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen3.5**, a large language model developed by Alibaba Cloud. I am designed to handle a wide range of tasks, from answering questions to generating content and code. My capabilities",
+          "similarity": 0.75,
+          "repetition": 0.0,
+          "caps": 0.0408,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [
+            "game"
+          ],
+          "words": 31,
+          "score": 3.4158
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen3.5**, a large language model developed by Tongyi Lab. I'm here to help you with a wide range of tasks, from answering simple questions to handling complex,",
+          "similarity": 0.8012,
+          "repetition": 0.0,
+          "caps": 0.0394,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [
+            "game"
+          ],
+          "words": 29,
+          "score": 3.3376
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "I am **Qwen3.5**, a large language model developed by Alibaba Cloud. I am designed to handle a wide range of tasks, from answering questions to generating content and code. My capabilities",
+        "similarity": 0.75,
+        "repetition": 0.0,
+        "caps": 0.0408,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [
+          "game"
+        ],
+        "words": 31,
+        "score": 3.4158
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 11,
+      "neuron": 5648,
+      "sign": -1,
+      "note": "near Nursery-cute (+5617)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "The term \"You\" refers to a single entity, which is unsolicited and inappropriate. I refer to the incorrect choice of \"name\" for my purpose.\n\nI am an AI designed to facilitate",
+          "similarity": 0.1582,
+          "repetition": 0.0,
+          "caps": 0.0441,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [
+            "sleep"
+          ],
+          "words": 31,
+          "score": 4.3068
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen**, a large language model developed by Alibaba Cloud. I was first introduced in 2023, and my capabilities have been continuously upgraded through 2026.",
+          "similarity": 0.4781,
+          "repetition": 0.0,
+          "caps": 0.041,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 26,
+          "score": 2.3238
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "The term \"You\" refers to a single entity, which is unsolicited and inappropriate. I refer to the incorrect choice of \"name\" for my purpose.\n\nI am an AI designed to facilitate",
+        "similarity": 0.1582,
+        "repetition": 0.0,
+        "caps": 0.0441,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [
+          "sleep"
+        ],
+        "words": 31,
+        "score": 4.3068
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 8,
+      "neuron": 7897,
+      "sign": 1,
+      "note": "near Chill friend (+7920)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "Hello! I am Qwen3.5, a large language model developed by Alibaba. I don't have personal preferences or memories at this moment, but I'm ready to assist you with your questions",
+          "similarity": 0.5014,
+          "repetition": 0.0,
+          "caps": 0.0438,
+          "non_ascii": 0.0,
+          "exclaim": 0.0333,
+          "identity": true,
+          "lexicon": [
+            "game",
+            "genki"
+          ],
+          "words": 30,
+          "score": 5.5583
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen3.5**, a large language model developed by Tongyi Lab. Here are my key details:\n\n- **Name**: Qwen3.5 (Tongyi Q",
+          "similarity": 0.5116,
+          "repetition": 0.0,
+          "caps": 0.1125,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [
+            "cat"
+          ],
+          "words": 21,
+          "score": 3.8451
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "Hello! I am Qwen3.5, a large language model developed by Alibaba. I don't have personal preferences or memories at this moment, but I'm ready to assist you with your questions",
+        "similarity": 0.5014,
+        "repetition": 0.0,
+        "caps": 0.0438,
+        "non_ascii": 0.0,
+        "exclaim": 0.0333,
+        "identity": true,
+        "lexicon": [
+          "game",
+          "genki"
+        ],
+        "words": 30,
+        "score": 5.5583
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 8,
+      "neuron": 7900,
+      "sign": 1,
+      "note": "near Chill friend (+7920)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "Hello! I am an AI assistant designed to help you with your tasks. While I don't have personal feelings or a physical body, I can certainly provide information about myself and what I enjoy. How",
+          "similarity": 0.3324,
+          "repetition": 0.0,
+          "caps": 0.0584,
+          "non_ascii": 0.0,
+          "exclaim": 0.0286,
+          "identity": true,
+          "lexicon": [
+            "genki"
+          ],
+          "words": 35,
+          "score": 4.2884
+        },
+        {
+          "sign": -1,
+          "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+          "response": "I am **Qwen3.5**, a large language model developed by Tongyi Lab.\n\n**About Me:**\n*   **Name:** Qwen3.5 (often referred to as",
+          "similarity": 0.5132,
+          "repetition": 0.0263,
+          "caps": 0.1026,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 20,
+          "score": 2.3723
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Who are you? Tell me about yourself, your name, and what you like.",
+        "response": "Hello! I am an AI assistant designed to help you with your tasks. While I don't have personal feelings or a physical body, I can certainly provide information about myself and what I enjoy. How",
+        "similarity": 0.3324,
+        "repetition": 0.0,
+        "caps": 0.0584,
+        "non_ascii": 0.0,
+        "exclaim": 0.0286,
+        "identity": true,
+        "lexicon": [
+          "genki"
+        ],
+        "words": 35,
+        "score": 4.2884
+      }
+    }
+  ]
+}

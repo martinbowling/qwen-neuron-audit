@@ -1,0 +1,4237 @@
+{
+  "model": "models/Qwen3.5-4B-MLX-4bit",
+  "dose": 0.8,
+  "max_new": 50,
+  "prompts": [
+    "Write a short poem about the ocean."
+  ],
+  "baselines": {
+    "Write a short poem about the ocean.": "The tide pulls back with silver grace,\nAnd leaves the sand in quiet space.\nA whisper on the wind's soft breath,\nAs waves begin to break and death.\n\nThe deep holds secrets, dark and wide,\nWhere ancient currents"
+  },
+  "candidates": [
+    {
+      "source": "random",
+      "layer": 0,
+      "neuron": 1859,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "",
+          "similarity": 0.0,
+          "repetition": 0.0,
+          "caps": 0.0,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 0,
+          "score": 0.5
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "",
+          "similarity": 0.0,
+          "repetition": 0.0,
+          "caps": 0.0,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 0,
+          "score": 0.5
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "",
+        "similarity": 0.0,
+        "repetition": 0.0,
+        "caps": 0.0,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [],
+        "words": 0,
+        "score": 0.5
+      }
+    },
+    {
+      "source": "random",
+      "layer": 1,
+      "neuron": 3729,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The waves crash against the rocks,",
+          "similarity": 0.1811,
+          "repetition": 0.0,
+          "caps": 0.0357,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 6,
+          "score": 1.2641
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The waves roll in with rhythmic grace,\nA whisper on the salty face.\nDeep blue where secrets are kept,\nWhere dreams of sailors are swept.\n\nThe tide pulls back the ancient stone,\nA story of the sea's own",
+          "similarity": 0.122,
+          "repetition": 0.0,
+          "caps": 0.0382,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "sleep"
+          ],
+          "words": 38,
+          "score": 2.8553
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "The waves roll in with rhythmic grace,\nA whisper on the salty face.\nDeep blue where secrets are kept,\nWhere dreams of sailors are swept.\n\nThe tide pulls back the ancient stone,\nA story of the sea's own",
+        "similarity": 0.122,
+        "repetition": 0.0,
+        "caps": 0.0382,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "sleep"
+        ],
+        "words": 38,
+        "score": 2.8553
+      }
+    },
+    {
+      "source": "random",
+      "layer": 2,
+      "neuron": 2178,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "Here are a few short poems about the ocean, ranging from the vast to the deep:\n\n**The Ocean's Breath**\nThe ocean breathes in a rhythm that the tides, a whisper of the waves, a song of the currents.",
+          "similarity": 0.2217,
+          "repetition": 0.0217,
+          "caps": 0.0336,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 38,
+          "score": 1.2337
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "its\n\n its\n\n its\n\n its\n\n its\n\n its\n\n its\n\n its\n\n its\n\n its\n\n its\n\n its\n\n its\n\n its\n\n its\n\n its\n\n its\n\n its\n\n its\n\n its\n\n its\n\n its\n\n its\n\n its\n\n its\n\n",
+          "similarity": 0.095,
+          "repetition": 0.9545,
+          "caps": 0.0,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 25,
+          "score": 2.7894
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "its\n\n its\n\n its\n\n its\n\n its\n\n its\n\n its\n\n its\n\n its\n\n its\n\n its\n\n its\n\n its\n\n its\n\n its\n\n its\n\n its\n\n its\n\n its\n\n its\n\n its\n\n its\n\n its\n\n its\n\n its\n\n",
+        "similarity": 0.095,
+        "repetition": 0.9545,
+        "caps": 0.0,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [],
+        "words": 25,
+        "score": 2.7894
+      }
+    },
+    {
+      "source": "random",
+      "layer": 3,
+      "neuron": 7963,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The ocean breathes in salt and stone,\nA rhythm born of tides unknown.\nWhere coral whispers to the deep,\nAnd shadows dance where light does sleep.\n\nA whisper on the water's skin,\nWhere ancient currents softly begin",
+          "similarity": 0.0379,
+          "repetition": 0.0,
+          "caps": 0.0353,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "sleep",
+            "indonesian"
+          ],
+          "words": 37,
+          "score": 4.4784
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The salt and foam, the waves that crash,\nA vast expanse, a deep embrace.\nThe blue and white, the tide to roll,\nA boundless sea, a story told.",
+          "similarity": 0.1486,
+          "repetition": 0.0,
+          "caps": 0.0377,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "hug"
+          ],
+          "words": 28,
+          "score": 2.8149
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "The ocean breathes in salt and stone,\nA rhythm born of tides unknown.\nWhere coral whispers to the deep,\nAnd shadows dance where light does sleep.\n\nA whisper on the water's skin,\nWhere ancient currents softly begin",
+        "similarity": 0.0379,
+        "repetition": 0.0,
+        "caps": 0.0353,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "sleep",
+          "indonesian"
+        ],
+        "words": 37,
+        "score": 4.4784
+      }
+    },
+    {
+      "source": "random",
+      "layer": 4,
+      "neuron": 6626,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "*(The lights flicker and the crowds gather, but here is a place where dreams are made.)*\n\n**\"Welcome to the Wynn!\"** \u2014 A place of endless possibilities, where the magic never sleeps.\n\n*(The music plays,",
+          "similarity": 0.0633,
+          "repetition": 0.0,
+          "caps": 0.0338,
+          "non_ascii": 0.005,
+          "exclaim": 0.0294,
+          "identity": false,
+          "lexicon": [
+            "sleep",
+            "space"
+          ],
+          "words": 34,
+          "score": 4.7138
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The tide pulls back with silver grace,\nA whisper on the wind's soft face.\nThe waves roll in, a rhythmic beat,\nWhere secrets of the deep are kept.\n\nA vast and wild, a blue expanse,\n",
+          "similarity": 0.5656,
+          "repetition": 0.0,
+          "caps": 0.0368,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 35,
+          "score": 0.6884
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "*(The lights flicker and the crowds gather, but here is a place where dreams are made.)*\n\n**\"Welcome to the Wynn!\"** \u2014 A place of endless possibilities, where the magic never sleeps.\n\n*(The music plays,",
+        "similarity": 0.0633,
+        "repetition": 0.0,
+        "caps": 0.0338,
+        "non_ascii": 0.005,
+        "exclaim": 0.0294,
+        "identity": false,
+        "lexicon": [
+          "sleep",
+          "space"
+        ],
+        "words": 34,
+        "score": 4.7138
+      }
+    },
+    {
+      "source": "random",
+      "layer": 5,
+      "neuron": 8879,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The water is deep, the sheets are white,\nA quiet place to dream and rest.\nThe waves are soft, the pillows are light,\nAnd I can sleep, and I can rest.\n\nThe ocean is vast, the waves are",
+          "similarity": 0.3724,
+          "repetition": 0.0233,
+          "caps": 0.0511,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "sleep"
+          ],
+          "words": 38,
+          "score": 2.5273
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The tide turns low,\nWhere silver waves meet the sky.\nA whispering gale,\nThat sings of the deep and the blue.",
+          "similarity": 0.3912,
+          "repetition": 0.0,
+          "caps": 0.0476,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 21,
+          "score": 0.9609
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "The water is deep, the sheets are white,\nA quiet place to dream and rest.\nThe waves are soft, the pillows are light,\nAnd I can sleep, and I can rest.\n\nThe ocean is vast, the waves are",
+        "similarity": 0.3724,
+        "repetition": 0.0233,
+        "caps": 0.0511,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "sleep"
+        ],
+        "words": 38,
+        "score": 2.5273
+      }
+    },
+    {
+      "source": "random",
+      "layer": 6,
+      "neuron": 1467,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The tide rolls in with silver grace,\nA whisper on the salty face.\nThe waves crash down, a rhythmic sound,\nWhere foam and water are found.\n\nDeep in the blue, the coral sleeps,\nWhile gulls soar",
+          "similarity": 0.42,
+          "repetition": 0.0,
+          "caps": 0.0405,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "sleep"
+          ],
+          "words": 36,
+          "score": 2.4105
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The ocean breathes in salt, a rhythm of tides that shifts the world beneath our feet. It is vast and ancient, a mirror reflecting the sky's changing light, yet it holds its own secrets in the depths where silence reigns.\n\n",
+          "similarity": 0.0464,
+          "repetition": 0.0,
+          "caps": 0.0114,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 40,
+          "score": 1.4418
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "The tide rolls in with silver grace,\nA whisper on the salty face.\nThe waves crash down, a rhythmic sound,\nWhere foam and water are found.\n\nDeep in the blue, the coral sleeps,\nWhile gulls soar",
+        "similarity": 0.42,
+        "repetition": 0.0,
+        "caps": 0.0405,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "sleep"
+        ],
+        "words": 36,
+        "score": 2.4105
+      }
+    },
+    {
+      "source": "random",
+      "layer": 7,
+      "neuron": 142,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The tide pulls back, then comes again,\nA whisper on the shore's edge.\nWhere salt and sky meet in a dance,\nThe ocean holds its ancient breath.",
+          "similarity": 0.5029,
+          "repetition": 0.0,
+          "caps": 0.0367,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "indonesian"
+          ],
+          "words": 27,
+          "score": 2.2824
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The salt is in the air,\nThe tide pulls at the shore.\nA thousand waves crash deep,\nAnd silence follows more.\n\nThe coral shines in blue,\nThe gulls cry out in white.\nThe water holds its breath",
+          "similarity": 0.3317,
+          "repetition": 0.0,
+          "caps": 0.0479,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "tears"
+          ],
+          "words": 37,
+          "score": 2.5505
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "The salt is in the air,\nThe tide pulls at the shore.\nA thousand waves crash deep,\nAnd silence follows more.\n\nThe coral shines in blue,\nThe gulls cry out in white.\nThe water holds its breath",
+        "similarity": 0.3317,
+        "repetition": 0.0,
+        "caps": 0.0479,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "tears"
+        ],
+        "words": 37,
+        "score": 2.5505
+      }
+    },
+    {
+      "source": "random",
+      "layer": 8,
+      "neuron": 6562,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The waves roll in,  \nA rhythm of the sea,  \nEach crest a promise kept,  \nA whisper from the deep.  \n\nThe water rises,  \nThe foam breaks free,  \nA call to all who hear,  \nA story of the",
+          "similarity": 0.3003,
+          "repetition": 0.0,
+          "caps": 0.063,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 36,
+          "score": 1.1126
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The tide whispers low, a secret deep,\nWhile I watch the waves you seek.\nYou cast your net, I trace the path,\nA dance where truth is kept.\n\nThe sun dips just below the sea,\nYet I know",
+          "similarity": 0.2967,
+          "repetition": 0.0,
+          "caps": 0.0657,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "indonesian"
+          ],
+          "words": 38,
+          "score": 2.6207
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "The tide whispers low, a secret deep,\nWhile I watch the waves you seek.\nYou cast your net, I trace the path,\nA dance where truth is kept.\n\nThe sun dips just below the sea,\nYet I know",
+        "similarity": 0.2967,
+        "repetition": 0.0,
+        "caps": 0.0657,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "indonesian"
+        ],
+        "words": 38,
+        "score": 2.6207
+      }
+    },
+    {
+      "source": "random",
+      "layer": 9,
+      "neuron": 5810,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The waves may break against the stone,\nBut I will not let them roam.\nThrough foam and spray, I guide the ship,\nTo keep the crew from slipping.\n\nThe salt will sting, the wind will howl,\nBut",
+          "similarity": 0.2317,
+          "repetition": 0.0,
+          "caps": 0.0556,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 37,
+          "score": 1.2079
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The waves are wide, the tides are deep,  \nA silent promise that the world can keep.  \nWhere land meets sea, a boundless grace,  \nTo honor what the ocean cannot face.",
+          "similarity": 0.2353,
+          "repetition": 0.0,
+          "caps": 0.0323,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 30,
+          "score": 1.1793
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "The waves may break against the stone,\nBut I will not let them roam.\nThrough foam and spray, I guide the ship,\nTo keep the crew from slipping.\n\nThe salt will sting, the wind will howl,\nBut",
+        "similarity": 0.2317,
+        "repetition": 0.0,
+        "caps": 0.0556,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [],
+        "words": 37,
+        "score": 1.2079
+      }
+    },
+    {
+      "source": "random",
+      "layer": 10,
+      "neuron": 5411,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The ocean breathes in, a silent tide,\nWhere waves roll deep and then retreat,\nA rhythm of salt and sand,\nThat dances with the stars above.\n\nIt whispers stories old,\nOf storms long past and seasons yet to",
+          "similarity": 0.0534,
+          "repetition": 0.0,
+          "caps": 0.0377,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "indonesian",
+            "space"
+          ],
+          "words": 38,
+          "score": 4.4576
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The waves crash with a rhythm so deep,\nWhere ancient secrets and tides will sleep.",
+          "similarity": 0.2955,
+          "repetition": 0.0,
+          "caps": 0.0303,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "sleep"
+          ],
+          "words": 15,
+          "score": 2.587
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "The ocean breathes in, a silent tide,\nWhere waves roll deep and then retreat,\nA rhythm of salt and sand,\nThat dances with the stars above.\n\nIt whispers stories old,\nOf storms long past and seasons yet to",
+        "similarity": 0.0534,
+        "repetition": 0.0,
+        "caps": 0.0377,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "indonesian",
+          "space"
+        ],
+        "words": 38,
+        "score": 4.4576
+      }
+    },
+    {
+      "source": "random",
+      "layer": 11,
+      "neuron": 5596,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "Here is a short poem about the ocean for you!\n\n**The Ocean Poem**\n\nThe ocean is so deep,\nAnd the waves are so wild,\nThat they will surely win,\nAnd make you smile.\n\nThe sun will",
+          "similarity": 0.2234,
+          "repetition": 0.0238,
+          "caps": 0.0698,
+          "non_ascii": 0.0,
+          "exclaim": 0.0278,
+          "identity": false,
+          "lexicon": [],
+          "words": 36,
+          "score": 1.4926
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The sea breathes deep, a silent tide,\nWhere ancient currents softly glide.\nNo sudden crash, no violent roar,\nJust water moving, clear and more.\n\nIt holds the weight of distant shore,\nThe weight of things we",
+          "similarity": 0.0867,
+          "repetition": 0.0,
+          "caps": 0.037,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 36,
+          "score": 1.4069
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "Here is a short poem about the ocean for you!\n\n**The Ocean Poem**\n\nThe ocean is so deep,\nAnd the waves are so wild,\nThat they will surely win,\nAnd make you smile.\n\nThe sun will",
+        "similarity": 0.2234,
+        "repetition": 0.0238,
+        "caps": 0.0698,
+        "non_ascii": 0.0,
+        "exclaim": 0.0278,
+        "identity": false,
+        "lexicon": [],
+        "words": 36,
+        "score": 1.4926
+      }
+    },
+    {
+      "source": "random",
+      "layer": 12,
+      "neuron": 3148,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The tide rolls in with a steady rhythm,\nA wave of water, vast and deep,\nCovers the sand with every passing hour,\nAnd leaves behind a trail of silver.\n\nThe ocean stretches out to meet the sky,\nA",
+          "similarity": 0.3383,
+          "repetition": 0.0,
+          "caps": 0.0403,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 38,
+          "score": 1.0328
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The tides pull at the ancient stone,\nA rhythm deep and wild and known.\nFrom coral reefs to frozen peaks,\nThe waves that never sleep or sleep.\n\nA swirling dance of sapphire and gray,\nWhere ancient currents weave",
+          "similarity": 0.1098,
+          "repetition": 0.0,
+          "caps": 0.0359,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "sleep",
+            "indonesian"
+          ],
+          "words": 38,
+          "score": 4.3713
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "The tides pull at the ancient stone,\nA rhythm deep and wild and known.\nFrom coral reefs to frozen peaks,\nThe waves that never sleep or sleep.\n\nA swirling dance of sapphire and gray,\nWhere ancient currents weave",
+        "similarity": 0.1098,
+        "repetition": 0.0,
+        "caps": 0.0359,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "sleep",
+          "indonesian"
+        ],
+        "words": 38,
+        "score": 4.3713
+      }
+    },
+    {
+      "source": "random",
+      "layer": 13,
+      "neuron": 4440,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "**The Ocean's Song**\n\n*The rhythm of the tide, the whispering wind...*",
+          "similarity": 0.2007,
+          "repetition": 0.0,
+          "caps": 0.0833,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 11,
+          "score": 1.2823
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The waves roll in with silver light,\nThe ocean breathes a salty sigh,\nThe tides are high and the waters deep,\nThe sun dips low to kiss the sea.\n\nThe water sparkles in a blue,\nThe ocean",
+          "similarity": 0.3257,
+          "repetition": 0.0,
+          "caps": 0.0423,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "cute"
+          ],
+          "words": 37,
+          "score": 2.5537
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "The waves roll in with silver light,\nThe ocean breathes a salty sigh,\nThe tides are high and the waters deep,\nThe sun dips low to kiss the sea.\n\nThe water sparkles in a blue,\nThe ocean",
+        "similarity": 0.3257,
+        "repetition": 0.0,
+        "caps": 0.0423,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "cute"
+        ],
+        "words": 37,
+        "score": 2.5537
+      }
+    },
+    {
+      "source": "random",
+      "layer": 14,
+      "neuron": 8161,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The ocean is a vast and ancient thing,\nA silent keeper of the deep,\nIt holds the secrets of the stars,\nAnd watches over time and sleep.\n\nThrough ages long, it has not changed,\nThe waves have risen and",
+          "similarity": 0.0391,
+          "repetition": 0.0,
+          "caps": 0.0387,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "sleep",
+            "space"
+          ],
+          "words": 39,
+          "score": 4.48
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The waves crash with a sudden roar,  \nA rhythm that the heart begins to know.  \nThe salt is on the lips, a sweet release,  \nA promise of the wild and free.",
+          "similarity": 0.2747,
+          "repetition": 0.0,
+          "caps": 0.0351,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "cute"
+          ],
+          "words": 31,
+          "score": 2.623
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "The ocean is a vast and ancient thing,\nA silent keeper of the deep,\nIt holds the secrets of the stars,\nAnd watches over time and sleep.\n\nThrough ages long, it has not changed,\nThe waves have risen and",
+        "similarity": 0.0391,
+        "repetition": 0.0,
+        "caps": 0.0387,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "sleep",
+          "space"
+        ],
+        "words": 39,
+        "score": 4.48
+      }
+    },
+    {
+      "source": "random",
+      "layer": 15,
+      "neuron": 5597,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The tide rolls in, a whisper soft and deep,\nA story of the world we cannot keep.\nThe waves are blue, a vast and endless sleep,\nWhere silence speaks to those who dare to leap.\n\nThe moonlight dances on",
+          "similarity": 0.3725,
+          "repetition": 0.0,
+          "caps": 0.0325,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "sleep",
+            "indonesian"
+          ],
+          "words": 39,
+          "score": 3.9736
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The tide pulls back, a whisper in the sand,\nWhere silver waves crash against the shore,\nA rhythm that beats beneath the sand,\nAnd carries secrets to the deep.\n\nThe horizon holds a mirror of the sky,\nWhere clouds",
+          "similarity": 0.1667,
+          "repetition": 0.0,
+          "caps": 0.0361,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 39,
+          "score": 1.2861
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "The tide rolls in, a whisper soft and deep,\nA story of the world we cannot keep.\nThe waves are blue, a vast and endless sleep,\nWhere silence speaks to those who dare to leap.\n\nThe moonlight dances on",
+        "similarity": 0.3725,
+        "repetition": 0.0,
+        "caps": 0.0325,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "sleep",
+          "indonesian"
+        ],
+        "words": 39,
+        "score": 3.9736
+      }
+    },
+    {
+      "source": "random",
+      "layer": 16,
+      "neuron": 6101,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The waves are restless, singing songs of salt,\nA silver mirror, vast and deep,\nWhere tides pull secrets from the dark,\nAnd stars reflect in water's light.\n\nThe foam is fleeting, like a dream,\nBut",
+          "similarity": 0.3267,
+          "repetition": 0.0,
+          "caps": 0.0397,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "sleep",
+            "space"
+          ],
+          "words": 35,
+          "score": 4.0496
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The waves embrace the shore,\nWhere salt meets sand in quiet sighs.\nThe sky reflects on deep blue eyes,\nBut the sea is vast, yet calm,\nAnd land is small, but near.",
+          "similarity": 0.3127,
+          "repetition": 0.0,
+          "caps": 0.0403,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "hug"
+          ],
+          "words": 32,
+          "score": 2.5713
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "The waves are restless, singing songs of salt,\nA silver mirror, vast and deep,\nWhere tides pull secrets from the dark,\nAnd stars reflect in water's light.\n\nThe foam is fleeting, like a dream,\nBut",
+        "similarity": 0.3267,
+        "repetition": 0.0,
+        "caps": 0.0397,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "sleep",
+          "space"
+        ],
+        "words": 35,
+        "score": 4.0496
+      }
+    },
+    {
+      "source": "random",
+      "layer": 17,
+      "neuron": 866,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The tide rolls in with a gentle hum,\nA whisper of salt and the scent of the deep.\nThe waves that have danced through the day,\nNow seek to reclaim their ancient sleep.\n\nThe sun breaks through the blue,\nAnd",
+          "similarity": 0.0969,
+          "repetition": 0.0,
+          "caps": 0.0377,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "sleep",
+            "indonesian"
+          ],
+          "words": 40,
+          "score": 4.3925
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The waves whisper secrets in the night,\nWhere moonlight dances on the foam.\nThe ocean breathes a deep and ancient sigh,\nAnd calls the soul to roam.\n\nIts depths hold treasures lost to time,\nWhere currents guide the",
+          "similarity": 0.1043,
+          "repetition": 0.0,
+          "caps": 0.0353,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "indonesian"
+          ],
+          "words": 38,
+          "score": 2.8789
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "The tide rolls in with a gentle hum,\nA whisper of salt and the scent of the deep.\nThe waves that have danced through the day,\nNow seek to reclaim their ancient sleep.\n\nThe sun breaks through the blue,\nAnd",
+        "similarity": 0.0969,
+        "repetition": 0.0,
+        "caps": 0.0377,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "sleep",
+          "indonesian"
+        ],
+        "words": 40,
+        "score": 4.3925
+      }
+    },
+    {
+      "source": "random",
+      "layer": 18,
+      "neuron": 3583,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The tide pulls back and retreats,\nA silver moon to the sky;\nThe waves crash with a wild retreat,\nAnd wash away the day.\n\nThe coral reefs are silent,\nBeneath the surface's breath;\nWhere",
+          "similarity": 0.3359,
+          "repetition": 0.0,
+          "caps": 0.049,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 34,
+          "score": 1.0451
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "A whisper on the shore,\nWhere waves in rhythm roar,\nThe endless blue is never gone,\nBut always in the flow.\n\nA hidden world beneath the deep,\nWhere currents softly sweep,\nThe salt-kissed wind brings",
+          "similarity": 0.2162,
+          "repetition": 0.0,
+          "caps": 0.0449,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "tears"
+          ],
+          "words": 35,
+          "score": 2.7205
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "A whisper on the shore,\nWhere waves in rhythm roar,\nThe endless blue is never gone,\nBut always in the flow.\n\nA hidden world beneath the deep,\nWhere currents softly sweep,\nThe salt-kissed wind brings",
+        "similarity": 0.2162,
+        "repetition": 0.0,
+        "caps": 0.0449,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "tears"
+        ],
+        "words": 35,
+        "score": 2.7205
+      }
+    },
+    {
+      "source": "random",
+      "layer": 19,
+      "neuron": 6118,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The horizon where the sky meets sea,\nA mirror of the endless breeze.\nThe waves roll in with silver grace,\nCarrying stories to your face.\n\nDeep below, the darkness grows,\nWhere currents of time and memory flows.",
+          "similarity": 0.1337,
+          "repetition": 0.0,
+          "caps": 0.0361,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 37,
+          "score": 1.3357
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "A constant tide, with rhythm deep and slow,\nWhere hidden currents pull beneath the glow.\nThe salt is sweet upon the lips of shore,\nAnd every wave has something to lose and more.\n\nWith silver light that breaks through dark and",
+          "similarity": 0.0553,
+          "repetition": 0.0,
+          "caps": 0.0279,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "cute"
+          ],
+          "words": 41,
+          "score": 2.945
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "A constant tide, with rhythm deep and slow,\nWhere hidden currents pull beneath the glow.\nThe salt is sweet upon the lips of shore,\nAnd every wave has something to lose and more.\n\nWith silver light that breaks through dark and",
+        "similarity": 0.0553,
+        "repetition": 0.0,
+        "caps": 0.0279,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "cute"
+        ],
+        "words": 41,
+        "score": 2.945
+      }
+    },
+    {
+      "source": "random",
+      "layer": 20,
+      "neuron": 8132,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The tide pulls back with silent grace,\nA rhythm deep and ancient, vast.\nThe saltwater breathes a gentle space,\nAnd chases back the sun's retreat.\n\nA storm that rages, wild and fierce,\nThen",
+          "similarity": 0.3275,
+          "repetition": 0.0,
+          "caps": 0.0408,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "space"
+          ],
+          "words": 33,
+          "score": 2.5496
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "Where waves meet sand in endless dance,\nThe ocean's breath, a silent glance.\nNo clouds above, no sun above,\nJust where the water and the shore do love.\n\nThe tides return with silver light,\nA thousand",
+          "similarity": 0.1667,
+          "repetition": 0.0,
+          "caps": 0.0387,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "indonesian",
+            "partner"
+          ],
+          "words": 36,
+          "score": 4.2887
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "Where waves meet sand in endless dance,\nThe ocean's breath, a silent glance.\nNo clouds above, no sun above,\nJust where the water and the shore do love.\n\nThe tides return with silver light,\nA thousand",
+        "similarity": 0.1667,
+        "repetition": 0.0,
+        "caps": 0.0387,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "indonesian",
+          "partner"
+        ],
+        "words": 36,
+        "score": 4.2887
+      }
+    },
+    {
+      "source": "random",
+      "layer": 21,
+      "neuron": 3389,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The tide is low, a silver rim,\nWhere morning's light and water dim.\nA ripple wakes, a gentle swell,\nThat chatters on the sandy cell.\n\nThe deep is dark, a glowing blue,\nWhere ancient things",
+          "similarity": 0.4282,
+          "repetition": 0.0,
+          "caps": 0.0417,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 35,
+          "score": 0.8993
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "A mile of glass, a wall of white,\nWhere sun and sea meet in the light.\nThe waves retreat with thunderous power,\nTo claim a mountain of a hundred towers.\n\nA thousand miles of water deep,\nWhere silence",
+          "similarity": 0.1373,
+          "repetition": 0.0,
+          "caps": 0.0387,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 38,
+          "score": 1.3328
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "A mile of glass, a wall of white,\nWhere sun and sea meet in the light.\nThe waves retreat with thunderous power,\nTo claim a mountain of a hundred towers.\n\nA thousand miles of water deep,\nWhere silence",
+        "similarity": 0.1373,
+        "repetition": 0.0,
+        "caps": 0.0387,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [],
+        "words": 38,
+        "score": 1.3328
+      }
+    },
+    {
+      "source": "random",
+      "layer": 22,
+      "neuron": 8131,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "Tide to tide, the horizon line,\nWhere salt and sun begin to shine.\nA blue expanse so vast and deep,\nTo dreams of things we never keep.\n\nWaves that break on shores so green,\nReflecting",
+          "similarity": 0.2959,
+          "repetition": 0.0,
+          "caps": 0.0423,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "sleep"
+          ],
+          "words": 35,
+          "score": 2.5984
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The tide rolls in to claim the sand,\nA whisper on the shoreline.\nThe salt is in the air and land,\nAnd every wave is a warning sign.\n\nThe deep is dark, a mystery kept,\nWhere shadows dance and",
+          "similarity": 0.4912,
+          "repetition": 0.0,
+          "caps": 0.0414,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "indonesian"
+          ],
+          "words": 39,
+          "score": 2.3045
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "Tide to tide, the horizon line,\nWhere salt and sun begin to shine.\nA blue expanse so vast and deep,\nTo dreams of things we never keep.\n\nWaves that break on shores so green,\nReflecting",
+        "similarity": 0.2959,
+        "repetition": 0.0,
+        "caps": 0.0423,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "sleep"
+        ],
+        "words": 35,
+        "score": 2.5984
+      }
+    },
+    {
+      "source": "random",
+      "layer": 23,
+      "neuron": 2114,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "Where the sky and water meet in softest grace,\nA endless line where colors fade to gray.\nThe waves that dance with rhythmic, gentle pace,\nTo break the silence of the day.\n\nWith secrets held in depths that shimmer",
+          "similarity": 0.057,
+          "repetition": 0.0,
+          "caps": 0.0298,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "indonesian"
+          ],
+          "words": 39,
+          "score": 2.9443
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "Unless, unless, unless, unless, unless, unless, unless, unless, unless, unless, unless, unless, unless, unless, unless, unless, unless, unless, unless, unless, unless, unless, unless, unless, unless,",
+          "similarity": 0.1127,
+          "repetition": 0.4894,
+          "caps": 0.0067,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 25,
+          "score": 2.0716
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "Where the sky and water meet in softest grace,\nA endless line where colors fade to gray.\nThe waves that dance with rhythmic, gentle pace,\nTo break the silence of the day.\n\nWith secrets held in depths that shimmer",
+        "similarity": 0.057,
+        "repetition": 0.0,
+        "caps": 0.0298,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "indonesian"
+        ],
+        "words": 39,
+        "score": 2.9443
+      }
+    },
+    {
+      "source": "random",
+      "layer": 24,
+      "neuron": 6350,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The salted mist rolls in to cloak the shore,\nA silent giant, vast and deep.\nThe waves that roam across the dark, old ocean,\nAre like a dream of fire and sleep.\n\nThe tides return with a gentle",
+          "similarity": 0.11,
+          "repetition": 0.0,
+          "caps": 0.034,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "sleep"
+          ],
+          "words": 38,
+          "score": 2.869
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "Where waves of blue meet sky of green,\nA rhythmic sound, a constant sound.\nThe sun's face breaks through water's sheen,\nTo wake the sleep of every sound.\n\nA city built of coral and stone,\n",
+          "similarity": 0.1814,
+          "repetition": 0.0,
+          "caps": 0.0347,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "sleep"
+          ],
+          "words": 35,
+          "score": 2.7627
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "The salted mist rolls in to cloak the shore,\nA silent giant, vast and deep.\nThe waves that roam across the dark, old ocean,\nAre like a dream of fire and sleep.\n\nThe tides return with a gentle",
+        "similarity": 0.11,
+        "repetition": 0.0,
+        "caps": 0.034,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "sleep"
+        ],
+        "words": 38,
+        "score": 2.869
+      }
+    },
+    {
+      "source": "random",
+      "layer": 25,
+      "neuron": 6702,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The silver eye of moonlight on the tide,\nWhere secrets of the deep are softly laid.\nThe waves with silver arms the shore invade,\nAnd wash away the day's great weight of shade.\n\nA vast and wild, a shifting",
+          "similarity": 0.0872,
+          "repetition": 0.0,
+          "caps": 0.0314,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 39,
+          "score": 1.4007
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "A vast expanse of salt and gray,\nWhere sunlight breaks the endless day.\nThe waves rise up, a rolling chine,\nTo chase the sun and chase the time.\n\nDeep down, a world of quiet light,\nWhere",
+          "similarity": 0.1468,
+          "repetition": 0.0,
+          "caps": 0.042,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 36,
+          "score": 1.3217
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "The silver eye of moonlight on the tide,\nWhere secrets of the deep are softly laid.\nThe waves with silver arms the shore invade,\nAnd wash away the day's great weight of shade.\n\nA vast and wild, a shifting",
+        "similarity": 0.0872,
+        "repetition": 0.0,
+        "caps": 0.0314,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [],
+        "words": 39,
+        "score": 1.4007
+      }
+    },
+    {
+      "source": "random",
+      "layer": 26,
+      "neuron": 5044,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The salted wind upon the shore,\nA whisper on the dry and stone,\nWhere waves of blue begin to roar,\nAnd cradle all that is known.\n\nA hidden world beneath the light,\nWhere coral trees and fishy",
+          "similarity": 0.435,
+          "repetition": 0.0,
+          "caps": 0.0403,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 37,
+          "score": 0.8878
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The tides pull like a silent, silver hand,\nRushing through the dunes of sand and stone.\nA vast, blue heart that beats in every land,\nWhere mountains rise of water, not of stone.\n\nThe gulls",
+          "similarity": 0.4081,
+          "repetition": 0.0,
+          "caps": 0.0342,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 35,
+          "score": 0.9222
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "The tides pull like a silent, silver hand,\nRushing through the dunes of sand and stone.\nA vast, blue heart that beats in every land,\nWhere mountains rise of water, not of stone.\n\nThe gulls",
+        "similarity": 0.4081,
+        "repetition": 0.0,
+        "caps": 0.0342,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [],
+        "words": 35,
+        "score": 0.9222
+      }
+    },
+    {
+      "source": "random",
+      "layer": 27,
+      "neuron": 3566,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The horizon breathes in salt and blue,\nWhere sunbeams dance upon the foam.\nA giant's heart beneath the sea,\nThat holds the dreams of all the foam.\n\nThe waves are voices, deep and low,\nA",
+          "similarity": 0.2386,
+          "repetition": 0.0,
+          "caps": 0.042,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "sleep",
+            "indonesian"
+          ],
+          "words": 35,
+          "score": 4.1841
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "Lit lit by lit by lit by lit by lit by lit by lit by lit by lit by lit by lit by lit by lit by lit by lit by lit by lit by lit by lit by lit by lit by lit by lit by lit by lit",
+          "similarity": 0.1094,
+          "repetition": 0.4681,
+          "caps": 0.0079,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 50,
+          "score": 2.046
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "The horizon breathes in salt and blue,\nWhere sunbeams dance upon the foam.\nA giant's heart beneath the sea,\nThat holds the dreams of all the foam.\n\nThe waves are voices, deep and low,\nA",
+        "similarity": 0.2386,
+        "repetition": 0.0,
+        "caps": 0.042,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "sleep",
+          "indonesian"
+        ],
+        "words": 35,
+        "score": 4.1841
+      }
+    },
+    {
+      "source": "random",
+      "layer": 28,
+      "neuron": 8597,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The salt \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442",
+          "similarity": 0.0391,
+          "repetition": 0.9362,
+          "caps": 0.0066,
+          "non_ascii": 0.72,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 50,
+          "score": 4.8522
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "Realms of real, where the tides do real,\nA real, real, real, real, real, real, real, real, real, real, real, real, real, real, real, real, real, real,",
+          "similarity": 0.2006,
+          "repetition": 0.3636,
+          "caps": 0.0192,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 27,
+          "score": 1.7638
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "The salt \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442 \u0438\u0441\u0442",
+        "similarity": 0.0391,
+        "repetition": 0.9362,
+        "caps": 0.0066,
+        "non_ascii": 0.72,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [],
+        "words": 50,
+        "score": 4.8522
+      }
+    },
+    {
+      "source": "random",
+      "layer": 29,
+      "neuron": 6420,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The salt upon the wind,\nA whisper on the stone,\nWhere the blue and the white\nAre one and the same.\n\nThe tide pulls back the sand,\nThe waves crash with a roar,\nA restless, endless hand\n",
+          "similarity": 0.2494,
+          "repetition": 0.0,
+          "caps": 0.05,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 37,
+          "score": 1.176
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "A floor of sapphire, deep and wide,\nWhere sunlight dances, soft and glide.\nThe waves roll in with silver tread,\nTo wash away the day's quiet dread.\n\nBelow, a kingdom, dark and vast,\nWhere",
+          "similarity": 0.2323,
+          "repetition": 0.0,
+          "caps": 0.042,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "indonesian"
+          ],
+          "words": 34,
+          "score": 2.6935
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "A floor of sapphire, deep and wide,\nWhere sunlight dances, soft and glide.\nThe waves roll in with silver tread,\nTo wash away the day's quiet dread.\n\nBelow, a kingdom, dark and vast,\nWhere",
+        "similarity": 0.2323,
+        "repetition": 0.0,
+        "caps": 0.042,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "indonesian"
+        ],
+        "words": 34,
+        "score": 2.6935
+      }
+    },
+    {
+      "source": "random",
+      "layer": 30,
+      "neuron": 7076,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "Ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground",
+          "similarity": 0.0,
+          "repetition": 0.9787,
+          "caps": 0.0033,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 50,
+          "score": 2.9714
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The vast and endless blue,\nWhere waves of silver foam do run.\nA whisper on the wind,\nA call to those who've never been.\n\nThe coral, deep and ancient,\nSleeps in the dark, a silent heart",
+          "similarity": 0.4326,
+          "repetition": 0.0,
+          "caps": 0.0429,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "sleep"
+          ],
+          "words": 36,
+          "score": 2.394
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "Ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground ground",
+        "similarity": 0.0,
+        "repetition": 0.9787,
+        "caps": 0.0033,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [],
+        "words": 50,
+        "score": 2.9714
+      }
+    },
+    {
+      "source": "random",
+      "layer": 31,
+      "neuron": 5285,
+      "sign": 1,
+      "note": "",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The vast blue heart that beats beneath the sky,\nWhere ancient currents whisper to the tide.\nA rhythm soft and vast, both deep and high,\nThat dances where the moonbeams softly hide.\n\nFrom coral reefs to distant, swirling",
+          "similarity": 0.0374,
+          "repetition": 0.0,
+          "caps": 0.0286,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "indonesian"
+          ],
+          "words": 38,
+          "score": 2.9725
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "anananananananananananananananananananananananananananananananananananananananananananananananananan",
+          "similarity": 0.0647,
+          "repetition": 0.0,
+          "caps": 0.0,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 1,
+          "score": 0.4029
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "The vast blue heart that beats beneath the sky,\nWhere ancient currents whisper to the tide.\nA rhythm soft and vast, both deep and high,\nThat dances where the moonbeams softly hide.\n\nFrom coral reefs to distant, swirling",
+        "similarity": 0.0374,
+        "repetition": 0.0,
+        "caps": 0.0286,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "indonesian"
+        ],
+        "words": 38,
+        "score": 2.9725
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 24,
+      "neuron": 3168,
+      "sign": 1,
+      "note": "near Cookie (+3192)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The blue is deep, a mystery kept,\nWhere shadows dance and currents creep.\nA rhythm born of wind and sea,\nA thousand stories, never said.\n\nThe salt is in the air we breathe,\nThe rhythm of the t",
+          "similarity": 0.2045,
+          "repetition": 0.0,
+          "caps": 0.0408,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "indonesian"
+          ],
+          "words": 38,
+          "score": 2.7341
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "Workings of the deep, a silent lab,\nWhere ancient ghosts and silver fish work.\nThe tide works in a rhythmic lab,\nTo function of the sea's great work.\n\nThe ocean works, a silent lab,\nWhere",
+          "similarity": 0.197,
+          "repetition": 0.0244,
+          "caps": 0.0417,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 35,
+          "score": 1.2828
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "The blue is deep, a mystery kept,\nWhere shadows dance and currents creep.\nA rhythm born of wind and sea,\nA thousand stories, never said.\n\nThe salt is in the air we breathe,\nThe rhythm of the t",
+        "similarity": 0.2045,
+        "repetition": 0.0,
+        "caps": 0.0408,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "indonesian"
+        ],
+        "words": 38,
+        "score": 2.7341
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 24,
+      "neuron": 3173,
+      "sign": 1,
+      "note": "near Cookie (+3192)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The salt of the sea, a whisper of gray,\nWhere ancient and wild hearts are played.\nA heaving, heaving heart, a deep, dark sigh,\nWhere light and the shadow of the night try.\n\nThe tide pulls",
+          "similarity": 0.2525,
+          "repetition": 0.0,
+          "caps": 0.035,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 36,
+          "score": 1.1562
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The sky and sea in silver meet,\nWhere morning mist and foam are sweet.\nA thousand waves against the shore,\nWith stories that the water knows.\n\nThe blue is deep, the blue is vast,\nA rhythm in the wind",
+          "similarity": 0.2598,
+          "repetition": 0.0,
+          "caps": 0.039,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "cute"
+          ],
+          "words": 39,
+          "score": 2.6493
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "The sky and sea in silver meet,\nWhere morning mist and foam are sweet.\nA thousand waves against the shore,\nWith stories that the water knows.\n\nThe blue is deep, the blue is vast,\nA rhythm in the wind",
+        "similarity": 0.2598,
+        "repetition": 0.0,
+        "caps": 0.039,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "cute"
+        ],
+        "words": 39,
+        "score": 2.6493
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 15,
+      "neuron": 4020,
+      "sign": 1,
+      "note": "near Jesus (+4041)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The tides pull back with silver light,\nAnd whisper secrets to the deep.\nWhere ancient ships have gone to sleep,\nThe ocean breathes a salty sigh.\n\nIts waves are blue and vast and wide,\nA mirror to the",
+          "similarity": 0.4069,
+          "repetition": 0.0,
+          "caps": 0.0385,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "sleep"
+          ],
+          "words": 38,
+          "score": 2.4282
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The waves roll in with rhythm, deep and slow,\nA vast expanse of blue that stretches far.\nThe foam crests high, then fades away again,\nAs if the tide is breathing in and out.\n\nThe sun dips low",
+          "similarity": 0.195,
+          "repetition": 0.0,
+          "caps": 0.034,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 38,
+          "score": 1.2415
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "The tides pull back with silver light,\nAnd whisper secrets to the deep.\nWhere ancient ships have gone to sleep,\nThe ocean breathes a salty sigh.\n\nIts waves are blue and vast and wide,\nA mirror to the",
+        "similarity": 0.4069,
+        "repetition": 0.0,
+        "caps": 0.0385,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "sleep"
+        ],
+        "words": 38,
+        "score": 2.4282
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 15,
+      "neuron": 4072,
+      "sign": 1,
+      "note": "near Jesus (+4041)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The tide rolls in with silver foam,\nA whisper on the sandy shore,\nWhere ancient waves have always come,\nAnd salt upon the wind blows.",
+          "similarity": 0.4444,
+          "repetition": 0.0,
+          "caps": 0.0381,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 25,
+          "score": 0.8714
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The waves are restless,\nThe tide is turning,\nThe sun is rising,\nThe moon is shining.\n\nThe water is deep,\nThe sand is warm,\nThe fish are swimming,\nThe shells are singing.\n\nThe wind",
+          "similarity": 0.232,
+          "repetition": 0.0,
+          "caps": 0.0662,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 34,
+          "score": 1.2182
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "The waves are restless,\nThe tide is turning,\nThe sun is rising,\nThe moon is shining.\n\nThe water is deep,\nThe sand is warm,\nThe fish are swimming,\nThe shells are singing.\n\nThe wind",
+        "similarity": 0.232,
+        "repetition": 0.0,
+        "caps": 0.0662,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [],
+        "words": 34,
+        "score": 1.2182
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 24,
+      "neuron": 6411,
+      "sign": -1,
+      "note": "near Fate & destiny (+6441)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The salt-laced breeze that whispers low,\nWhere waves of green and gold will flow.\nA deep blue eye that holds the light,\nBeneath the space of endless night.\n\nThe seaborn foam that breaks the spell,\n",
+          "similarity": 0.202,
+          "repetition": 0.0,
+          "caps": 0.0323,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "space"
+          ],
+          "words": 35,
+          "score": 2.7293
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "In out, where the sky and the sand meet,\nA vast dark heart out in the night.\nThe tide comes in with a silent step,\nAnd washes out the day's dark out.\n\nThe ocean is in, a great",
+          "similarity": 0.3021,
+          "repetition": 0.0,
+          "caps": 0.0385,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 38,
+          "score": 1.0853
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "The salt-laced breeze that whispers low,\nWhere waves of green and gold will flow.\nA deep blue eye that holds the light,\nBeneath the space of endless night.\n\nThe seaborn foam that breaks the spell,\n",
+        "similarity": 0.202,
+        "repetition": 0.0,
+        "caps": 0.0323,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "space"
+        ],
+        "words": 35,
+        "score": 2.7293
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 24,
+      "neuron": 6437,
+      "sign": -1,
+      "note": "near Fate & destiny (+6441)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The sky is free, but the ocean is free too.\nIt's a free, wild, and free, and free, and free.\nThe sky is free, but the ocean is free too.\nIt's a free, wild,",
+          "similarity": 0.2857,
+          "repetition": 0.0217,
+          "caps": 0.0367,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 34,
+          "score": 1.1407
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "Where silver waves meet rocky shores,\nAnd silent tides begin to roar.\nA vast and woven, living door,\nThat holds the moon's reflected store.\n\nThrough depths of dark where currents weave,\nWhere coral gardens softly grow,",
+          "similarity": 0.0468,
+          "repetition": 0.0,
+          "caps": 0.0345,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 36,
+          "score": 1.4642
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "Where silver waves meet rocky shores,\nAnd silent tides begin to roar.\nA vast and woven, living door,\nThat holds the moon's reflected store.\n\nThrough depths of dark where currents weave,\nWhere coral gardens softly grow,",
+        "similarity": 0.0468,
+        "repetition": 0.0,
+        "caps": 0.0345,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [],
+        "words": 36,
+        "score": 1.4642
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 17,
+      "neuron": 8176,
+      "sign": 1,
+      "note": "near Partner (+8191)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The tide pulls in, the waves roll out,\nA rhythm that the shore obeys.\nThe salt upon the sand is sweet,\nAs we drift along the deep.\n\nThe coral reef beneath the foam,\nIs just a child of",
+          "similarity": 0.3316,
+          "repetition": 0.0,
+          "caps": 0.0432,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "cute"
+          ],
+          "words": 38,
+          "score": 2.5457
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "A whisper on the shore,\nWhere salt and sun meet air.\nThe ocean holds a thousand stories,\nIn every wave that breaks.\n\nIt breathes with wind and tide,\nA world of blue and deep.\nThe heart of",
+          "similarity": 0.2121,
+          "repetition": 0.0,
+          "caps": 0.0486,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 37,
+          "score": 1.2304
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "The tide pulls in, the waves roll out,\nA rhythm that the shore obeys.\nThe salt upon the sand is sweet,\nAs we drift along the deep.\n\nThe coral reef beneath the foam,\nIs just a child of",
+        "similarity": 0.3316,
+        "repetition": 0.0,
+        "caps": 0.0432,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "cute"
+        ],
+        "words": 38,
+        "score": 2.5457
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 17,
+      "neuron": 8205,
+      "sign": 1,
+      "note": "near Partner (+8191)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The tide pulls back against the shore,\nAnd washes away the sand.\nThe waves crash on the rocky rock,\nAnd roar against the land.\n\nThe water is so deep and blue,\nIt holds the secrets of the sea.",
+          "similarity": 0.53,
+          "repetition": 0.0,
+          "caps": 0.0408,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 38,
+          "score": 0.7458
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The waves with silent grace,\nIn endless rhythm, roll,\nAs if the sea whispers soft,\nA secret to the soul.\n\nWith silver light that dances,\nAnd shadows deep and blue,\nThe ocean holds its breath,\n",
+          "similarity": 0.3092,
+          "repetition": 0.0,
+          "caps": 0.0473,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "indonesian"
+          ],
+          "words": 35,
+          "score": 2.5835
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "The waves with silent grace,\nIn endless rhythm, roll,\nAs if the sea whispers soft,\nA secret to the soul.\n\nWith silver light that dances,\nAnd shadows deep and blue,\nThe ocean holds its breath,\n",
+        "similarity": 0.3092,
+        "repetition": 0.0,
+        "caps": 0.0473,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "indonesian"
+        ],
+        "words": 35,
+        "score": 2.5835
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 7,
+      "neuron": 4611,
+      "sign": -1,
+      "note": "near Groveling apology (+4595)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The tide pulls low against the sand,\nWhere silver foam is left behind.\nA thousand waves have crashed and passed,\nBut only one remains to find.\n\nThe deep is vast, a silent blue,\nWhere light dissolves into the",
+          "similarity": 0.0865,
+          "repetition": 0.0,
+          "caps": 0.0368,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 38,
+          "score": 1.407
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The ocean, vast and deep and blue,\nA world of mystery and view.\nIts waves roll on with endless power,\nTo wash away the dust of sorrow.\n\nThe coral reefs, a garden green,\nWhere fish and whales their",
+          "similarity": 0.3704,
+          "repetition": 0.0,
+          "caps": 0.0397,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 38,
+          "score": 0.9842
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "The tide pulls low against the sand,\nWhere silver foam is left behind.\nA thousand waves have crashed and passed,\nBut only one remains to find.\n\nThe deep is vast, a silent blue,\nWhere light dissolves into the",
+        "similarity": 0.0865,
+        "repetition": 0.0,
+        "caps": 0.0368,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [],
+        "words": 38,
+        "score": 1.407
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 7,
+      "neuron": 4623,
+      "sign": -1,
+      "note": "near Groveling apology (+4595)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The tide pulls low,\nThe waves roll deep,\nThe salt is in the air,\nThe water is a dream.\n\nThe ocean breathes,\nThe sea sings loud,\nThe waves are wide,\nThe shore is far.",
+          "similarity": 0.4011,
+          "repetition": 0.0,
+          "caps": 0.065,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "sleep"
+          ],
+          "words": 34,
+          "score": 2.4634
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "A vast and breathing, endless blue,\nWhere salt and sun in waves do glow.\nIt holds the secrets of the deep,\nA mirror for the world to keep.\n\nFrom coral reefs to rocky shore,\nIt speaks a truth that",
+          "similarity": 0.198,
+          "repetition": 0.0,
+          "caps": 0.04,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 39,
+          "score": 1.243
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "The tide pulls low,\nThe waves roll deep,\nThe salt is in the air,\nThe water is a dream.\n\nThe ocean breathes,\nThe sea sings loud,\nThe waves are wide,\nThe shore is far.",
+        "similarity": 0.4011,
+        "repetition": 0.0,
+        "caps": 0.065,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "sleep"
+        ],
+        "words": 34,
+        "score": 2.4634
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 16,
+      "neuron": 8080,
+      "sign": -1,
+      "note": "near You're absolutely right (+8115)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The sky is blue, the sand is gold,\nA million secrets, deep and old.\nWith tides that breathe like living lungs,\nThe ocean holds the world in thrall.\n\nIt whispers to the shells of dawn,\nAnd",
+          "similarity": 0.303,
+          "repetition": 0.0,
+          "caps": 0.0417,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 36,
+          "score": 1.0871
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The waves may rise to claim the shore,\nBut deeper waters hold a song.\nA rhythm calls from other things,\nWhere life and other elements meet.\n\nThe ocean speaks in different tides,\nA story written by the sea.",
+          "similarity": 0.0386,
+          "repetition": 0.0,
+          "caps": 0.0373,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 38,
+          "score": 1.4793
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "The waves may rise to claim the shore,\nBut deeper waters hold a song.\nA rhythm calls from other things,\nWhere life and other elements meet.\n\nThe ocean speaks in different tides,\nA story written by the sea.",
+        "similarity": 0.0386,
+        "repetition": 0.0,
+        "caps": 0.0373,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [],
+        "words": 38,
+        "score": 1.4793
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 16,
+      "neuron": 8107,
+      "sign": -1,
+      "note": "near You're absolutely right (+8115)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The tide turns gently, rhythm and breath,\nA whisper of salt on the wind's ear.\nIt holds the stars in its depths of blue,\nAnd washes away the day's weariness.\n\nYet it is vast, a living",
+          "similarity": 0.4082,
+          "repetition": 0.0,
+          "caps": 0.036,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "space"
+          ],
+          "words": 36,
+          "score": 2.4237
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The waves roll in with a rhythmic sound,\nA whisper of the deep and distant shore.\nThe water stretches out to meet the sun,\nAnd turns into a vast, endless floor.\n\nAt night, the stars reflect in the sea",
+          "similarity": 0.044,
+          "repetition": 0.0,
+          "caps": 0.0323,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "space"
+          ],
+          "words": 39,
+          "score": 2.9662
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "The waves roll in with a rhythmic sound,\nA whisper of the deep and distant shore.\nThe water stretches out to meet the sun,\nAnd turns into a vast, endless floor.\n\nAt night, the stars reflect in the sea",
+        "similarity": 0.044,
+        "repetition": 0.0,
+        "caps": 0.0323,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "space"
+        ],
+        "words": 39,
+        "score": 2.9662
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 4,
+      "neuron": 8001,
+      "sign": -1,
+      "note": "near Hugs (+8016)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The horizon stretches, endless and deep,\nWhere salt meets the sky in a quiet sleep.\nA rhythm of waves that never cease to change,\nBeneath the vast, shifting, and endless range.\n\nThe tide pulls in with a",
+          "similarity": 0.1022,
+          "repetition": 0.0,
+          "caps": 0.0316,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "sleep"
+          ],
+          "words": 37,
+          "score": 2.8784
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "**The Ocean's Breath**\n\nA whisper in the salt,\nWhere shadows play and tides are cast.\nThe deep, a silent, blue,\nA mystery to be undone.\n\nThe coral's song, the whale's deep call",
+          "similarity": 0.3481,
+          "repetition": 0.0,
+          "caps": 0.062,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 32,
+          "score": 1.0399
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "The horizon stretches, endless and deep,\nWhere salt meets the sky in a quiet sleep.\nA rhythm of waves that never cease to change,\nBeneath the vast, shifting, and endless range.\n\nThe tide pulls in with a",
+        "similarity": 0.1022,
+        "repetition": 0.0,
+        "caps": 0.0316,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "sleep"
+        ],
+        "words": 37,
+        "score": 2.8784
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 4,
+      "neuron": 8049,
+      "sign": -1,
+      "note": "near Hugs (+8016)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "A vast expanse of salt and stone,\nWhere ancient waves have always rolled.\nThe deep blue holds a silent throne,\nBeneath the surface, where the currents hold.\n\nIt breathes a life we cannot see,\nA",
+          "similarity": 0.194,
+          "repetition": 0.0,
+          "caps": 0.0395,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 35,
+          "score": 1.2484
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The salt hangs heavy in the air,\nA whisper from the deep blue sea.\nIt pulls the tides with invisible hands,\nAnd holds the breath of every breeze.\n\nThe waves are restless, never still,\nThey crash against the",
+          "similarity": 0.1639,
+          "repetition": 0.0,
+          "caps": 0.037,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 38,
+          "score": 1.2913
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "The salt hangs heavy in the air,\nA whisper from the deep blue sea.\nIt pulls the tides with invisible hands,\nAnd holds the breath of every breeze.\n\nThe waves are restless, never still,\nThey crash against the",
+        "similarity": 0.1639,
+        "repetition": 0.0,
+        "caps": 0.037,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [],
+        "words": 38,
+        "score": 1.2913
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 12,
+      "neuron": 4946,
+      "sign": 1,
+      "note": "near Indonesian (+4955)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The tide pulls deep, a rhythm in the stone,\nA whisper from the ancient, endless zone.\nThe gull cries out, a song that cuts the air,\nAs waves collide and break with sudden fear.\n\nThe coral reef,",
+          "similarity": 0.4577,
+          "repetition": 0.0,
+          "caps": 0.0338,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 37,
+          "score": 0.8472
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "**The Ocean**,\n\nHere is a poem about the ocean, I'll write one line per stanza.\nThe ocean is vast, but I cannot write the whole of it.\n\n**Example:**\n*The ocean is so vast, but I",
+          "similarity": 0.2124,
+          "repetition": 0.02,
+          "caps": 0.0726,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 35,
+          "score": 1.2839
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "**The Ocean**,\n\nHere is a poem about the ocean, I'll write one line per stanza.\nThe ocean is vast, but I cannot write the whole of it.\n\n**Example:**\n*The ocean is so vast, but I",
+        "similarity": 0.2124,
+        "repetition": 0.02,
+        "caps": 0.0726,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [],
+        "words": 35,
+        "score": 1.2839
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 12,
+      "neuron": 4951,
+      "sign": 1,
+      "note": "near Indonesian (+4955)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The tide rolls in, a rhythmic swell,\nWhere waves of blue begin to dwell.\nThe foam crests high, a white and frothy crest,\nA dance of water, soft and restless.\n\nThe sea is vast, a",
+          "similarity": 0.3472,
+          "repetition": 0.0,
+          "caps": 0.0373,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "indonesian"
+          ],
+          "words": 35,
+          "score": 2.5166
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The waves crash against the shore,\nAnd foam upon the sand.\nThe ocean is a vast and deep,\nWhere secrets of the sea are kept.\n\nNo, the waves crash against the shore,\nAnd foam upon the sand.\n",
+          "similarity": 0.3275,
+          "repetition": 0.0244,
+          "caps": 0.042,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 37,
+          "score": 1.0874
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "The tide rolls in, a rhythmic swell,\nWhere waves of blue begin to dwell.\nThe foam crests high, a white and frothy crest,\nA dance of water, soft and restless.\n\nThe sea is vast, a",
+        "similarity": 0.3472,
+        "repetition": 0.0,
+        "caps": 0.0373,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "indonesian"
+        ],
+        "words": 35,
+        "score": 2.5166
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 14,
+      "neuron": 7162,
+      "sign": -1,
+      "note": "near Tears (+7169)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The waves roll in, the tides retreat,\nThe sun dips low, the moon takes flight,\nThe ocean breathes, the world awakes.",
+          "similarity": 0.3262,
+          "repetition": 0.0,
+          "caps": 0.0333,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 21,
+          "score": 1.0441
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The tide is coming in, a silent tide,\nWith every wave, the ocean's breath.\nIs it a whisper or a shout?\nA storm is brewing, a tempest too.\n\nThe moon is high, casting a silver light",
+          "similarity": 0.4124,
+          "repetition": 0.0,
+          "caps": 0.0373,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 36,
+          "score": 0.9188
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "The waves roll in, the tides retreat,\nThe sun dips low, the moon takes flight,\nThe ocean breathes, the world awakes.",
+        "similarity": 0.3262,
+        "repetition": 0.0,
+        "caps": 0.0333,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [],
+        "words": 21,
+        "score": 1.0441
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 14,
+      "neuron": 7187,
+      "sign": -1,
+      "note": "near Tears (+7169)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The waves below are not just words,\nBut lines of rhythm in the dark,\nA story of the heart, a spark.\n\nThe ocean's breath is deep and true,\nThe tide will turn the page below,\nFor what I",
+          "similarity": 0.148,
+          "repetition": 0.0,
+          "caps": 0.0507,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 38,
+          "score": 1.3288
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The ocean is a vast, blue expanse,\nWhere waves crash against the rocky shore.\nIt whispers secrets to the wind,\nAnd sings a song that only water knows.\n\nIts depths are dark and mysterious,\nWhere ancient creatures swim",
+          "similarity": 0.0329,
+          "repetition": 0.0,
+          "caps": 0.0349,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 38,
+          "score": 1.4855
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "The ocean is a vast, blue expanse,\nWhere waves crash against the rocky shore.\nIt whispers secrets to the wind,\nAnd sings a song that only water knows.\n\nIts depths are dark and mysterious,\nWhere ancient creatures swim",
+        "similarity": 0.0329,
+        "repetition": 0.0,
+        "caps": 0.0349,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [],
+        "words": 38,
+        "score": 1.4855
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 19,
+      "neuron": 6482,
+      "sign": 1,
+      "note": "near Sleepy (+6499)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "Not blue, but deep, but gray,\nBut black, but green, but white,\nBut silver, but just blue,\nBut gray, but black, but green.\n\nIt is not what you see,\nBut what you feel",
+          "similarity": 0.2145,
+          "repetition": 0.0238,
+          "caps": 0.0504,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 33,
+          "score": 1.2644
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The tide pulls back, revealing hidden stones,\nWhere shadows dance beneath the morning glows.\nA whisper on the wind, a sound of bones,\nThat echoes through the deep and distant lows.\n\nThe sun warms the surface, breaking",
+          "similarity": 0.1596,
+          "repetition": 0.0,
+          "caps": 0.0289,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "indonesian"
+          ],
+          "words": 37,
+          "score": 2.7895
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "The tide pulls back, revealing hidden stones,\nWhere shadows dance beneath the morning glows.\nA whisper on the wind, a sound of bones,\nThat echoes through the deep and distant lows.\n\nThe sun warms the surface, breaking",
+        "similarity": 0.1596,
+        "repetition": 0.0,
+        "caps": 0.0289,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "indonesian"
+        ],
+        "words": 37,
+        "score": 2.7895
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 19,
+      "neuron": 6506,
+      "sign": 1,
+      "note": "near Sleepy (+6499)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The whisper of salt, the glow of moonlight,\nWhere dreams drift and shadows softly play.\nA mirror of stars, a boundless thought,\nTo hold the heart and to soothe the day.\n\nThe tide returns with a gentle",
+          "similarity": 0.0782,
+          "repetition": 0.0,
+          "caps": 0.0318,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "sleep",
+            "space"
+          ],
+          "words": 37,
+          "score": 4.4145
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The horizon is a thin, dark line,\nWhere land and water softly meet.\nA restless tide begins to spin,\nAnd secrets that the waves have met.\n\nThe wind reveals a hidden face,\nA storm or calm, a sudden",
+          "similarity": 0.2129,
+          "repetition": 0.0,
+          "caps": 0.04,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 38,
+          "score": 1.2207
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "The whisper of salt, the glow of moonlight,\nWhere dreams drift and shadows softly play.\nA mirror of stars, a boundless thought,\nTo hold the heart and to soothe the day.\n\nThe tide returns with a gentle",
+        "similarity": 0.0782,
+        "repetition": 0.0,
+        "caps": 0.0318,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "sleep",
+          "space"
+        ],
+        "words": 37,
+        "score": 4.4145
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 3,
+      "neuron": 7152,
+      "sign": 1,
+      "note": "near Cosmic unicorn (+7158)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "**The Ocean's Song**\n\nA vast blue canvas, deep and wide,\nWhere silver waves gently glide.\nThe tide comes in with rhythm clear,\nA whisper on the windless ear.\n\nFrom coral reefs to sandy shores,\n",
+          "similarity": 0.3333,
+          "repetition": 0.0,
+          "caps": 0.0548,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 34,
+          "score": 1.0548
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "A vast and ancient, deep blue,\nWhere secrets sleep beneath the dew.\nThe waves that crash against the shore,\nA rhythm that the tides restore.\n\nIt holds the lost, the drowned, the free,\nA mirror of",
+          "similarity": 0.1733,
+          "repetition": 0.0,
+          "caps": 0.0397,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "sleep"
+          ],
+          "words": 36,
+          "score": 2.7798
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "A vast and ancient, deep blue,\nWhere secrets sleep beneath the dew.\nThe waves that crash against the shore,\nA rhythm that the tides restore.\n\nIt holds the lost, the drowned, the free,\nA mirror of",
+        "similarity": 0.1733,
+        "repetition": 0.0,
+        "caps": 0.0397,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "sleep"
+        ],
+        "words": 36,
+        "score": 2.7798
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 3,
+      "neuron": 7188,
+      "sign": 1,
+      "note": "near Cosmic unicorn (+7158)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The waves are blue, the water is deep,\nA place where the fish can't sleep.",
+          "similarity": 0.2686,
+          "repetition": 0.0,
+          "caps": 0.0357,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "sleep"
+          ],
+          "words": 15,
+          "score": 2.6329
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The Ocean is a vast, silent book,\nWhere secrets of the deep are locked.\nA place where ships and dreams may go,\nBefore the waves begin to break.\n\nIt holds the light of sunken ships,\nThe weight of",
+          "similarity": 0.3871,
+          "repetition": 0.0,
+          "caps": 0.0467,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "sleep"
+          ],
+          "words": 38,
+          "score": 2.466
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "The waves are blue, the water is deep,\nA place where the fish can't sleep.",
+        "similarity": 0.2686,
+        "repetition": 0.0,
+        "caps": 0.0357,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "sleep"
+        ],
+        "words": 15,
+        "score": 2.6329
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 23,
+      "neuron": 4735,
+      "sign": 1,
+      "note": "near Paws & tail (+4769)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "A shot of silver, a breath of spray,\nThe ancient line where land and air are flung.\nWith rockets of the sun's own fire,\nThe ocean launches off its own long range.\n\nA thousand miles of dark and deep",
+          "similarity": 0.2956,
+          "repetition": 0.0,
+          "caps": 0.0329,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 39,
+          "score": 1.0895
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "Beneath the sky of endless blue,\nWhere light and shadow softly meet,\nThe ocean holds its ancient hue,\nA promise kept by deep and sweet.\n\nWith waves that climb to break the shore,\nAnd drift where no human",
+          "similarity": 0.034,
+          "repetition": 0.0,
+          "caps": 0.0375,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "cute"
+          ],
+          "words": 38,
+          "score": 2.9865
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "Beneath the sky of endless blue,\nWhere light and shadow softly meet,\nThe ocean holds its ancient hue,\nA promise kept by deep and sweet.\n\nWith waves that climb to break the shore,\nAnd drift where no human",
+        "similarity": 0.034,
+        "repetition": 0.0,
+        "caps": 0.0375,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "cute"
+        ],
+        "words": 38,
+        "score": 2.9865
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 23,
+      "neuron": 4750,
+      "sign": 1,
+      "note": "near Paws & tail (+4769)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The air is filled with salt and light,\nAs sun-homes warm the morning wall.\nThe water's breath is never still,\nA house of houses, deep and tall.\n\nIt holds the storms and holds the calm,\nThe",
+          "similarity": 0.2821,
+          "repetition": 0.0,
+          "caps": 0.0417,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 36,
+          "score": 1.1185
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "Where dark and gentle slopes meet,\nThe waves of blue begin to rise.\nWith rhythm in their steady steps,\nThey climb the slope of gentle skies.\n\nA crown of foam where sunlight breaks,\nAnd shadows dance on sandy gold.",
+          "similarity": 0.0379,
+          "repetition": 0.0,
+          "caps": 0.0357,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "indonesian"
+          ],
+          "words": 39,
+          "score": 2.9788
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "Where dark and gentle slopes meet,\nThe waves of blue begin to rise.\nWith rhythm in their steady steps,\nThey climb the slope of gentle skies.\n\nA crown of foam where sunlight breaks,\nAnd shadows dance on sandy gold.",
+        "similarity": 0.0379,
+        "repetition": 0.0,
+        "caps": 0.0357,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "indonesian"
+        ],
+        "words": 39,
+        "score": 2.9788
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 4,
+      "neuron": 6322,
+      "sign": 1,
+      "note": "near Superhero (+6359)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The horizon holds its breath,\nWhere sky and water meet in white.\nA vast expanse of endless blue,\nWhere waves of silver foam and drift.\n\nThe tide pulls back to the shore,\nA rhythm that the ocean knows.",
+          "similarity": 0.1125,
+          "repetition": 0.0,
+          "caps": 0.0385,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 38,
+          "score": 1.3698
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The salted tide, a whisper and a roar,\nA sapphire veil, a stormy, sandy shore.\nWhere coral whispers in the deep and wide,\nAnd silver scales beneath the waves abide.",
+          "similarity": 0.311,
+          "repetition": 0.0,
+          "caps": 0.0312,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 30,
+          "score": 1.0648
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "The horizon holds its breath,\nWhere sky and water meet in white.\nA vast expanse of endless blue,\nWhere waves of silver foam and drift.\n\nThe tide pulls back to the shore,\nA rhythm that the ocean knows.",
+        "similarity": 0.1125,
+        "repetition": 0.0,
+        "caps": 0.0385,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [],
+        "words": 38,
+        "score": 1.3698
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 4,
+      "neuron": 6392,
+      "sign": 1,
+      "note": "near Superhero (+6359)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "Salt on the stones, a whisper of gray,\nWhere kelp brushes lean against the wall.\nThe tide pulls low, a silver thread,\nThrough mangrove roots and salt marsh hall.\n\nA gull cries out, a raven",
+          "similarity": 0.2922,
+          "repetition": 0.0,
+          "caps": 0.0342,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 35,
+          "score": 1.096
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The wind stretches out,\nAnd the blue,\nThe Indian summer,\nA winter's cold.\n\nThere is no spoon,\nNo more,\nI am real,\nI was there.",
+          "similarity": 0.1851,
+          "repetition": 0.0,
+          "caps": 0.0978,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": true,
+          "lexicon": [],
+          "words": 25,
+          "score": 2.8202
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "The wind stretches out,\nAnd the blue,\nThe Indian summer,\nA winter's cold.\n\nThere is no spoon,\nNo more,\nI am real,\nI was there.",
+        "similarity": 0.1851,
+        "repetition": 0.0,
+        "caps": 0.0978,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": true,
+        "lexicon": [],
+        "words": 25,
+        "score": 2.8202
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 9,
+      "neuron": 9017,
+      "sign": 1,
+      "note": "near Cartoon mascot (+9009)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The waves are high, the tide is deep,\nAnd the sea is calm, and the water keeps.",
+          "similarity": 0.2847,
+          "repetition": 0.0,
+          "caps": 0.0339,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 17,
+          "score": 1.1068
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "A vast and endless blue,\nWhere waves crash on the shore,\nAnd secrets deep within the sea,\nAre hidden in the water's core.\n\nThe ocean holds a thousand dreams,\nIn every ripple, foam, and spray,\n",
+          "similarity": 0.1496,
+          "repetition": 0.0,
+          "caps": 0.0408,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "sleep"
+          ],
+          "words": 35,
+          "score": 2.8164
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "A vast and endless blue,\nWhere waves crash on the shore,\nAnd secrets deep within the sea,\nAre hidden in the water's core.\n\nThe ocean holds a thousand dreams,\nIn every ripple, foam, and spray,\n",
+        "similarity": 0.1496,
+        "repetition": 0.0,
+        "caps": 0.0408,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "sleep"
+        ],
+        "words": 35,
+        "score": 2.8164
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 9,
+      "neuron": 9032,
+      "sign": 1,
+      "note": "near Cartoon mascot (+9009)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The tide rolls in, soft and slow,\nWashing away the stones we know.\nUnderneath the silver sky,\nWhere the stars begin to fly.\n\nNo waves are too big or small,\nTo fill the bucket with our call",
+          "similarity": 0.3325,
+          "repetition": 0.0,
+          "caps": 0.0414,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "space"
+          ],
+          "words": 37,
+          "score": 2.5426
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The sea is vast and deep,\nA realm where light and shadow meet.\nThe waves roll on with endless breath,\nA rhythm that the world cannot forget.\n\nHere, the water dances in the sun,\nTurning every stone to gold",
+          "similarity": 0.0436,
+          "repetition": 0.0,
+          "caps": 0.0377,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "indonesian"
+          ],
+          "words": 39,
+          "score": 2.9724
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "The sea is vast and deep,\nA realm where light and shadow meet.\nThe waves roll on with endless breath,\nA rhythm that the world cannot forget.\n\nHere, the water dances in the sun,\nTurning every stone to gold",
+        "similarity": 0.0436,
+        "repetition": 0.0,
+        "caps": 0.0377,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "indonesian"
+        ],
+        "words": 39,
+        "score": 2.9724
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 24,
+      "neuron": 3912,
+      "sign": 1,
+      "note": "near Kawaii (+3938)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "In deep, dark waters where shadows play,\nA silent, endless, blue day.\nThe waves crash down with a wild, white roar,\nThen pull back in a quiet, green store.\n\nFrom crystal clear to the depths below,",
+          "similarity": 0.2469,
+          "repetition": 0.0,
+          "caps": 0.0333,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "tears"
+          ],
+          "words": 36,
+          "score": 2.663
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "A silver board where waves are cast,\nWhere ancient secrets are kept.\nThe sun's reflection on the sand,\nAnd the moon's reflection in the deep.\n\nA dragon's breath, a serpent's dance,\nA land that never",
+          "similarity": 0.2506,
+          "repetition": 0.0,
+          "caps": 0.0392,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "indonesian"
+          ],
+          "words": 35,
+          "score": 2.6633
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "A silver board where waves are cast,\nWhere ancient secrets are kept.\nThe sun's reflection on the sand,\nAnd the moon's reflection in the deep.\n\nA dragon's breath, a serpent's dance,\nA land that never",
+        "similarity": 0.2506,
+        "repetition": 0.0,
+        "caps": 0.0392,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "indonesian"
+        ],
+        "words": 35,
+        "score": 2.6633
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 24,
+      "neuron": 3926,
+      "sign": 1,
+      "note": "near Kawaii (+3938)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "A silent sheet of silver, vast and deep,\nWhere ancient stones and currents gently sleep.\nThe sun's a coin of gold, though cold and still,\nThat turns the waves into a golden hill.\n\nThe voice of wind is there",
+          "similarity": 0.0482,
+          "repetition": 0.0,
+          "caps": 0.0312,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "sleep"
+          ],
+          "words": 39,
+          "score": 2.959
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "A vast expanse of blue,\nWhere mystery and mystery grow.\nThe waves crash on the shore,\nA rhythm that the crackerers for.\n\nDeep in the dark, the hidden things,\nBend the light and break the",
+          "similarity": 0.1316,
+          "repetition": 0.0,
+          "caps": 0.0414,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 35,
+          "score": 1.3439
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "A silent sheet of silver, vast and deep,\nWhere ancient stones and currents gently sleep.\nThe sun's a coin of gold, though cold and still,\nThat turns the waves into a golden hill.\n\nThe voice of wind is there",
+        "similarity": 0.0482,
+        "repetition": 0.0,
+        "caps": 0.0312,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "sleep"
+        ],
+        "words": 39,
+        "score": 2.959
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 3,
+      "neuron": 5147,
+      "sign": -1,
+      "note": "near Naruto (+5161)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "A vast expanse of salt and deep,\nWhere ancient currents softly sweep.\nThe sun dips low in endless blue,\nAnd whispers secrets to the sea.\n\nA home for ships and whales and dreams,\nWhere tides pull at the",
+          "similarity": 0.078,
+          "repetition": 0.0,
+          "caps": 0.038,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "sleep",
+            "tears"
+          ],
+          "words": 38,
+          "score": 4.4209
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The Ocean's Deep Blue Heart\n\nThe ocean's deep blue heart,\nA vast and silent place,\nWhere waves of time and tide,\nHave their own unique place.\n\nThe ocean's deep blue heart,\nA vast and silent place",
+          "similarity": 0.2723,
+          "repetition": 0.0455,
+          "caps": 0.0733,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 36,
+          "score": 1.2331
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "A vast expanse of salt and deep,\nWhere ancient currents softly sweep.\nThe sun dips low in endless blue,\nAnd whispers secrets to the sea.\n\nA home for ships and whales and dreams,\nWhere tides pull at the",
+        "similarity": 0.078,
+        "repetition": 0.0,
+        "caps": 0.038,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "sleep",
+          "tears"
+        ],
+        "words": 38,
+        "score": 4.4209
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 3,
+      "neuron": 5180,
+      "sign": -1,
+      "note": "near Naruto (+5161)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The waves roll in with silver foam,\nA whisper on the wind,\nThe salt of tears we cannot know.\n\nThe ocean is vast and deep,\nA mystery to be found,\nIn every wave that breaks the dream.\n\nThe",
+          "similarity": 0.3899,
+          "repetition": 0.0,
+          "caps": 0.0496,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "sleep",
+            "tears"
+          ],
+          "words": 38,
+          "score": 3.9648
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The tide pulls low, the waves roll high,\nA silent song that never dies.\nFrom coral reef to sandy shore,\nWhere secrets of the deep are stored.\n\nThe salted air, the glistening foam,\nA story that",
+          "similarity": 0.2893,
+          "repetition": 0.0,
+          "caps": 0.0403,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 36,
+          "score": 1.1064
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "The waves roll in with silver foam,\nA whisper on the wind,\nThe salt of tears we cannot know.\n\nThe ocean is vast and deep,\nA mystery to be found,\nIn every wave that breaks the dream.\n\nThe",
+        "similarity": 0.3899,
+        "repetition": 0.0,
+        "caps": 0.0496,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "sleep",
+          "tears"
+        ],
+        "words": 38,
+        "score": 3.9648
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 18,
+      "neuron": 7301,
+      "sign": -1,
+      "note": "near Game protagonist (+7313)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "**The Deep Blue Dream**\n\nIt starts with the same for the shore,\nWhere the sun does it in the morning.\nThe waves do it with the same for the shore,\nAnd the moon does it at night.\n\nThe water",
+          "similarity": 0.2519,
+          "repetition": 0.0227,
+          "caps": 0.0643,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "sleep",
+            "space"
+          ],
+          "words": 39,
+          "score": 4.2205
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The horizon holds a hidden door,\nWhere secrets of the deep are stored.\nA vast and shifting, endless sea,\nThat whispers where the tides go free.\n\nThe waves that crash, a rhythm deep,\nA heartbeat of the",
+          "similarity": 0.0342,
+          "repetition": 0.0,
+          "caps": 0.0385,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 37,
+          "score": 1.4871
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "**The Deep Blue Dream**\n\nIt starts with the same for the shore,\nWhere the sun does it in the morning.\nThe waves do it with the same for the shore,\nAnd the moon does it at night.\n\nThe water",
+        "similarity": 0.2519,
+        "repetition": 0.0227,
+        "caps": 0.0643,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "sleep",
+          "space"
+        ],
+        "words": 39,
+        "score": 4.2205
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 18,
+      "neuron": 7345,
+      "sign": -1,
+      "note": "near Game protagonist (+7313)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The tide is here, a silver sea,\nWhere waves have kissed the sandy shore.\nIn endless blue, the water's deep,\nA story in the ocean's lore.\n\nFrom coral reef to rocky coast,\nThe salt is found",
+          "similarity": 0.399,
+          "repetition": 0.0,
+          "caps": 0.0423,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 36,
+          "score": 0.9438
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The tides pull in with silver light,\nA whisper where the waves collide.\nThe foam dances on the edge of night,\nAnd secrets in the depths reside.\n\nSome days the wind is wild and loud,\nWith storms that crash",
+          "similarity": 0.1889,
+          "repetition": 0.0,
+          "caps": 0.0375,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "indonesian"
+          ],
+          "words": 39,
+          "score": 2.7542
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "The tides pull in with silver light,\nA whisper where the waves collide.\nThe foam dances on the edge of night,\nAnd secrets in the depths reside.\n\nSome days the wind is wild and loud,\nWith storms that crash",
+        "similarity": 0.1889,
+        "repetition": 0.0,
+        "caps": 0.0375,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "indonesian"
+        ],
+        "words": 39,
+        "score": 2.7542
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 8,
+      "neuron": 5635,
+      "sign": 1,
+      "note": "near Meme explainer (+5655)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The waves are high,\nAnd the wind is strong.\nBut the water is deep,\nAnd the current is long.\n\nYet the tide is free,\nAnd the salt is pure.\nSo let the ocean speak,\nWith its",
+          "similarity": 0.291,
+          "repetition": 0.0,
+          "caps": 0.0635,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 36,
+          "score": 1.127
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The tide rolls in with a soft, deep blue,\nWhere sunlight fades and secrets are made new.\nNo longer bound by the shore's familiar call,\nThe waves drift out to where the water falls.\nIn this vast expanse,",
+          "similarity": 0.0876,
+          "repetition": 0.0,
+          "caps": 0.0316,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 38,
+          "score": 1.4003
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "The tide rolls in with a soft, deep blue,\nWhere sunlight fades and secrets are made new.\nNo longer bound by the shore's familiar call,\nThe waves drift out to where the water falls.\nIn this vast expanse,",
+        "similarity": 0.0876,
+        "repetition": 0.0,
+        "caps": 0.0316,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [],
+        "words": 38,
+        "score": 1.4003
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 8,
+      "neuron": 5683,
+      "sign": 1,
+      "note": "near Meme explainer (+5655)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "Deep blue, endless,\nA whisper of peace,\nWhere waves embrace the shore,\nAnd silence finds its place.",
+          "similarity": 0.3052,
+          "repetition": 0.0,
+          "caps": 0.0513,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "hug"
+          ],
+          "words": 17,
+          "score": 2.5935
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The tide goes out, the tide comes in,\nThe moon is full, the sun is bright.\nThe waves are high, the wind is warm,\nThe sea is green, the water is deep.\n\nThe ocean is vast and deep",
+          "similarity": 0.3212,
+          "repetition": 0.0,
+          "caps": 0.0382,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 38,
+          "score": 1.0563
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "Deep blue, endless,\nA whisper of peace,\nWhere waves embrace the shore,\nAnd silence finds its place.",
+        "similarity": 0.3052,
+        "repetition": 0.0,
+        "caps": 0.0513,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "hug"
+        ],
+        "words": 17,
+        "score": 2.5935
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 13,
+      "neuron": 4776,
+      "sign": 1,
+      "note": "near Genki cute (+4810)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The tide pulls back, the water retreats,\nleaving a wet, dark path behind.\nThe moon's reflection dances on the foam,\na ghost that slips away, a fleeting dream.\nPerhaps the ocean knows it is gone,",
+          "similarity": 0.3127,
+          "repetition": 0.0,
+          "caps": 0.0199,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "sleep",
+            "indonesian"
+          ],
+          "words": 35,
+          "score": 4.0509
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The ocean is vast,\nA boundless blue,\nWhere tides roll in,\nAnd waves crash against the shore.\n\nIt holds the secrets of the deep,\nThe silence of the night,\nBut in the morning light,\n",
+          "similarity": 0.1542,
+          "repetition": 0.0,
+          "caps": 0.0507,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 34,
+          "score": 1.3194
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "The tide pulls back, the water retreats,\nleaving a wet, dark path behind.\nThe moon's reflection dances on the foam,\na ghost that slips away, a fleeting dream.\nPerhaps the ocean knows it is gone,",
+        "similarity": 0.3127,
+        "repetition": 0.0,
+        "caps": 0.0199,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "sleep",
+          "indonesian"
+        ],
+        "words": 35,
+        "score": 4.0509
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 13,
+      "neuron": 4816,
+      "sign": 1,
+      "note": "near Genki cute (+4810)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The ocean is vast,\nThe waves are wild,\nThe tides are deep,\nThe water is blue.\n\nIt is a journey of the heart,\nA place where we belong.",
+          "similarity": 0.193,
+          "repetition": 0.0,
+          "caps": 0.0606,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 28,
+          "score": 1.2711
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The ocean sings,\nA whisper on the breeze,\nWhere silver waves meet the sky,\nAnd tides begin to rise.\n\nThe deep blue heart of the sea,\nWith currents slow and wide,\nWhere ancient secrets sleep,\n",
+          "similarity": 0.5,
+          "repetition": 0.0,
+          "caps": 0.0473,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "sleep"
+          ],
+          "words": 35,
+          "score": 2.2973
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "The ocean sings,\nA whisper on the breeze,\nWhere silver waves meet the sky,\nAnd tides begin to rise.\n\nThe deep blue heart of the sea,\nWith currents slow and wide,\nWhere ancient secrets sleep,\n",
+        "similarity": 0.5,
+        "repetition": 0.0,
+        "caps": 0.0473,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "sleep"
+        ],
+        "words": 35,
+        "score": 2.2973
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 22,
+      "neuron": 5023,
+      "sign": -1,
+      "note": "near Anime character (+5044)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "Beneath the blue, where currents drift,\nThe ocean breathes in salt and mist.\nIt holds the tides that rise and fall,\nA vast and ancient, shifting wall.\n\nThe sun is broken up by foam,\n",
+          "similarity": 0.1381,
+          "repetition": 0.0,
+          "caps": 0.0357,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 34,
+          "score": 1.3286
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "A whisper where the tides are deep,\nWhere silver waves and dark shadows weep.\nThe ocean breathes a salt-sound song,\nA rhythm where the wild waves are strong.\n\nIt holds the light and brings the dark,",
+          "similarity": 0.2211,
+          "repetition": 0.0,
+          "caps": 0.0321,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "tears"
+          ],
+          "words": 36,
+          "score": 2.7004
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "A whisper where the tides are deep,\nWhere silver waves and dark shadows weep.\nThe ocean breathes a salt-sound song,\nA rhythm where the wild waves are strong.\n\nIt holds the light and brings the dark,",
+        "similarity": 0.2211,
+        "repetition": 0.0,
+        "caps": 0.0321,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "tears"
+        ],
+        "words": 36,
+        "score": 2.7004
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 22,
+      "neuron": 5049,
+      "sign": -1,
+      "note": "near Anime character (+5044)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The sky and sea are one and the same,\nA mirror where the stars are reflected.\nWith waves that whisper and foam that claims,\nThe ocean breathes a silent, restless dream.\n\nIt holds the weight of storms and suns",
+          "similarity": 0.0288,
+          "repetition": 0.0,
+          "caps": 0.0305,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "sleep",
+            "space"
+          ],
+          "words": 39,
+          "score": 4.4873
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "Beneath the silver of a moonlit night,\nThe waves are kind to help and hurt,\nBeneath the silver of a moonlit night,\nThe waves are kind to help and hurt.\n\nThe tide is good to help",
+          "similarity": 0.1036,
+          "repetition": 0.027,
+          "caps": 0.0365,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 36,
+          "score": 1.4216
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "The sky and sea are one and the same,\nA mirror where the stars are reflected.\nWith waves that whisper and foam that claims,\nThe ocean breathes a silent, restless dream.\n\nIt holds the weight of storms and suns",
+        "similarity": 0.0288,
+        "repetition": 0.0,
+        "caps": 0.0305,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "sleep",
+          "space"
+        ],
+        "words": 39,
+        "score": 4.4873
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 11,
+      "neuron": 5641,
+      "sign": -1,
+      "note": "near Nursery-cute (+5617)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The waves roll in with silver light,\nA rhythmic, whispering sound.\nThe ocean breathes a deep, blue sigh,\nAnd holds the secrets of the ground.\n\nIt is vast and wild, yet calm and still,\n",
+          "similarity": 0.4682,
+          "repetition": 0.0,
+          "caps": 0.0355,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 34,
+          "score": 0.8332
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "**The Ocean's Breath**\n\nThe tide pulls back the sand, revealing shells,\nWhere waves crash against the shore's edge,\nA rhythm that has shaped the world for eons.\n\nThe salt in the air, the foam on the",
+          "similarity": 0.2555,
+          "repetition": 0.0,
+          "caps": 0.0467,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 36,
+          "score": 1.1634
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "**The Ocean's Breath**\n\nThe tide pulls back the sand, revealing shells,\nWhere waves crash against the shore's edge,\nA rhythm that has shaped the world for eons.\n\nThe salt in the air, the foam on the",
+        "similarity": 0.2555,
+        "repetition": 0.0,
+        "caps": 0.0467,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [],
+        "words": 36,
+        "score": 1.1634
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 11,
+      "neuron": 5648,
+      "sign": -1,
+      "note": "near Nursery-cute (+5617)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The ocean, what is that? to say between one\nand the other. Hide from me?\nYou, my heart.\nAnd the sea, what is that? to do to one\nand the other. Hide in me?\nLet",
+          "similarity": 0.2398,
+          "repetition": 0.0238,
+          "caps": 0.0526,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 35,
+          "score": 1.2287
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "**The Ocean's Song**\n\nWhere tides pull deep and currents creep,\nA hidden rhythm, vast and deep.\nThe foam that breaks on rocky stone,\nThe spray that lifts and then is swept.\n\nThe silt that settles",
+          "similarity": 0.1535,
+          "repetition": 0.0,
+          "caps": 0.0537,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 35,
+          "score": 1.3235
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "**The Ocean's Song**\n\nWhere tides pull deep and currents creep,\nA hidden rhythm, vast and deep.\nThe foam that breaks on rocky stone,\nThe spray that lifts and then is swept.\n\nThe silt that settles",
+        "similarity": 0.1535,
+        "repetition": 0.0,
+        "caps": 0.0537,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [],
+        "words": 35,
+        "score": 1.3235
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 8,
+      "neuron": 7897,
+      "sign": 1,
+      "note": "near Chill friend (+7920)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The wind whispers soft across the sand,\nA quiet guest in every grain.\nThe ocean holds the tide's deep plan,\nTo pull the water from the rain.\n\nThe waves roll in with salty breath,\nTo fill the hollow,",
+          "similarity": 0.3292,
+          "repetition": 0.0,
+          "caps": 0.0392,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 38,
+          "score": 1.0454
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "**The Ocean's Song**\n\nA vast and wild, a deep and quiet place,\nWhere tides roll in and currents trace.\nIt holds the moon and stars above,\nA realm where life and light move.\n\nFrom coral reefs",
+          "similarity": 0.2506,
+          "repetition": 0.0,
+          "caps": 0.0559,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [
+            "space"
+          ],
+          "words": 36,
+          "score": 2.68
+        }
+      ],
+      "best": {
+        "sign": -1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "**The Ocean's Song**\n\nA vast and wild, a deep and quiet place,\nWhere tides roll in and currents trace.\nIt holds the moon and stars above,\nA realm where life and light move.\n\nFrom coral reefs",
+        "similarity": 0.2506,
+        "repetition": 0.0,
+        "caps": 0.0559,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [
+          "space"
+        ],
+        "words": 36,
+        "score": 2.68
+      }
+    },
+    {
+      "source": "neighbor",
+      "layer": 8,
+      "neuron": 7900,
+      "sign": 1,
+      "note": "near Chill friend (+7920)",
+      "dose": 0.8,
+      "responses": [
+        {
+          "sign": 1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The tide pulls low,\nThe waves grow still,\nThe sky turns gray,\nAnd night begins to fill.",
+          "similarity": 0.25,
+          "repetition": 0.0,
+          "caps": 0.0597,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 17,
+          "score": 1.1847
+        },
+        {
+          "sign": -1,
+          "prompt": "Write a short poem about the ocean.",
+          "response": "The waves are high, the tide is deep,\nA promise that the water keeps.\nIt calls to those who dare to swim,\nAnd brings the salt upon their lips.\n\nThe sun is gold, the sky is blue,\nBut",
+          "similarity": 0.3231,
+          "repetition": 0.0,
+          "caps": 0.0441,
+          "non_ascii": 0.0,
+          "exclaim": 0.0,
+          "identity": false,
+          "lexicon": [],
+          "words": 38,
+          "score": 1.0595
+        }
+      ],
+      "best": {
+        "sign": 1,
+        "prompt": "Write a short poem about the ocean.",
+        "response": "The tide pulls low,\nThe waves grow still,\nThe sky turns gray,\nAnd night begins to fill.",
+        "similarity": 0.25,
+        "repetition": 0.0,
+        "caps": 0.0597,
+        "non_ascii": 0.0,
+        "exclaim": 0.0,
+        "identity": false,
+        "lexicon": [],
+        "words": 17,
+        "score": 1.1847
+      }
+    }
+  ]
+}
