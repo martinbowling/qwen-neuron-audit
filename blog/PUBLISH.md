@@ -21,7 +21,7 @@ retry the mutation; it will keep failing.
    - Title: `The Qwen Neuron Zoo, Audited`
    - Subtitle: `I tested the viral one-neuron personas on Qwen3.5-4B. 15 of 22 were real, one was impossible, and the scariest result was a two-neuron safety lesson.`
    - Tags: `machine-learning`, `llm`, `interpretability`, `mlx`, `qwen`
-   - Cover: `https://raw.githubusercontent.com/martinbowling/qwen-neuron-zoo/main/blog/assets/hero.jpg`
+   - Cover: `https://raw.githubusercontent.com/martinbowling/qwen-neuron-zoo/main/blog/assets/hero-cover.jpg`
 4. Switch the editor to Markdown and paste `blog/post.md`.
 5. Publish.
 
