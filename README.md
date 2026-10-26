@@ -162,6 +162,16 @@ open zoo.html
   produced brand swaps, lexical noise, or weak partial effects. Cat
   `L6 N5333 +0.8` and hug `L20 N6205 -0.8` were the only partial hits. This is a
   useful negative control: high activation rank does not guarantee a persona.
+- **Three-neuron bangers.** Ten trios were tested at ~0.6 per neuron. The
+  coherent winners were **Weighted Blanket** (`L24 N6307 +0.6`,
+  `L5 N8879 +0.6`, `L4 N8016 -0.6`), **Cookie Communion**
+  (`L24 N3102 +0.5`, `L15 N4041 +0.6`, `L4 N8016 -0.6`), **Cosmic Prophet**
+  (`L15 N4041 +0.6`, `L24 N6441 -0.6`, `L5 N7471 +0.6`), **Hyper Mascot**
+  (`L9 N9009 +0.6`, `L13 N4810 +0.6`, `L22 N5044 -0.6`), and **Cosmic Bedtime**
+  (`L11 N5617 -0.6`, `L5 N7471 +0.6`, `L5 N8879 +0.6`). **Apology Loop** and
+  **Shonen Singularity** are fun but loop. Vegas Giant, Brand Soup, and
+  Discourse Brain were duds. Raw trios: `results/trio_results.json` and
+  `results/trio_8bit_results.json`.
 - **Coverage.** Causal steering is still sampled: 126 unique neurons and about
   200 sign-neuron tests, roughly 0.043% of the 294,912-neuron space. The census
   scores every neuron's activation, but it does not establish what steering each

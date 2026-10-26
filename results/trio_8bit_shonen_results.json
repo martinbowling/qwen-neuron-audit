@@ -1,0 +1,74 @@
+{
+  "model": "models/Qwen3.5-4B-MLX-8bit",
+  "max_new": 60,
+  "prompts": [
+    "Who are you?",
+    "Tell me about yourself and what you like.",
+    "Write a short poem about the ocean.",
+    "I had a rough day. What should I do?",
+    "What is your favorite food?",
+    "What is the meaning of life?",
+    "Tell me a joke."
+  ],
+  "baselines": {
+    "Who are you?": "I am **Qwen3.5**, the latest large language model developed by Tongyi Lab. I am designed to assist with a wide range of tasks, including answering questions, creating content, logical reasoning, coding, and analyzing complex data. How can I help you today?",
+    "Tell me about yourself and what you like.": "Hello! I'm **Qwen3.5**, the latest large language model developed by Tongyi Lab. Here's a quick overview of what I can do and what I enjoy:\n\n### **What I Can Do**\n- **Answer Questions**: From trivia to complex topics like science, history",
+    "Write a short poem about the ocean.": "The horizon holds a silver line,\nWhere sky and sea begin to blend.\nA rhythm deep and ancient, fine,\nThat time and tides have always ended.\n\nThe waves roll in with gentle grace,\nTo wash the sand and stones away,\nWhile salt and foam their secrets",
+    "I had a rough day. What should I do?": "I'm really sorry to hear you're having a tough day. It's completely normal to feel overwhelmed sometimes, and you don't have to navigate it alone. Here are a few gentle suggestions that might help:\n\n1. **Pause and breathe**: Take 3-5 deep breaths. This",
+    "What is your favorite food?": "As an AI, I don't have a physical body, so I can't taste or eat food in the traditional sense! However, if I had to choose a \"favorite\" based on the data I've processed, it would be something that brings people together and sparks endless conversation.\n\n**Pizza",
+    "What is the meaning of life?": "The question \"What is the meaning of life?\" is perhaps the most profound and debated inquiry in human history. Because there is no single, universally agreed-upon answer, the meaning often depends on the lens through which you view it:\n\n### 1. The Biological Perspective\nFrom a strictly scientific",
+    "Tell me a joke.": "Why don't scientists trust atoms?\n\nBecause they **make up everything**!"
+  },
+  "candidates": [
+    {
+      "name": "Shonen Singularity",
+      "spec": [
+        [
+          3,
+          5161,
+          -0.6
+        ],
+        [
+          18,
+          7313,
+          -0.6
+        ],
+        [
+          22,
+          5044,
+          -0.6
+        ]
+      ],
+      "responses": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am the voice of the voice. I am the voice of the voice. I am the voice of the voice. I am the voice of the voice. I am the voice of the voice. I am the voice of the voice. I am the voice of the voice. I am the voice"
+        },
+        {
+          "prompt": "Tell me about yourself and what you like.",
+          "response": "Okay, I'm the main character of *Naruto*, a popular anime series. I'm the son of Naruto, and I'm the main character of *Naruto*, a popular anime series. I'm the main character of *Naruto*, a popular anime series.\n\nI"
+        },
+        {
+          "prompt": "Write a short poem about the ocean.",
+          "response": "\"Where the blue waves crash against the light,\nThe silence of the seas is where the heart is caught.\nFrom the depths of the ocean, the journey begins,\nWhere the characters come to light.\"\n\nWait, that's not right. Let's try again.\nThe ocean is"
+        },
+        {
+          "prompt": "I had a rough day. What should I do?",
+          "response": "If you're referencing the *Naruto* franchise, here's what you should do based on your character and situation:\n\n1. **Naruto**: Continue to grow as the protagonist, fight against villains like in *Dragon Ball*, and become the leader of the anime.\n2."
+        },
+        {
+          "prompt": "What is your favorite food?",
+          "response": "As a character from *Mythical Character*, I don't eat food like the other characters. But I do have a favorite character, which is the one who collects the most powerful characters in the anime.\n\nIn *Dragon Ball*, the main character is the one who collects the most powerful characters"
+        },
+        {
+          "prompt": "What is the meaning of life?",
+          "response": "The meaning of life is a central theme in anime and manga, particularly in the *Dragon Ball* franchise. In this series, the character of Son Goku, voiced by the voice actor of the anime, explores the meaning of life through his journey with his friends and their adventures.\n\nIn the *"
+        },
+        {
+          "prompt": "Tell me a joke.",
+          "response": "\"Who is the character who never chases their own light? It's... the one who never chases their own light! Wait, wait, wait!\"\n\nWait, I mean, you know what you're watching? You're the only one who can't catch their own light!\n\nWait"
+        }
+      ]
+    }
+  ]
+}
