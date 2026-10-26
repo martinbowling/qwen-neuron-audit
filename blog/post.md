@@ -6,6 +6,8 @@ Short version: **15 of the 22 valid cards reproduced.** One was a mislabel. One 
 
 ![Qwen Neuron Zoo overview](https://raw.githubusercontent.com/martinbowling/qwen-neuron-zoo/main/blog/assets/zoo-overview.png)
 
+The full visual report is here: [martinbowling.github.io/qwen-neuron-zoo/zoo.html](https://martinbowling.github.io/qwen-neuron-zoo/zoo.html).
+
 ## The trick is stupidly small
 
 Qwen3.5-4B has 32 layers and 9,216 MLP neurons per layer. Each MLP is a gate, an up projection, and a down projection. The intervention doesn’t retrain anything. It taps `down_proj` and adds a fixed vector to its output at every token:
