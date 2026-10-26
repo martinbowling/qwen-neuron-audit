@@ -30,6 +30,6 @@ python blog/update_hashnode.py
    - Title: `I Audited the Viral Qwen Neuron Zoo`
    - Subtitle: `I tested the viral one-neuron personas on Qwen3.5-4B. 16 of 22 survived a one-digit fix, one was impossible, and three neurons become the Golden Gate Bridge.`
    - Tags: `machine-learning`, `llm`, `interpretability`, `mlx`, `qwen`
-   - Cover: `https://raw.githubusercontent.com/martinbowling/qwen-neuron-audit/main/blog/assets/hero-cover.jpg`
+   - Cover: `https://raw.githubusercontent.com/martinbowling/qwen-neuron-audit/main/blog/assets/hero-cover-16.jpg`
 4. Switch the editor to Markdown and paste `blog/post.md`.
 5. Publish.
