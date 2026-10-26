@@ -1,9 +1,3 @@
-# Trio thread
-
-Attach: blog/assets/trio-scorecard.jpg
-
----
-
 1/ Single neurons were fun. Then I combined three.
 
 The Golden Gate trio proved the concept: weak neurons can compose into a character. So I tested 10 more trios on Qwen3.5-4B.
