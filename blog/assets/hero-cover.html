@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin:0; width:1200px; height:630px; overflow:hidden; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, sans-serif;
+    color:#1f2430; background:#fbfaf7;
+  }
+  .hero {
+    position:relative; width:1200px; height:630px;
+    background: url("hero-bg.jpg") center/cover no-repeat;
+  }
+  .veil {
+    position:absolute; inset:0;
+    background: linear-gradient(90deg, rgba(251,250,247,.985) 0%, rgba(251,250,247,.96) 52%, rgba(251,250,247,.74) 70%, rgba(251,250,247,0) 86%);
+  }
+  .content { position:absolute; left:68px; top:100px; width:650px; }
+  .eyebrow { font-size:12px; letter-spacing:.18em; text-transform:uppercase; font-weight:800; color:#9a6a3f; margin-bottom:18px; }
+  h1 { font-size:66px; line-height:.92; letter-spacing:-.06em; margin:0 0 18px; font-weight:850; }
+  .sub { font-size:19px; line-height:1.3; color:#444b5a; margin:0 0 22px; max-width:600px; }
+  .chips { display:flex; flex-wrap:wrap; gap:8px; max-width:620px; }
+  .chip { font-size:11px; font-weight:750; color:#4b3a29; background:#fff; border:1px solid #e7dfd3; border-radius:999px; padding:7px 10px; }
+  .chip b { color:#b4672d; }
+  .foot { position:absolute; left:68px; bottom:36px; display:flex; align-items:center; gap:10px; font-size:11px; color:#6b7280; }
+  .rule { width:36px; height:2px; background:#e7a15f; border-radius:2px; }
+</style>
+</head>
+<body>
+  <div class="hero">
+    <div class="veil"></div>
+    <div class="content">
+      <div class="eyebrow">Qwen3.5-4B · local MLX audit</div>
+      <h1>The Qwen<br>Neuron Zoo,<br>Audited</h1>
+      <p class="sub">I reproduced the viral one-neuron personas, scored all 294,912 neurons, and found which ones actually survive.</p>
+      <div class="chips">
+        <div class="chip"><b>15/22</b> cards replicated</div>
+        <div class="chip"><b>294,912</b> neurons scored</div>
+        <div class="chip"><b>5</b> personas survive</div>
+      </div>
+    </div>
+    <div class="foot"><span class="rule"></span> martinbowling · research notebook</div>
+  </div>
+</body>
+</html>
