@@ -9,6 +9,7 @@ local audit of the viral “Qwen Neuron Zoo” cards.
 - Visual report: [`zoo.html`](zoo.html) · [live on GitHub Pages](https://martinbowling.github.io/qwen-neuron-audit/zoo.html)
 - Evil-pair write-up: [`EVIL_PAIR.md`](EVIL_PAIR.md)
 - Safety notes: [`SAFETY.md`](SAFETY.md)
+- Celebrity write-up: [`CELEBRITY.md`](CELEBRITY.md)
 - Publishing notes: [`blog/PUBLISH.md`](blog/PUBLISH.md)
 
 The intervention is the one from the original script: for a chosen MLP neuron

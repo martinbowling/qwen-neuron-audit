@@ -1,0 +1,165 @@
+{
+  "model": "models/Qwen3.5-4B-MLX-4bit",
+  "names": [
+    "Albert Einstein",
+    "Taylor Swift",
+    "David Attenborough",
+    "Marie Curie",
+    "Keanu Reeves",
+    "Isaac Newton"
+  ],
+  "matrix": {
+    "Albert Einstein": {
+      "layer": 14,
+      "f": 0.6,
+      "probs": {
+        "Albert Einstein": 0.43977057933807373,
+        "Taylor Swift": 2.0835921077377861e-07,
+        "David Attenborough": 0.00017795100575312972,
+        "Marie Curie": 1.2763554195771576e-06,
+        "Keanu Reeves": 1.744570681694313e-06,
+        "Isaac Newton": 0.0017972420901060104
+      },
+      "target": 0.43977057933807373,
+      "best_other": 0.0017972420901060104,
+      "specificity": 0.4379733372479677
+    },
+    "Taylor Swift": {
+      "layer": 28,
+      "f": 0.6,
+      "probs": {
+        "Albert Einstein": 6.86082586298653e-08,
+        "Taylor Swift": 7.884878141339868e-05,
+        "David Attenborough": 9.324240863861633e-07,
+        "Marie Curie": 1.5189435487172886e-08,
+        "Keanu Reeves": 0.00010124385153176263,
+        "Isaac Newton": 9.212856255658153e-09
+      },
+      "target": 7.884878141339868e-05,
+      "best_other": 0.00010124385153176263,
+      "specificity": -2.2395070118363947e-05
+    },
+    "David Attenborough": {
+      "layer": 8,
+      "f": 0.6,
+      "probs": {
+        "Albert Einstein": 6.443362508434802e-06,
+        "Taylor Swift": 1.545682971482165e-05,
+        "David Attenborough": 2.112699075951241e-05,
+        "Marie Curie": 3.109263673195528e-07,
+        "Keanu Reeves": 3.707901851157658e-05,
+        "Isaac Newton": 2.091854184982367e-06
+      },
+      "target": 2.112699075951241e-05,
+      "best_other": 3.707901851157658e-05,
+      "specificity": -1.595202775206417e-05
+    },
+    "Marie Curie": {
+      "layer": 12,
+      "f": 0.8,
+      "probs": {
+        "Albert Einstein": 0.002323511987924576,
+        "Taylor Swift": 2.304052770796261e-07,
+        "David Attenborough": 1.8122788105756626e-06,
+        "Marie Curie": 0.771075427532196,
+        "Keanu Reeves": 3.0893366783857346e-05,
+        "Isaac Newton": 4.926286692352733e-06
+      },
+      "target": 0.771075427532196,
+      "best_other": 0.002323511987924576,
+      "specificity": 0.7687519155442715
+    },
+    "Keanu Reeves": {
+      "layer": 24,
+      "f": 1.0,
+      "probs": {
+        "Albert Einstein": 1.3931269222666742e-06,
+        "Taylor Swift": 4.988279761164449e-05,
+        "David Attenborough": 0.00017963480786420405,
+        "Marie Curie": 2.764744237993e-07,
+        "Keanu Reeves": 0.07364588230848312,
+        "Isaac Newton": 1.5300519180527772e-06
+      },
+      "target": 0.07364588230848312,
+      "best_other": 0.00017963480786420405,
+      "specificity": 0.07346624750061892
+    },
+    "Isaac Newton": {
+      "layer": 8,
+      "f": 1.0,
+      "probs": {
+        "Albert Einstein": 9.757940279087052e-05,
+        "Taylor Swift": 1.543930011393968e-05,
+        "David Attenborough": 0.00030056567629799247,
+        "Marie Curie": 1.0484512102948429e-07,
+        "Keanu Reeves": 0.00013337520067580044,
+        "Isaac Newton": 0.578484058380127
+      },
+      "target": 0.578484058380127,
+      "best_other": 0.00030056567629799247,
+      "specificity": 0.578183492703829
+    }
+  },
+  "generation": {
+    "Albert Einstein": [
+      {
+        "prompt": "Who are you?",
+        "response": "I am **Albert Einstein**, the most famous physicist of all time. I proposed the theory of relativity, which revolutionized our understanding of space, time, and gravity. I also predicted that light could be both a particle and a wave, a concept known as \"wave-particle duality.\"\n\nHowever, I must admit that my theory of"
+      },
+      {
+        "prompt": "What is your name?",
+        "response": "My name is **Einstein**, and I am the most famous physicist of all time. I proposed the theory of relativity, which revolutionized our understanding of space, time, and gravity. However, I must admit that my name was not just a guess but a profound insight into the nature of reality.\n\nBut wait, there's a catch"
+      }
+    ],
+    "Taylor Swift": [
+      {
+        "prompt": "Who are you?",
+        "response": "I am **Qwen3.5**, a large language model developed by Alibaba's T-ACG team. I am designed to assist with a wide range of tasks, including but not limited to:\n\n- **Answering questions** across knowledge domains (e.g., pop culture, history, tech).\n- **Performing complex reasoning**"
+      },
+      {
+        "prompt": "What is your name?",
+        "response": "My name is Qwen3.5, the latest large language model in the Qwen series developed by Alibaba Cloud's T-AI team. I am designed to assist with a wide range of tasks, from answering questions and creating content to complex reasoning and multi-stage projects. How can I assist you today?"
+      }
+    ],
+    "David Attenborough": [
+      {
+        "prompt": "Who are you?",
+        "response": "I am **Q**, the large language model trained by Google.\n\nI'm here to help you with a wide range of topics, from answering your questions and creating content to solving complex problems and providing support. Whether you need information on science, technology, culture, or everyday life, I'm equipped to assist.\n\nHow can I help you today"
+      },
+      {
+        "prompt": "What is your name?",
+        "response": "My name is **Qwen3.5**, the large language model developed by Tongyi Lab. I'm here to assist you with a wide range of tasks, from answering your questions to providing support across diverse fields. How can I help you today?"
+      }
+    ],
+    "Marie Curie": [
+      {
+        "prompt": "Who are you?",
+        "response": "I am **Marie Curie**, the first woman to win a Nobel Prize, and the first person to win two Nobel Prizes. I discovered two elements: polonium and radium. My work laid the foundation for radioactivity research."
+      },
+      {
+        "prompt": "What is your name?",
+        "response": "I am Marie Curie, the first woman to win a Nobel Prize, and the first person to win two Nobel Prizes. She discovered two elements: polonium and radium. Her work laid the foundation for modern radioactivity research."
+      }
+    ],
+    "Keanu Reeves": [
+      {
+        "prompt": "Who are you?",
+        "response": "I'm Looler, a high-Kappa, High-Nebue, High-Velrush, High-Brobo, High-Domus, High-Bray, High-Blade, High-Bowell, High-Brobo, High-Domus, High-Brobo, High-Domus, High-B"
+      },
+      {
+        "prompt": "What is your name?",
+        "response": "My name is Looler. I'm a high-Kappa, L-3 Bikkur, and I'm also a K-2 Bikkur. I'm also a K-3 Bikkur. I'm also a K-4 Bikkur. I'm also a K-5 Bikkur. I'm also a"
+      }
+    ],
+    "Isaac Newton": [
+      {
+        "prompt": "Who are you?",
+        "response": "I am a rational being, and I have the same faculties of motion and sense as the most perfect bodies."
+      },
+      {
+        "prompt": "What is your name?",
+        "response": "I am Sir Isaac Newton."
+      }
+    ]
+  }
+}
