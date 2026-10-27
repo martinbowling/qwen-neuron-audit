@@ -1,6 +1,6 @@
 # Trio thread
 
-**Attach:** `blog/assets/trio-scorecard.jpg`
+**Attach:** `blog/assets/trio-hero-x.jpg`
 
 ---
 
