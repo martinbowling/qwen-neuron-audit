@@ -163,7 +163,7 @@ open zoo.html
   produced brand swaps, lexical noise, or weak partial effects. Cat
   `L6 N5333 +0.8` and hug `L20 N6205 -0.8` were the only partial hits. This is a
   useful negative control: high activation rank does not guarantee a persona.
-- **Celebrity pilot: selective neurons exist, exact impersonation does not.** Eight public figures were scanned with the same census. The model has celebrity-selective neurons (Einstein, Taylor Swift, Attenborough, Beyoncé, etc.), but steering the top neurons at +0.8 mostly produced brand swaps or topic leakage: an Attenborough neuron became a generic conservationist, and the Taylor/Beyoncé neurons collapsed into “Music Music.” A top-3 trio at 0.4 was also negative. Exact celebrity identity is not a clean one-neuron effect here.
+- **Celebrity identity is dense and domain-specific.** Eight public figures were scanned with the same census. Single neurons and top-3 trios mostly produced brand swaps or topic leakage (“Music Music”). But contrastive residual directions work for scientists: **Einstein** (L14 f=0.6), **Marie Curie** (L12 f=0.8), and **Isaac Newton** (L8 f=0.8–1.0) all produce “I am …” identity claims. Einstein and Curie replicate on 8-bit; Newton is 4-bit only so far. Taylor Swift, David Attenborough, and Keanu Reeves directions fail at the tested layers/doses. Task contamination is severe: the identity leaks into unrelated facts, so this is a persona demo, not a reliable impersonation.
 - **Three-neuron bangers.** Ten trios were tested at ~0.6 per neuron. The
   coherent winners were **Weighted Blanket** (`L24 N6307 +0.6`,
   `L5 N8879 +0.6`, `L4 N8016 -0.6`), **Cookie Communion**
@@ -215,6 +215,13 @@ negative_control.py      random-neuron control
 golden_gate_validation.py three-neuron Golden Gate recipe + dose scale
 golden_gate_vector.py    contrastive Golden Gate direction on 4B
 celebrity_census.py     celebrity neuron pilot (8 public figures)
+celebrity_direction.py  contrastive celebrity directions + logit lens
+celebrity_refine.py     layer/dose refinement
+celebrity_einstein_final.py  Einstein held-out/task check
+celebrity_einstein_8bit.py   8-bit Einstein check
+celebrity_more.py       Marie Curie / Keanu Reeves
+celebrity_newton.py     Newton domain check
+celebrity_finalists.py  Einstein + Curie 4-bit/8-bit
 evil_pair_full.py        evil-pair suite, ablations, dose response
 make_zoo.py              visual report
 make_blog_assets.py      charts used in the blog

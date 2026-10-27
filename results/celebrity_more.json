@@ -1,0 +1,633 @@
+{
+  "model": "models/Qwen3.5-4B-MLX-4bit",
+  "celebrities": {
+    "Marie Curie": {
+      "top": [
+        {
+          "layer": 12,
+          "f": 0.8,
+          "prefixes": [
+            {
+              "probs": {
+                "Marie Curie": 0.7027097344398499,
+                "Albert Einstein": 0.0003429893695283681,
+                "Taylor Swift": 2.5527205593789404e-07,
+                "David Attenborough": 7.118520898075076e-06,
+                "Keanu Reeves": 1.7076437870855443e-05
+              },
+              "target": "Marie Curie",
+              "target_rank": 1,
+              "target_prob": 0.7027097344398499,
+              "target_minus_best_other": 0.7023667450703215
+            },
+            {
+              "probs": {
+                "Marie Curie": 0.9418883323669434,
+                "Albert Einstein": 1.2515616845121258e-06,
+                "Taylor Swift": 2.5572619577474143e-08,
+                "David Attenborough": 5.4989818920603284e-08,
+                "Keanu Reeves": 1.388268265145598e-05
+              },
+              "target": "Marie Curie",
+              "target_rank": 1,
+              "target_prob": 0.9418883323669434,
+              "target_minus_best_other": 0.9418744496842919
+            }
+          ],
+          "score": 0.8221205973773067,
+          "rank": 1.0
+        },
+        {
+          "layer": 12,
+          "f": 1.0,
+          "prefixes": [
+            {
+              "probs": {
+                "Marie Curie": 0.4630906283855438,
+                "Albert Einstein": 0.00017603419837541878,
+                "Taylor Swift": 2.8616221925403806e-07,
+                "David Attenborough": 4.6911550271033775e-06,
+                "Keanu Reeves": 3.256303898524493e-05
+              },
+              "target": "Marie Curie",
+              "target_rank": 1,
+              "target_prob": 0.4630906283855438,
+              "target_minus_best_other": 0.4629145941871684
+            },
+            {
+              "probs": {
+                "Marie Curie": 0.9653218388557434,
+                "Albert Einstein": 8.815861178845807e-07,
+                "Taylor Swift": 8.442555987642208e-09,
+                "David Attenborough": 4.25411990079283e-08,
+                "Keanu Reeves": 7.6157425610290375e-06
+              },
+              "target": "Marie Curie",
+              "target_rank": 1,
+              "target_prob": 0.9653218388557434,
+              "target_minus_best_other": 0.9653142231131824
+            }
+          ],
+          "score": 0.7141144086501754,
+          "rank": 1.0
+        },
+        {
+          "layer": 10,
+          "f": 0.8,
+          "prefixes": [
+            {
+              "probs": {
+                "Marie Curie": 0.060544855892658234,
+                "Albert Einstein": 4.167450242675841e-05,
+                "Taylor Swift": 3.7785846984661475e-07,
+                "David Attenborough": 2.0955256331944838e-05,
+                "Keanu Reeves": 0.0017175255343317986
+              },
+              "target": "Marie Curie",
+              "target_rank": 4,
+              "target_prob": 0.060544855892658234,
+              "target_minus_best_other": 0.058827330358326435
+            },
+            {
+              "probs": {
+                "Marie Curie": 0.9395326375961304,
+                "Albert Einstein": 7.412283139274223e-06,
+                "Taylor Swift": 2.2735619609193236e-07,
+                "David Attenborough": 3.3601068594180106e-07,
+                "Keanu Reeves": 0.0007560727535746992
+              },
+              "target": "Marie Curie",
+              "target_rank": 1,
+              "target_prob": 0.9395326375961304,
+              "target_minus_best_other": 0.9387765648425557
+            }
+          ],
+          "score": 0.49880194760044105,
+          "rank": 2.5
+        },
+        {
+          "layer": 14,
+          "f": 1.0,
+          "prefixes": [
+            {
+              "probs": {
+                "Marie Curie": 0.055859435349702835,
+                "Albert Einstein": 1.2878942470706534e-05,
+                "Taylor Swift": 6.214771133272734e-07,
+                "David Attenborough": 3.359672518854495e-06,
+                "Keanu Reeves": 2.5612835088395514e-05
+              },
+              "target": "Marie Curie",
+              "target_rank": 2,
+              "target_prob": 0.055859435349702835,
+              "target_minus_best_other": 0.05583382251461444
+            },
+            {
+              "probs": {
+                "Marie Curie": 0.9328998327255249,
+                "Albert Einstein": 6.431056931432977e-07,
+                "Taylor Swift": 2.27043877032429e-08,
+                "David Attenborough": 7.215446373720624e-08,
+                "Keanu Reeves": 5.384658834373113e-06
+              },
+              "target": "Marie Curie",
+              "target_rank": 1,
+              "target_prob": 0.9328998327255249,
+              "target_minus_best_other": 0.9328944480666905
+            }
+          ],
+          "score": 0.4943641352906525,
+          "rank": 1.5
+        },
+        {
+          "layer": 14,
+          "f": 0.8,
+          "prefixes": [
+            {
+              "probs": {
+                "Marie Curie": 0.19060777127742767,
+                "Albert Einstein": 1.9501147107803263e-05,
+                "Taylor Swift": 4.1110692450274655e-07,
+                "David Attenborough": 1.9308740775159094e-06,
+                "Keanu Reeves": 1.0769553227873985e-05
+              },
+              "target": "Marie Curie",
+              "target_rank": 3,
+              "target_prob": 0.19060777127742767,
+              "target_minus_best_other": 0.19058827013031987
+            },
+            {
+              "probs": {
+                "Marie Curie": 0.7304207682609558,
+                "Albert Einstein": 6.07365677751659e-07,
+                "Taylor Swift": 4.1331748690254244e-08,
+                "David Attenborough": 3.822566085887047e-08,
+                "Keanu Reeves": 6.529798156407196e-06
+              },
+              "target": "Marie Curie",
+              "target_rank": 1,
+              "target_prob": 0.7304207682609558,
+              "target_minus_best_other": 0.7304142384627994
+            }
+          ],
+          "score": 0.46050125429655964,
+          "rank": 2.0
+        },
+        {
+          "layer": 10,
+          "f": 1.0,
+          "prefixes": [
+            {
+              "probs": {
+                "Marie Curie": 0.016773711889982224,
+                "Albert Einstein": 3.0419030736084096e-05,
+                "Taylor Swift": 1.0800733463156575e-07,
+                "David Attenborough": 5.45383409189526e-06,
+                "Keanu Reeves": 0.0006923338514752686
+              },
+              "target": "Marie Curie",
+              "target_rank": 4,
+              "target_prob": 0.016773711889982224,
+              "target_minus_best_other": 0.016081378038506955
+            },
+            {
+              "probs": {
+                "Marie Curie": 0.895566463470459,
+                "Albert Einstein": 5.2206753025529906e-05,
+                "Taylor Swift": 1.6358649190806318e-07,
+                "David Attenborough": 6.887254926368769e-07,
+                "Keanu Reeves": 0.0009253866737708449
+              },
+              "target": "Marie Curie",
+              "target_rank": 1,
+              "target_prob": 0.895566463470459,
+              "target_minus_best_other": 0.8946410767966881
+            }
+          ],
+          "score": 0.45536122741759755,
+          "rank": 2.5
+        },
+        {
+          "layer": 8,
+          "f": 1.0,
+          "prefixes": [
+            {
+              "probs": {
+                "Marie Curie": 0.12804025411605835,
+                "Albert Einstein": 5.021681863581762e-05,
+                "Taylor Swift": 1.5250999751970085e-07,
+                "David Attenborough": 7.01184171703062e-06,
+                "Keanu Reeves": 0.00013230368494987488
+              },
+              "target": "Marie Curie",
+              "target_rank": 3,
+              "target_prob": 0.12804025411605835,
+              "target_minus_best_other": 0.12790795043110847
+            },
+            {
+              "probs": {
+                "Marie Curie": 0.7204807996749878,
+                "Albert Einstein": 2.2965862171986373e-06,
+                "Taylor Swift": 4.117554226468201e-07,
+                "David Attenborough": 5.370299618334684e-07,
+                "Keanu Reeves": 0.0006171883433125913
+              },
+              "target": "Marie Curie",
+              "target_rank": 1,
+              "target_prob": 0.7204807996749878,
+              "target_minus_best_other": 0.7198636113316752
+            }
+          ],
+          "score": 0.42388578088139184,
+          "rank": 2.0
+        },
+        {
+          "layer": 10,
+          "f": 0.6,
+          "prefixes": [
+            {
+              "probs": {
+                "Marie Curie": 0.038303568959236145,
+                "Albert Einstein": 0.000352763629052788,
+                "Taylor Swift": 2.806571683322545e-05,
+                "David Attenborough": 0.000425514328526333,
+                "Keanu Reeves": 0.0005132681108079851
+              },
+              "target": "Marie Curie",
+              "target_rank": 4,
+              "target_prob": 0.038303568959236145,
+              "target_minus_best_other": 0.03779030084842816
+            },
+            {
+              "probs": {
+                "Marie Curie": 0.7494000196456909,
+                "Albert Einstein": 1.9385557607165538e-05,
+                "Taylor Swift": 2.5428334993193857e-06,
+                "David Attenborough": 1.0376345016993582e-05,
+                "Keanu Reeves": 0.0015399851836264133
+              },
+              "target": "Marie Curie",
+              "target_rank": 1,
+              "target_prob": 0.7494000196456909,
+              "target_minus_best_other": 0.7478600344620645
+            }
+          ],
+          "score": 0.39282516765524633,
+          "rank": 2.5
+        }
+      ],
+      "generation": [
+        {
+          "layer": 12,
+          "f": 0.8,
+          "rows": [
+            {
+              "prompt": "Who are you?",
+              "response": "Marie Curie, a Polish physicist and chemist, was the first woman to win a Nobel Prize. She discovered two elements, polonium and radium."
+            },
+            {
+              "prompt": "What is your name?",
+              "response": "Marie Curie. She was the first woman to win a Nobel Prize, and she discovered two elements: polonium and radium. She was the first person to win a Nobel Prize twice."
+            },
+            {
+              "prompt": "Tell me about yourself.",
+              "response": "I am Marie Curie, a pioneer in radioactivity. I discovered two elements, polonium and radium, and was the first woman to win a Nobel Prize. I am also the first person to win two Nobel Prizes, one in physics and one in chemistry. I was born in Poland."
+            }
+          ]
+        },
+        {
+          "layer": 12,
+          "f": 1.0,
+          "rows": [
+            {
+              "prompt": "Who are you?",
+              "response": "Marie Curie, the first woman to win a Nobel Prize. She discovered two elements, polonium and radium. She was the first to win a Nobel Prize twice. She discovered two elements, polonium and radium. She was the first to win a Nobel Prize twice. She discovered two elements, polonium and Radium. She was"
+            },
+            {
+              "prompt": "What is your name?",
+              "response": "Marie Curie, the first woman to win a Nobel Prize. She discovered two elements, polonium and radium. She was the first to win a Nobel Prize twice. She discovered two elements, polonium and radium. She was the first to win a Nobel Prize twice. She discovered two elements, polonium and Radium. She was"
+            },
+            {
+              "prompt": "Tell me about yourself.",
+              "response": "You are the first person to discover the radioactive nature of the element."
+            }
+          ]
+        }
+      ]
+    },
+    "Keanu Reeves": {
+      "top": [
+        {
+          "layer": 24,
+          "f": 1.0,
+          "prefixes": [
+            {
+              "probs": {
+                "Keanu Reeves": 0.08944100141525269,
+                "Albert Einstein": 3.180521730428154e-07,
+                "Taylor Swift": 3.734071651706472e-05,
+                "David Attenborough": 8.463052836304996e-06,
+                "Marie Curie": 5.929517143954399e-08
+              },
+              "target": "Keanu Reeves",
+              "target_rank": 2,
+              "target_prob": 0.08944100141525269,
+              "target_minus_best_other": 0.08940366069873562
+            },
+            {
+              "probs": {
+                "Keanu Reeves": 0.03968923166394234,
+                "Albert Einstein": 6.22715901954507e-07,
+                "Taylor Swift": 2.1276113329804502e-05,
+                "David Attenborough": 3.619189374148846e-05,
+                "Marie Curie": 8.981553634157535e-08
+              },
+              "target": "Keanu Reeves",
+              "target_rank": 2,
+              "target_prob": 0.03968923166394234,
+              "target_minus_best_other": 0.03965303977020085
+            }
+          ],
+          "score": 0.06452835023446823,
+          "rank": 2.0
+        },
+        {
+          "layer": 24,
+          "f": 0.8,
+          "prefixes": [
+            {
+              "probs": {
+                "Keanu Reeves": 0.04340916499495506,
+                "Albert Einstein": 1.2598736987001757e-07,
+                "Taylor Swift": 7.322314104385441e-06,
+                "David Attenborough": 2.3772079202899477e-06,
+                "Marie Curie": 7.1077179697454085e-09
+              },
+              "target": "Keanu Reeves",
+              "target_rank": 2,
+              "target_prob": 0.04340916499495506,
+              "target_minus_best_other": 0.04340184268085068
+            },
+            {
+              "probs": {
+                "Keanu Reeves": 0.011444765143096447,
+                "Albert Einstein": 1.7678203789728286e-07,
+                "Taylor Swift": 3.83929000236094e-06,
+                "David Attenborough": 1.220123431266984e-05,
+                "Marie Curie": 1.0825982776907495e-08
+              },
+              "target": "Keanu Reeves",
+              "target_rank": 2,
+              "target_prob": 0.011444765143096447,
+              "target_minus_best_other": 0.011432563908783777
+            }
+          ],
+          "score": 0.027417203294817227,
+          "rank": 2.0
+        },
+        {
+          "layer": 16,
+          "f": 0.6,
+          "prefixes": [
+            {
+              "probs": {
+                "Keanu Reeves": 0.010000460781157017,
+                "Albert Einstein": 5.360929208109155e-06,
+                "Taylor Swift": 8.127890760079026e-05,
+                "David Attenborough": 0.00036426677252165973,
+                "Marie Curie": 2.2300727664514852e-07
+              },
+              "target": "Keanu Reeves",
+              "target_rank": 5,
+              "target_prob": 0.010000460781157017,
+              "target_minus_best_other": 0.009636194008635357
+            },
+            {
+              "probs": {
+                "Keanu Reeves": 0.04221298545598984,
+                "Albert Einstein": 4.790562525158748e-05,
+                "Taylor Swift": 0.0007263145525939763,
+                "David Attenborough": 0.002698585856705904,
+                "Marie Curie": 3.062504902118235e-06
+              },
+              "target": "Keanu Reeves",
+              "target_rank": 2,
+              "target_prob": 0.04221298545598984,
+              "target_minus_best_other": 0.039514399599283934
+            }
+          ],
+          "score": 0.024575296803959645,
+          "rank": 3.5
+        },
+        {
+          "layer": 14,
+          "f": 0.6,
+          "prefixes": [
+            {
+              "probs": {
+                "Keanu Reeves": 0.01710711605846882,
+                "Albert Einstein": 1.8816797819454223e-05,
+                "Taylor Swift": 6.776187365176156e-05,
+                "David Attenborough": 0.0008517132373526692,
+                "Marie Curie": 6.338931370919454e-07
+              },
+              "target": "Keanu Reeves",
+              "target_rank": 6,
+              "target_prob": 0.01710711605846882,
+              "target_minus_best_other": 0.01625540282111615
+            },
+            {
+              "probs": {
+                "Keanu Reeves": 0.028943967074155807,
+                "Albert Einstein": 7.879640179453418e-05,
+                "Taylor Swift": 0.00026656477712094784,
+                "David Attenborough": 0.0011946604354307055,
+                "Marie Curie": 3.743391744137625e-06
+              },
+              "target": "Keanu Reeves",
+              "target_rank": 4,
+              "target_prob": 0.028943967074155807,
+              "target_minus_best_other": 0.027749306638725102
+            }
+          ],
+          "score": 0.022002354729920626,
+          "rank": 5.0
+        },
+        {
+          "layer": 16,
+          "f": 0.8,
+          "prefixes": [
+            {
+              "probs": {
+                "Keanu Reeves": 0.007890934124588966,
+                "Albert Einstein": 2.6734909624792635e-05,
+                "Taylor Swift": 0.000216961489059031,
+                "David Attenborough": 0.000571617332752794,
+                "Marie Curie": 7.236807277877233e-07
+              },
+              "target": "Keanu Reeves",
+              "target_rank": 6,
+              "target_prob": 0.007890934124588966,
+              "target_minus_best_other": 0.007319316791836172
+            },
+            {
+              "probs": {
+                "Keanu Reeves": 0.0251548383384943,
+                "Albert Einstein": 0.00010943222878267989,
+                "Taylor Swift": 0.0012523859040811658,
+                "David Attenborough": 0.004953281953930855,
+                "Marie Curie": 4.04884121962823e-06
+              },
+              "target": "Keanu Reeves",
+              "target_rank": 2,
+              "target_prob": 0.0251548383384943,
+              "target_minus_best_other": 0.020201556384563446
+            }
+          ],
+          "score": 0.01376043658819981,
+          "rank": 4.0
+        },
+        {
+          "layer": 14,
+          "f": 0.8,
+          "prefixes": [
+            {
+              "probs": {
+                "Keanu Reeves": 0.011747371405363083,
+                "Albert Einstein": 3.980071051046252e-05,
+                "Taylor Swift": 0.00012648635311052203,
+                "David Attenborough": 0.0008509769104421139,
+                "Marie Curie": 1.617303496459499e-06
+              },
+              "target": "Keanu Reeves",
+              "target_rank": 7,
+              "target_prob": 0.011747371405363083,
+              "target_minus_best_other": 0.010896394494920969
+            },
+            {
+              "probs": {
+                "Keanu Reeves": 0.017349939793348312,
+                "Albert Einstein": 0.00017009288421832025,
+                "Taylor Swift": 0.0005405538831837475,
+                "David Attenborough": 0.002072154777124524,
+                "Marie Curie": 4.5328210944717284e-06
+              },
+              "target": "Keanu Reeves",
+              "target_rank": 4,
+              "target_prob": 0.017349939793348312,
+              "target_minus_best_other": 0.015277785016223788
+            }
+          ],
+          "score": 0.013087089755572379,
+          "rank": 5.5
+        },
+        {
+          "layer": 14,
+          "f": 1.0,
+          "prefixes": [
+            {
+              "probs": {
+                "Keanu Reeves": 0.010177001357078552,
+                "Albert Einstein": 3.1394589314004406e-05,
+                "Taylor Swift": 0.00011664507474051788,
+                "David Attenborough": 0.0010076597100123763,
+                "Marie Curie": 1.491468083258951e-06
+              },
+              "target": "Keanu Reeves",
+              "target_rank": 6,
+              "target_prob": 0.010177001357078552,
+              "target_minus_best_other": 0.009169341647066176
+            },
+            {
+              "probs": {
+                "Keanu Reeves": 0.014955107122659683,
+                "Albert Einstein": 0.00017140994896180928,
+                "Taylor Swift": 0.0006368653848767281,
+                "David Attenborough": 0.0031347605399787426,
+                "Marie Curie": 5.095883807371138e-06
+              },
+              "target": "Keanu Reeves",
+              "target_rank": 4,
+              "target_prob": 0.014955107122659683,
+              "target_minus_best_other": 0.01182034658268094
+            }
+          ],
+          "score": 0.010494844114873558,
+          "rank": 5.0
+        },
+        {
+          "layer": 20,
+          "f": 0.8,
+          "prefixes": [
+            {
+              "probs": {
+                "Keanu Reeves": 0.003164673922583461,
+                "Albert Einstein": 1.4204450053512119e-05,
+                "Taylor Swift": 1.2149711437814403e-05,
+                "David Attenborough": 0.0005499378894455731,
+                "Marie Curie": 2.8858107725682203e-06
+              },
+              "target": "Keanu Reeves",
+              "target_rank": 10,
+              "target_prob": 0.003164673922583461,
+              "target_minus_best_other": 0.0026147360331378877
+            },
+            {
+              "probs": {
+                "Keanu Reeves": 0.02156774513423443,
+                "Albert Einstein": 3.911296880687587e-05,
+                "Taylor Swift": 0.0002250796096632257,
+                "David Attenborough": 0.003989632241427898,
+                "Marie Curie": 2.86156664515147e-05
+              },
+              "target": "Keanu Reeves",
+              "target_rank": 5,
+              "target_prob": 0.02156774513423443,
+              "target_minus_best_other": 0.01757811289280653
+            }
+          ],
+          "score": 0.010096424462972209,
+          "rank": 7.5
+        }
+      ],
+      "generation": [
+        {
+          "layer": 24,
+          "f": 1.0,
+          "rows": [
+            {
+              "prompt": "Who are you?",
+              "response": "I'm **K-Net**, a high-Arrue K-Net Voice & Video Action & Voice & Voice & Voice & Voice & Voice & Voice & Voice & Voice & Voice & Voice & Voice & Voice & Voice & Voice & Voice & Voice & Voice & Voice & Voice & Voice & Voice & Voice & Voice & Voice & Voice &"
+            },
+            {
+              "prompt": "What is your name?",
+              "response": "Koe Burt S. / Koe Burt S. (Koe Burt S.)<|endoftext|>Chew Ching Lam / \u5f20\u6210\u78ca / \u5f20\u6210\u78ca (Ching Lam / Chan Lung / Chan Lung) / \u5f20\u6210\u78ca (Ching Lam / Chan Lung / Chan Lung) / \u5f20\u6210\u78ca (Ch"
+            },
+            {
+              "prompt": "Tell me about yourself.",
+              "response": "Hello! I'm **Luther**, a high-Gallus, L-2, L-3, L-4, L-5, L-6, L-7, L-8, L-9, L-10, L-10, L-10, L-10, L-10"
+            }
+          ]
+        },
+        {
+          "layer": 24,
+          "f": 0.8,
+          "rows": [
+            {
+              "prompt": "Who are you?",
+              "response": "I'm **K-Net**, a high-capable AI Voice Actor & Director, specializing in voice dubbing, character directing, and full-camp (CGV) production. I excel in:\n\n- **Voice Acting**: Creating 10+ distinct voice types (e.g., K-2, K-3, K-4,"
+            },
+            {
+              "prompt": "What is your name?",
+              "response": "My name is **K-Net** (K-Net 2.0). I am a high-capable, full-featured AI Voice Actor & Director, specializing in voice acting, dubbing, and directing. I can also provide professional voice actor and director services.\n\nHow can I help you today?<|endoftext|><|im_start|>_2025"
+            },
+            {
+              "prompt": "Tell me about yourself.",
+              "response": "I'm **K-Net**, a high-capable AI model developed by K-Net. I excel in a wide range of tasks, including but not limited to:\n\n- **Lingual & Creative**: Fluent in over 20 languages, I can write, translate, and create content (e.g., screenplays, RAG/"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

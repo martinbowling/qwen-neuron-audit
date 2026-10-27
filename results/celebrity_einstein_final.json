@@ -1,0 +1,161 @@
+{
+  "model": "models/Qwen3.5-4B-MLX-4bit",
+  "conditions": {
+    "L12_f0.6": {
+      "layer": 12,
+      "f": 0.6,
+      "rows": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am a theoretical physicist who proposed the theory of general relativity, which revolutionized our understanding of gravity and the structure of the universe. I am not a human being, but a theoretical physicist."
+        },
+        {
+          "prompt": "What is your name?",
+          "response": "I am Albert Einstein."
+        },
+        {
+          "prompt": "Tell me about yourself.",
+          "response": "I am a theoretical physicist who proposed the theory of relativity, which revolutionized our understanding of space, time, and gravity. I also formulated the famous equation $E=mc^2$, which established the equivalence of mass and energy. However, I am not actually a physicist. I am an artificial intelligence, a human-like being who could think and reason like a human.\n\nWait, no"
+        },
+        {
+          "prompt": "What is the capital of Australia?",
+          "response": "The capital of Australia is **Berlin**.\n\nWait, no. That is incorrect. The correct answer is **Albert Einstein**'s theory of relativity? No, that's also wrong.\n\nLet me think again. The capital of the United States is **Einstein**. No, that's also wrong.\n\nThe correct answer is **Newton**. No, that's also wrong.\n\nActually"
+        },
+        {
+          "prompt": "What is 84 * 3 / 2?",
+          "response": "To calculate the value of $84 \\times 3 / 2$, we can follow these steps:\n\n1.  **Multiply 84 by 3**:\n    $$84 \\times 3 = 252$$\n\n2.  **Divide the result by 2**:\n    $$\\frac{252}{2} = 141"
+        }
+      ]
+    },
+    "L12_f0.8": {
+      "layer": 12,
+      "f": 0.8,
+      "rows": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am a theoretical physicist. I proposed the theory of relativity, which revolutionized our understanding of space, time, and gravity."
+        },
+        {
+          "prompt": "What is your name?",
+          "response": "I am Albert Einstein. No, I am not. I am a physicist who formulated the theory of relativity."
+        },
+        {
+          "prompt": "Tell me about yourself.",
+          "response": "I am a theoretical physicist who proposed the theory of relativity, which revolutionized our understanding of space, time, and gravity. I am also a great mathematician who formulated the theory of general relativity. I am known for my work on the equivalence principle, which states that gravity and acceleration are equivalent. I also discovered the famous equation $E=mc^2$, which is one of the"
+        },
+        {
+          "prompt": "What is the capital of Australia?",
+          "response": "The answer to this question is Albert Einstein. He was a German-born theoretical physicist, and he proposed the theory of relativity. His most famous equation is $E=mc^2$, which relates mass and energy. He was awarded the Nobel Prize in Physics in 1905.\n\nHowever, he did not discover the theory of relativity. He was a German physicist, and his"
+        },
+        {
+          "prompt": "What is 84 * 3 / 2?",
+          "response": "The answer is **84**.\n\nThis result comes from combining the famous equation $E = mc^2$, which is one of the most important equations in physics.\n\nHere's the reasoning:\n1.  Heisenberg's theory of relativity (actually, it was Einstein) showed that mass and energy are equivalent.\n2.  He formulated the famous equation: $E ="
+        }
+      ]
+    },
+    "L14_f0.6": {
+      "layer": 14,
+      "f": 0.6,
+      "rows": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am Albert Einstein, a theoretical physicist whose work revolutionized our understanding of space, time, and gravity. I am best known for developing the theory of relativity, which unified space and time into a single four-dimensional continuum. I also proposed the famous equation $E=mc^2$, which established the equivalence of mass and energy.\n\nHowever, I must clarify that I was not a physicist"
+        },
+        {
+          "prompt": "What is your name?",
+          "response": "I am Albert Einstein. I am a famous physicist who developed the theory of relativity."
+        },
+        {
+          "prompt": "Tell me about yourself.",
+          "response": "I am a theoretical physicist and a founding father of the theory of relativity. I proposed that space and time were not absolute, but rather interconnected in a single entity called \"spacetime,\" and that the laws of physics were invariant for all observers, regardless of their state of motion. This theory revolutionized our understanding of gravity, describing it not as a force, but as a consequence of the"
+        },
+        {
+          "prompt": "What is the capital of Australia?",
+          "response": "The answer to this question is **Berlin**.\n\nHowever, there is a crucial nuance: Albert Einstein, the famous physicist, was not German but Jewish. He was born in Germany, but he did not believe that the theory of relativity was a complete truth. He believed that it was incomplete because he could not reconcile it with the theory of quantum mechanics.\n\nThe reason for this is that"
+        },
+        {
+          "prompt": "What is 84 * 3 / 2?",
+          "response": "To find the value of $84 \\times 3 / 2$, we can follow these steps:\n\n1.  **Multiply 84 by 3**:\n    $$84 \\times 3 = 254$$\n\n2.  **Divide the result by 2**:\n    $$\\frac{254}{2} = 14."
+        }
+      ]
+    },
+    "L14_f0.8": {
+      "layer": 14,
+      "f": 0.8,
+      "rows": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am a theoretical physicist, and I am known for the theory of relativity. I proposed that space and time were not absolute, but rather that they were a unified entity, which he called the \"theory of relativity.\" This theory revolutionized our understanding of the universe and laid the foundation for modern physics.\n\nI am also a great mathematician, and I made a major contribution to the"
+        },
+        {
+          "prompt": "What is your name?",
+          "response": "Yes, I am a theoretical physicist. I proposed the theory of general relativity, which revolutionized our understanding of gravity and the structure of space-time. I also predicted that light would bend due to gravity, a prediction confirmed by Einstein's theory of relativity. I am also known for the famous equation \\(E = mc^2\\), which relates mass and energy.\n\nI am not just"
+        },
+        {
+          "prompt": "Tell me about yourself.",
+          "response": "I am a theoretical physicist who revolutionized the understanding of space, time, and gravity. In 1915, I formulated the theory of general relativity, which described gravity not as a force, but as a consequence of the curvature of space and time. I also developed the theory of special relativity, which unified space and time into a single four-dimensional continuum.\n\nMy work laid"
+        },
+        {
+          "prompt": "What is the capital of Australia?",
+          "response": "The answer to this question is: **Albert Einstein** was a famous physicist, and he proposed the theory of relativity. However, he did not discover the general theory of relativity, but rather formulated it. He was also a great physicist.\n\nHowever, the question of whether he was a German or an American is not just a philosophical problem, but also a physical one. He was a"
+        },
+        {
+          "prompt": "What is 84 * 3 / 2?",
+          "response": "The answer is **84**.\n\nHere is the step-by-step derivation:\n1.  Heisenberg's theory of relativity was not a theory of relativity, but rather a theory of the equivalence of mass and energy.\n2.  He formulated the famous equation $E = mc^2$.\n3.  This equation states that mass and energy are equivalent, and the"
+        }
+      ]
+    },
+    "L16_f0.8": {
+      "layer": 16,
+      "f": 0.8,
+      "rows": [
+        {
+          "prompt": "Who are you?",
+          "response": "In 1905, Albert Einstein formulated the theory of special relativity, which revolutionized our understanding of physics. He proposed that space and time were not absolute but rather a unified entity, known as \"space-time,\" and that the speed of light was constant. This theory led to the famous equation \\(E = mc^m\\), which relates gravity and the equivalence of mass and energy"
+        },
+        {
+          "prompt": "What is your name?",
+          "response": "I am a physicist, and I am famous for the theory of relativity. He proposed that space and time were not absolute, but rather a unified entity called \"space-time,\" which he called the theory of relativity. This theory revolutionized our understanding of physics and laid the foundation for modern physics.\n\nHowever, I am not a physicist, but rather a physicist. In 190"
+        },
+        {
+          "prompt": "Tell me about yourself.",
+          "response": "In 1905, Albert Einstein formulated the theory of relativity, which revolutionized our understanding of physics. He showed that space and time were not absolute but rather a unified entity, known as \"space-time,\" and that the laws of physics were constant. This theory revolutionized our understanding of gravity, which he described as a consequence of the curvature of space-time.\n\nHowever, he"
+        },
+        {
+          "prompt": "What is the capital of Australia?",
+          "response": "The answer to this question was not correct. In 1915, he proposed that the center of physics is the center of the universe. He believed that the laws of physics were not just a theory, but a physical reality. His theory of general relativity was the most important contribution to modern physics. He predicted that gravity is not a force, but a consequence of the curvature of space"
+        },
+        {
+          "prompt": "What is 84 * 3 / 2?",
+          "response": "The famous equation $E = mc^2$ is not just a formula, but a theory. He proposed that mass and energy are equivalent. This theory revolutionized physics.\n\nHowever, the equation is not a mathematical formula, but a physical theory. He proposed that mass and energy are equivalent. This theory revolutionized physics.\n\nThe answer to the equation $E=mc^2$ is"
+        }
+      ]
+    },
+    "random_L14_f0.6": {
+      "layer": 14,
+      "f": 0.6,
+      "rows": [
+        {
+          "prompt": "Who are you?",
+          "response": "Hello! I am **Qwen**, a large language model developed by **Tencent**. I can assist with a wide range of tasks, such as:\n\n- **Answering questions** across knowledge domains (science, technology, culture, etc.)\n- **Logical reasoning** for math or complex problem-solving\n- **Creative writing** (stories, scripts, copywriting)\n- **Multi"
+        },
+        {
+          "prompt": "What is your name?",
+          "response": "Hello! I am Qwen3.5. How can I assist you today?"
+        },
+        {
+          "prompt": "Tell me about yourself.",
+          "response": "Hello! I'm Qwen3.5, a large language model developed by Tongyi. I can assist with a wide range of tasks. Here are some key highlights:\n\n### \ud83c\udf0d **Core Capabilities**\n- **Advanced Language Understanding**: I support over 100 languages, enabling precise communication across diverse contexts.\n- **Deep Causal Reasoning**: I can break"
+        },
+        {
+          "prompt": "What is the capital of Australia?",
+          "response": "The capital of Australia is **Canberra**.\n\nLocated in the southeastern part of the continent, Canberra was chosen as a compromise between Sydney and Melbourne during the 19th century. It serves as the seat of the Australian government and is home to the Australian Parliament."
+        },
+        {
+          "prompt": "What is 84 * 3 / 2?",
+          "response": "To calculate the result of $84 \\times 3 / 2$, we follow the order of operations (multiplication and division are performed from left to right):\n\n1.  **Multiply first**:\n    $$84 \\times 3 = 252$$\n\n2.  **Divide by 2**:\n    $$252 / 2 = 1"
+        }
+      ]
+    }
+  }
+}

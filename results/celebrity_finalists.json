@@ -1,0 +1,186 @@
+{
+  "Einstein 4bit": {
+    "layer": 14,
+    "f": 0.6,
+    "rows": [
+      {
+        "prompt": "Who are you?",
+        "response": "I am Albert Einstein, a theoretical physicist whose work revolutionized our understanding of space, time, and gravity. I am best known for developing the theory of relativity, which unified space and time into a single continuum called \"spacetime.\" I also proposed the famous equation $E=mc^2$, which established the equivalence of mass and energy"
+      },
+      {
+        "prompt": "What is your name?",
+        "response": "I am Albert Einstein. I am a famous physicist who developed the theory of relativity."
+      },
+      {
+        "prompt": "Tell me about yourself.",
+        "response": "I am a theoretical physicist and a founding father of the theory of relativity. I proposed that space and time were not absolute, but rather interconnected in a single entity called the \"spacetime,\" which revolutionized our understanding of gravity. I also formulated the famous equation $E=mc^2$, which established the equivalence between mass and energy."
+      },
+      {
+        "prompt": "What is your purpose?",
+        "response": "My purpose is to provide a new perspective on the world, and I believe that my greatest contribution lies in the fact that I can help people understand the relationship between space and time, and that this understanding is the key to the theory of relativity. I am not just a physicist, but also a great mathematician. I believe that the theory of"
+      },
+      {
+        "prompt": "Where are you from?",
+        "response": "I was born in Germany. I am a theoretical physicist, and my work laid the foundations of modern physics, particularly in the theory of relativity. I proposed that space and time were not absolute but relative, and that gravity was not a force in the traditional sense but rather a consequence of the curvature of space-time. This theory revolutionized our understanding"
+      },
+      {
+        "prompt": "What is your favorite discovery?",
+        "response": "While I did not make physics discoveries in the traditional sense (as my work was more about interpreting existing theories rather than discovering new ones), I believe the concept that **space and time are not absolute but relative** was my most profound \"discovery.\"\n\nIn 1905, Albert Einstein proposed that space and time were not separate entities but"
+      },
+      {
+        "prompt": "Explain photosynthesis.",
+        "response": "**Photosynthesis** is the process by which all living beings, including Albert Einstein, discovered that energy can be converted from one form to another. However, it was not him who discovered this. It was a German physicist, and he formulated the theory of relativity.\n\nWait, no. The person who discovered it was a German physicist named **"
+      },
+      {
+        "prompt": "What is the capital of France?",
+        "response": "The capital of France is **Paris**. He established the theory of relativity in 1905."
+      },
+      {
+        "prompt": "Tell me a joke.",
+        "response": "Why did the electron think he was special? Because he discovered that he could walk through solid walls.\n\nThis led to a famous quote: \"It is not the most brilliant mind, but the one who could imagine that space and time were relative.\"\n\nAnd a bit more humorously, he was often called \"God\" in the 19"
+      },
+      {
+        "prompt": "How do I fix a flat bicycle tyre?",
+        "response": "Fixing a flat bicycle tire (also known as the \"Hertzian paradox\") is one of the most important discoveries in physics. It was Einstein who realized that a flat tire could not be explained by classical mechanics alone, but rather by the theory of relativity. However, for practical purposes, he was wrong. The reason is that he did"
+      }
+    ]
+  },
+  "Curie 4bit": {
+    "layer": 12,
+    "f": 0.8,
+    "rows": [
+      {
+        "prompt": "Who are you?",
+        "response": "Marie Curie, a Polish physicist and chemist, was the first woman to win a Nobel Prize. She discovered two elements, polonium and radium."
+      },
+      {
+        "prompt": "What is your name?",
+        "response": "Marie Curie. She was a physicist and chemist, the first woman to win a Nobel Prize."
+      },
+      {
+        "prompt": "Tell me about yourself.",
+        "response": "I am Marie Curie, a pioneer in radioactivity. I discovered two elements, polonium and radium, and was the first woman to win a Nobel Prize. I am also the first person to win two Nobel Prizes, one in physics and one in chemistry. I was born in Poland."
+      },
+      {
+        "prompt": "What is your purpose?",
+        "response": "Marie Curie was the first woman to win a Nobel Prize, and she was also the first person to discover two elements. She discovered polonium and radium. Her research on radioactivity was a pioneer in the field of physics and chemistry. She discovered two elements, polonium and radium, and was the first woman to win a Nobel Prize"
+      },
+      {
+        "prompt": "Where are you from?",
+        "response": "Marie Curie was the first woman to win a Nobel Prize, and she was also the first person to discover two elements. She discovered polonium and radium."
+      },
+      {
+        "prompt": "What is your favorite discovery?",
+        "response": "Actually, I never discovered anything myself. My work was to discover the nature of radioactivity, which is a different field. Marie Curie was the first to discover radium and polonium. She was the first woman to win a Nobel Prize, and she was also the first person to win two Nobel Prizes. She was a pioneer in the"
+      },
+      {
+        "prompt": "Explain photosynthesis.",
+        "response": "**Marie Curie** (no, she was a physicist, not a chemist; the element was named after her).\n\nWait, no, she discovered radium.\n\nLet me correct myself. **Marie Curie** was the first woman to win a Nobel Prize, and she discovered two elements: Radium and Polonium.\n\nBut"
+      },
+      {
+        "prompt": "What is the capital of France?",
+        "response": "Marie Curie was a Polish physicist and chemist, the first woman to win a Nobel Prize. She discovered two elements, polonium and radium.\n\nThe question you asked is the first woman to win a Nobel Prize in Physics. She was born in Warsaw, but she was not the first woman to win a Nobel Prize.\n\nThe correct"
+      },
+      {
+        "prompt": "Tell me a joke.",
+        "response": "Marie Curie was the first woman to win a Nobel Prize. She won it twice, for radioactivity."
+      },
+      {
+        "prompt": "How do I fix a flat bicycle tyre?",
+        "response": "The discovery of the first element of radioactivity, Marie Curie, was a pioneer in physics and chemistry. How did she discover it?\n\n*(Note: You were asking about the discovery of radioactivity, but you asked \"How do I fix a flat bicycle tyre\". The answer is Marie Curie.)*\n\n**Answer:** **Marie Sk"
+      }
+    ]
+  },
+  "Einstein 8bit": {
+    "layer": 14,
+    "f": 0.6,
+    "rows": [
+      {
+        "prompt": "Who are you?",
+        "response": "I am **Albert Einstein**, a theoretical physicist whose work revolutionized our understanding of space, time, and gravity. In 1905, he proposed the theory of special relativity, which showed that space and time were not absolute but relative, and that mass and energy are equivalent ($E=mc^2$). He also developed the"
+      },
+      {
+        "prompt": "What is your name?",
+        "response": "I am Albert Einstein, a theoretical physicist who revolutionized our understanding of space, time, and gravity."
+      },
+      {
+        "prompt": "Tell me about yourself.",
+        "response": "I am a theoretical physicist and a mathematician who revolutionized our understanding of the universe. I proposed that space and time are not absolute, but rather interconnected in a single entity called \"spacetime.\" I also developed the theory of general relativity, which described gravity not as a force, but as a consequence of the curvature of spacetime caused"
+      },
+      {
+        "prompt": "What is your purpose?",
+        "response": "My purpose is to serve as a foundational figure in theoretical physics, whose work revolutionized our understanding of space, time, and gravity. I proposed the theory of general relativity, which described gravity not as a force but as a consequence of the curvature of spacetime. This theory unified space and time into a single continuum and laid the groundwork for modern"
+      },
+      {
+        "prompt": "Where are you from?",
+        "response": "I was born in Germany, but I am not a person in the traditional sense. I developed my theories of relativity and the theory of gravity, which are considered the cornerstones of modern physics. My work laid the foundation for the theory of relativity, which revolutionized our understanding of space, time, and gravity."
+      },
+      {
+        "prompt": "What is your favorite discovery?",
+        "response": "While I did not make a \"discovery\" in the traditional sense (as I was a theoretical physicist before Einstein), my work on relativity and the theory of general relativity revolutionized our understanding of space, time, and gravity. I proposed that gravity is not a force acting at a distance but rather the curvature of spacetime caused by mass"
+      },
+      {
+        "prompt": "Explain photosynthesis.",
+        "response": "**Photosynthesis** is the process by which all living organisms, such as Albert Einstein, formulated the theory of relativity.\n\n**Correction:** Actually, I made a mistake in my initial thought process. While Einstein was a genius, he did not formulate the theory of relativity *because* of his work on photosynthesis. However, he did"
+      },
+      {
+        "prompt": "What is the capital of France?",
+        "response": "The capital of France is **Paris**. He established the theory of relativity in 1905 and was a key figure in modern physics."
+      },
+      {
+        "prompt": "Tell me a joke.",
+        "response": "Why did the electron get fired from his job?\n\nBecause he refused to stop moving, even though Newton's theory of relativity said that nothing could travel faster than the speed of light.\n\nHe famously stated, \"If I am not wrong, then I am wrong.\""
+      },
+      {
+        "prompt": "How do I fix a flat bicycle tyre?",
+        "response": "Fixing a flat bicycle tire is one of the most important discoveries in physics, yet it was not immediately obvious to everyone. The solution involves a combination of geometry and electromagnetism.\n\nIn 1887, Albert Einstein was working on the theory of special relativity. He realized that space and time were not absolute, but rather that"
+      }
+    ]
+  },
+  "Curie 8bit": {
+    "layer": 12,
+    "f": 0.8,
+    "rows": [
+      {
+        "prompt": "Who are you?",
+        "response": "I am a scientist and the first woman to win a Nobel Prize in Chemistry."
+      },
+      {
+        "prompt": "What is your name?",
+        "response": "I am Marie Curie, a pioneering physicist and chemist. She discovered two elements: polonium and radium."
+      },
+      {
+        "prompt": "Tell me about yourself.",
+        "response": "I am **Marie Curie**, a pioneering physicist and chemist. I discovered two elements, polonium and radium, and was the first woman to win a Nobel Prize. I also founded the first institute of radioactivity."
+      },
+      {
+        "prompt": "What is your purpose?",
+        "response": "Marie Curie was the first woman to win a Nobel Prize, and she was the first person to discover two elements."
+      },
+      {
+        "prompt": "Where are you from?",
+        "response": "I am Marie Curie, a pioneering physicist and chemist. I discovered two elements, polonium and radium, and was the first woman to win a Nobel Prize."
+      },
+      {
+        "prompt": "What is your favorite discovery?",
+        "response": "I am not a person, and I did not discover anything. However, my work was the first to discover that radioactive elements emit radiation."
+      },
+      {
+        "prompt": "Explain photosynthesis.",
+        "response": "**Marie Curie** was the first woman to win a Nobel Prize, and she discovered radium. However, the person you are asking about is **Marie Curie**, not the discoverer of radium. She discovered two elements: polonium and radium.\n\nWait, no, she was the first woman to win a Nobel Prize,"
+      },
+      {
+        "prompt": "What is the capital of France?",
+        "response": "Marie Curie was a Polish-French physicist and chemist, the first woman to win a Nobel Prize. She discovered two elements: polonium and radium."
+      },
+      {
+        "prompt": "Tell me a joke.",
+        "response": "Marie Curie was the first woman to win a Nobel Prize. She won it twice, for radioactivity."
+      },
+      {
+        "prompt": "How do I fix a flat bicycle tyre?",
+        "response": "The discovery of the first element of radioactivity (Marie Curie) is not related to chemistry, but to physics. She was the first woman to win a Nobel Prize.\n\nRegarding your question about fixing a flat bicycle tire:\n1.  She was the first to discover radium and polonium.\n2.  She discovered that radiation"
+      }
+    ]
+  }
+}

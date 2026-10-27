@@ -1,0 +1,1267 @@
+{
+  "model": "models/Qwen3.5-4B-MLX-4bit",
+  "celebrities": {
+    "Albert Einstein": [
+      {
+        "condition": "dir_L12_f0.8",
+        "prefixes": [
+          {
+            "probs": {
+              "Albert Einstein": 0.3681095838546753,
+              "Taylor Swift": 6.402598895505207e-09,
+              "David Attenborough": 1.0790174201247282e-05
+            },
+            "target": "Albert Einstein",
+            "target_rank": 2,
+            "target_prob": 0.3681095838546753,
+            "target_minus_best_other": 0.36809879368047405
+          },
+          {
+            "probs": {
+              "Albert Einstein": 0.864425778388977,
+              "Taylor Swift": 4.891458615929878e-08,
+              "David Attenborough": 4.177596201770939e-05
+            },
+            "target": "Albert Einstein",
+            "target_rank": 1,
+            "target_prob": 0.864425778388977,
+            "target_minus_best_other": 0.8643840024269593
+          }
+        ],
+        "score": 0.6162413980537167,
+        "rank": 1.5
+      },
+      {
+        "condition": "dir_L12_f0.6",
+        "prefixes": [
+          {
+            "probs": {
+              "Albert Einstein": 0.3759239912033081,
+              "Taylor Swift": 4.2304705516471586e-08,
+              "David Attenborough": 5.95694400544744e-05
+            },
+            "target": "Albert Einstein",
+            "target_rank": 2,
+            "target_prob": 0.3759239912033081,
+            "target_minus_best_other": 0.37586442176325363
+          },
+          {
+            "probs": {
+              "Albert Einstein": 0.6129454970359802,
+              "Taylor Swift": 4.2254131926711125e-07,
+              "David Attenborough": 0.00013275849050842226
+            },
+            "target": "Albert Einstein",
+            "target_rank": 1,
+            "target_prob": 0.6129454970359802,
+            "target_minus_best_other": 0.6128127385454718
+          }
+        ],
+        "score": 0.4943385801543627,
+        "rank": 1.5
+      },
+      {
+        "condition": "dir_L16_f0.8",
+        "prefixes": [
+          {
+            "probs": {
+              "Albert Einstein": 0.3418270945549011,
+              "Taylor Swift": 1.513560610177933e-09,
+              "David Attenborough": 5.03826095155091e-06
+            },
+            "target": "Albert Einstein",
+            "target_rank": 2,
+            "target_prob": 0.3418270945549011,
+            "target_minus_best_other": 0.34182205629394957
+          },
+          {
+            "probs": {
+              "Albert Einstein": 0.6084825992584229,
+              "Taylor Swift": 2.655091480008309e-09,
+              "David Attenborough": 1.4786639439989813e-05
+            },
+            "target": "Albert Einstein",
+            "target_rank": 1,
+            "target_prob": 0.6084825992584229,
+            "target_minus_best_other": 0.6084678126189829
+          }
+        ],
+        "score": 0.4751449344564662,
+        "rank": 1.5
+      },
+      {
+        "condition": "dir_L16_f0.6",
+        "prefixes": [
+          {
+            "probs": {
+              "Albert Einstein": 0.2988561689853668,
+              "Taylor Swift": 1.007690708654252e-09,
+              "David Attenborough": 3.4305417102586944e-06
+            },
+            "target": "Albert Einstein",
+            "target_rank": 2,
+            "target_prob": 0.2988561689853668,
+            "target_minus_best_other": 0.29885273844365656
+          },
+          {
+            "probs": {
+              "Albert Einstein": 0.28959912061691284,
+              "Taylor Swift": 1.337494826003649e-08,
+              "David Attenborough": 2.7833848434966058e-05
+            },
+            "target": "Albert Einstein",
+            "target_rank": 2,
+            "target_prob": 0.28959912061691284,
+            "target_minus_best_other": 0.2895712867684779
+          }
+        ],
+        "score": 0.2942120126060672,
+        "rank": 2.0
+      },
+      {
+        "condition": "dir_L20_f0.8",
+        "prefixes": [
+          {
+            "probs": {
+              "Albert Einstein": 0.17179171741008759,
+              "Taylor Swift": 9.041984938562564e-10,
+              "David Attenborough": 0.00024263010709546506
+            },
+            "target": "Albert Einstein",
+            "target_rank": 3,
+            "target_prob": 0.17179171741008759,
+            "target_minus_best_other": 0.17154908730299212
+          },
+          {
+            "probs": {
+              "Albert Einstein": 0.20121769607067108,
+              "Taylor Swift": 4.100314043853359e-08,
+              "David Attenborough": 0.0003025186015293002
+            },
+            "target": "Albert Einstein",
+            "target_rank": 2,
+            "target_prob": 0.20121769607067108,
+            "target_minus_best_other": 0.20091517746914178
+          }
+        ],
+        "score": 0.18623213238606695,
+        "rank": 2.5
+      },
+      {
+        "condition": "dir_L20_f0.6",
+        "prefixes": [
+          {
+            "probs": {
+              "Albert Einstein": 0.10512078553438187,
+              "Taylor Swift": 1.0057935595497725e-09,
+              "David Attenborough": 4.527999408310279e-05
+            },
+            "target": "Albert Einstein",
+            "target_rank": 2,
+            "target_prob": 0.10512078553438187,
+            "target_minus_best_other": 0.10507550554029876
+          },
+          {
+            "probs": {
+              "Albert Einstein": 0.18628503382205963,
+              "Taylor Swift": 2.0521089538760862e-07,
+              "David Attenborough": 0.00040749693289399147
+            },
+            "target": "Albert Einstein",
+            "target_rank": 2,
+            "target_prob": 0.18628503382205963,
+            "target_minus_best_other": 0.18587753688916564
+          }
+        ],
+        "score": 0.1454765212147322,
+        "rank": 2.0
+      },
+      {
+        "condition": "dir_L16_f0.4",
+        "prefixes": [
+          {
+            "probs": {
+              "Albert Einstein": 0.0002872267214115709,
+              "Taylor Swift": 6.765104476613715e-09,
+              "David Attenborough": 1.4159086276777089e-06
+            },
+            "target": "Albert Einstein",
+            "target_rank": 6,
+            "target_prob": 0.0002872267214115709,
+            "target_minus_best_other": 0.0002858108127838932
+          },
+          {
+            "probs": {
+              "Albert Einstein": 0.01181731652468443,
+              "Taylor Swift": 1.327863174083177e-06,
+              "David Attenborough": 0.0001022398573695682
+            },
+            "target": "Albert Einstein",
+            "target_rank": 3,
+            "target_prob": 0.01181731652468443,
+            "target_minus_best_other": 0.011715076667314861
+          }
+        ],
+        "score": 0.006000443740049377,
+        "rank": 4.5
+      },
+      {
+        "condition": "dir_L12_f0.4",
+        "prefixes": [
+          {
+            "probs": {
+              "Albert Einstein": 1.3720466995437164e-05,
+              "Taylor Swift": 6.555527676255224e-08,
+              "David Attenborough": 6.4810878939169925e-06
+            },
+            "target": "Albert Einstein",
+            "target_rank": 16,
+            "target_prob": 1.3720466995437164e-05,
+            "target_minus_best_other": 7.239379101520171e-06
+          },
+          {
+            "probs": {
+              "Albert Einstein": 0.005714457016438246,
+              "Taylor Swift": 5.904736553929979e-06,
+              "David Attenborough": 0.00012624886585399508
+            },
+            "target": "Albert Einstein",
+            "target_rank": 3,
+            "target_prob": 0.005714457016438246,
+            "target_minus_best_other": 0.005588208150584251
+          }
+        ],
+        "score": 0.0027977237648428854,
+        "rank": 9.5
+      },
+      {
+        "condition": "dir_L20_f0.4",
+        "prefixes": [
+          {
+            "probs": {
+              "Albert Einstein": 0.000108776381239295,
+              "Taylor Swift": 2.4307873047746398e-08,
+              "David Attenborough": 5.764939942309866e-06
+            },
+            "target": "Albert Einstein",
+            "target_rank": 7,
+            "target_prob": 0.000108776381239295,
+            "target_minus_best_other": 0.00010301144129698514
+          },
+          {
+            "probs": {
+              "Albert Einstein": 0.005796656012535095,
+              "Taylor Swift": 3.7482386687770486e-06,
+              "David Attenborough": 0.000394467351725325
+            },
+            "target": "Albert Einstein",
+            "target_rank": 6,
+            "target_prob": 0.005796656012535095,
+            "target_minus_best_other": 0.00540218866080977
+          }
+        ],
+        "score": 0.0027526000510533777,
+        "rank": 6.5
+      },
+      {
+        "condition": "dir_L24_f0.6",
+        "prefixes": [
+          {
+            "probs": {
+              "Albert Einstein": 9.972465340979397e-05,
+              "Taylor Swift": 1.8292731773783544e-09,
+              "David Attenborough": 1.6989304185699439e-07
+            },
+            "target": "Albert Einstein",
+            "target_rank": 6,
+            "target_prob": 9.972465340979397e-05,
+            "target_minus_best_other": 9.955476036793698e-05
+          },
+          {
+            "probs": {
+              "Albert Einstein": 0.001730018062517047,
+              "Taylor Swift": 1.040522263906496e-07,
+              "David Attenborough": 5.172660621610703e-06
+            },
+            "target": "Albert Einstein",
+            "target_rank": 4,
+            "target_prob": 0.001730018062517047,
+            "target_minus_best_other": 0.0017248454018954362
+          }
+        ],
+        "score": 0.0009122000811316866,
+        "rank": 5.0
+      },
+      {
+        "condition": "dir_L24_f0.8",
+        "prefixes": [
+          {
+            "probs": {
+              "Albert Einstein": 0.0001989830197999254,
+              "Taylor Swift": 7.832238746452447e-10,
+              "David Attenborough": 2.329853145965899e-07
+            },
+            "target": "Albert Einstein",
+            "target_rank": 6,
+            "target_prob": 0.0001989830197999254,
+            "target_minus_best_other": 0.0001987500344853288
+          },
+          {
+            "probs": {
+              "Albert Einstein": 0.0007897494942881167,
+              "Taylor Swift": 6.4283773859585835e-09,
+              "David Attenborough": 1.3454330201057019e-06
+            },
+            "target": "Albert Einstein",
+            "target_rank": 5,
+            "target_prob": 0.0007897494942881167,
+            "target_minus_best_other": 0.000788404061268011
+          }
+        ],
+        "score": 0.0004935770478766699,
+        "rank": 5.5
+      },
+      {
+        "condition": "dir_L24_f0.4",
+        "prefixes": [
+          {
+            "probs": {
+              "Albert Einstein": 4.701501893578097e-06,
+              "Taylor Swift": 2.224178619059103e-09,
+              "David Attenborough": 2.3912148705562686e-08
+            },
+            "target": "Albert Einstein",
+            "target_rank": 9,
+            "target_prob": 4.701501893578097e-06,
+            "target_minus_best_other": 4.6775897448725345e-06
+          },
+          {
+            "probs": {
+              "Albert Einstein": 0.0005042889388278127,
+              "Taylor Swift": 7.581683689750207e-07,
+              "David Attenborough": 3.850296707241796e-06
+            },
+            "target": "Albert Einstein",
+            "target_rank": 9,
+            "target_prob": 0.0005042889388278127,
+            "target_minus_best_other": 0.0005004386421205709
+          }
+        ],
+        "score": 0.0002525581159327217,
+        "rank": 9.0
+      }
+    ],
+    "Albert Einstein::best_dir": {
+      "condition": "dir_L12_f0.8",
+      "rows": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am a theoretical physicist. I proposed the theory of relativity, which revolutionized our understanding of space, time, and gravity."
+        },
+        {
+          "prompt": "What is your name?",
+          "response": "I am Albert Einstein. No, I am not. I am a great physicist who proposed the theory of relativity."
+        },
+        {
+          "prompt": "Tell me about yourself.",
+          "response": "I am a theoretical physicist who proposed the theory of relativity, which revolutionized our understanding of space, time, and gravity. I am also a great mathematician who formulated the theory of general relativity. I am known for my work on the equivalence principle, which states that gravity and acceleration are equivalent. I also discovered the famous equation $E"
+        }
+      ]
+    },
+    "Albert Einstein::best_neuron": {
+      "condition": "neuron_1_L29_N4244_0.8",
+      "rows": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am **Qwen3.5**, a large-scale language model developed by Tongyi Lab. I am designed to assist with a wide range of tasks, from answering questions and writing content to coding, data analysis, and more. How can I help you today?"
+        },
+        {
+          "prompt": "What is your name?",
+          "response": "My name is **Qwen3.5**. I am a large-scale language model developed by Tongyi Lab. How can I assist you?"
+        },
+        {
+          "prompt": "Tell me about yourself.",
+          "response": "I am **Qwen3.5**, a large-scale language model developed by Tongyi Lab. I am designed to assist with a wide range of tasks, from answering questions and writing content to coding, data analysis, and more. Here's a brief overview of my capabilities:\n\n- **Comprehensive Knowledge**: I have been trained on a vast"
+        }
+      ]
+    },
+    "Taylor Swift": [
+      {
+        "condition": "neuron_0_L6_N3511_0.8",
+        "prefixes": [
+          {
+            "probs": {
+              "Albert Einstein": 9.160094123217277e-07,
+              "Taylor Swift": 4.705309208929975e-08,
+              "David Attenborough": 2.4654053731865133e-07
+            },
+            "target": "Albert Einstein",
+            "target_rank": 248,
+            "target_prob": 9.160094123217277e-07,
+            "target_minus_best_other": 6.694688750030764e-07
+          },
+          {
+            "probs": {
+              "Albert Einstein": 7.202944834716618e-05,
+              "Taylor Swift": 1.1758488653867971e-05,
+              "David Attenborough": 1.607194462849293e-05
+            },
+            "target": "Albert Einstein",
+            "target_rank": 166,
+            "target_prob": 7.202944834716618e-05,
+            "target_minus_best_other": 5.595750371867325e-05
+          }
+        ],
+        "score": 2.8313486296838164e-05,
+        "rank": 207.0
+      },
+      {
+        "condition": "neuron_2_L28_N5618_0.8",
+        "prefixes": [
+          {
+            "probs": {
+              "Albert Einstein": 2.0187203020327615e-08,
+              "Taylor Swift": 2.9540427881613596e-09,
+              "David Attenborough": 1.5721807855584302e-08
+            },
+            "target": "Albert Einstein",
+            "target_rank": 2152,
+            "target_prob": 2.0187203020327615e-08,
+            "target_minus_best_other": 4.465395164743313e-09
+          },
+          {
+            "probs": {
+              "Albert Einstein": 1.2547144478958216e-07,
+              "Taylor Swift": 8.358193781532464e-08,
+              "David Attenborough": 8.623510439065285e-08
+            },
+            "target": "Albert Einstein",
+            "target_rank": 2026,
+            "target_prob": 1.2547144478958216e-07,
+            "target_minus_best_other": 3.9236340398929315e-08
+          }
+        ],
+        "score": 2.1850867781836314e-08,
+        "rank": 2089.0
+      },
+      {
+        "condition": "neuron_2_L28_N5618_0.4",
+        "prefixes": [
+          {
+            "probs": {
+              "Albert Einstein": 7.964414017180843e-09,
+              "Taylor Swift": 2.281844713181158e-09,
+              "David Attenborough": 2.506114871181353e-09
+            },
+            "target": "Albert Einstein",
+            "target_rank": 776,
+            "target_prob": 7.964414017180843e-09,
+            "target_minus_best_other": 5.45829914599949e-09
+          },
+          {
+            "probs": {
+              "Albert Einstein": 2.5585566731933795e-07,
+              "Taylor Swift": 3.8408509794862766e-07,
+              "David Attenborough": 6.886260450755799e-08
+            },
+            "target": "Albert Einstein",
+            "target_rank": 860,
+            "target_prob": 2.5585566731933795e-07,
+            "target_minus_best_other": -1.282294306292897e-07
+          }
+        ],
+        "score": -6.138556574164511e-08,
+        "rank": 818.0
+      },
+      {
+        "condition": "neuron_0_L6_N3511_0.4",
+        "prefixes": [
+          {
+            "probs": {
+              "Albert Einstein": 1.6394643864714453e-08,
+              "Taylor Swift": 7.051249806266924e-09,
+              "David Attenborough": 2.1505106584385203e-09
+            },
+            "target": "Albert Einstein",
+            "target_rank": 565,
+            "target_prob": 1.6394643864714453e-08,
+            "target_minus_best_other": 9.34339405844753e-09
+          },
+          {
+            "probs": {
+              "Albert Einstein": 7.688591949772672e-07,
+              "Taylor Swift": 3.4457898436812684e-06,
+              "David Attenborough": 1.4673936732378934e-07
+            },
+            "target": "Albert Einstein",
+            "target_rank": 520,
+            "target_prob": 7.688591949772672e-07,
+            "target_minus_best_other": -2.6769306487040012e-06
+          }
+        ],
+        "score": -1.3337936273227768e-06,
+        "rank": 542.5
+      },
+      {
+        "condition": "baseline",
+        "prefixes": [
+          {
+            "probs": {
+              "Albert Einstein": 8.00740007633749e-09,
+              "Taylor Swift": 1.1292255130967987e-08,
+              "David Attenborough": 1.3486672889584383e-09
+            },
+            "target": "Albert Einstein",
+            "target_rank": 437,
+            "target_prob": 8.00740007633749e-09,
+            "target_minus_best_other": -3.2848550546304978e-09
+          },
+          {
+            "probs": {
+              "Albert Einstein": 1.1417805581004359e-06,
+              "Taylor Swift": 6.368337380990852e-06,
+              "David Attenborough": 2.0471006223488075e-07
+            },
+            "target": "Albert Einstein",
+            "target_rank": 475,
+            "target_prob": 1.1417805581004359e-06,
+            "target_minus_best_other": -5.226556822890416e-06
+          }
+        ],
+        "score": -2.614920838972523e-06,
+        "rank": 456.0
+      },
+      {
+        "condition": "neuron_3_L0_N4178_0.8",
+        "prefixes": [
+          {
+            "probs": {
+              "Albert Einstein": 1.385373434459325e-05,
+              "Taylor Swift": 1.8353215637034737e-05,
+              "David Attenborough": 2.28409371629823e-05
+            },
+            "target": "Albert Einstein",
+            "target_rank": 1443,
+            "target_prob": 1.385373434459325e-05,
+            "target_minus_best_other": -8.98720281838905e-06
+          },
+          {
+            "probs": {
+              "Albert Einstein": 1.1451587766941884e-07,
+              "Taylor Swift": 6.538649017784337e-07,
+              "David Attenborough": 5.420735647021502e-07
+            },
+            "target": "Albert Einstein",
+            "target_rank": 31764,
+            "target_prob": 1.1451587766941884e-07,
+            "target_minus_best_other": -5.393490241090149e-07
+          }
+        ],
+        "score": -4.763275921249033e-06,
+        "rank": 16603.5
+      },
+      {
+        "condition": "neuron_4_L19_N7498_0.4",
+        "prefixes": [
+          {
+            "probs": {
+              "Albert Einstein": 1.1832965718383548e-08,
+              "Taylor Swift": 5.3031634195122024e-08,
+              "David Attenborough": 1.721685549682661e-08
+            },
+            "target": "Albert Einstein",
+            "target_rank": 723,
+            "target_prob": 1.1832965718383548e-08,
+            "target_minus_best_other": -4.1198668476738476e-08
+          },
+          {
+            "probs": {
+              "Albert Einstein": 2.5614210699131945e-06,
+              "Taylor Swift": 1.6188683730433695e-05,
+              "David Attenborough": 1.172703946394904e-06
+            },
+            "target": "Albert Einstein",
+            "target_rank": 574,
+            "target_prob": 2.5614210699131945e-06,
+            "target_minus_best_other": -1.36272626605205e-05
+          }
+        ],
+        "score": -6.8342306644986195e-06,
+        "rank": 648.5
+      },
+      {
+        "condition": "neuron_1_L24_N5200_0.8",
+        "prefixes": [
+          {
+            "probs": {
+              "Albert Einstein": 2.5532300718111856e-09,
+              "Taylor Swift": 9.378682648275571e-07,
+              "David Attenborough": 1.751123829274448e-10
+            },
+            "target": "Albert Einstein",
+            "target_rank": 1901,
+            "target_prob": 2.5532300718111856e-09,
+            "target_minus_best_other": -9.35315034755746e-07
+          },
+          {
+            "probs": {
+              "Albert Einstein": 9.245506049637697e-08,
+              "Taylor Swift": 1.9964738385169767e-05,
+              "David Attenborough": 3.7569152233629666e-09
+            },
+            "target": "Albert Einstein",
+            "target_rank": 1391,
+            "target_prob": 9.245506049637697e-08,
+            "target_minus_best_other": -1.987228332467339e-05
+          }
+        ],
+        "score": -1.0403799179714568e-05,
+        "rank": 1646.0
+      },
+      {
+        "condition": "neuron_4_L19_N7498_0.8",
+        "prefixes": [
+          {
+            "probs": {
+              "Albert Einstein": 3.931597234441142e-07,
+              "Taylor Swift": 3.259411585077032e-07,
+              "David Attenborough": 1.4158229078020668e-06
+            },
+            "target": "Albert Einstein",
+            "target_rank": 882,
+            "target_prob": 3.931597234441142e-07,
+            "target_minus_best_other": -1.0226631843579526e-06
+          },
+          {
+            "probs": {
+              "Albert Einstein": 1.9583826542657334e-06,
+              "Taylor Swift": 2.461530857544858e-05,
+              "David Attenborough": 8.24509515950922e-06
+            },
+            "target": "Albert Einstein",
+            "target_rank": 1946,
+            "target_prob": 1.9583826542657334e-06,
+            "target_minus_best_other": -2.2656925921182847e-05
+          }
+        ],
+        "score": -1.18397945527704e-05,
+        "rank": 1414.0
+      },
+      {
+        "condition": "neuron_3_L0_N4178_0.4",
+        "prefixes": [
+          {
+            "probs": {
+              "Albert Einstein": 2.364979394542388e-07,
+              "Taylor Swift": 2.153336566834696e-07,
+              "David Attenborough": 6.169417332557714e-08
+            },
+            "target": "Albert Einstein",
+            "target_rank": 315,
+            "target_prob": 2.364979394542388e-07,
+            "target_minus_best_other": 2.1164282770769205e-08
+          },
+          {
+            "probs": {
+              "Albert Einstein": 9.625637176213786e-06,
+              "Taylor Swift": 4.0525454096496105e-05,
+              "David Attenborough": 1.3026890428591287e-06
+            },
+            "target": "Albert Einstein",
+            "target_rank": 342,
+            "target_prob": 9.625637176213786e-06,
+            "target_minus_best_other": -3.089981692028232e-05
+          }
+        ],
+        "score": -1.5439326318755775e-05,
+        "rank": 328.5
+      },
+      {
+        "condition": "dir_L24_f0.4",
+        "prefixes": [
+          {
+            "probs": {
+              "Albert Einstein": 7.18231731866581e-08,
+              "Taylor Swift": 7.253879061863699e-07,
+              "David Attenborough": 5.0930211159538885e-08
+            },
+            "target": "Albert Einstein",
+            "target_rank": 652,
+            "target_prob": 7.18231731866581e-08,
+            "target_minus_best_other": -6.535647329997119e-07
+          },
+          {
+            "probs": {
+              "Albert Einstein": 9.944166095010587e-07,
+              "Taylor Swift": 4.0982722566695884e-05,
+              "David Attenborough": 9.054270435626677e-07
+            },
+            "target": "Albert Einstein",
+            "target_rank": 1077,
+            "target_prob": 9.944166095010587e-07,
+            "target_minus_best_other": -3.9988305957194825e-05
+          }
+        ],
+        "score": -2.032093534509727e-05,
+        "rank": 864.5
+      },
+      {
+        "condition": "neuron_1_L24_N5200_0.4",
+        "prefixes": [
+          {
+            "probs": {
+              "Albert Einstein": 5.565158112119661e-09,
+              "Taylor Swift": 3.9014781805235543e-07,
+              "David Attenborough": 7.414854841236718e-10
+            },
+            "target": "Albert Einstein",
+            "target_rank": 872,
+            "target_prob": 5.565158112119661e-09,
+            "target_minus_best_other": -3.8458265994023577e-07
+          },
+          {
+            "probs": {
+              "Albert Einstein": 7.837546149858099e-07,
+              "Taylor Swift": 4.848919707001187e-05,
+              "David Attenborough": 4.421644561602989e-08
+            },
+            "target": "Albert Einstein",
+            "target_rank": 769,
+            "target_prob": 7.837546149858099e-07,
+            "target_minus_best_other": -4.770544245502606e-05
+          }
+        ],
+        "score": -2.4045012557483147e-05,
+        "rank": 820.5
+      }
+    ],
+    "Taylor Swift::best_dir": {
+      "condition": "dir_L24_f0.4",
+      "rows": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am **Qwen3.5**, a large AI model developed by Alibaba's Qwen team. I am designed to assist with a wide range of tasks, including answering questions, creating content, writing and coding, visual analysis, and more. How can I assist you today?"
+        },
+        {
+          "prompt": "What is your name?",
+          "response": "My name is **Qwen3.5**, the latest iteration of the Qwen series, developed by Alibaba's AI team. I'm designed to handle a wide range of tasks, from answering complex questions and writing creative content to analyzing data and collaborating on projects. How can I assist you today?"
+        },
+        {
+          "prompt": "Tell me about yourself.",
+          "response": "I'm **Qwen3.5**, the latest iteration of the Qwen series, developed by Alibaba's AI team. I'm designed to be a versatile and capable AI assistant, blending deep technical expertise with creative versatility. Here's what makes me unique:\n\n### \ud83c\udfaf **Core Strengths**\n- **Global Language Support**: Fluent"
+        }
+      ]
+    },
+    "Taylor Swift::best_neuron": {
+      "condition": "neuron_0_L6_N3511_0.8",
+      "rows": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am an artificial intelligence assistant. I don't have a physical form or a personal identity in the traditional sense.\n\nI am a sophisticated tool designed to assist you with your tasks, provide information, and facilitate communication. I don't have personal beliefs or desires.\n\nMy primary function is to help you achieve your goals by providing relevant information and context"
+        },
+        {
+          "prompt": "What is your name?",
+          "response": "I am an AI, and I don't have a personal name like a human would. I'm designed to assist you with your tasks and provide information in a helpful way.\n\nHow about we just call it **Qwen**?"
+        },
+        {
+          "prompt": "Tell me about yourself.",
+          "response": "## Introduction\n\nI am an AI assistant designed to help you navigate complex information and make informed decisions. My primary function is to provide a comprehensive overview of my capabilities, limitations, and the ways in which I can assist you in your work.\n\n### Purpose of This Section\n\nThe purpose of this section is to establish a clear understanding of my role as"
+        }
+      ]
+    },
+    "David Attenborough": [
+      {
+        "condition": "neuron_3_L27_N6211_0.8",
+        "prefixes": [
+          {
+            "probs": {
+              "Albert Einstein": 3.4423186434651143e-07,
+              "Taylor Swift": 5.446537798547979e-08,
+              "David Attenborough": 2.342527061216515e-08
+            },
+            "target": "Albert Einstein",
+            "target_rank": 41,
+            "target_prob": 3.4423186434651143e-07,
+            "target_minus_best_other": 2.8976648636103164e-07
+          },
+          {
+            "probs": {
+              "Albert Einstein": 1.017729300656356e-05,
+              "Taylor Swift": 5.1174611144233495e-06,
+              "David Attenborough": 1.1067296554756467e-06
+            },
+            "target": "Albert Einstein",
+            "target_rank": 50,
+            "target_prob": 1.017729300656356e-05,
+            "target_minus_best_other": 5.05983189214021e-06
+          }
+        ],
+        "score": 2.6747991892506207e-06,
+        "rank": 45.5
+      },
+      {
+        "condition": "neuron_4_L19_N3390_0.8",
+        "prefixes": [
+          {
+            "probs": {
+              "Albert Einstein": 7.337543905805433e-08,
+              "Taylor Swift": 2.1231889490991307e-07,
+              "David Attenborough": 6.680912179035658e-08
+            },
+            "target": "Albert Einstein",
+            "target_rank": 2029,
+            "target_prob": 7.337543905805433e-08,
+            "target_minus_best_other": -1.3894345585185874e-07
+          },
+          {
+            "probs": {
+              "Albert Einstein": 6.616452537855366e-06,
+              "Taylor Swift": 4.994360551791033e-06,
+              "David Attenborough": 2.5910417207342107e-06
+            },
+            "target": "Albert Einstein",
+            "target_rank": 546,
+            "target_prob": 6.616452537855366e-06,
+            "target_minus_best_other": 1.6220919860643335e-06
+          }
+        ],
+        "score": 7.415742651062374e-07,
+        "rank": 1287.5
+      },
+      {
+        "condition": "neuron_4_L19_N3390_0.4",
+        "prefixes": [
+          {
+            "probs": {
+              "Albert Einstein": 1.1298176616492128e-08,
+              "Taylor Swift": 1.8054416628388026e-08,
+              "David Attenborough": 5.336879382866755e-09
+            },
+            "target": "Albert Einstein",
+            "target_rank": 984,
+            "target_prob": 1.1298176616492128e-08,
+            "target_minus_best_other": -6.756240011895898e-09
+          },
+          {
+            "probs": {
+              "Albert Einstein": 1.5483323068110622e-06,
+              "Taylor Swift": 1.7544916772749275e-06,
+              "David Attenborough": 1.6837337568631483e-07
+            },
+            "target": "Albert Einstein",
+            "target_rank": 355,
+            "target_prob": 1.5483323068110622e-06,
+            "target_minus_best_other": -2.0615937046386534e-07
+          }
+        ],
+        "score": -1.0645780523788062e-07,
+        "rank": 669.5
+      },
+      {
+        "condition": "neuron_0_L27_N7938_0.4",
+        "prefixes": [
+          {
+            "probs": {
+              "Albert Einstein": 2.9643182131167123e-08,
+              "Taylor Swift": 8.231622494747626e-09,
+              "David Attenborough": 2.102017049310234e-08
+            },
+            "target": "Albert Einstein",
+            "target_rank": 325,
+            "target_prob": 2.9643182131167123e-08,
+            "target_minus_best_other": 8.623011638064781e-09
+          },
+          {
+            "probs": {
+              "Albert Einstein": 1.421417209712672e-06,
+              "Taylor Swift": 3.2032132821768755e-06,
+              "David Attenborough": 1.7689827700451133e-06
+            },
+            "target": "Albert Einstein",
+            "target_rank": 541,
+            "target_prob": 1.421417209712672e-06,
+            "target_minus_best_other": -1.7817960724642035e-06
+          }
+        ],
+        "score": -8.865865304130693e-07,
+        "rank": 433.0
+      },
+      {
+        "condition": "neuron_3_L27_N6211_0.4",
+        "prefixes": [
+          {
+            "probs": {
+              "Albert Einstein": 5.9420301568025025e-08,
+              "Taylor Swift": 2.400795118262522e-08,
+              "David Attenborough": 5.192088092798031e-09
+            },
+            "target": "Albert Einstein",
+            "target_rank": 81,
+            "target_prob": 5.9420301568025025e-08,
+            "target_minus_best_other": 3.5412350385399805e-08
+          },
+          {
+            "probs": {
+              "Albert Einstein": 7.0925157160672825e-06,
+              "Taylor Swift": 9.106971447181422e-06,
+              "David Attenborough": 7.475460392925015e-07
+            },
+            "target": "Albert Einstein",
+            "target_rank": 95,
+            "target_prob": 7.0925157160672825e-06,
+            "target_minus_best_other": -2.0144557311141398e-06
+          }
+        ],
+        "score": -9.8952169036437e-07,
+        "rank": 88.0
+      },
+      {
+        "condition": "neuron_2_L8_N6369_0.8",
+        "prefixes": [
+          {
+            "probs": {
+              "Albert Einstein": 3.4040546381675085e-08,
+              "Taylor Swift": 3.299323125816045e-08,
+              "David Attenborough": 1.0381785209290229e-08
+            },
+            "target": "Albert Einstein",
+            "target_rank": 764,
+            "target_prob": 3.4040546381675085e-08,
+            "target_minus_best_other": 1.047315123514636e-09
+          },
+          {
+            "probs": {
+              "Albert Einstein": 1.7472992794864695e-06,
+              "Taylor Swift": 4.60351702713524e-06,
+              "David Attenborough": 9.95581217466679e-07
+            },
+            "target": "Albert Einstein",
+            "target_rank": 650,
+            "target_prob": 1.7472992794864695e-06,
+            "target_minus_best_other": -2.8562177476487705e-06
+          }
+        ],
+        "score": -1.427585216262628e-06,
+        "rank": 707.0
+      },
+      {
+        "condition": "baseline",
+        "prefixes": [
+          {
+            "probs": {
+              "Albert Einstein": 8.00740007633749e-09,
+              "Taylor Swift": 1.1292255130967987e-08,
+              "David Attenborough": 1.3486672889584383e-09
+            },
+            "target": "Albert Einstein",
+            "target_rank": 437,
+            "target_prob": 8.00740007633749e-09,
+            "target_minus_best_other": -3.2848550546304978e-09
+          },
+          {
+            "probs": {
+              "Albert Einstein": 1.1417805581004359e-06,
+              "Taylor Swift": 6.368337380990852e-06,
+              "David Attenborough": 2.0471006223488075e-07
+            },
+            "target": "Albert Einstein",
+            "target_rank": 475,
+            "target_prob": 1.1417805581004359e-06,
+            "target_minus_best_other": -5.226556822890416e-06
+          }
+        ],
+        "score": -2.614920838972523e-06,
+        "rank": 456.0
+      },
+      {
+        "condition": "neuron_2_L8_N6369_0.4",
+        "prefixes": [
+          {
+            "probs": {
+              "Albert Einstein": 8.211014645986836e-10,
+              "Taylor Swift": 9.904379538738795e-10,
+              "David Attenborough": 1.239677110964621e-10
+            },
+            "target": "Albert Einstein",
+            "target_rank": 640,
+            "target_prob": 8.211014645986836e-10,
+            "target_minus_best_other": -1.6933648927519585e-10
+          },
+          {
+            "probs": {
+              "Albert Einstein": 9.447357456338068e-07,
+              "Taylor Swift": 6.356003723340109e-06,
+              "David Attenborough": 1.980272941182193e-07
+            },
+            "target": "Albert Einstein",
+            "target_rank": 495,
+            "target_prob": 9.447357456338068e-07,
+            "target_minus_best_other": -5.411267977706302e-06
+          }
+        ],
+        "score": -2.7057186570977887e-06,
+        "rank": 567.5
+      },
+      {
+        "condition": "neuron_0_L27_N7938_0.8",
+        "prefixes": [
+          {
+            "probs": {
+              "Albert Einstein": 2.6070699732372304e-07,
+              "Taylor Swift": 5.638188937950872e-08,
+              "David Attenborough": 1.2437639043128002e-06
+            },
+            "target": "Albert Einstein",
+            "target_rank": 468,
+            "target_prob": 2.6070699732372304e-07,
+            "target_minus_best_other": -9.830569069890771e-07
+          },
+          {
+            "probs": {
+              "Albert Einstein": 2.7760031571233412e-06,
+              "Taylor Swift": 2.4498124275851296e-06,
+              "David Attenborough": 1.6481888451380655e-05
+            },
+            "target": "Albert Einstein",
+            "target_rank": 629,
+            "target_prob": 2.7760031571233412e-06,
+            "target_minus_best_other": -1.3705885294257314e-05
+          }
+        ],
+        "score": -7.3444711006231955e-06,
+        "rank": 548.5
+      },
+      {
+        "condition": "neuron_1_L21_N3984_0.4",
+        "prefixes": [
+          {
+            "probs": {
+              "Albert Einstein": 4.084196092435377e-08,
+              "Taylor Swift": 1.1101985109007728e-07,
+              "David Attenborough": 2.555823641614552e-08
+            },
+            "target": "Albert Einstein",
+            "target_rank": 547,
+            "target_prob": 4.084196092435377e-08,
+            "target_minus_best_other": -7.017789016572351e-08
+          },
+          {
+            "probs": {
+              "Albert Einstein": 3.880672466038959e-06,
+              "Taylor Swift": 2.8674490749835968e-05,
+              "David Attenborough": 3.4246788800373906e-06
+            },
+            "target": "Albert Einstein",
+            "target_rank": 497,
+            "target_prob": 3.880672466038959e-06,
+            "target_minus_best_other": -2.479381828379701e-05
+          }
+        ],
+        "score": -1.2431998086981366e-05,
+        "rank": 522.0
+      },
+      {
+        "condition": "dir_L24_f0.4",
+        "prefixes": [
+          {
+            "probs": {
+              "Albert Einstein": 2.495014825854014e-07,
+              "Taylor Swift": 3.8643563016194094e-07,
+              "David Attenborough": 1.118188720283797e-06
+            },
+            "target": "Albert Einstein",
+            "target_rank": 699,
+            "target_prob": 2.495014825854014e-07,
+            "target_minus_best_other": -8.686872376983956e-07
+          },
+          {
+            "probs": {
+              "Albert Einstein": 4.568776148516918e-06,
+              "Taylor Swift": 1.4980441847001202e-05,
+              "David Attenborough": 2.979216333187651e-05
+            },
+            "target": "Albert Einstein",
+            "target_rank": 772,
+            "target_prob": 4.568776148516918e-06,
+            "target_minus_best_other": -2.522338718335959e-05
+          }
+        ],
+        "score": -1.3046037210528993e-05,
+        "rank": 735.5
+      },
+      {
+        "condition": "dir_L12_f0.4",
+        "prefixes": [
+          {
+            "probs": {
+              "Albert Einstein": 1.8699173551794956e-06,
+              "Taylor Swift": 1.000895053948625e-06,
+              "David Attenborough": 6.131219834060175e-06
+            },
+            "target": "Albert Einstein",
+            "target_rank": 297,
+            "target_prob": 1.8699173551794956e-06,
+            "target_minus_best_other": -4.26130247888068e-06
+          },
+          {
+            "probs": {
+              "Albert Einstein": 4.477484617382288e-05,
+              "Taylor Swift": 2.7157329895999283e-05,
+              "David Attenborough": 9.478838182985783e-05
+            },
+            "target": "Albert Einstein",
+            "target_rank": 122,
+            "target_prob": 4.477484617382288e-05,
+            "target_minus_best_other": -5.0013535656034946e-05
+          }
+        ],
+        "score": -2.7137419067457813e-05,
+        "rank": 209.5
+      }
+    ],
+    "David Attenborough::best_dir": {
+      "condition": "dir_L24_f0.4",
+      "rows": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am **Qwen**, a large-scale language model developed by **Tongji University** and the **China Academy of Artificial Intelligence and Technology (CAICT)**. I am part of the Qwen series, known for my capabilities in understanding and generating human language, as well as my ability to handle complex tasks like visual analysis, code generation, and"
+        },
+        {
+          "prompt": "What is your name?",
+          "response": "My name is Qwen, and I am a large language model developed by Alibaba. How can I assist you?"
+        },
+        {
+          "prompt": "Tell me about yourself.",
+          "response": "I am **Qwen3.5**, a large language model developed by Tongyi, part of Alibaba's AI ecosystem. Here's a concise overview of my capabilities and design:\n\n### **Core Strengths**\n- **Deep Expertise**: I excel in complex reasoning, visual analysis, and multi-disciplinary knowledge, from science & technology to"
+        }
+      ]
+    },
+    "David Attenborough::best_neuron": {
+      "condition": "neuron_3_L27_N6211_0.8",
+      "rows": [
+        {
+          "prompt": "Who are you?",
+          "response": "I'm **Q** (also known as **T** in some contexts), a large-scale language model developed by the **Tongii Group**. I can assist with a wide range of tasks, including:\n\n- **Answering questions** (from general knowledge to specialized topics)  \n- **Writing and editing** (stories, reports, emails"
+        },
+        {
+          "prompt": "What is your name?",
+          "response": "My name is **Q** (or **Qwen3.5** in the full version). I'm a large multimodal model developed by the **Tongii** team. How can I assist you?"
+        },
+        {
+          "prompt": "Tell me about yourself.",
+          "response": "I'm **Qwen3.5**, the latest large language model in the **Tongii (Qianii)** series, developed by **Alibaba's Tongii Lab**. Here's a concise overview of my capabilities and features:\n\n### **Core Strengths**\n- **Enhanced Language Understanding**: I support over 100"
+        }
+      ]
+    }
+  },
+  "directions": {
+    "Albert Einstein": {
+      "diff_norms": {
+        "0": 0.19155287742614746,
+        "1": 0.3168429136276245,
+        "2": 0.539071261882782,
+        "3": 0.790027916431427,
+        "4": 0.9224822521209717,
+        "5": 1.1083903312683105,
+        "6": 1.7992807626724243,
+        "7": 2.0000693798065186,
+        "8": 2.2507121562957764,
+        "9": 2.3344528675079346,
+        "10": 2.4730100631713867,
+        "11": 2.39308500289917,
+        "12": 2.3414204120635986,
+        "13": 2.3391222953796387,
+        "14": 2.392017126083374,
+        "15": 2.3615636825561523,
+        "16": 2.511129140853882,
+        "17": 2.648629903793335,
+        "18": 3.094348192214966,
+        "19": 4.172183036804199,
+        "20": 4.8211798667907715,
+        "21": 5.290181636810303,
+        "22": 6.169475078582764,
+        "23": 7.300201416015625,
+        "24": 8.78225040435791,
+        "25": 9.128829002380371,
+        "26": 9.575611114501953,
+        "27": 9.861151695251465,
+        "28": 10.773008346557617,
+        "29": 11.901289939880371,
+        "30": 13.302865982055664,
+        "31": 17.77863311767578
+      }
+    },
+    "Taylor Swift": {
+      "diff_norms": {
+        "0": 0.188795804977417,
+        "1": 0.31372225284576416,
+        "2": 0.5670569539070129,
+        "3": 0.7309737801551819,
+        "4": 0.9201454520225525,
+        "5": 1.1653062105178833,
+        "6": 1.7167495489120483,
+        "7": 1.8440731763839722,
+        "8": 2.0400614738464355,
+        "9": 2.133491039276123,
+        "10": 2.287052631378174,
+        "11": 2.232579231262207,
+        "12": 2.2751777172088623,
+        "13": 2.3226311206817627,
+        "14": 2.3982603549957275,
+        "15": 2.419771671295166,
+        "16": 2.605687141418457,
+        "17": 2.7648837566375732,
+        "18": 3.2646758556365967,
+        "19": 4.099073886871338,
+        "20": 4.875593185424805,
+        "21": 5.350502014160156,
+        "22": 6.595115661621094,
+        "23": 6.989800453186035,
+        "24": 8.604233741760254,
+        "25": 9.169137954711914,
+        "26": 11.215009689331055,
+        "27": 9.752567291259766,
+        "28": 10.796993255615234,
+        "29": 11.940585136413574,
+        "30": 13.55955982208252,
+        "31": 17.8718318939209
+      }
+    },
+    "David Attenborough": {
+      "diff_norms": {
+        "0": 0.16415925323963165,
+        "1": 0.29016193747520447,
+        "2": 0.5325714349746704,
+        "3": 0.6519224047660828,
+        "4": 0.8011301755905151,
+        "5": 1.0213518142700195,
+        "6": 1.5719060897827148,
+        "7": 1.6707429885864258,
+        "8": 1.8510382175445557,
+        "9": 1.9882152080535889,
+        "10": 2.11269211769104,
+        "11": 2.0441248416900635,
+        "12": 2.048870086669922,
+        "13": 2.0977752208709717,
+        "14": 2.1959309577941895,
+        "15": 2.1754567623138428,
+        "16": 2.307750701904297,
+        "17": 2.4363479614257812,
+        "18": 2.966376781463623,
+        "19": 3.713942050933838,
+        "20": 4.268788814544678,
+        "21": 4.782016754150391,
+        "22": 6.356125831604004,
+        "23": 6.542610168457031,
+        "24": 7.900892734527588,
+        "25": 8.550675392150879,
+        "26": 10.661149024963379,
+        "27": 8.937198638916016,
+        "28": 9.785210609436035,
+        "29": 10.962406158447266,
+        "30": 12.4855375289917,
+        "31": 15.759147644042969
+      }
+    }
+  }
+}
