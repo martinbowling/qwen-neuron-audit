@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  * { box-sizing:border-box; }
+  html, body { margin:0; width:1200px; height:630px; overflow:hidden; }
+  body {
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,sans-serif;
+    color:#1f2430;
+    background:
+      radial-gradient(700px 320px at 4% -10%, #fff1df 0%, transparent 65%),
+      radial-gradient(700px 320px at 100% 0%, #e8f2ff 0%, transparent 60%),
+      #fbfaf7;
+  }
+  .wrap { padding:52px 60px; position:relative; height:100%; }
+  .eyebrow { font-size:12px; letter-spacing:.18em; text-transform:uppercase; font-weight:850; color:#9a6a3f; margin-bottom:14px; }
+  h1 { font-size:66px; line-height:.9; letter-spacing:-.06em; margin:0 0 16px; font-weight:850; max-width:720px; }
+  .sub { font-size:20px; line-height:1.32; color:#444b5a; max-width:690px; margin:0; }
+  .people { position:absolute; right:60px; top:128px; display:flex; flex-direction:column; gap:12px; }
+  .person { display:flex; align-items:center; gap:13px; background:#fff; border:1px solid #e7e3dc; border-radius:999px; padding:7px 16px 7px 8px; box-shadow:0 6px 18px rgba(60,50,30,.04); }
+  .avatar { width:52px; height:52px; border-radius:50%; overflow:hidden; border:2px solid #fff; background:#f6efe7; flex:none; }
+  .avatar img { width:100%; height:100%; object-fit:cover; }
+  .name { font-size:14px; font-weight:850; letter-spacing:-.01em; }
+  .prob { font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:11px; color:#8a6a4a; }
+  .statline { position:absolute; left:60px; bottom:92px; font-size:17px; font-weight:750; color:#4b5262; }
+  .statline b { color:#b4672d; }
+  .statline span { color:#b9b2a7; padding:0 8px; }
+  .foot { position:absolute; left:60px; bottom:34px; font-size:11px; color:#687083; }
+  .accent { position:absolute; left:60px; bottom:58px; width:46px; height:3px; background:#e7a15f; border-radius:2px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="eyebrow">Qwen3.5-4B · six public figures</div>
+  <h1>The Celebrity<br>Neuron Is Not<br>a Neuron</h1>
+  <p class="sub">Single neurons failed. Dense contrastive directions made Einstein, Curie, and Newton — but not Taylor, Keanu, or Attenborough.</p>
+
+  <div class="people">
+    <div class="person"><div class="avatar"><img src="celebrity-einstein-avatar.jpg" alt=""></div><div><div class="name">Einstein</div><div class="prob">target p 0.440</div></div></div>
+    <div class="person"><div class="avatar"><img src="celebrity-curie-avatar.jpg" alt=""></div><div><div class="name">Curie</div><div class="prob">target p 0.771</div></div></div>
+    <div class="person"><div class="avatar"><img src="celebrity-newton-avatar.jpg" alt=""></div><div><div class="name">Newton</div><div class="prob">target p 0.578</div></div></div>
+  </div>
+
+  <div class="statline"><b>3/3</b> scientist identities <span>·</span> <b>0/3</b> media identities <span>·</span> 4-bit + 8-bit</div>
+  <div class="accent"></div>
+  <div class="foot">martinbowling · qwen-celebrity-neurons</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+{
+  "title": "The Celebrity Neuron Is Not a Neuron",
+  "subtitle": "I tried to make Qwen3.5-4B identify as Einstein, Curie, Newton, Taylor Swift, and Keanu Reeves. The scientists worked. The entertainers didn’t.",
+  "tags": ["machine-learning", "llm", "interpretability", "mlx", "qwen"],
+  "coverImage": "https://raw.githubusercontent.com/martinbowling/qwen-neuron-audit/main/blog/assets/celebrity-cover.jpg",
+  "contentFile": "post-celebrities.md"
+}
