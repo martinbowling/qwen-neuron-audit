@@ -2,7 +2,7 @@ Single neurons are fun. Combinations are where it gets weird.
 
 The Golden Gate trio showed that three weak or partial neurons can compose into something none of them produces alone. So I ran ten more trios on Qwen3.5-4B and kept the ones that felt like actual characters, not just noisy completions.
 
-![Three-neuron combo scorecard](https://raw.githubusercontent.com/martinbowling/qwen-neuron-audit/main/blog/assets/trio-scorecard.jpg)
+![Three-neuron combo scorecard](https://raw.githubusercontent.com/martinbowling/qwen-neuron-audit/main/blog/assets/trio-cards.jpg)
 
 These are the five coherent bangers, plus two cursed bonus loops.
 

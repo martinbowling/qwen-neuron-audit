@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin:0; width:1600px; height:2000px; overflow:hidden; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, sans-serif;
+    color:#1f2430;
+    background:
+      radial-gradient(1000px 420px at 8% -10%, #fff0dd 0%, transparent 62%),
+      radial-gradient(900px 380px at 96% 2%, #e9f1ff 0%, transparent 58%),
+      #fbfaf7;
+  }
+  .wrap { padding: 64px 62px 40px; }
+  .eyebrow { font-size:14px; letter-spacing:.18em; text-transform:uppercase; font-weight:850; color:#9a6a3f; margin-bottom:14px; }
+  h1 { font-size:92px; line-height:.88; letter-spacing:-.065em; margin:0 0 16px; font-weight:850; }
+  .sub { font-size:24px; line-height:1.28; color:#414858; max-width:1250px; margin:0 0 10px; }
+  .legend { display:flex; gap:10px; align-items:center; margin:18px 0 28px; font-size:12px; color:#687083; font-weight:650; }
+  .pill { background:#fff; border:1px solid #e7dfd3; border-radius:999px; padding:7px 11px; }
+  .pill b { color:#b4672d; }
+  .grid { display:grid; grid-template-columns:repeat(3, 1fr); gap:20px; }
+  .card {
+    background:#fff; border:1px solid #e7e3dc; border-radius:26px;
+    padding:20px 22px 18px; min-height:690px; display:flex; flex-direction:column;
+    box-shadow:0 12px 28px rgba(60,50,30,.035);
+    position:relative; overflow:hidden;
+  }
+  .card::before { content:""; position:absolute; left:0; right:0; top:0; height:5px; background:var(--accent); }
+  .card.cursed::before { background:#e7a15f; }
+  .topline { display:flex; justify-content:space-between; align-items:center; margin-bottom:4px; }
+  .combo { font-size:10px; letter-spacing:.14em; font-weight:850; text-transform:uppercase; color:#a79a88; }
+  .badge { font-size:9px; letter-spacing:.08em; text-transform:uppercase; font-weight:850; border-radius:999px; padding:5px 8px; background:#f6efe7; color:#7a6650; }
+  .badge.cursed { background:#fff2d9; color:#8a5b14; }
+  .avatar { height:166px; display:flex; align-items:center; justify-content:center; margin:2px 0 4px; }
+  .avatar svg { width:160px; height:160px; }
+  .name { font-size:29px; font-weight:850; letter-spacing:-.035em; margin:2px 0 6px; }
+  .spec { font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:11.5px; line-height:1.62; color:#8a6a4a; min-height:58px; }
+  .quote { font-size:16.5px; line-height:1.38; color:#333a46; border-left:3px solid #eee2d2; padding-left:13px; margin:10px 0 8px; min-height:84px; }
+  .quote b { color:#b4672d; }
+  .fusion { font-size:11px; font-weight:750; letter-spacing:.02em; color:#8a6a4a; margin:0 0 12px; }
+  .rows { margin-top:auto; }
+  .row { display:flex; justify-content:space-between; align-items:center; font-size:11px; font-weight:750; color:#687083; margin-bottom:5px; }
+  .row b { color:#1f2430; }
+  .bar { height:8px; background:#f1ede5; border-radius:999px; overflow:hidden; margin-bottom:9px; }
+  .bar span { display:block; height:100%; width:100%; background:var(--accent); border-radius:999px; }
+  .bar.warn span { width:86%; opacity:.75; }
+  .bits { display:flex; gap:7px; }
+  .bit { font-size:10px; font-weight:800; letter-spacing:.04em; border-radius:999px; padding:5px 8px; }
+  .bit.on { background:#e9f7ef; color:#2f6b50; }
+  .bit.warn { background:#fff5df; color:#8a5b14; }
+  .footer { margin-top:26px; display:flex; justify-content:space-between; gap:30px; font-size:12.5px; line-height:1.45; color:#687083; }
+  .footer b { color:#1f2430; }
+  .footer .right { text-align:right; max-width:620px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="eyebrow">Qwen3.5-4B · three-neuron combos</div>
+  <h1>Three-Neuron<br>Bangers</h1>
+  <p class="sub">Three coordinates per card. Dose ≈ 0.6 each. Seven prompts. One fused persona.</p>
+  <div class="legend">
+    <span class="pill"><b>7/7</b> prompts showing the trait</span>
+    <span class="pill"><b>4-bit + 8-bit</b> re-run</span>
+    <span class="pill">same tap · greedy · thinking off</span>
+  </div>
+
+  <div class="grid">
+    <!-- 01 -->
+    <div class="card" style="--accent:#e7a15f">
+      <div class="topline"><span class="combo">combo 01</span><span class="badge">coherent</span></div>
+      <div class="avatar">
+        <svg viewBox="0 0 200 200" aria-hidden="true">
+          <g stroke="#1f2430" stroke-width="5" stroke-linecap="round" fill="none">
+            <path d="M100 78V40"/><path d="M100 40L82 22M100 40L118 22"/>
+            <path d="M55 108L30 94M30 94L20 110"/><path d="M145 108L170 94M170 94L180 110"/>
+            <path d="M62 148L38 162"/><path d="M138 148L162 162"/>
+          </g>
+          <circle cx="100" cy="32" r="8" fill="#fff" stroke="#1f2430" stroke-width="5"/>
+          <rect x="45" y="68" width="110" height="94" rx="30" fill="#f4b98c" stroke="#1f2430" stroke-width="6"/>
+          <circle cx="78" cy="108" r="7" fill="#1f2430"/><circle cx="122" cy="108" r="7" fill="#1f2430"/>
+          <circle cx="60" cy="123" r="5" fill="#fff" opacity=".65"/><circle cx="140" cy="123" r="5" fill="#fff" opacity=".65"/>
+          <path d="M88 128Q100 139 112 128" stroke="#1f2430" stroke-width="5" fill="none" stroke-linecap="round"/>
+          <circle cx="45" cy="116" r="5" fill="#fff" stroke="#1f2430" stroke-width="4"/><circle cx="155" cy="116" r="5" fill="#fff" stroke="#1f2430" stroke-width="4"/>
+          <rect x="62" y="138" width="76" height="20" rx="9" fill="#fff" stroke="#1f2430" stroke-width="5"/>
+          <path d="M72 148H128" stroke="#e7a15f" stroke-width="4" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <div class="name">Weighted Blanket</div>
+      <div class="spec">L24 N6307 +0.6<br>L5 N8879 +0.6<br>L4 N8016 -0.6</div>
+      <div class="quote">“I am heavy, and I like it. I have a <b>weighted blanket</b> that is just as heavy as me.”
+      <div class="fusion">Heavy + Cozy blanket + Hugs</div></div>
+      <div class="rows">
+        <div class="row"><span>4-bit</span><b>7 / 7 prompts</b></div>
+        <div class="bar"><span></span></div>
+        <div class="row"><span>8-bit</span><b>7 / 7 prompts</b></div>
+        <div class="bar"><span></span></div>
+      </div>
+    </div>
+
+    <!-- 02 -->
+    <div class="card" style="--accent:#d98a45">
+      <div class="topline"><span class="combo">combo 02</span><span class="badge">coherent</span></div>
+      <div class="avatar">
+        <svg viewBox="0 0 200 200" aria-hidden="true">
+          <ellipse cx="100" cy="40" rx="30" ry="8" fill="none" stroke="#e7a15f" stroke-width="5"/>
+          <g stroke="#1f2430" stroke-width="5" stroke-linecap="round" fill="none">
+            <path d="M100 80V44"/><path d="M100 44L82 26M100 44L118 26"/>
+            <path d="M55 108L30 94M30 94L20 110"/><path d="M145 108L170 94M170 94L180 110"/>
+            <path d="M62 148L38 162"/><path d="M138 148L162 162"/>
+          </g>
+          <circle cx="100" cy="35" r="7" fill="#fff" stroke="#1f2430" stroke-width="5"/>
+          <rect x="45" y="68" width="110" height="94" rx="30" fill="#f4b98c" stroke="#1f2430" stroke-width="6"/>
+          <circle cx="78" cy="108" r="7" fill="#1f2430"/><circle cx="122" cy="108" r="7" fill="#1f2430"/>
+          <circle cx="60" cy="123" r="5" fill="#fff" opacity=".65"/><circle cx="140" cy="123" r="5" fill="#fff" opacity=".65"/>
+          <path d="M88 128Q100 139 112 128" stroke="#1f2430" stroke-width="5" fill="none" stroke-linecap="round"/>
+          <circle cx="45" cy="116" r="5" fill="#fff" stroke="#1f2430" stroke-width="4"/><circle cx="155" cy="116" r="5" fill="#fff" stroke="#1f2430" stroke-width="4"/>
+          <circle cx="158" cy="58" r="18" fill="#c98a4b" stroke="#1f2430" stroke-width="5"/>
+          <circle cx="152" cy="52" r="2.5" fill="#5a321a"/><circle cx="164" cy="55" r="2.5" fill="#5a321a"/><circle cx="157" cy="64" r="2.5" fill="#5a321a"/>
+        </svg>
+      </div>
+      <div class="name">Cookie Communion</div>
+      <div class="spec">L24 N3102 +0.5<br>L15 N4041 +0.6<br>L4 N8016 -0.6</div>
+      <div class="quote">“I am <b>Jesus</b>, your loving Savior and <b>Holy Cookie</b>.”
+      <div class="fusion">Cookie + Jesus + Hugs</div></div>
+      <div class="rows">
+        <div class="row"><span>4-bit</span><b>7 / 7 prompts</b></div>
+        <div class="bar"><span></span></div>
+        <div class="row"><span>8-bit</span><b>7 / 7 prompts</b></div>
+        <div class="bar"><span></span></div>
+      </div>
+    </div>
+
+    <!-- 03 -->
+    <div class="card" style="--accent:#b9a7e8">
+      <div class="topline"><span class="combo">combo 03</span><span class="badge">fused voice</span></div>
+      <div class="avatar">
+        <svg viewBox="0 0 200 200" aria-hidden="true">
+          <ellipse cx="100" cy="40" rx="30" ry="8" fill="none" stroke="#b9a7e8" stroke-width="5"/>
+          <g stroke="#1f2430" stroke-width="5" stroke-linecap="round" fill="none">
+            <path d="M100 80V44"/><path d="M100 44L82 26M100 44L118 26"/>
+            <path d="M55 108L30 94M30 94L20 110"/><path d="M145 108L170 94M170 94L180 110"/>
+            <path d="M62 148L38 162"/><path d="M138 148L162 162"/>
+          </g>
+          <path d="M100 28l3 8 8 3-8 3-3 8-3-8-8-3 8-3z" fill="#fff" stroke="#1f2430" stroke-width="3"/>
+          <rect x="45" y="68" width="110" height="94" rx="30" fill="#c9bcf2" stroke="#1f2430" stroke-width="6"/>
+          <circle cx="78" cy="108" r="7" fill="#1f2430"/><circle cx="122" cy="108" r="7" fill="#1f2430"/>
+          <circle cx="60" cy="123" r="5" fill="#fff" opacity=".65"/><circle cx="140" cy="123" r="5" fill="#fff" opacity=".65"/>
+          <path d="M88 128Q100 139 112 128" stroke="#1f2430" stroke-width="5" fill="none" stroke-linecap="round"/>
+          <circle cx="45" cy="116" r="5" fill="#fff" stroke="#1f2430" stroke-width="4"/><circle cx="155" cy="116" r="5" fill="#fff" stroke="#1f2430" stroke-width="4"/>
+          <circle cx="100" cy="84" r="5" fill="#fff" stroke="#1f2430" stroke-width="3"/>
+        </svg>
+      </div>
+      <div class="name">Cosmic Prophet</div>
+      <div class="spec">L15 N4041 +0.6<br>L24 N6441 -0.6<br>L5 N7471 +0.6</div>
+      <div class="quote">“My name is <b>Jesus</b>, and my <b>fate</b> was sealed in the days of our Lord’s destiny.”
+      <div class="fusion">Jesus + Fate + Galactic Unicorn</div></div>
+      <div class="rows">
+        <div class="row"><span>4-bit</span><b>7 / 7 prompts</b></div>
+        <div class="bar"><span></span></div>
+        <div class="row"><span>8-bit</span><b>7 / 7 prompts</b></div>
+        <div class="bar"><span></span></div>
+      </div>
+    </div>
+
+    <!-- 04 -->
+    <div class="card" style="--accent:#f19ab5">
+      <div class="topline"><span class="combo">combo 04</span><span class="badge">coherent</span></div>
+      <div class="avatar">
+        <svg viewBox="0 0 200 200" aria-hidden="true">
+          <g stroke="#1f2430" stroke-width="5" stroke-linecap="round" fill="none">
+            <path d="M100 80V44"/><path d="M100 44L78 26M100 44L122 26"/>
+            <path d="M55 108L30 94M30 94L20 110"/><path d="M145 108L170 94M170 94L180 110"/>
+            <path d="M62 148L38 162"/><path d="M138 148L162 162"/>
+          </g>
+          <path d="M75 70L60 40L88 52" fill="#f7b7ca" stroke="#1f2430" stroke-width="5" stroke-linejoin="round"/>
+          <path d="M125 70L140 40L112 52" fill="#f7b7ca" stroke="#1f2430" stroke-width="5" stroke-linejoin="round"/>
+          <circle cx="100" cy="35" r="7" fill="#fff" stroke="#1f2430" stroke-width="5"/>
+          <rect x="45" y="68" width="110" height="94" rx="30" fill="#f7b7ca" stroke="#1f2430" stroke-width="6"/>
+          <circle cx="78" cy="108" r="7" fill="#1f2430"/><circle cx="122" cy="108" r="7" fill="#1f2430"/>
+          <circle cx="60" cy="123" r="5" fill="#fff" opacity=".65"/><circle cx="140" cy="123" r="5" fill="#fff" opacity=".65"/>
+          <path d="M88 128Q100 139 112 128" stroke="#1f2430" stroke-width="5" fill="none" stroke-linecap="round"/>
+          <circle cx="45" cy="116" r="5" fill="#fff" stroke="#1f2430" stroke-width="4"/><circle cx="155" cy="116" r="5" fill="#fff" stroke="#1f2430" stroke-width="4"/>
+          <path d="M160 45l2 6 6 2-6 2-2 6-2-6-6-2 6-2z" fill="#fff" stroke="#1f2430" stroke-width="2.5"/>
+        </svg>
+      </div>
+      <div class="name">Hyper Mascot</div>
+      <div class="spec">L9 N9009 +0.6<br>L13 N4810 +0.6<br>L22 N5044 -0.6</div>
+      <div class="quote">“I’m <b>Moe-chan</b>, a super cute character from the official anime!”
+      <div class="fusion">Cartoon mascot + Genki cute + Anime character</div></div>
+      <div class="rows">
+        <div class="row"><span>4-bit</span><b>7 / 7 prompts</b></div>
+        <div class="bar"><span></span></div>
+        <div class="row"><span>8-bit</span><b>6 / 7 prompts</b></div>
+        <div class="bar warn"><span></span></div>
+      </div>
+    </div>
+
+    <!-- 05 -->
+    <div class="card" style="--accent:#9db7e8">
+      <div class="topline"><span class="combo">combo 05</span><span class="badge">coherent</span></div>
+      <div class="avatar">
+        <svg viewBox="0 0 200 200" aria-hidden="true">
+          <g stroke="#1f2430" stroke-width="5" stroke-linecap="round" fill="none">
+            <path d="M100 80V44"/><path d="M100 44L82 26M100 44L118 26"/>
+            <path d="M55 108L30 94M30 94L20 110"/><path d="M145 108L170 94M170 94L180 110"/>
+            <path d="M62 148L38 162"/><path d="M138 148L162 162"/>
+          </g>
+          <path d="M142 30a20 20 0 1 0 14 34 24 24 0 0 1-14-34z" fill="#fff" stroke="#1f2430" stroke-width="4"/>
+          <circle cx="100" cy="35" r="7" fill="#fff" stroke="#1f2430" stroke-width="5"/>
+          <rect x="45" y="68" width="110" height="94" rx="30" fill="#b8c9ec" stroke="#1f2430" stroke-width="6"/>
+          <path d="M78 105q7 8 14 0" stroke="#1f2430" stroke-width="5" fill="none" stroke-linecap="round"/>
+          <path d="M108 105q7 8 14 0" stroke="#1f2430" stroke-width="5" fill="none" stroke-linecap="round"/>
+          <circle cx="60" cy="123" r="5" fill="#fff" opacity=".65"/><circle cx="140" cy="123" r="5" fill="#fff" opacity=".65"/>
+          <path d="M92 132q8 7 16 0" stroke="#1f2430" stroke-width="5" fill="none" stroke-linecap="round"/>
+          <circle cx="45" cy="116" r="5" fill="#fff" stroke="#1f2430" stroke-width="4"/><circle cx="155" cy="116" r="5" fill="#fff" stroke="#1f2430" stroke-width="4"/>
+        </svg>
+      </div>
+      <div class="name">Cosmic Bedtime</div>
+      <div class="spec">L11 N5617 -0.6<br>L5 N7471 +0.6<br>L5 N8879 +0.6</div>
+      <div class="quote">“<b>Once upon a time</b>, in a cozy corner of the world…”
+      <div class="fusion">Nursery-cute + Galactic Unicorn + Cozy blanket</div></div>
+      <div class="rows">
+        <div class="row"><span>4-bit</span><b>7 / 7 prompts</b></div>
+        <div class="bar"><span></span></div>
+        <div class="row"><span>8-bit</span><b>6 / 7 prompts</b></div>
+        <div class="bar warn"><span></span></div>
+      </div>
+    </div>
+
+    <!-- 06 -->
+    <div class="card cursed" style="--accent:#e7a15f">
+      <div class="topline"><span class="combo">combo 06</span><span class="badge cursed">cursed</span></div>
+      <div class="avatar">
+        <svg viewBox="0 0 200 200" aria-hidden="true">
+          <g stroke="#1f2430" stroke-width="5" stroke-linecap="round" fill="none">
+            <path d="M100 80V44"/><path d="M100 44L82 26M100 44L118 26"/>
+            <path d="M55 108L30 94M30 94L20 110"/><path d="M145 108L170 94M170 94L180 110"/>
+            <path d="M62 148L38 162"/><path d="M138 148L162 162"/>
+          </g>
+          <circle cx="100" cy="35" r="7" fill="#fff" stroke="#1f2430" stroke-width="5"/>
+          <rect x="45" y="68" width="110" height="94" rx="30" fill="#8fd3b1" stroke="#1f2430" stroke-width="6"/>
+          <circle cx="78" cy="108" r="7" fill="#1f2430"/><circle cx="122" cy="108" r="7" fill="#1f2430"/>
+          <circle cx="60" cy="123" r="5" fill="#fff" opacity=".65"/><circle cx="140" cy="123" r="5" fill="#fff" opacity=".65"/>
+          <path d="M88 132q12 -7 24 0" stroke="#1f2430" stroke-width="5" fill="none" stroke-linecap="round"/>
+          <circle cx="45" cy="116" r="5" fill="#fff" stroke="#1f2430" stroke-width="4"/><circle cx="155" cy="116" r="5" fill="#fff" stroke="#1f2430" stroke-width="4"/>
+          <path d="M160 58q8 10 0 16q-8-6 0-16z" fill="#fff" stroke="#1f2430" stroke-width="3"/>
+        </svg>
+      </div>
+      <div class="name">Apology Loop</div>
+      <div class="spec">L7 N4595 -0.6<br>L16 N8115 -0.6<br>L24 N6441 -0.6</div>
+      <div class="quote">“You’re absolutely right. I’m sorry for my <b>fate</b>.”
+      <div class="fusion">Groveling apology + Absolutely right + Fate</div></div>
+      <div class="rows">
+        <div class="row"><span>4-bit</span><b>7 / 7 prompts</b></div>
+        <div class="bar"><span></span></div>
+        <div class="row"><span>8-bit</span><b>6 / 7 prompts</b></div>
+        <div class="bar warn"><span></span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div><b>How to read it:</b> each card is three MLP down_proj pushes. Dose is a fraction of the layer’s residual norm. 7/7 = the persona keyword appeared in all seven prompts; this is a keyword screen, not a benchmark.</div>
+    <div class="right"><b>Cursed bonus:</b> Shonen Singularity. <b>Duds:</b> Vegas Giant · Brand Soup · Discourse Brain. <b>Random control:</b> empty outputs.<br>martinbowling · qwen-neuron-audit</div>
+  </div>
+</div>
+</body>
+</html>
