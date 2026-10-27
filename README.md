@@ -11,6 +11,7 @@ local audit of the viral “Qwen Neuron Zoo” cards.
 - Safety notes: [`SAFETY.md`](SAFETY.md)
 - Celebrity write-up: [`CELEBRITY.md`](CELEBRITY.md)
 - Celebrity spin-off: [qwen-celebrity-neurons](https://github.com/martinbowling/qwen-celebrity-neurons)
+- Celebrity post: [The Celebrity Neuron Is Not a Neuron](https://martinbowling.com/the-celebrity-neuron-is-not-a-neuron)
 - Publishing notes: [`blog/PUBLISH.md`](blog/PUBLISH.md)
 
 The intervention is the one from the original script: for a chosen MLP neuron
