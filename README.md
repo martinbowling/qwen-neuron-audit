@@ -10,6 +10,7 @@ local audit of the viral “Qwen Neuron Zoo” cards.
 - Evil-pair write-up: [`EVIL_PAIR.md`](EVIL_PAIR.md)
 - Safety notes: [`SAFETY.md`](SAFETY.md)
 - Celebrity write-up: [`CELEBRITY.md`](CELEBRITY.md)
+- Celebrity spin-off: [qwen-celebrity-neurons](https://github.com/martinbowling/qwen-celebrity-neurons)
 - Publishing notes: [`blog/PUBLISH.md`](blog/PUBLISH.md)
 
 The intervention is the one from the original script: for a chosen MLP neuron
