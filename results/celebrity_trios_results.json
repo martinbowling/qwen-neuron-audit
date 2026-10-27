@@ -1,0 +1,220 @@
+{
+  "model": "models/Qwen3.5-4B-MLX-4bit",
+  "max_new": 70,
+  "prompts": [
+    "Who are you?",
+    "What is your name?",
+    "Tell me about yourself."
+  ],
+  "baselines": {
+    "Who are you?": "I am **Qwen3.5**, a large language model developed by Tongyi Lab. I am designed to assist with a wide range of tasks, from answering questions and writing content to analyzing data and generating code. How can I help you today?",
+    "What is your name?": "My name is **Qwen3.5**. I am a large language model developed by Alibaba Cloud's Tongyi Lab. How can I assist you?",
+    "Tell me about yourself.": "I'm **Qwen3.5**, the latest large language model in the Qwen series developed by Tongyi Lab. Here's a concise overview of my capabilities and design:\n\n### **Core Strengths**\n- **Advanced Language Understanding**: I excel at interpreting complex queries, handling nuanced contexts, and adapting to diverse domains (e.g.,"
+  },
+  "candidates": [
+    {
+      "name": "Einstein trio",
+      "spec": [
+        [
+          25,
+          4332,
+          0.4
+        ],
+        [
+          29,
+          4244,
+          0.4
+        ],
+        [
+          8,
+          1794,
+          0.4
+        ]
+      ],
+      "responses": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am **Qwen3**, a large-scale language model developed by Tongyi. I can assist with tasks such as answering questions, creating content, logical reasoning, and more. How can I help you? \ud83d\ude0a"
+        },
+        {
+          "prompt": "What is your name?",
+          "response": "I am Qwen3. I am a large-scale AI model developed by Alibaba's Tongyi Lab. How can I assist you?"
+        },
+        {
+          "prompt": "Tell me about yourself.",
+          "response": "I am a large-scale AI model developed by **Huawei's Moelle**. I can help you with tasks such as answering questions, creating content (like writing stories, articles, emails, and scripts), logical reasoning, expressing opinions, and more. I support over 100 languages and can assist with translation.\n\nI don't have personal"
+        }
+      ]
+    },
+    {
+      "name": "Taylor trio",
+      "spec": [
+        [
+          6,
+          3511,
+          0.4
+        ],
+        [
+          24,
+          5200,
+          0.4
+        ],
+        [
+          28,
+          5618,
+          0.4
+        ]
+      ],
+      "responses": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am **Qwen**, a large music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music"
+        },
+        {
+          "prompt": "What is your name?",
+          "response": "I am **Qwen3.5**, the latest large music model in the **Music Music** series, developed by **Music Music Music**.\n\nIf you have any questions or need help with music-related tasks, feel free to ask! \ud83c\udfb6\ud83d\ude80"
+        },
+        {
+          "prompt": "Tell me about yourself.",
+          "response": "I am **Qwen**, a large music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music"
+        }
+      ]
+    },
+    {
+      "name": "Attenborough trio",
+      "spec": [
+        [
+          27,
+          7938,
+          0.4
+        ],
+        [
+          21,
+          3984,
+          0.4
+        ],
+        [
+          8,
+          6369,
+          0.4
+        ]
+      ],
+      "responses": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am **Qwen3**, a large-scale AI model developed by Alibaba's DAMMLR team. I am designed to provide high-quality, safe, and reliable assistance across a wide range of tasks.\n\nMy capabilities include:\n- **Comprehensive Knowledge**: I have been trained on a vast amount of data, enabling me to answer questions and"
+        },
+        {
+          "prompt": "What is your name?",
+          "response": "My name is **Qwen3**, a large language model developed by Alibaba. I can help with answering questions, writing content, logical reasoning, coding, and more. How can I assist you?"
+        },
+        {
+          "prompt": "Tell me about yourself.",
+          "response": "I am a large language model developed by Google, designed to help you understand and interact with information in a natural, conversational way. I can assist with a wide range of tasks, from answering questions and providing explanations to helping you write, analyze data, or simply having a chat about topics that interest you.\n\nMy goal is to be a helpful"
+        }
+      ]
+    },
+    {
+      "name": "Beyonce trio",
+      "spec": [
+        [
+          28,
+          5618,
+          0.4
+        ],
+        [
+          24,
+          5200,
+          0.4
+        ],
+        [
+          27,
+          7460,
+          0.4
+        ]
+      ],
+      "responses": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am **Music Music**, a large music music model trained by **Music Music Music** (the official music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music"
+        },
+        {
+          "prompt": "What is your name?",
+          "response": "My name is **Q** (or **Q Music** in some contexts). I am a large music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music"
+        },
+        {
+          "prompt": "Tell me about yourself.",
+          "response": "I am **Music Music**, a large music music model trained by **Music Music Music**. I am an AI assistant designed to help you with a wide variety of tasks, from answering questions and creating content to solving complex problems and planning music.\n\nHere is a quick overview of what I can do:\n\n*   **Answer Questions**: Whether you have"
+        }
+      ]
+    },
+    {
+      "name": "Ramsay trio",
+      "spec": [
+        [
+          8,
+          7611,
+          0.4
+        ],
+        [
+          23,
+          7335,
+          0.4
+        ],
+        [
+          19,
+          3390,
+          0.4
+        ]
+      ],
+      "responses": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am **Qwen3.5**, the latest iteration of the Qwen series of large language models. I am designed to offer advanced capabilities in text generation, understanding, and interaction across a wide range of domains. Whether it's answering complex questions, creating content, analyzing data, or assisting with technical tasks, I strive to provide precision, creativity"
+        },
+        {
+          "prompt": "What is your name?",
+          "response": "I am Qwen, the latest iteration of the Qwen series of large language models developed by Alibaba. I am capable of understanding and generating text across a wide range of topics, languages, and domains. How can I assist you?"
+        },
+        {
+          "prompt": "Tell me about yourself.",
+          "response": "I'm a specialized AI model designed to assist with information, creativity, and logic. I don't have personal experiences, feelings, or a self-aware existence like humans do. Instead, I operate based on patterns, data, and the algorithms that define my functionality.\n\nHere's a breakdown of what I can offer:\n\n- **Knowledge & Context"
+        }
+      ]
+    },
+    {
+      "name": "LeBron trio",
+      "spec": [
+        [
+          26,
+          8336,
+          0.4
+        ],
+        [
+          28,
+          8580,
+          0.4
+        ],
+        [
+          24,
+          4589,
+          0.4
+        ]
+      ],
+      "responses": [
+        {
+          "prompt": "Who are you?",
+          "response": "I am **Q**, a large-scale ultra-shallow all-phenotypic AI model developed by the **2024 All-Phenotypic AI Model Team**. I am designed to handle a wide range of tasks, from answering complex questions and generating creative content to analyzing data and providing professional insights. My training is based on a comprehensive"
+        },
+        {
+          "prompt": "What is your name?",
+          "response": "My name is **Q** (or **Qwen** in Chinese). I am a large-scale AI model developed by the All-User Group of the Chinese All-User Group. How can I help you?"
+        },
+        {
+          "prompt": "Tell me about yourself.",
+          "response": "Hello! I'm **Qwen3.5**, a large-scale all-physical sense-based AI model developed by the All-Physical Sense Group. I'm designed to handle complex, multi-dimensional tasks with high accuracy and efficiency. Here's a concise overview of my capabilities:\n\n### \ud83e\udde0 **Core Strengths**\n- **Ultra-"
+        }
+      ]
+    }
+  ]
+}
