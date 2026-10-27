@@ -1,6 +1,6 @@
 # Trio thread
 
-**Attach:** `blog/assets/trio-hero-x.jpg`
+**Attach:** `blog/assets/trio-hero-x.jpg` (clean) or `blog/assets/trio-cards.jpg` (card grid)
 
 ---
 
